@@ -275,10 +275,10 @@ $$
 <!-- basicblock-start oid="Obsv51HHaiDIFxQ4Tq8jFYvL" -->
 Prop. Taylor polynôme::
 $$
-\begin{flalign*}
+\begin{align*}
 &&&&P(X+a)&=\sum_{k=0}^{n}\frac{P^{(k)}(a)}{k!}X^{k}&&\cr
 \implies&&&&P(X)&=\sum_{k=0}^{n}\frac{P^{(k)}(a)}{k!}(X-a)^{k}.&&&&&&&&&&\cr
-\end{flalign*}
+\end{align*}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObslC8DSvFwc4Svo1l05If6o" -->

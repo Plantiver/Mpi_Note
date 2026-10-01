@@ -18,12 +18,12 @@ Finalement: $\overrightarrow{E}(M,t)=E(r)\overrightarrow{e_{r}}.$
 On prend la sphère de centre $O$ et de rayon $r$.
 Ainsi:
 $$
-\begin{flalign*}
+\begin{align*}
 \phi&=\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}&&\cr
 &=\iint_{S}E(r)\mathrm{d}S&&\cr
 &=E(r)\iint_{S}\mathrm{d}S&&\cr
 &=E(r)4\pi r^{2}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 3. Application du théorème de Gauss
@@ -32,33 +32,33 @@ $$
 $$
 - Si $r<R$:
 $$
-\begin{flalign*}
+\begin{align*}
 Q_{\text{int}}&=\iiint_{V}\rho_{0}\mathrm{d}V&&\cr
 &=\frac{4}{3}\pi r^{3}\rho_{0}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 D'où:
 $$
-\begin{flalign*}
+\begin{align*}
 E(r)4\pi r^{2}=&\frac{4}{3}\pi r^{3}\frac{\rho_{0}}{\varepsilon_{0}}&&\cr
 \;\implies\;E(r)=&\frac{r\rho_{0}}{3\varepsilon_{0}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 - Si $r>R$:
 $$
-\begin{flalign*}
+\begin{align*}
 Q_{\text{int}}&=\iiint_{V}\rho_{0}\mathrm{d}V&&\cr
 &=\frac{4}{3}\pi R^{3}\rho_{0}&&\cr
 &=Q_{\text{total}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 D'où:
 $$
-\begin{flalign*}
+\begin{align*}
 E(r)4\pi r^{2}&=\frac{Q_{\text{total}}}{\varepsilon_{0}}&&\cr
 \;\implies\;E(r)&=\frac{Q_{\text{total}}}{4\pi\varepsilon_{0}r^{2}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 ! On retrouve la même chose que pour une particule !
 ! Cela permet les approximations faites en première année !

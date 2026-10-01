@@ -144,11 +144,11 @@ On prend un sphère de rayon $r$.
 
 3. Calcul du flux
 $$
-\begin{flalign*}
+\begin{align*}
 \oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}&=\iint E(x)dS&&\cr
 &=E(r)\iint \mathrm{d}S&&\cr
 &=E(r)4\pi r^{2}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 4. Application du théorème
 $$
@@ -218,11 +218,11 @@ $$
 - Si $r<R$:
 $\rho(r)=\rho_{0}$
 $$
-\begin{flalign*}
+\begin{align*}
 \frac{1}{r^{2}}\frac{ \partial  }{ \partial r } (r^{2}E)=&\frac{\rho_{0}}{\varepsilon_{0}}&&\cr
 \frac{ \partial  }{ \partial r } (r^{2}E)=&\frac{\rho_{0}r^{2}}{\varepsilon_{0}}&&\cr
 r^{2}E=&\frac{\rho_{0}r^{3}}{3\varepsilon_{0}}+K_{1}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 En $r=0$, $\overrightarrow{E}$ appartient à tout les plans de symétrie, donc $\overrightarrow{E(0)}=\overrightarrow{0}$.
 Donc $K_{1}=0$.
@@ -232,12 +232,12 @@ E(r)=\frac{\rho r}{3\varepsilon_{0}}
 $$
 - Si $r>R$:
 $$
-\begin{flalign*}
+\begin{align*}
 \rho(r)=&0&&\cr
 \mathrm{div}\overrightarrow{E}=&0&&\cr
 \frac{ \partial  }{ \partial r } (r^{2}E)=&0&&\cr
 E=&\frac{K_{2}}{r^{2}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $E$ est continue, étant solution d'une équation différentielle:
 $E(R^{+})=E(R^{-})$
@@ -245,9 +245,9 @@ $$
 K_{2}=\frac{\rho_{0}R^{3}}{3\varepsilon_{0}}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 E(r)=&\frac{1}{r^{2}}\int_{0}^{r}\frac{\rho(u)u^{2}}{\varepsilon_{0}}du&&\cr
-\end{flalign*}
+\end{align*}
 $$
 **Calcul du potentiel électrostatique**
 $$
@@ -256,11 +256,11 @@ $$
 
 - Si $r<R$:
 $$
-\begin{flalign*}
+\begin{align*}
 E=&\frac{r\rho_{0}}{3\varepsilon_{0}}&&\cr
 \implies \frac{dV}{dr}=&-\frac{r\rho_{0}}{3\varepsilon_{0}}&&\cr
 \implies V(r)=&-\frac{\rho_{0}r^{2}}{6\varepsilon_{0}}+K_{3}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 - Si $r>R$:
 $$
@@ -281,11 +281,11 @@ Or $dq=\rho_{0}dV=\rho_{04}\pi r^{2}dr$
 et $V(r)=\frac{\rho_{0}r^{2}}{3\varepsilon_{0}}$
 Donc: $\delta W=\frac{\rho_{0}^{2}4\pi r^{2}}{3\varepsilon_{0}}dr$
 $$
-\begin{flalign*}
+\begin{align*}
 \mathscr{E}&=\int_{0}^{R}\delta W&&\cr
 &=\int_{0}^{R}\frac{\rho_{0}^{2}4\pi r^{4}}{3\varepsilon_{0}}dr&&\cr
 &=\frac{\rho_{0}^{2}4\pi R^{5}}{15\varepsilon_{0}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 **Rq**:
 On peut montrer que:
@@ -314,11 +314,11 @@ Donc: $\overrightarrow{E(r)}=E(r)\overrightarrow{e_{r}}$.
 2. Choix de la surface de Gauss
 On choisit la surface du cylindre centrée en $O_{z}$, passant par $M$, de hauteur $H$.
 $$
-\begin{flalign*}
+\begin{align*}
 \oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{dS}&=\iint_{\text{Haut}}\overrightarrow{E}\cdot \overrightarrow{dS}+\iint_{\text{Bas}}\overrightarrow{E}\cdot \overrightarrow{dS}+\iint_{\text{side}}\overrightarrow{E}\cdot \overrightarrow{dS}&&\cr
 &=\iint_{\text{side}} E\times dS&&\cr
 &=E(r)2\pi rH&&\cr
-\end{flalign*}
+\end{align*}
 $$
 3. Application du th.
 $$
@@ -330,10 +330,10 @@ Q_{\text{int}}=\rho_{0}V=\rho_{0}\pi r^{2}H
 $$
 Donc:
 $$
-\begin{flalign*}
+\begin{align*}
 E(r)2\pi rH=&\frac{\rho_{0} \pi r^{2}H}{\varepsilon_{0}}&&\cr
 \implies E(r)=&\frac{\rho_{0}r}{Z\varepsilon_{0}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 - Si $r>R$:
 $$
@@ -341,10 +341,10 @@ Q_{\text{int}}=\rho_{0}\pi R^{2}H
 $$
 Donc:
 $$
-\begin{flalign*}
+\begin{align*}
 E(r)2\pi rH=&\frac{\rho_{0}\pi R^{2}H}{\varepsilon_{0}}&&\cr
 \implies E(r)=&\frac{\rho_{0}R^{2}}{2\varepsilon_{0}r}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 4. Calcul direct par Maxwell-Gauss
@@ -392,20 +392,20 @@ Donc, $\overrightarrow{E(z)}=-\overrightarrow{E(-z)}$
 2. Choix de la surface de Gauss
 On prends un cylindre orientée selon $\overrightarrow{e_{z}}$, de hauteur $2H$, et coupée en son milieu par notre surface.
 $$
-\begin{flalign*}
+\begin{align*}
 \oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{dS}=&\iint_{\text{Haut}}\overrightarrow{E}\cdot \overrightarrow{dS}+\iint_{\text{Bas}}\overrightarrow{E}\cdot \overrightarrow{dS}+\iint_{\text{side}}\overrightarrow{E}\cdot \overrightarrow{dS}&&\cr
 =&E(z)S+ (-E(-z)S)+0&&\cr
 =&2E(z)S&&\cr
-\end{flalign*}
+\end{align*}
 $$
 3. Application du th.
 $Q_{\text{int}}=\sigma S$
 $$
-\begin{flalign*}
+\begin{align*}
 \oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{dS}=&\frac{Q_{\text{int}}}{\varepsilon_{0}}&&\cr
 \implies2E(z)S=&\frac{\sigma S}{\varepsilon_{0}}&&\cr
 \implies E(z)=&\frac{\sigma}{2\varepsilon_{0}}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 

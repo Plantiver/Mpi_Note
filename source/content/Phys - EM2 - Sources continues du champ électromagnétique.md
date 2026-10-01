@@ -190,11 +190,11 @@ $$
 En stationnaire $\frac{ \partial \rho }{ \partial t }=0\implies \mathrm{div}\overrightarrow{j}=0$
 C'est la loi des nœuds.
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Flux sortant de }\overrightarrow{j}&=0&&\cr
 \text{Flux sortant de }\overrightarrow{j}-\text{Flux entrant de }\overrightarrow{j}&=0&&\cr
 I_{\text{sortant}}-I_{\text{entrant}}&=0&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 
@@ -239,12 +239,12 @@ $$
 Prenons un conducteur cylindrique de longueur $L$ soumis à un champs $\overrightarrow{E}$ constant et uniforme.
 
 $$
-\begin{flalign*}
+\begin{align*}
 \overrightarrow{E}&=-\overrightarrow{ \mathrm{grad}}V&&\cr
 &=-\frac{\mathrm{d}V}{\mathrm{d}x}\overrightarrow{e_{x}}&&\cr
 &=-\frac{V(L)-V(0)}{L}\overrightarrow{e_{x}}&&\cr
 &=&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 
@@ -269,13 +269,13 @@ correspond à la puissance volumique cédée du champs vers les charges libres.
 donc au conducteur électrique qui les contient.
 **Application au conducteur:**
 $$
-\begin{flalign*}
+\begin{align*}
 P_{\text{Lorentz}}&=(\overrightarrow{j}\cdot \overrightarrow{E})SL&&\cr
 &=\frac{j^{2}}{\sigma_{0}}SL\text{ avec }\overrightarrow{j}=\sigma_{0}\overrightarrow{E}&&\cr
 &=\left( \frac{I}{S} \right)^{2}\frac{SL}{\sigma_{0}}&&\cr
 &=\frac{L}{S\sigma_{0}}I^{2}&&\cr
 &=R_{\text{elec}}I^{2}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 La loi de Joule !!!
 

@@ -1,6 +1,5 @@
 # [[Main]]
 - Répondre au gens
-- M'organiser à l'avance pour Rachel
 # [[Fr-philo]]
 - Finir les livres
 - Fiches de citations

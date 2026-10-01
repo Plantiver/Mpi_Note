@@ -6,7 +6,7 @@ deck: math
 
 # Exo
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 47}&&&\cr
 \text{a) }&P=X^{2}-X&&\cr
 \text{b) }&P=X^{2}-Id&&\cr
@@ -14,20 +14,20 @@ $$
 \text{d) }&P_{k}=Id-X^{k},k\in \mathbb{N}^{\star}&&\cr
 \text{e) }&P=\prod_{k=1}^{n}(X-\lambda_{k})&&\cr
 &\pi (X)=\prod_{\lambda \in \mathrm{Sp}A}(X-\lambda)&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 48}&&&\cr
 \text{a) }&\text{Alors, }ab^{k}=b^{k}a&&\cr
 \implies&aP(b)=a\sum_{k=0}^{\infty}\lambda_{k}b^{k}=P(b)a&&\cr
 \text{b) }&\text{Par le a)}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 Lire preuve du th.49
 
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 50}&&&\cr
 &\exists b\in A,\;ab=ba=1_{A}&&\cr
 &\text{Notons: }\varphi_{i}:\begin{cases}
@@ -41,11 +41,11 @@ c \to ac
 \implies&c=0&&\cr
 &\text{Or, on est en dim finis, donc }\varphi\text{ est bbijective}&&\cr
 \implies&a^{-1}=\varphi^{-1}(X)&&\cr
-\end{flalign*}
+\end{align*}
 $$
 Th.51: surligner
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 52}&&&\cr
 &\text{Trivialement: }\underline{\text{Inclusion }}&&\cr
 &\text{Soit }b=P(a)\in \mathbb{K}[a]&&\cr
@@ -55,13 +55,13 @@ $$
 P = Q\pi_{a}+R \cr
 R = \sum_{k=0}^{d-1}\lambda_{k}X^{k}\text{ car deg}(R)<\text{deg}(\pi_{a})=d
 \end{cases}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 
 
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo +55}&&&\cr
 \text{a) }&u\text{ associé à }\begin{pmatrix}
 0 & 0 & 1 \cr
@@ -74,10 +74,10 @@ $$
 \mathrm{dim}\mathrm{Ker}u=2 \cr
 \mathrm{dim}\mathrm{Im}u=1
 \end{cases}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo +56}&&&\cr
 \text{a) }&\text{Par récurrence}&&\cr
 &\text{Trivialement: }\underline{\text{Initialisation, par hypothèse}}&&\cr
@@ -90,10 +90,10 @@ $$
 \implies&u^{k}(u(x))=0&&\cr
 \implies&x \in \mathrm{Ker}u^{k+1}&&\cr
 \text{b) }&\dots&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 58}&&&\cr
 \text{a) }&\begin{pmatrix}
 0,1 \cr
@@ -116,7 +116,7 @@ A^{p}=0
 \end{cases}\implies \exists X\in \mathbb{K}^{n},\;A^{p-1}X=0&&\cr
 \text{d) }&\text{Par l'absurde}&&\cr
 &\exists M\in \mathcal{M}_{2}(\mathbb{K})&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 <!-- basicblock-start oid="ObsK8jM9xP2L4qR7sT0uV1w" -->

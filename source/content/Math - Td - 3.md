@@ -3,7 +3,7 @@
 16, 35, 40, 41, 59
 
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 16}&&&\cr
 \text{a) }&\text{Soit }M=\begin{pmatrix}
 a  & b \cr
@@ -51,10 +51,10 @@ v=A\times \begin{pmatrix}
 \end{pmatrix}\in\mathrm{Im}f
 \end{cases}\text{ sont linéairement indépendant, donc une base de }\mathrm{Im}f&&\cr
 \implies&\mathrm{Im}f=\mathrm{Vect}(u,v)&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 35}&&&\cr
 \text{a) }&p_{1}p_{2}\circ p_{1}p_{2}=p_{1}^{2}p_{2}^{2}=p_{1}p_{2} \implies p_{1}p_{2}\text{ est un projecteur}&&\cr
 &(p_{1}+p_{2}-p_{1}p_{2})^{2}=p_{1}^{2}+p_{1}p_{2}-p_{1}^{2}p_{2}+p_{2}p_{1}+p_{2}^{2}-p_{2}^{2}p_{1}-p_{1}^{2}p_{2}-p_{2}^{2}p_{1}+p_{1}^{2}p_{2}^{2}=p_{1}+p_{2}-p_{1}p_{2}&&\cr
@@ -69,11 +69,11 @@ $$
 \underset{q}{\implies}&q(x)=p_{1}(i)+p_{2}(j)+p_{1}p_{2}(i+j)-p_{1}p_{2}(i+j)&&\cr
 \implies&q(x)=x&&\cr
 \implies&x \in\mathrm{Im}q&&\cr
-\end{flalign*}
+\end{align*}
 $$
 
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 40}&&&\cr
 \text{a) }&\text{Trivialement: }\underline{\text{Par propriété du rang et par le TBA}}&&\cr
 \text{b) }&X\in F\subset\mathrm{Ker}ABC&&\cr
@@ -90,19 +90,19 @@ $$
 &\text{On veut montrer que }\mathrm{Ker}AB=\mathrm{Ker}b\oplus \mathrm{Im}\varphi &&\cr
 &\text{Soit }X\in\mathrm{Ker}b\cap \mathrm{Im}\varphi &&\cr
 \implies&X=0\implies&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 41}&&&\cr
 &\text{Si }M\in A\text{ est inversible, alors}&&\cr
 \implies&\exists \mu=\sum_{k=0}^{N}a_{k}X^{k} \in \mathbb{K}[X],\;\mu (M)=0\text{ et }\mu (0)=a_{0}w &&\cr
 \implies&Id_{n}=-\frac{1}{a_{0}}M\sum_{i=1}^{N}a_{i}M^{i-1}&&\cr
 \implies&M^{-1}=-\frac{1}{a_{0}}\sum_{i=1}^{N}a_{i}M^{i-1}\in \mathbb{K}[M]\subset A&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 59}&&&\cr
 \text{a) }&\text{Trivialement: }\underline{E\text{ est un sev de }\mathbb{C}^{\mathbb{N}}\text{ de dimension }2}&&\cr
 \text{b) }&\text{Soient }r_{1},r_{2}\text{ racine de }p:z\to z^{2}+2az+4(ia-1)&&\cr
@@ -117,10 +117,10 @@ $$
 2(a-2i)\lambda_{2}=1-2i\underset{a\not=2i}{\implies}\lambda_{2}=\frac{1-2i}{2a-4i}
 \end{cases}&&\cr
 \implies&u_{n}=\lambda_{1}r_{1}^{n}+\lambda_{2}r_{2}^{n}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 $$
-\begin{flalign*}
+\begin{align*}
 \text{Exo 57}&&&\cr
 \text{a) }&E=\mathrm{Im}f\oplus \mathrm{Ker}f&&\cr
 &\text{Trivialement: }\underline{\mathrm{Im}f^{2}\subset\mathrm{Im}f}&&\cr
@@ -137,7 +137,7 @@ $$
 &\text{TDR: }\mathrm{dim}E=\mathrm{dim}\mathrm{Ker}f+\mathrm{dim}\mathrm{Im}f&&\cr
 &\mathrm{Ker}f\cap\mathrm{Im}f=\mathrm{Set}( 0 )\text{ ?}&&\cr
 &&&
-\end{flalign*}
+\end{align*}
 $$
 
 
