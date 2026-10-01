@@ -1,14 +1,14 @@
 **Énoncé:**
 Soit $L$ un langage régulier, alors:
 $$
-\begin{flalign*}
+\begin{align*}
 \exists N\in \mathbb{N},\;&\forall u\in L,\;|u|\geq N,\;\exists (x,y,z)\in\Sigma^{\star},\;u=xyz \text{ et }&&\cr
 &\begin{cases}
 y\not=\varepsilon \cr
 |xy|<N \cr
 \mathscr{L}(xy^{\star}z)\subset L
 \end{cases}&&\cr
-\end{flalign*}
+\end{align*}
 $$
 **Démo:**
 Soit $\mathscr{A}=(Q,\Sigma,I,F,\delta)$ un automate fini, tel que $\mathscr{L}(\mathscr{A})=L$.

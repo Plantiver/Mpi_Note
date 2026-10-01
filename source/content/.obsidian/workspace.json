@@ -13,8 +13,8 @@
             "state": {
               "type": "full-calendar-view",
               "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "full-calendar-view"
             }
           },
           {
@@ -53,17 +53,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - Démo - Champ électrique d'une sphère.md",
+                "file": "Démo - Lemme de l'étoile.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - Démo - Champ électrique d'une sphère"
+              "title": "Démo - Lemme de l'étoile"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,23 +107,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "full-calendar-remastered:Open Full Calendar": false,
       "full-calendar-remastered:FCR Command": false,
       "omnisearch:Omnisearch": false,
+      "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8d6c662d1483f3d",
+  "active": "722b2a5b7a95b8eb",
   "lastOpenFiles": [
-    "Main.md",
-    "Conseil.md",
-    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - Démo - Champ électrique d'une sphère.md",
+    "Conseil.md",
+    "Main.md",
+    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Démo.md",
     "Phys - Démo.md",
     "Démo - Champ électrique d'une sphère.md",
