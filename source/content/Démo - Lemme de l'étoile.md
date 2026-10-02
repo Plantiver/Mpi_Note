@@ -10,6 +10,10 @@ y\not=\varepsilon \cr
 \end{cases}&&\cr
 \end{align*}
 $$
+
+**Idée:**
+A tout langage régulier son automates, il suffit ensuite de bien choisir les bonnes valeurs pour $N$, $x$, $y$ et $z$. Ensuite, le résultat en découle.
+
 **Démo:**
 Soit $\mathscr{A}=(Q,\Sigma,I,F,\delta)$ un automate fini, tel que $\mathscr{L}(\mathscr{A})=L$.
 Prenons $N=|Q|+1$, avec $|Q|$ le nombre d'état de cet automate.
@@ -26,3 +30,7 @@ Avec ce choix, on obtient les 3 propriétés voulus:
 - $i<j\;\implies\;y\not=\varepsilon$
 - $j$ minimal $\;\implies\;|xy|<N$
 - $q_{i}=q_{j}\;\implies\;\mathscr{L}(xy^{\star}z)\subset L$.
+
+**Conséquence:**
+On a maintenant une méthode pour montrer que certains langages ne sont pas régulier: S'ils ne satisfont pas le lemme de l'étoile, alors ils ne sont pas régulier.
+*ex*: $L=\mathrm{Set}( a^{n}b^{n},\;n\in \mathbb{N} )$.

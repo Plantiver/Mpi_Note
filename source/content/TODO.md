@@ -1,6 +1,5 @@
 # [[Main]]
 - Répondre au gens
-- Fix démo (énoncé, idée, démo, conséquence)
 # [[Fr-philo]]
 - Finir les livres
 - Fiches de citations

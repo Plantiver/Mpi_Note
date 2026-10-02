@@ -247,12 +247,6 @@ s(t) = c_0 + \sum_{n=1}^{+\infty} c_n \cos(2\pi n f t + \varphi_n)
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start oid="ObsC31eV0uQ6Wy4wGtJDi762" -->
-Def. Gain $G(\omega)$ et Gain en décibels $G_{\mathrm{dB}}(\omega)$ d'un filtre::
-$$
-G(\omega) = |\underline{H}(\omega)| \quad \text{et} \quad G_{\mathrm{dB}}(\omega) = 20 \log G(\omega) = 20 \log |\underline{H}(\omega)|
-$$
-<!-- basicblock-end -->
 <!-- basicblock-start -->
 Def. Gain d'un filtre::
 $$
@@ -267,22 +261,22 @@ $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsG97gX6wS8Ya6wItLFk984" -->
-Def. Diagramme de Bode d'un filtre::
-- Tracé du gain en décibels $G_{\mathrm{dB}}(\omega)$ en fonction de $\log(\omega)$
-- Tracé de la phase $\varphi(\omega) = \arg(\underline{H}(\omega))$ en fonction de $\log(\omega)$
+Meth. Tracer un diagramme de Bode::
+- Tracé de $G_{\mathrm{dB}}(\omega)$ en fonction de $\log(\omega)$
+- Tracé de $\varphi(\omega)$ en fonction de $\log(\omega)$.
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsI20hY9xT9Zb7wJtMGl095" -->
-Def. Bande passante à $3\text{ dB}$ d'un filtre::
+Def. Bande passante d'un filtre::
 $$
-\{\omega \mid G_{\mathrm{dB}}(\omega) \ge G_{\mathrm{dB},\max} - 3\text{ dB}\} \quad \iff \quad \left\{ \omega \mid G(\omega) \ge \frac{H_{\max}}{\sqrt{2}} \right\}
+\mathrm{Set}\left(  \omega ,\;G(\omega)\geq \frac{H_{\text{max}}}{\sqrt{ 2 }}  \right).
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsK53iZ2yU0Ac8wKtNHm106" -->
-Prop. Condition d'association en cascade de deux filtres::
+Prop. Condition de mise en série de filtres::
 $$
-|\underline{Z}_{e,2}| \gg |\underline{Z}_{s,1}| \implies \underline{H}_{\mathrm{total}} = \underline{H}_1 \cdot \underline{H}_2
+|\underline{Z}_{e,2}| \gg |\underline{Z}_{s,1}|.
 $$
 <!-- basicblock-end -->
 
