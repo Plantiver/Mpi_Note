@@ -31,9 +31,24 @@
               "icon": "lucide-file",
               "title": "TODO"
             }
+          },
+          {
+            "id": "735f1f4b3ac4af70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math - Démo - Convergence dans un Compact.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Math - Démo - Convergence dans un Compact"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,17 +103,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1322349c7f34e1e",
+  "active": "735f1f4b3ac4af70",
   "lastOpenFiles": [
-    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
+    "TODO.md",
+    "Math - Démo - Convergence dans un Compact.md",
     "Phys - Démo - Champ électrique d'une particule.md",
+    "Phys - Démo - Potentiel d'un dypole.md",
     "Démo.md",
+    "Math - Démo.md",
+    "Phys - Démo.md",
+    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - Démo - Champ électrique d'une sphère.md",
     "Phys - EM4 - Magnétostatique.md",
     "Phys - Lesson.md",
     "EM4 - Magnétostatique.md",
     "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
-    "TODO.md",
     "Conseil.md",
     "Démo - Lemme de l'étoile.md",
     "Fr-philo.md",
@@ -112,10 +131,6 @@
     "Info.md",
     "Info - Démo.md",
     "Info - Doc.md",
-    "Info - Doc - Ocaml.md",
-    "Info - Lesson.md",
-    "Info - Lesson - 1.md",
-    "Info - Lesson - 2.md",
     "Excalidraw",
     "FocusLog/2026",
     "FocusLog",
