@@ -409,12 +409,134 @@ $$
 $$
 
 
+4. Calcul du potentiel
+$$
+\overrightarrow{E}=-\overrightarrow{ \mathrm{grad}}V = -\frac{\mathrm{d}V}{\mathrm{d}z}\overrightarrow{e_{z}}
+$$
+- $z>0$:
+$$
+V(z)=-\frac{\sigma z}{2\varepsilon_{0}}+V_{1}
+$$
+- $z<0$
+$$
+V(z)=\frac{\sigma z}{2\varepsilon_{0}}+V_{2}
+$$
+Avec l'origine des potentiels à $0$, on fait disparaître les variables.
 
+## 2 - Le condensateur plan
 
+Différence des potentiels entre 2 plans $\infty$.
+Modélisation du condensateur plan:
+Deux plaque des charges opposées ($\sigma$).
+On place le $O$ entre les deux, et elles sont distantes de $e$.
+On obtient (faire un dessin) que le champs, à l'extérieur des deux plaques, est nul, et de norme $\frac{\sigma}{\varepsilon_{0}}$ orienté de la plaque + vers la -.
 
+$$
+\overrightarrow{E}(x)= \begin{cases}
+\overrightarrow{0},\;\text{si }|x|>\frac{e}{2} \cr
+\frac{\sigma}{\varepsilon_{0}}\overrightarrow{e_{x}},\;\text{sinon}
+\end{cases}
+$$
+La différence de potentielle:
+$$
+\begin{align*}
+U&=V(+\sigma)-V(-\sigma)&&\cr
+&=\left( -\frac{\sigma}{\varepsilon_{0}}\left( -\frac{e}{2} \right)+K \right)-\left( -\frac{\sigma}{\varepsilon_{0}}\left( +\frac{e}{2} \right)+K \right)&&\cr
+&=\frac{\sigma e}{\varepsilon_{0}}&&\cr
+\end{align*}
+$$
+C'est le modèle du condensateur plan.
+Ce sont des armatures de surfaces $S$ et de charges $\pm Q$ que l'on modélise par des plaques $\infty$ et de charges surfacique $\sigma=\frac{Q}{S}$.
 
+Dans un condensateur réel, on a des effets de fuites sur les bords. Ce sont les effets de bords, ils sont négligeable. (Les calculs sont faisables apparrement #work).
+On définit la capacité du condensateur, en Farad (F):
+$$
+\boxed{C=\frac{Q}{U}}
+$$
 
+Or
+$$
+\begin{align*}
+U=&\frac{\sigma e}{\varepsilon_{0}}=\frac{Qe}{S\varepsilon_{0}}&&\cr
+\;\implies\;C=&\frac{S\varepsilon_{0}}{e}&&\cr
+\end{align*}
+$$
 
+**rq:**
+Les condensateur réels, on rajoute un matériau diélectrique entre les armatures:
+$$
+C=\frac{\varepsilon_{0}\varepsilon_{r}S}{e}
+$$
+avec $\varepsilon_{r}$ la permitivité relative (sans unité) du milieu.
+Vide: $\varepsilon_{r}=1$
+Air: $\varepsilon_{r}\simeq1$
+Papier: $\varepsilon_{r}\simeq2$
+Mica: $\varepsilon_{r}\simeq7$
 
+Un diélectrique est un isolant à faible champ (le courant ne passe pas).
+Si $E<E_{\text{dissruptif}}$, le milieu est isolant
+Pour l'air: $~30kV/cm$
+Papier: $~70kV/cm$
+Mica: $~140kV/cm$
+
+# IV - Les équations de Poisson et de Laplace
+Equation de poisson:
+$$
+-\mathrm{div}(\overrightarrow{ \mathrm{grad}}V)=\frac{\rho}{\varepsilon_{0}}
+$$
+On définit le Laplacien Scalaire:
+$$
+\Delta f=\mathrm{div}(\overrightarrow{ \mathrm{grad}}f)
+$$
+$$
+\Delta=\overrightarrow{\nabla }^{2}
+$$
+L'équation de poisson devient simple:
+<!-- basicblock-start -->
+Def. Equation de Poisson::
+$$
+\Delta f+\frac{\rho}{\varepsilon_{0}}=0
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Def. Equation de Laplace::
+$$
+\Delta V=0
+$$
+<!-- basicblock-end -->
+Pourquoi on ne l'utilise pas:
+Reprenons la sphère uniforme chargée en volume:
+En sphérique:
+$$
+\begin{align*}
+\Delta V&=\frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial  }{ \partial \theta } \left( \sin\theta \frac{ \partial V }{ \partial \theta }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial^{2}V }{ \partial \varphi^{2} } &&\cr
+\end{align*}
+$$
+Par les invariances:
+$$
+\frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)=-\frac{\rho}{\varepsilon_{0}}
+$$
+- $r<R$:
+$$
+\begin{align*}
+\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)=&-\frac{\rho r^{2}}{\varepsilon_{0}}&&\cr
+r^{2}\frac{ \partial V }{ \partial r } =&-\frac{\rho r^{3}}{3\varepsilon_{0}}+A&&\cr
+\end{align*}
+$$
+Or $\overrightarrow{E}(0)=\overrightarrow{0}$, donc $A=0$
+$$
+V(r)=-\frac{\rho r^{2}}{6\varepsilon_{0}}+B
+$$
+- $r>R$
+$$
+\begin{align*}
+\frac{1}{r^{2}}\frac{ \partial  }{ \partial r }\left( r^{2}\frac{ \partial V }{ \partial r }  \right) &=0&&\cr
+r^{2}\frac{ \partial V }{ \partial r } &=C&&\cr
+\frac{ \partial V }{ \partial r } &=\frac{C}{r^{2}}&&\cr
+V(r)&=-\frac{C}{r}+D&&\cr
+\end{align*}
+$$
+En choisissant l'origine des potentiels à l'$\infty$, on retrouve la même chose...
+C'est possible de faire la même chose pour le cylindre. Mais bon...
 
 

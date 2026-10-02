@@ -5,7 +5,7 @@
 [[Phys - EM1 - Champs et potentiels créés par des charges ponctuelles]]
 [[Phys - EM2 - Sources continues du champ électromagnétique]]
 [[Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss]]
-[[EM4 - Magnétostatique]]
+[[Phys - EM4 - Magnétostatique]]
 
 
 
