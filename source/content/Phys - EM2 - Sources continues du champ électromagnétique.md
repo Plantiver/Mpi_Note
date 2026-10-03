@@ -172,16 +172,13 @@ $$
 $$
 \implies \frac{ \partial \rho }{ \partial t } =-\frac{ \partial j }{ \partial x } 
 $$
-<!-- basicblock-start oid="ObsnIvr6UAnfsaiSOctrYc93" -->
-Demo. Equation de conservation de la charge en unidimensionnel::
+Demo. Equation de conservation de la charge en unidimensionnel:
 $$
 \frac{ \partial \rho }{ \partial t }=-\frac{ \partial j }{ \partial x }  
 $$
-<!-- basicblock-end -->
-
 ## 2 - Divergence d'un champ de vecteurs
 Prenons un cube infinitésimal.
-Joli schem
+Joli schema
 Je veux calculer le flux sortant d'un vecteur $\overrightarrow{A}$ à travers toutes les faces
 
 $$
@@ -193,9 +190,9 @@ $$
 La divergence décrit la quantité sortante.
 ## 3 - Généralisation
 <!-- basicblock-start oid="ObsurMtr2g5J8KTfrfw1MI8D" -->
-Def. ::
+Def. Equation locale de la conservation de la charge::
 $$
-\frac{ \partial \rho }{ \partial t } =-\mathrm{div}\overrightarrow{j}
+\mathrm{div}\overrightarrow{j}+\frac{ \partial \rho }{ \partial t } = 0
 $$
 <!-- basicblock-end -->
 En stationnaire $\frac{ \partial \rho }{ \partial t }=0\implies \mathrm{div}\overrightarrow{j}=0$
@@ -290,12 +287,18 @@ P_{\text{Lorentz}}&=(\overrightarrow{j}\cdot \overrightarrow{E})SL&&\cr
 $$
 La loi de Joule !!!
 
-
----
-
-
-
-
+<!-- basicblock-start -->
+Def. Puissance volumique transmise par un champ::
+$$
+p_{L}=\overrightarrow{j}\cdot \overrightarrow{E}.
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Loi. de Joule locale::
+$$
+p_{L}=\vec{\sigma}E
+$$
+<!-- basicblock-end -->
 
 
 

@@ -19,6 +19,7 @@
 - carte mentale EM
 - Démo moment dipolaire d'une molécule EM1
 - Démo calcul du courant moyen EM2
+- Démo loi d'ohm locale
 # [[English]]
 - Fiche méthode concours
 - Note grammar
