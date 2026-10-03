@@ -39,8 +39,20 @@ Autres descriptions (même formule en moins de dimensions):
 - densité linéique
 Ce sont en fait des limites, lorsque l'épaisseur ou la surface deviennent nulles.
 
+<!-- basicblock-start -->
+Def. Densité surfacique de charge::
+$$
+\sigma ,\;\iint_{S}\sigma \mathrm{d}S=Q.
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Def. Densité linéique de charge::
+$$
+\lambda ,\;\int_{L}\lambda \mathrm{d}l=Q.
+$$
+<!-- basicblock-end -->
 ## 2 - La distribution de courants
-Def. Le courant électrique::
+Def. Le courant électrique:
 Déplacement d'ensemble de particules porteuses de charges mobiles (très souvent des électrons).
 
 <!-- basicblock-start oid="ObsWIpBZf8IH9am3s80axobH" -->

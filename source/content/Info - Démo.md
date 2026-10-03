@@ -1,3 +1,3 @@
 
 
-- [[Démo - Lemme de l'étoile]]
+- [[Info - Démo - Lemme de l'étoile]]

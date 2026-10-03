@@ -38,32 +38,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - Lesson.md",
+                "file": "Phys - EM2 - Sources continues du champ électromagnétique.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - Lesson"
-            }
-          },
-          {
-            "id": "04aeafd9335f28ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phys - E2 - Electronique logique.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Phys - E2 - Electronique logique"
+              "title": "Phys - EM2 - Sources continues du champ électromagnétique"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,13 +103,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04aeafd9335f28ea",
+  "active": "692debb79bed7b02",
   "lastOpenFiles": [
-    "Phys - Lesson.md",
-    "Phys - E1 - Révisions et Compléments.md",
     "TODO.md",
+    "Phys - EM2 - Sources continues du champ électromagnétique.md",
+    "Phys - Lesson.md",
+    "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
+    "Info - Démo - Lemme de l'étoile.md",
+    "Phys - E2 - Electronique logique.md",
+    "Phys - E1 - Révisions et Compléments.md",
     "Démo.md",
-    "Démo - Lemme de l'étoile.md",
     "Phys - Démo - Champ électrique d'une sphère.md",
     "Phys - Démo - Intensité dans un fil.md",
     "Phys - Démo - Potentiel d'un dypole.md",
@@ -135,7 +123,6 @@
     "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - EM4 - Magnétostatique.md",
     "EM4 - Magnétostatique.md",
-    "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
     "Conseil.md",
     "Fr-philo.md",
     "Fr-philo - Citation.md",
@@ -144,8 +131,6 @@
     "Fr-philo - flash.md",
     "Fr-philo - note.md",
     "Fr-philo - Résumé.md",
-    "index.md",
-    "Info.md",
     "Excalidraw",
     "FocusLog/2026",
     "FocusLog",

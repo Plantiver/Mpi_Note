@@ -205,7 +205,8 @@ Def. Mémoire $RS$::
 Prop. Les différentes mémoires $RS$::
 - Inscription prioritaire
 - Effacement prioritaire
-- 
+- Conservatrice
+- Inverseuse
 <!-- basicblock-end -->
 
 

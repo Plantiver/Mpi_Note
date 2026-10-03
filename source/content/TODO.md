@@ -14,10 +14,10 @@
 - DL, relation d'ordre et d'équivalence
 - Finir exo 40
 # [[Phys]]
-- cours E2, EM1, EM2 en fiche
+- cours EM2, EM3 en fiche
 - cours de l'année dernière en fiche
 - carte mentale EM
-- Champ et potentiel de la sphère
+- Démo moment dipolaire d'une molécule
 # [[English]]
 - Fiche méthode concours
 - Note grammar
