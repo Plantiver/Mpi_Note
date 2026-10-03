@@ -38,6 +38,7 @@ Le weekend:
 - Faire un sujet d'anglais
 - Faire 2h de sport
 - Développer le Tp d'info un peu +
+- Faire du Tipe
 
 
 

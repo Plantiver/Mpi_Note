@@ -1,0 +1,6 @@
+- Toutes mes démos faites au cours de cette année: [[Général - Démo]].
+- J'ai compilé des détails sur les différentes épreuves dans [[Epreuves]].
+- La gestion du calendrier peut être trouvé à [[Général - Calendar]].
+- Les citations que je note en cours, des profs, se trouvent à [[Général - Citation profs]].
+- Différents conseils que je peux donner se trouve [[Général - Conseil|ici]].
+- Un guide pour installer cette vault, obsidian, et anki: [[Général - Installation|là]].

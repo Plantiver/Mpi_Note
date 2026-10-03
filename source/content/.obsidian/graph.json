@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": " ",
+  "search": " -tag:#calendar  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "file:epreuve",
+      "query": "file:epreuve OR file:général",
       "color": {
         "a": 1,
         "rgb": 5419488

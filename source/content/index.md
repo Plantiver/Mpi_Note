@@ -8,8 +8,10 @@ Vous pourrez également trouver tout ce qui n'a pas sa place ici sur mon [github
 
 Je suis, pour l'instant, une certaine organisation que j'espère tenir toute l'année.
 
-! ============================================================ !
-De nombreuse notes sont incomplètes, je signale souvent cela par #todo 
+Je garde la liste que j'ai à faire dans le prochain temps dans [[TODO]]. (attention, il y a aussi un peu de perso, que je supprimerais une fois l'année terminée).
+
+! ============================================================ ! 
+De nombreuse notes sont incomplètes, je signale souvent cela par #todo  
 ! ============================================================ !
 
 Pour les maths, tout est dans l'arborescence de [[Math]], la majorité des cours n'étant remplis que de fiche de révision, transférable à Anki. Concernant les fiches, beaucoup on été créé à la main, mais certaines, par manques de temps, sont passé à travers Gemini. Je pense cependant que je les changerais au fur et à mesure que je me rendrais compte de l'écart entre ce que je souhaite réellement, les résultats obtenus étant satisfaisant par rapport au temps demandé, mais tout de même de pauvre qualité.
@@ -25,8 +27,4 @@ Pour le français ([[Fr-philo]]), de même que pour l'anglais, ce ne sont majori
 
 J'ai mon projet de [[TIPE]] développé ici aussi, en accès libre, mais j'imagine que c'est moins récupérable.
 
-Je regroupe les différentes démonstrations à savoir faire au cours de l'année dans [[Démo]].
-J'ai compilé des détails sur les différentes épreuves dans [[Epreuves]].
-La gestion du calendrier peut être trouvé à [[Calendar]].
-Les citations que je note en cours, des profs, se trouvent à [[Citation profs]].
-Différents conseils que je peux donner se trouve [[Conseil|ici]].
+Tu retrouveras un peu tout les trucs généraux dans [[Général]].
