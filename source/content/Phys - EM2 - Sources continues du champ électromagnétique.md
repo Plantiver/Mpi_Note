@@ -296,12 +296,16 @@ $$
 <!-- basicblock-start -->
 Loi. de Joule locale::
 $$
-p_{L}=\vec{\sigma}E
+p_{L}=\sigma  \overrightarrow{E}^{2}.
 $$
 <!-- basicblock-end -->
 
-
-
+#todo 
+Def. Modèle de Drude:
+- electrons indépendant et libre
+- collisions instantanées
+- temps de relaxation
+- chaos moléculaire.
 
 
 

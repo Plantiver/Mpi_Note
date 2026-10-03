@@ -159,15 +159,6 @@ Meth. Automate to Regex::
 - Simplification en annotant les transitions par des regex
 - Itérer
 <!-- basicblock-end -->
-# Exo
-1. 
-Si $y=a^{k}$, alors l'expression $xy^{\star}z$ n'est pas dans $L$.
-Si $y=b$, non plus
-
-2. Palindrome
-Supposons $(\star)$ vrai pour $N$.
-Prenons $u=a^{N}ba^{N}$.
-Alors $y=a^{k}$, et donc $xy^{\star}z$ n'est pas un palindrome.
 
 
 

@@ -486,22 +486,22 @@ $$
 $$
 On définit le Laplacien Scalaire:
 $$
-\Delta f=\mathrm{div}(\overrightarrow{ \mathrm{grad}}f)
+\dot{\Delta} f=\mathrm{div}(\overrightarrow{ \mathrm{grad}}f)
 $$
 $$
-\Delta=\overrightarrow{\nabla }^{2}
+\dot{\Delta}=\overrightarrow{\nabla }^{2}
 $$
 L'équation de poisson devient simple:
 <!-- basicblock-start -->
 Def. Equation de Poisson::
 $$
-\Delta f+\frac{\rho}{\varepsilon_{0}}=0
+\dot{\Delta} f+\frac{\rho}{\varepsilon_{0}}=0
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start -->
 Def. Equation de Laplace::
 $$
-\Delta V=0
+\dot{\Delta} V=0
 $$
 <!-- basicblock-end -->
 Pourquoi on ne l'utilise pas:
@@ -509,7 +509,7 @@ Reprenons la sphère uniforme chargée en volume:
 En sphérique:
 $$
 \begin{align*}
-\Delta V&=\frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial  }{ \partial \theta } \left( \sin\theta \frac{ \partial V }{ \partial \theta }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial^{2}V }{ \partial \varphi^{2} } &&\cr
+\dot{\Delta} V&=\frac{1}{r^{2}}\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial  }{ \partial \theta } \left( \sin\theta \frac{ \partial V }{ \partial \theta }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial^{2}V }{ \partial \varphi^{2} } &&\cr
 \end{align*}
 $$
 Par les invariances:
@@ -538,5 +538,18 @@ V(r)&=-\frac{C}{r}+D&&\cr
 $$
 En choisissant l'origine des potentiels à l'$\infty$, on retrouve la même chose...
 C'est possible de faire la même chose pour le cylindre. Mais bon...
+
+
+<!-- basicblock-start -->
+Def. Laplacien::
+$$
+\dot{\Delta}=\overrightarrow{\nabla}^{2}
+$$
+<!-- basicblock-end -->
+
+
+
+
+
 
 

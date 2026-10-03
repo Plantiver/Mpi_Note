@@ -1,5 +1,6 @@
 # [[Main]]
 - Répondre au gens
+- handle all #todo 
 # [[Fr-philo]]
 - Finir les livres
 - Fiches de citations
@@ -14,7 +15,7 @@
 - DL, relation d'ordre et d'équivalence
 - Finir exo 40
 # [[Phys]]
-- cours EM2, EM3 en fiche
+- cours EM3 en fiche
 - cours de l'année dernière en fiche
 - carte mentale EM
 - Démo moment dipolaire d'une molécule EM1
