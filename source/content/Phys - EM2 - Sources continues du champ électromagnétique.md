@@ -57,7 +57,6 @@ Déplacement d'ensemble de particules porteuses de charges mobiles (très souven
 
 <!-- basicblock-start oid="ObsWIpBZf8IH9am3s80axobH" -->
 Def. L'intensité électrique::
-Mesure (/quantification) du courant électrique:
 $$
 i(t)=\frac{\delta q}{\mathrm{d}t}
 $$

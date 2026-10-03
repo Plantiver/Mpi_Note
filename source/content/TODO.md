@@ -17,7 +17,8 @@
 - cours EM2, EM3 en fiche
 - cours de l'année dernière en fiche
 - carte mentale EM
-- Démo moment dipolaire d'une molécule
+- Démo moment dipolaire d'une molécule EM1
+- Démo calcul du courant moyen EM2
 # [[English]]
 - Fiche méthode concours
 - Note grammar
