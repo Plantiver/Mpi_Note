@@ -30,6 +30,10 @@
 - Memory mapping
 
 
+# Urgent
+- dm d'info
+- td maths
+- dm physique
 
 
 
