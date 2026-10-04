@@ -64,7 +64,7 @@
       "taskCompletionStyle": "datetime"
     }
   ],
-  "defaultCalendar": 0,
+  "defaultCalendarId": null,
   "firstDay": 1,
   "initialView": {
     "desktop": "timeGridWeek",
@@ -109,6 +109,7 @@
   "activeWorkspace": null,
   "showEventInStatusBar": false,
   "highlightCurrentOrNextEvent": true,
+  "enableLivePreview": true,
   "slotMinTime": "06:00",
   "slotMaxTime": "20:00",
   "allDaySlot": true,
@@ -170,7 +171,7 @@
   "lastMonthlyMilestonesGeneratedMonth": null,
   "lastMonthlyMilestonesCheckDate": null,
   "milestoneNotifierDuration": 8000,
-  "currentVersion": "0.13.5",
+  "currentVersion": "0.13.6",
   "linkedNotesDirectory": "",
   "linkedNoteLinkStrategy": "deadline",
   "taskBacklogLastProviderId": "",

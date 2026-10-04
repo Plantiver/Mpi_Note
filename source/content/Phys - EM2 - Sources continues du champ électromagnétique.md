@@ -39,13 +39,13 @@ Autres descriptions (même formule en moins de dimensions):
 - densité linéique
 Ce sont en fait des limites, lorsque l'épaisseur ou la surface deviennent nulles.
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsN7OB0qxrCDUVUxbP9u9l0" -->
 Def. Densité surfacique de charge::
 $$
 \sigma ,\;\iint_{S}\sigma \mathrm{d}S=Q.
 $$
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsOeToyqIKybkEYcKLHe1XZ" -->
 Def. Densité linéique de charge::
 $$
 \lambda ,\;\int_{L}\lambda \mathrm{d}l=Q.
@@ -287,13 +287,13 @@ P_{\text{Lorentz}}&=(\overrightarrow{j}\cdot \overrightarrow{E})SL&&\cr
 $$
 La loi de Joule !!!
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsEcCixuGCx1Unt6oVzgBHw" -->
 Def. Puissance volumique transmise par un champ::
 $$
 p_{L}=\overrightarrow{j}\cdot \overrightarrow{E}.
 $$
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObshRJa0XxtQNpNVZuEHK8s8" -->
 Loi. de Joule locale::
 $$
 p_{L}=\sigma  \overrightarrow{E}^{2}.

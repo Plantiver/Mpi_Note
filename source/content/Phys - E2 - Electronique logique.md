@@ -146,53 +146,53 @@ s = f(e_1, e_2, \dots, e_n)
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsUFGbjqZPIOwQkVW39T6fk" -->
 Def. Modèle de la porte logique::
 - Impédance d'entrée infini
 - Courants d'entrée nuls
 - Réalise une opération logique sur les entrées, renvoyé en sortie, supposé exacte.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsTl8KsWHF4EAN6tmlfl70g" -->
 Prop. Les portes à connaitre::
 - La porte NOT
 - La porte AND
 - La porte OR
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsyhv6tdc2JbyzgmxCJYMJT" -->
 Prop. Loi de Morgan::
 - $\overline{a+b}=\overline a\cdot\overline b$
 - $\overline{a\cdot b}=\overline{a}+\overline{b}$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsbCWug8GG5fNiAwy5BpBob" -->
 Prop. Réalisation effective d'un circuit::
 Tout circuit peut être réalisé exclusivement avec des portes NAND.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsoEp2tcajKmZvzlaDjihbJ" -->
 Def. Système astable::
 Un système bouclé qui ne possède pas d'état stable.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsFHm5WkmXQqwQA01JkRNDu" -->
 Def. Système séquentielle::
 Système dont la sortie est utilisée comme entrée.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsIezdKcq6JgzRthJ7yRl5R" -->
 Def. Système monostable::
 Système avec un unique état stable, et qui y revient en un temps caractéristique si perturbé.
 <!-- basicblock-end -->
 
 #work
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs3REQIkaAR9pfD3BMz38wH" -->
 Def. Système bistable::
 Système séquentielle avec deux états stable, dont l'on peut passer de l'un à l'autre via une commande.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsyM9M9QNRvJuNNb8DwnJWY" -->
 Def. Mémoire $RS$::
 - Système permettant de stocker une information
 - Si $R$ appuyé, alors $Q=0$
@@ -201,7 +201,7 @@ Def. Mémoire $RS$::
 - Pas de cas prévu pour $R$ et $S$ simultané.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsJZvxep5piQgfBvR3ingpG" -->
 Prop. Les différentes mémoires $RS$::
 - Inscription prioritaire
 - Effacement prioritaire

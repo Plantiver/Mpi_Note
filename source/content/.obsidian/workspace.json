@@ -13,8 +13,8 @@
             "state": {
               "type": "full-calendar-view",
               "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "full-calendar-view"
             }
           },
           {
@@ -23,13 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "index"
             }
           }
         ],
@@ -85,38 +85,37 @@
       "omnisearch:Omnisearch": false,
       "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "3d-graph:3D Graph": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "a1322349c7f34e1e",
   "lastOpenFiles": [
+    "Phys - Dm.md",
+    "Math - Dm.md",
+    "Math - Dm - 1.md",
+    "index.md",
+    "TODO.md",
+    "Math - Lesson - 5.md",
+    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
+    "Math - Lesson - 1.md",
+    "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
+    "Phys - E1 - Révisions et Compléments.md",
+    "Math - Lesson.md",
+    "Math - Lesson - 2.md",
+    "Math - Lesson - 4.md",
+    "Math - Lesson - 3.md",
     "Général.md",
     "Général - Démo.md",
-    "TODO.md",
     "Général - Installation.md",
     "Général - Conseil.md",
     "Général - Citation profs.md",
     "Général - Calendar.md",
-    "index.md",
     "Info - Démo - Lemme de l'étoile.md",
     "Info - Démo.md",
     "Info.md",
     "Fr-philo - Résumé.md",
     "calendar/Math/(Every M) Math.md",
     "Main.md",
-    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
-    "Info - Lesson - 4.md",
-    "Info - Lesson.md",
-    "Info - Lesson - 5.md",
-    "Info - Lesson - 3.md",
-    "Info - Lesson - 2.md",
-    "Info - Lesson - 1.md",
-    "Phys - Lesson.md",
-    "Phys - EM2 - Sources continues du champ électromagnétique.md",
-    "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
-    "Phys - E2 - Electronique logique.md",
-    "Phys - E1 - Révisions et Compléments.md",
     "Excalidraw",
     "FocusLog/2026",
     "FocusLog",

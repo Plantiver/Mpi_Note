@@ -184,7 +184,7 @@ $$
 f = \frac{1}{T}
 $$
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsGKwmPzRRrJvP1EJWOrZKn" -->
 Def. Pulsation d'un signal::
 $$
 \omega=2\pi f=\frac{2\pi}{T}
@@ -247,13 +247,13 @@ s(t) = c_0 + \sum_{n=1}^{+\infty} c_n \cos(2\pi n f t + \varphi_n)
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsMScrzCbx6vKbsZuIMpFf1" -->
 Def. Gain d'un filtre::
 $$
 G = |\underline{H}|
 $$
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsh9D93UnueOh8ECUAC0zoF" -->
 Def. Gain en décibel d'un filtre::
 $$
 G_{dB}=20\log(G)
@@ -276,7 +276,7 @@ $$
 <!-- basicblock-start oid="ObsK53iZ2yU0Ac8wKtNHm106" -->
 Prop. Condition de mise en série de filtres::
 $$
-|\underline{Z}_{e,2}| \gg |\underline{Z}_{s,1}|.
+\phantom{`}|\underline{Z}_{e,2}| \gg |\underline{Z}_{s,1}|.\phantom{`}
 $$
 <!-- basicblock-end -->
 
@@ -285,7 +285,7 @@ $$
 <!-- basicblock-start oid="ObsM98kP1qLxRt7wNvBCz381" -->
 Th. de Millman (hp)::
 $$
-\underline{U} = \frac{\sum_{k=1}^{N} \frac{\underline{V}_k}{\underline{Z}_k}}{\sum_{k=1}^{N} \frac{1}{\underline{Z}_k}}
+\phantom{`}\underline{U} = \frac{\sum_{k=1}^{N} \frac{\underline{V}_k}{\underline{Z}_k}}{\sum_{k=1}^{N} \frac{1}{\underline{Z}_k}}\phantom{`}
 $$
 <!-- basicblock-end -->
 

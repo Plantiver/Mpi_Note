@@ -1,6 +1,7 @@
-# [[Main]]
+# [[index|Main]]
 - Répondre au gens
 - handle all #todo 
+- update old flashcards to use either list or block
 # [[Fr-philo]]
 - Finir les livres
 - Fiches de citations

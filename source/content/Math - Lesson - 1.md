@@ -275,10 +275,10 @@ $$
 <!-- basicblock-start oid="Obsv51HHaiDIFxQ4Tq8jFYvL" -->
 Prop. Taylor polynôme::
 $$
-\begin{align*}
-&&&&P(X+a)&=\sum_{k=0}^{n}\frac{P^{(k)}(a)}{k!}X^{k}&&\cr
-\implies&&&&P(X)&=\sum_{k=0}^{n}\frac{P^{(k)}(a)}{k!}(X-a)^{k}.&&&&&&&&&&\cr
-\end{align*}
+\begin{align}
+\phantom{`}P(X+a)&=\sum_{k=0}^{n}\frac{P^{(k)}(a)}{k!}X^{k}\phantom{`}\cr
+\phantom{`}P(X)&=\sum_{k=0}^{n}\frac{P^{(k)}(a)}{k!}(X-a)^{k}.\phantom{`}
+\end{align}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObslC8DSvFwc4Svo1l05If6o" -->
@@ -328,7 +328,7 @@ $$
 <!-- basicblock-start oid="ObsYSbGvmxRPqi9HSd0dAeJa" -->
 Th. Formule de Viète::
 $$
-\forall k\in[1;n],\;\sigma_{k}=\sum_{I\in \mathscr{P}_{k}([1;n])}\prod_{i\in I}\alpha_{i}=(-1)^{k}\frac{a_{n-k}}{a_{n}}.
+\phantom{`}\forall k\in[1;n],\;\sigma_{k}=\sum_{I\in \mathscr{P}_{k}([1;n])}\prod_{i\in I}\alpha_{i}=(-1)^{k}\frac{a_{n-k}}{a_{n}}.\phantom{`}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsgLH5hWHhtyMZVvgtbLH2w" -->

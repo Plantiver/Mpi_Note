@@ -23,16 +23,16 @@ $$
 <!-- basicblock-start oid="Obs0KKbXhbTTw3goDk4gRrD6" -->
 Def. Circulation d'un champ $\overrightarrow{a}$ le long de $\gamma$::
 $$
-\mathcal{C}_{\gamma}=\int_{\gamma}\overrightarrow{a}\cdot \overrightarrow{dl}.
+\phantom{`}\mathcal{C}_{\gamma}=\int_{\gamma}\overrightarrow{a}\cdot \overrightarrow{dl}.\phantom{`}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsvWhP7AfQI2KTT2nYxkXaP" -->
 Prop. Propriété de la circulation::
 $$
 \begin{array}
-\text{(i)}\;&\mathcal{C}_{\gamma}+\mathcal{C'}_{\gamma}=(\mathcal{C}+\mathcal{C}')_{\gamma}\cr
-\text{(ii)}\;&\mathcal{C}_{-\gamma}=-\mathcal{C}_{\gamma}\cr
-\text{(iii)}\;&\mathcal{C}_{\gamma_{1}+\gamma_{2} = \mathcal{C}_{\gamma_{1}}+\mathcal{C}_{\gamma_{2}}}
+\text{(i)}\phantom{`}\;&\mathcal{C}_{\gamma}+\mathcal{C'}_{\gamma}=(\mathcal{C}+\mathcal{C}')_{\gamma}\phantom{`}\cr
+\text{(ii)}\phantom{`}\;&\mathcal{C}_{-\gamma}=-\mathcal{C}_{\gamma}\phantom{`}\cr
+\text{(iii)}\phantom{`}\;&\mathcal{C}_{\gamma_{1}+\gamma_{2} = \mathcal{C}_{\gamma_{1}}+\mathcal{C}_{\gamma_{2}}}\phantom{`}
 \end{array}
 $$
 <!-- basicblock-end -->
@@ -109,7 +109,7 @@ $$
 <!-- basicblock-start oid="ObsTOFeFdXZOJxm7GD0JcOGM" -->
 Def. Tension électrique entre $A$ et $B$::
 $$
-U_{AB}=\mathcal{C}_{\gamma_{AB}}
+\phantom{`}U_{AB}=\mathcal{C}_{\gamma_{AB}}\phantom{`}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsyJd2hB2Ymn4AZETIQFpvr" -->
@@ -133,7 +133,7 @@ $$
 <!-- basicblock-start oid="ObsAzbMFuwmp6Yu49aZyNN9F" -->
 Def. Travail d'une force::
 $$
-W_{\gamma_{A\to B}}=\int_{\gamma_{A\to B}}\delta W
+\phantom{`}W_{\gamma_{A\to B}}=\int_{\gamma_{A\to B}}\delta W\phantom{`}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObscP7wigxlAyU2LDEMHhl6q" -->
@@ -153,7 +153,7 @@ Pour $N$ particules
 <!-- basicblock-start oid="ObsafzwmncVRlSjiobMBkADy" -->
 Prop. Energie potentielle de N particules::
 $$
-\mathcal{E}_p=\frac{1}{2}\sum_{i\not=j}\mathcal{E}_{p,i,j}
+\phantom{`}\mathcal{E}_p=\frac{1}{2}\sum_{i\not=j}\mathcal{E}_{p,i,j}\phantom{`}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObstqCY6UlWt8rwMQNuQ7odG" -->
@@ -161,7 +161,7 @@ Def. Les lignes de champs::
 En tout point, $\overrightarrow{E}$ est tangent aux lignes de champ.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsXN2lYJdIy5klRC89trkFb" -->
 Def. Dipôle électrostatique::
 - $P$ de charge $+q$
 - $N$ de charge $-q$

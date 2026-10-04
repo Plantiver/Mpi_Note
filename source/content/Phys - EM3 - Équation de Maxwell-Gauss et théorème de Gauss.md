@@ -492,13 +492,13 @@ $$
 \dot{\Delta}=\overrightarrow{\nabla }^{2}
 $$
 L'équation de poisson devient simple:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsRuI9mpuyhJqPlLYO8BIAD" -->
 Def. Equation de Poisson::
 $$
 \dot{\Delta} f+\frac{\rho}{\varepsilon_{0}}=0
 $$
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsHlXgVrI6eQ0V3Vv1onuZJ" -->
 Def. Equation de Laplace::
 $$
 \dot{\Delta} V=0
@@ -540,7 +540,7 @@ En choisissant l'origine des potentiels à l'$\infty$, on retrouve la même chos
 C'est possible de faire la même chose pour le cylindre. Mais bon...
 
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsZF0qqNB0pyKkt5ZsOXaQ4" -->
 Def. Laplacien::
 $$
 \dot{\Delta}=\overrightarrow{\nabla}^{2}
