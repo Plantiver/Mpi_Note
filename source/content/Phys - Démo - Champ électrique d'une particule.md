@@ -3,7 +3,7 @@ On s'intéresse à une particule de charge $q$ placée en $O$.
 On place un point $M(r,\theta,\varphi)$, et l'on cherche l'expression de $\overrightarrow{E}(M,t)$ ainsi que de $V(M,t)$.
 
 **Idée:**
-On applique la méthode et on l'apprends
+On applique la méthode et on l'apprends.
 
 **Démo:**
 1. Invariance et symétrie

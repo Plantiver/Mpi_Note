@@ -27,7 +27,7 @@ Connaissant $\rho$, on ne peut pas retrouver $\overrightarrow{E}$, pas assez d'�
 
 On appelle **élément de symétrie** toute transformation géométrique qui laisse cette objet invariant (= en égale correspondance avec lui-même).
 *Ex*: Un cube possède ses rotations et ses symétries, mais en nombre finis, alors que la sphère c'est en nombre infinis. Si je colorie les faces de mon cube, je ne peux plus aussi facilement le faire tourner/symétriser.
-**Principe de Mr. Curie (1894)**
+**Principe de Mr. Curie (1894)**:
 - Lorsque certaines causes produisent certains effets, les éléments de symétries des causes doivent se retrouver dans les effets.
 - Lorsque certains effets révèlent une dissymétrie, elle doit se retrouver dans les causes.
 - Un effet a au moins les symétries de sa cause.
@@ -85,7 +85,7 @@ formule de stockes?
 <!-- basicblock-start oid="ObsSkFoo4AB9FXTnJaG62ZFA" -->
 Th. de Gauss::
 $$
-\varphi_{S}(\overrightarrow{E})=\frac{Q_{\text{dans }S}}{\varepsilon_{0}}
+\phi_{S}(\overrightarrow{E})=\frac{Q_{\text{dans }S}}{\varepsilon_{0}}
 $$
 <!-- basicblock-end -->
 Soit un volume $V$ quelconque de surface fermée $S$.
@@ -127,59 +127,16 @@ $$
 
 # II - Exemple de calculs de champs
 ## 1 - La charge ponctuelle
-On place $q$ en $O$.
-On cherche $\overrightarrow{E}$.
-1. Invariance et symétrie
-- Toute rotation $\theta,\varphi$ laisse la distribution inchangée
-- De même pour la translation de temps
-Donc $\overrightarrow{E(r,\theta,\varphi,t)}=\overrightarrow{E(r)}$
-- Plaçons $M$ quelconque
-- Tout plan contenant $OM$ est plan de symétrie
-- Donc $\overrightarrow{E}\in$ tout les plans contenant $OM$
-Donc $\overrightarrow{E(M,t)}=E(r)\overrightarrow{e_{r}}$.
 
-2. Choix de la surface de Gauss
-On veut une surface telle que $\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}=0$ ou $=\pm E\mathrm{d}S$.
-On prend un sphère de rayon $r$.
-
-3. Calcul du flux
-$$
-\begin{align*}
-\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}&=\iint E(x)dS&&\cr
-&=E(r)\iint \mathrm{d}S&&\cr
-&=E(r)4\pi r^{2}&&\cr
-\end{align*}
-$$
-4. Application du théorème
-$$
-\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}=\frac{Q_{\text{int}}}{\varepsilon_{0}}
-$$
-Or $Q_{\text{int}}=q$
-donc
-$$
-\overrightarrow{E(r)}=\frac{q}{4\pi\varepsilon_{0}r^{2}}\overrightarrow{e_{r}}
-$$
+> [!note]- Calcul du champ engendré par une charge ponctuelle
+![[Phys - Démo - Champ électrique d'une particule]]
 
 ## 2 - Sphère chargée uniformément en volume
-1. Invariance et symétrie
-Voir plus haut (à refaire quand même à chaque fois)
-2. Choix de la surface de Gauss
-De même, sphère de rayon $r$.
-3. Calcul du flux
-de même:
-$$
-\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}=E(r)4\pi r^{2}
-$$
-4. Application du théorème
-- Si $r<R$
-$Q_{\text{int}}=V\rho=\frac{4}{3}\pi r^{3}\rho$
-D'où $\overrightarrow{E(r)}=\frac{\rho r}{3\varepsilon_{0}}\overrightarrow{e_{r}}$
-- Si $r>R$
-$Q_{\text{int}}=Q_{\text{total}}$
-$\overrightarrow{E(r)}=\frac{Q_{\text{tot}}}{4\pi\varepsilon_{0}r^{2}}\overrightarrow{e_{r}}$
 
-**Rq**
-Si $r>R$, on retrouve la même chose qu'avec une particule, ce qui permet de considérer les objets comme telle en première année.
+> [!note]- Calcul du champ engendré par une sphère chargée uniformément
+![[Phys - Démo - Champ électrique d'une sphère]]
+
+#todo : Clean up this mess, maybe put Maxwell-Gauss in a demo
 
 **Autres méthode:** calcul direct par Maxwell-Gauss.
 En sphérique:
@@ -295,6 +252,7 @@ $$
 Exo: retrouver $\mathscr{E}$ à partir de cette formule.
 
 ## 3 - Le cylindre infini chargé en Volume
+#todo : turn this into a demo
 En coordonnée cylindrique:
 $$
 \rho(r)=\begin{cases}
@@ -380,6 +338,10 @@ $V(r)=-\frac{\rho_{0}R^{2}}{2\varepsilon_{0}}\ln\left( \frac{r}{R} \right)$
 
 # III - Le condensateur plan
 ## 1 - Champs d'un plan infini chargé en surface
+
+> [!note]- Calcul du champ engendré par un plan infini chargé en surface
+![[Phys - Démo - Champ électrique d'un plan]]
+
 1. Invariances et symétries
 Invariances:
 - Toute translation de x,y, et t

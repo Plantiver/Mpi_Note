@@ -175,8 +175,9 @@ $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObstqCY6UlWt8rwMQNuQ7odG" -->
-Def. Les lignes de champs::
-En tout point, $\overrightarrow{E}$ est tangent aux lignes de champ.
+Prop. Les lignes du champ électrique::
+- $\overrightarrow{E}$ est tangent aux lignes de champ.
+- #todo 
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsXN2lYJdIy5klRC89trkFb" -->
@@ -193,8 +194,23 @@ $$
 $$
 <!-- basicblock-end -->
 
-voir [[Phys - Démo - Potentiel d'un dypole]].
+> [!note]- Potentielle d'un dipôle
+![[Phys - Démo - Potentiel d'un dypole]]
 
 
+<!-- basicblock-start -->
+Prop. Action d'un champs électrique uniforme sur un dipôle::
+$$
+\text{Couple de force de moment }\overrightarrow{\Gamma_{0}}=\overrightarrow{p}\wedge \overrightarrow{E_{0}}.
+$$
+<!-- basicblock-end -->
 
-#todo : propriété d'un dypole
+<!-- basicblock-start -->
+Prop. Energie potentielle d'un dipôle soumis à un champs électrique uniforme::
+$$
+\mathcal{E}_{p}=-\overrightarrow{p}\cdot \overrightarrow{E_{0}}.
+$$
+<!-- basicblock-end -->
+
+> [!note]- Application au modèle de la molécule
+![[Phys - Démo - Modélisation d'un molécule comme un dipôle]]
