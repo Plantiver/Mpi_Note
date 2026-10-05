@@ -189,8 +189,12 @@ Def. Dipôle électrostatique::
 <!-- basicblock-start -->
 Def. Approximation dipolaire::
 $$
-\forall M,\;\|\overrightarrow{OM}\|>>
+\forall M,\;\|\overrightarrow{OM}\|>>\|\overrightarrow{NP}\|.
 $$
 <!-- basicblock-end -->
+
+voir [[Phys - Démo - Potentiel d'un dypole]].
+
+
 
 #todo : propriété d'un dypole
