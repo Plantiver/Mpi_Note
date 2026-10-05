@@ -26,6 +26,100 @@ IRM: $5T$.
 
 
 
+## 2 - Equation de Maxwell-flux (Maxwell-Thomson)
+<!-- basicblock-start -->
+Def. Equation de Maxwell-Thomson::
+$$
+\mathrm{div}\overrightarrow{B}(M,t)=0.
+$$
+<!-- basicblock-end -->
+$\;\implies\;$ Le champs magnétique est TOUJOURS à flux conservatif.
+Donc
+$$
+\phi_{B}=\oint \int_{S}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}S}=0
+$$
+Comme $\overrightarrow{E}$ dans une région vide, les lignes de champs se resserrent quand la norme augmente.
+
+De plus, les lignes de champs sont toujours fermées.
+
+## 3 - Equation de Maxwell-Ampère
+**a - Rotationnel d'un champ de vecteur**:
+def du rotationnel, voir [[Phys - EM1 - Champs et potentiels créés par des charges ponctuelles|EM1]].
+
+rappel sur le produit vectoriel:
+règle de la main droite + longeur
+ou alors produit croisée
+
+**interprétation:**
+- calculer la circulation sur un petit carré
+- sommer les cotés face à face
+- se rendre compte que 
+
+**énoncé:**
+<!-- basicblock-start -->
+Def. Equation de Maxwell-Ampère::
+$$
+\overrightarrow{\mathrm{rot}}\overrightarrow{B} = \mu_{0}\overrightarrow{j}+\frac{1}{c^{2}}\frac{ \partial E }{ \partial t } .
+$$
+<!-- basicblock-end -->
+avec:
+- $\mu_{0}$ la perméabilité magnétique du vide
+- $c$ la célérité de la lumière dans le vide
+- $\overrightarrow{j}$ vecteur densité volumique de courant
+
+Dans le cadre de l'*ARQS magnétique* (cf [[Phys - EM5 - Le champ électromagnétique|EM5]]).
+On a:
+$$
+\|\mu_{0}\overrightarrow{j}\|>>\|\frac{1}{c^{2}}\frac{ \partial E }{ \partial t } \|.
+$$
+Dans ce cadre, l'équation de Maxwell-Ampère devient:
+$$
+\overrightarrow{\mathrm{rot}}\overrightarrow{B}=\mu_{0}\overrightarrow{j}.
+$$
+On se place dans ce cadre pour le reste du chapitre.
+
+
+# II - Le théorème d'Ampère
+## 1 - Formule de Stokes
+Généralisation de l'interprétation du rotationnel
+Soit $\Gamma$ un contour fermé orienté.
+On note $\overrightarrow{S}$ une surface orientée par la RMD, s'appuyant sur $\Gamma$
+<!-- basicblock-start -->
+Th. d'Ampère::
+$$
+\iint_{S}(\overrightarrow{\mathrm{rot}}\overrightarrow{B})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
+$$
+<!-- basicblock-end -->
+**Rq:**
+On admet que
+$$
+\overrightarrow{\mathrm{rot}}\overrightarrow{A}=0\iff \exists f,\;\overrightarrow{A}=\overrightarrow{ \mathrm{grad}}f.
+$$
+
+
+<!-- basicblock-start -->
+Def. Equation de Maxwell-Faraday::
+$$
+\overrightarrow{\mathrm{rot}}\overrightarrow{E}=-\frac{ \partial \overrightarrow{B} }{ \partial t } .
+$$
+<!-- basicblock-end -->
+
+Par la formule de stokes
+$$
+\begin{align*}
+\oint_{\Gamma}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}l}&=\iint_{S}(\overrightarrow{\mathrm{rot}}\overrightarrow{E})\cdot \overrightarrow{\mathrm{d}S}&&\cr
+&=\iint_{S}\left( -\frac{ \partial \overrightarrow{B} }{ \partial t }  \right)\overrightarrow{\mathrm{d}S}&&\cr
+&=-\frac{ \partial  }{ \partial t } (\iint_{S}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}S})&&\cr
+\end{align*}
+$$
+
+$$
+e=-\frac{ \partial  }{ \partial t } \phi.
+$$
+
+
+
+
 
 
 

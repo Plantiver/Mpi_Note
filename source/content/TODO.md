@@ -10,11 +10,9 @@
 - Voir les devoirs pour la semaine prochaine
 - Fiche méthode Dissertation + Résumé
 # [[Info]]
-- démo complexité union find+fonctions, parcours en profondeur.
-- Dm
+- Algo $A^{\star}$.
 # [[Math]]
 - DL, relation d'ordre et d'équivalence
-- Finir exo 40
 # [[Phys]]
 - cours EM3 en fiche
 - cours de l'année dernière en fiche
@@ -31,8 +29,6 @@
 
 
 # Urgent
-- dm d'info
-- td maths
 - dm physique
 
 

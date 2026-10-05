@@ -107,15 +107,18 @@
   "defaultReminderMinutes": 10,
   "workspaces": [],
   "activeWorkspace": null,
-  "showEventInStatusBar": false,
+  "showEventInStatusBar": true,
   "highlightCurrentOrNextEvent": true,
   "enableLivePreview": true,
-  "slotMinTime": "06:00",
+  "slotMinTime": "07:00",
   "slotMaxTime": "20:00",
   "allDaySlot": true,
   "timeGridDayHeaderFormat": "day-ddmm",
-  "weekends": true,
-  "hiddenDays": [],
+  "weekends": false,
+  "hiddenDays": [
+    0,
+    6
+  ],
   "dayMaxEvents": false,
   "activityWatch": {
     "enabled": false,

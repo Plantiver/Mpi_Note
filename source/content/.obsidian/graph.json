@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": " -tag:#calendar  ",
+  "search": " -tag:#calendar  tag:#todo  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,

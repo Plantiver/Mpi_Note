@@ -53,5 +53,35 @@ Def. Implémentations Union&Find::
 - Graphe où la composante connexe de $i$ est sa classe d'aquivalence
 - Forêt: un tableau où $tab.(i)$ est le parent de $i$.
 <!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Union par rang::
+```ocaml
+let rec unir_rang uf i j =
+	let i = trouver uf i in
+	let j = trouver uf j in
+	let ri = uf.(i).rg in
+	let rj = uf.(j).rg in
+	if ri >= rj then
+		uf.(j) <- (i, rj);
+		uf.(i) <- (i, max(rj+1, ri));
+	else
+		uf.(i) <- (j, ri);
+```
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Good Find::
+```ocaml
+let rec gf uf i =
+	if uf.(i) = i then i
+	else let r = gf uf uf.(i) in
+		uf.(i) = r;
+		r;;
+```
+<!-- basicblock-end -->
+
+
+
+
+
 
 

@@ -36,9 +36,18 @@ $$
 $$
 <!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Prop. Convexité de $f\in D^{2}(I,\mathbb{R})$::
+- $f'$ croissante sur $I$
+- $f''\geq0$ sur $I$.
+<!-- basicblock-end -->
 
-
-
+<!-- basicblock-start -->
+Prop. Fonctions usuelles et leur tangente::
+- $e^{x}\geq 1+x$
+- $\ln(1+x)\leq x$
+- $|\sin(x)|\leq|x|$.
+<!-- basicblock-end -->
 
 
 

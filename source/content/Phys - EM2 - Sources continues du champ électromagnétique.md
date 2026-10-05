@@ -300,12 +300,13 @@ p_{L}=\sigma  \overrightarrow{E}^{2}.
 $$
 <!-- basicblock-end -->
 
-#todo 
+<!-- basicblock-start -->
 Def. Modèle de Drude:
-- electrons indépendant et libre
+- électrons indépendant et libre
 - collisions instantanées
 - temps de relaxation
 - chaos moléculaire.
+<!-- basicblock-end -->
 
 
 
