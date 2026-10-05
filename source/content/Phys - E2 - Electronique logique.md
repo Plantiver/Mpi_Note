@@ -93,7 +93,7 @@ Il s'agit des systèmes bouclés, où ka sortie est réinjectée en entrée.
 Filtre
 - 5.
 En complexe:
-$$v = \frac{R}{R+\frac{1}{jC\omega}}n$$
+$$v = \frac{R}{R+\frac{1}{jC\omega} }n$$
 $$(jRC\omega+1)v = jRC\omega n$$
 On repasse en temporel:
 $$RC\frac{dv}{dt}+v = RC\frac{du}{dt}$$
@@ -106,10 +106,10 @@ Où $A$ est à determiner en fonction des C.I.
 Notions:
 - L'état HAUT est à la tension $e_0$
 - L'état BAS est à la tension 0V
-- La bascule des portes se fait à $\frac{e_{0}}{2}$
+- La bascule des portes se fait à $\frac{e_{0} }{2}$
 En réalité:
-- $e>\frac{e_{0}}{2}$: Etat Haut
-- $e<\frac{e_{0}}{2}$: Etat Bas
+- $e>\frac{e_{0} }{2}$: Etat Haut
+- $e<\frac{e_{0} }{2}$: Etat Bas
 
 ### Cas 1
 On suppose $e(t)=e_{0}$ "depuis longtemps".
@@ -126,7 +126,7 @@ donc: $n(t<0)=0$ et $n(t=0)=e_{0}$, et ce pour toute valeur de l'autre entrée.
 Mais la tension aux bornes d'un condensateur est une fonction continue du temps. Donc $u_{c} = n-v$ est continue, et ainsi $n(0^+)=v(0^+)=e_{0}$.
 Or $v(t) = A\cdot e^{-t/\tau}$, avec $A(t>0)=e_{0}$.
 
-Lorsque $v(t_{b})=\frac{e_{0}}{2}$ . $e_{0}e^{-t_{b}/\tau}=e_{0}$ . $t_{b} = \frac{\ln(2)}{\tau}$, ce qui bacule la porte pendant $t_{b}$.
+Lorsque $v(t_{b})=\frac{e_{0} }{2}$ . $e_{0}e^{-t_{b}/\tau}=e_{0}$ . $t_{b} = \frac{\ln(2)}{\tau}$, ce qui bacule la porte pendant $t_{b}$.
 Rq: Les temps de bascule des portes sont négligés.
 
 Voir schéma...

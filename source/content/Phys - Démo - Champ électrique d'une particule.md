@@ -13,7 +13,7 @@ On applique la méthode et on l'apprends.
 Donc: $\overrightarrow{E}(M,t)=\overrightarrow{E}(r)$.
 - Tout plan contenant $\overrightarrow{OM}$ est un plan de symétrie
 - Ainsi, $\overrightarrow{E}\in(OM)$
-Finalement: $\overrightarrow{E}(M,t)=E(r)\overrightarrow{e_{r}}.$
+Finalement: $\overrightarrow{E}(M,t)=E(r)\overrightarrow{e_{r} }.$
 
 
 2. Choix de la surface de Gauss
@@ -30,24 +30,24 @@ $$
 
 3. Application du théorème de Gauss
 $$
-\phi=\frac{Q_{\text{int}}}{\varepsilon_{0}}
+\phi=\frac{Q_{\text{int} } }{\varepsilon_{0} }
 $$
-Ici, $Q_{\text{int}}=q$.
+Ici, $Q_{\text{int} }=q$.
 D'où:
 $$
 \begin{align*}
-E(r)4\pi r^{2}&=\frac{q}{\varepsilon_{0}}&&\cr
-E(r)&=\frac{q}{4\pi\varepsilon_{0}r^{2}}&&\cr
+E(r)4\pi r^{2}&=\frac{q}{\varepsilon_{0} }&&\cr
+E(r)&=\frac{q}{4\pi\varepsilon_{0}r^{2} }&&\cr
 \end{align*}
 $$
 4. Calcul du potentiel
 Par définition:
 $$
-\overrightarrow{E}=-\overrightarrow{ \mathrm{grad}}V
+\overrightarrow{E}=-\overrightarrow{ \mathrm{grad} }V
 $$
 Donc, ici:
 $$
-E(r)\overrightarrow{e_{r}}=-\frac{\mathrm{d}V}{\mathrm{d}r}\overrightarrow{e_{r}}
+E(r)\overrightarrow{e_{r} }=-\frac{\mathrm{d}V}{\mathrm{d}r}\overrightarrow{e_{r} }
 $$
 D'où:
 $$

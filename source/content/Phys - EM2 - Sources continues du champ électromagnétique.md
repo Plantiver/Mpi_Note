@@ -114,7 +114,7 @@ $\overrightarrow{v}$: vecteur vitesse moyen des porteurs de charges
 
 S'il y a plusieurs types de porteurs de charge en mouvement:
 $$
-\overrightarrow{j}=\sum \overrightarrow{j_{i}}=\sum n_{i}q_{i} \overrightarrow{v_{i}}
+\overrightarrow{j}=\sum \overrightarrow{j_{i} }=\sum n_{i}q_{i} \overrightarrow{v_{i} }
 $$
 
 
@@ -142,7 +142,7 @@ Voir Sch2
 Alors, la variation de charge dans ce volume pendant $\mathrm{d}t$.
 Variation du stock: $Q(t+\mathrm{d}t)-Q(t)$.
 $$
-\mathrm{d}Q=Q(t+\mathrm{d}t)-Q(t)=\delta Q_{\text{entrant}}-\delta Q_{\text{sortant}}
+\mathrm{d}Q=Q(t+\mathrm{d}t)-Q(t)=\delta Q_{\text{entrant} }-\delta Q_{\text{sortant} }
 $$
 Or, $Q(t)=\rho(t)\mathrm{d}V$, $\rho$ uniforme car le volume est infinitésimal, avec $\mathrm{d}V=S\mathrm{d}x$.
 $$
@@ -155,15 +155,15 @@ $$
 $$
 De plus:
 $$
-\delta Q_{\text{entrant}}=I_{\text{entrant}}\mathrm{d}t=j(x)S\mathrm{d}t
+\delta Q_{\text{entrant} }=I_{\text{entrant} }\mathrm{d}t=j(x)S\mathrm{d}t
 $$
 et
 $$
-\delta Q_{\text{sortant}}=j(x+\mathrm{d}x)S\mathrm{d}t
+\delta Q_{\text{sortant} }=j(x+\mathrm{d}x)S\mathrm{d}t
 $$
 Donc, le flux:
 $$
-\delta Q_{\text{entrant}}-\delta Q_{\text{sortant}}=-\frac{ \partial j }{ \partial x } \mathrm{d}xS\mathrm{d}t
+\delta Q_{\text{entrant} }-\delta Q_{\text{sortant} }=-\frac{ \partial j }{ \partial x } \mathrm{d}xS\mathrm{d}t
 $$
 Donc, au final:
 $$
@@ -201,7 +201,7 @@ $$
 \begin{align*}
 \text{Flux sortant de }\overrightarrow{j}&=0&&\cr
 \text{Flux sortant de }\overrightarrow{j}-\text{Flux entrant de }\overrightarrow{j}&=0&&\cr
-I_{\text{sortant}}-I_{\text{entrant}}&=0&&\cr
+I_{\text{sortant} }-I_{\text{entrant} }&=0&&\cr
 \end{align*}
 $$
 
@@ -211,30 +211,30 @@ $$
 **Conductivité électrique**:
 On admet que les interactions entre les électrons et les atomes d'un conducteur se modélisent par une force de Drude:
 $$
-\overrightarrow{F}=-\frac{m_{e}}{\tau}\overrightarrow{v}
+\overrightarrow{F}=-\frac{m_{e} }{\tau}\overrightarrow{v}
 $$
 - Loi de frottement fluide
 - $m_{e}$ est la masse de l'électron
 - $\tau$ est le temps de relaxation du cristal
 Un electron dans un conducteur subit $2^{quelque chose}$ loi de Newton:
 $$
-m_{e}\frac{\mathrm{d} \overrightarrow{v}}{\mathrm{d}t} = -\frac{m_{e}}{\tau}\overrightarrow{v}-e \overrightarrow{E}
+m_{e}\frac{\mathrm{d} \overrightarrow{v} }{\mathrm{d}t} = -\frac{m_{e} }{\tau}\overrightarrow{v}-e \overrightarrow{E}
 $$
 RSF:
 $$
-j\omega m_{e} \overrightarrow{v}+\frac{m_{e}}{\tau} \overrightarrow{v} = -e \overrightarrow{E}
+j\omega m_{e} \overrightarrow{v}+\frac{m_{e} }{\tau} \overrightarrow{v} = -e \overrightarrow{E}
 $$
 $$
-\overrightarrow{v}=-\frac{e \tau}{m_{e}}\frac{\overrightarrow{E}}{1+j\omega \tau}
+\overrightarrow{v}=-\frac{e \tau}{m_{e} }\frac{\overrightarrow{E} }{1+j\omega \tau}
 $$
 or: $\overrightarrow{j}=-en \overrightarrow{v}$
-donc: $\overrightarrow{j}=\frac{ne^{2}\tau}{m_{e}}\cdot \frac{\overrightarrow{E}}{1+j\omega \tau}$
+donc: $\overrightarrow{j}=\frac{ne^{2}\tau}{m_{e} }\cdot \frac{\overrightarrow{E} }{1+j\omega \tau}$
 
 on définit la conductivité complexe:
 $$
-\sigma (\omega)=\frac{\sigma_{0}}{1+j\omega \tau}
+\sigma (\omega)=\frac{\sigma_{0} }{1+j\omega \tau}
 $$
-avec $\sigma_{0}=\frac{ne^{2}\tau}{m_{e}}$ la conductivité statique.
+avec $\sigma_{0}=\frac{ne^{2}\tau}{m_{e} }$ la conductivité statique.
 
 Si $f<<10^{14}$Hz
 <!-- basicblock-start oid="ObsSFTj3D4cHETXdsXKUlDrM" -->
@@ -248,9 +248,9 @@ Prenons un conducteur cylindrique de longueur $L$ soumis à un champs $\overrigh
 
 $$
 \begin{align*}
-\overrightarrow{E}&=-\overrightarrow{ \mathrm{grad}}V&&\cr
-&=-\frac{\mathrm{d}V}{\mathrm{d}x}\overrightarrow{e_{x}}&&\cr
-&=-\frac{V(L)-V(0)}{L}\overrightarrow{e_{x}}&&\cr
+\overrightarrow{E}&=-\overrightarrow{ \mathrm{grad} }V&&\cr
+&=-\frac{\mathrm{d}V}{\mathrm{d}x}\overrightarrow{e_{x} }&&\cr
+&=-\frac{V(L)-V(0)}{L}\overrightarrow{e_{x} }&&\cr
 &=&&\cr
 \end{align*}
 $$
@@ -259,16 +259,16 @@ $$
 ## 2 - Loi de Joule locale
 Dans un volume $\mathrm{d}V$ de conducteur il y a $n\mathrm{d}V$ électrons. Calculons la puissance de la force de Lorentz sur ce conducteur:
 $$
-dP_{\text{Lorentz}}=(\overrightarrow{F_{\text{Lorentz}}}\cdot \overrightarrow{v})(n\mathrm{d}V)
+dP_{\text{Lorentz} }=(\overrightarrow{F_{\text{Lorentz} } }\cdot \overrightarrow{v})(n\mathrm{d}V)
 $$
-Or: $\overrightarrow{F_{\text{Lorentz}}}\cdot \overrightarrow{v}=(-e(\overrightarrow{E}+\overrightarrow{v} \wedge \overrightarrow{B}))=-e \overrightarrow{E}\cdot \overrightarrow{v}$
+Or: $\overrightarrow{F_{\text{Lorentz} } }\cdot \overrightarrow{v}=(-e(\overrightarrow{E}+\overrightarrow{v} \wedge \overrightarrow{B}))=-e \overrightarrow{E}\cdot \overrightarrow{v}$
 Donc:
 $$
-dP_{\text{Lorentz}}=-e \overrightarrow{E}\cdot \overrightarrow{v}n\mathrm{d}V
+dP_{\text{Lorentz} }=-e \overrightarrow{E}\cdot \overrightarrow{v}n\mathrm{d}V
 $$
 Or $\overrightarrow{j}=-en \overrightarrow{v}$.
 $$
-\implies dP_{\text{Lorentz}}=(\overrightarrow{j}\cdot \overrightarrow{E})\mathrm{d}V
+\implies dP_{\text{Lorentz} }=(\overrightarrow{j}\cdot \overrightarrow{E})\mathrm{d}V
 $$
 $$
 P_{L}=\overrightarrow{j}\cdot \overrightarrow{E}
@@ -278,11 +278,11 @@ donc au conducteur électrique qui les contient.
 **Application au conducteur:**
 $$
 \begin{align*}
-P_{\text{Lorentz}}&=(\overrightarrow{j}\cdot \overrightarrow{E})SL&&\cr
-&=\frac{j^{2}}{\sigma_{0}}SL\text{ avec }\overrightarrow{j}=\sigma_{0}\overrightarrow{E}&&\cr
-&=\left( \frac{I}{S} \right)^{2}\frac{SL}{\sigma_{0}}&&\cr
-&=\frac{L}{S\sigma_{0}}I^{2}&&\cr
-&=R_{\text{elec}}I^{2}&&\cr
+P_{\text{Lorentz} }&=(\overrightarrow{j}\cdot \overrightarrow{E})SL&&\cr
+&=\frac{j^{2} }{\sigma_{0} }SL\text{ avec }\overrightarrow{j}=\sigma_{0}\overrightarrow{E}&&\cr
+&=\left( \frac{I}{S} \right)^{2}\frac{SL}{\sigma_{0} }&&\cr
+&=\frac{L}{S\sigma_{0} }I^{2}&&\cr
+&=R_{\text{elec} }I^{2}&&\cr
 \end{align*}
 $$
 La loi de Joule !!!
@@ -300,7 +300,7 @@ p_{L}=\sigma  \overrightarrow{E}^{2}.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObswFli8S0rj8S51gUsVxwzk" -->
 Def. Modèle de Drude:
 - électrons indépendant et libre
 - collisions instantanées

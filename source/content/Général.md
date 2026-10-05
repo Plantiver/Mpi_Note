@@ -4,3 +4,4 @@
 - Les citations que je note en cours, des profs, se trouvent à [[Général - Citation profs]].
 - Différents conseils que je peux donner se trouve [[Général - Conseil|ici]].
 - Un guide pour installer cette vault, obsidian, et anki: [[Général - Installation|là]].
+- Faites [[Général - Attention|attention]].

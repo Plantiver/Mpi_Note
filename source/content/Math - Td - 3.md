@@ -62,9 +62,9 @@ $$
 \text{b) }&\text{Il est évident que }\mathrm{Ker}p_{1}\cap\mathrm{Ker}p_{2}\subset\mathrm{Ker}q&&\cr
 &\text{Soit }x \in\mathrm{Ker}q\setminus\mathrm{Ker}p_{1}\cap\mathrm{Ker}p_{2}&&\cr
 \implies&q(x)=0\text{ et }p_{1}(x)\not=0 \text{ ou }p_{2}(x)\not=0&&\cr
-\implies&q(x)\not=0;\boxed{\text{Absurde !}}&&\cr
-\implies&\boxed{\mathrm{Ker}q\subset\mathrm{Ker}p_{1}\cap\mathrm{Ker}p_{2}}&&\cr
-\text{c) }&\text{Trivialement: }\underline{\mathrm{Im}q\subset\mathrm{Im}p_{1}+\mathrm{Im}p_{2}}&&\cr
+\implies&q(x)\not=0;\boxed{\text{Absurde !} }&&\cr
+\implies&\boxed{\mathrm{Ker}q\subset\mathrm{Ker}p_{1}\cap\mathrm{Ker}p_{2} }&&\cr
+\text{c) }&\text{Trivialement: }\underline{\mathrm{Im}q\subset\mathrm{Im}p_{1}+\mathrm{Im}p_{2} }&&\cr
 &\text{Soit }x=p_{1}(i)+p_{2}(j)\in\mathrm{Im}p_{1}+\mathrm{Im}p_{2}&&\cr
 \underset{q}{\implies}&q(x)=p_{1}(i)+p_{2}(j)+p_{1}p_{2}(i+j)-p_{1}p_{2}(i+j)&&\cr
 \implies&q(x)=x&&\cr
@@ -75,7 +75,7 @@ $$
 $$
 \begin{align*}
 \text{Exo 40}&&&\cr
-\text{a) }&\text{Trivialement: }\underline{\text{Par propriété du rang et par le TBA}}&&\cr
+\text{a) }&\text{Trivialement: }\underline{\text{Par propriété du rang et par le TBA} }&&\cr
 \text{b) }&X\in F\subset\mathrm{Ker}ABC&&\cr
 \implies&ABCX=0&&\cr
 \implies&CX\in\mathrm{Ker}AB&&\cr
@@ -84,8 +84,8 @@ $$
 \implies&CX=0&&\cr
 \implies&ABCX=0 \text{ et }BCX=0&&\cr
 \implies&X\in \mathrm{Ker}ABC \text{ et }X\in\mathrm{Ker}BC&&\cr
-\underset{\text{suplé}}{\implies}&X=0&&\cr
-\underset{\text{TdN}}{\implies}&\boxed{\varphi\text{ est injective}}&&\cr
+\underset{\text{suplé} }{\implies}&X=0&&\cr
+\underset{\text{TdN} }{\implies}&\boxed{\varphi\text{ est injective} }&&\cr
 \text{d) }&\text{Soit }b:\mathrm{Ker}AB\to\mathrm{Ker}A\text{ l'application associée à B}&&\cr
 &\text{On veut montrer que }\mathrm{Ker}AB=\mathrm{Ker}b\oplus \mathrm{Im}\varphi &&\cr
 &\text{Soit }X\in\mathrm{Ker}b\cap \mathrm{Im}\varphi &&\cr
@@ -97,14 +97,14 @@ $$
 \text{Exo 41}&&&\cr
 &\text{Si }M\in A\text{ est inversible, alors}&&\cr
 \implies&\exists \mu=\sum_{k=0}^{N}a_{k}X^{k} \in \mathbb{K}[X],\;\mu (M)=0\text{ et }\mu (0)=a_{0}w &&\cr
-\implies&Id_{n}=-\frac{1}{a_{0}}M\sum_{i=1}^{N}a_{i}M^{i-1}&&\cr
-\implies&M^{-1}=-\frac{1}{a_{0}}\sum_{i=1}^{N}a_{i}M^{i-1}\in \mathbb{K}[M]\subset A&&\cr
+\implies&Id_{n}=-\frac{1}{a_{0} }M\sum_{i=1}^{N}a_{i}M^{i-1}&&\cr
+\implies&M^{-1}=-\frac{1}{a_{0} }\sum_{i=1}^{N}a_{i}M^{i-1}\in \mathbb{K}[M]\subset A&&\cr
 \end{align*}
 $$
 $$
 \begin{align*}
 \text{Exo 59}&&&\cr
-\text{a) }&\text{Trivialement: }\underline{E\text{ est un sev de }\mathbb{C}^{\mathbb{N}}\text{ de dimension }2}&&\cr
+\text{a) }&\text{Trivialement: }\underline{E\text{ est un sev de }\mathbb{C}^{\mathbb{N} }\text{ de dimension }2}&&\cr
 \text{b) }&\text{Soient }r_{1},r_{2}\text{ racine de }p:z\to z^{2}+2az+4(ia-1)&&\cr
 &\Delta=4(a^{2}-4ia-4)=4(a-2i)^{2}&&\cr
 \implies&r_{1},r_{2}=a\pm(a-2i)=\mathrm{Set}( 2i,2(a-i) )&&\cr
@@ -129,7 +129,7 @@ $$
 &\text{Or, }u=f(i)+j,\;(i,j)\in E\times\mathrm{Ker}f&&\cr
 \implies&x=f(f(i)+j)=f^{2}(i)\in \mathrm{Im}f^{2}&&\cr
 \text{b) }&\text{Si }\mathrm{Im}f=\mathrm{Im}f^{2}&&\cr
-\implies&\text{Trivialement: }\underline{\mathrm{Ker}f\subset\mathrm{Ker}f^{2}}\text{ et, par le TBA }\mathrm{dim}\mathrm{Ker}f=\mathrm{dim}\mathrm{Ker}f^{2}&&\cr
+\implies&\text{Trivialement: }\underline{\mathrm{Ker}f\subset\mathrm{Ker}f^{2} }\text{ et, par le TBA }\mathrm{dim}\mathrm{Ker}f=\mathrm{dim}\mathrm{Ker}f^{2}&&\cr
 \implies&\mathrm{Ker}f=\mathrm{Ker}f^{2}&&\cr
 &\text{Réciproquement, si }\mathrm{Ker}f=\mathrm{Ker}f^{2}&&\cr
 \implies&\text{de même}\dots &&\cr

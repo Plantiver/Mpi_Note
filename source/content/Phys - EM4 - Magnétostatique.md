@@ -27,7 +27,7 @@ IRM: $5T$.
 
 
 ## 2 - Equation de Maxwell-flux (Maxwell-Thomson)
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObssoRt67Ia2ZmTOiVdkEYwi" -->
 Def. Equation de Maxwell-Thomson::
 $$
 \mathrm{div}\overrightarrow{B}(M,t)=0.
@@ -56,10 +56,10 @@ ou alors produit croisée
 - se rendre compte que 
 
 **énoncé:**
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsETF6pHDNtTKwcD95RgRhJ" -->
 Def. Equation de Maxwell-Ampère::
 $$
-\overrightarrow{\mathrm{rot}}\overrightarrow{B} = \mu_{0}\overrightarrow{j}+\frac{1}{c^{2}}\frac{ \partial E }{ \partial t } .
+\overrightarrow{\mathrm{rot} }\overrightarrow{B} = \mu_{0}\overrightarrow{j}+\frac{1}{c^{2} }\frac{ \partial E }{ \partial t } .
 $$
 <!-- basicblock-end -->
 avec:
@@ -70,11 +70,11 @@ avec:
 Dans le cadre de l'*ARQS magnétique* (cf [[Phys - EM5 - Le champ électromagnétique|EM5]]).
 On a:
 $$
-\|\mu_{0}\overrightarrow{j}\|>>\|\frac{1}{c^{2}}\frac{ \partial E }{ \partial t } \|.
+\|\mu_{0}\overrightarrow{j}\|>>\|\frac{1}{c^{2} }\frac{ \partial E }{ \partial t } \|.
 $$
 Dans ce cadre, l'équation de Maxwell-Ampère devient:
 $$
-\overrightarrow{\mathrm{rot}}\overrightarrow{B}=\mu_{0}\overrightarrow{j}.
+\overrightarrow{\mathrm{rot} }\overrightarrow{B}=\mu_{0}\overrightarrow{j}.
 $$
 On se place dans ce cadre pour le reste du chapitre.
 
@@ -84,30 +84,30 @@ On se place dans ce cadre pour le reste du chapitre.
 Généralisation de l'interprétation du rotationnel
 Soit $\Gamma$ un contour fermé orienté.
 On note $\overrightarrow{S}$ une surface orientée par la RMD, s'appuyant sur $\Gamma$
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsjkxkZtntgcB848VhZg2Q3" -->
 Th. d'Ampère::
 $$
-\iint_{S}(\overrightarrow{\mathrm{rot}}\overrightarrow{B})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
+\iint_{S}(\overrightarrow{\mathrm{rot} }\overrightarrow{B})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
 $$
 <!-- basicblock-end -->
 **Rq:**
 On admet que
 $$
-\overrightarrow{\mathrm{rot}}\overrightarrow{A}=0\iff \exists f,\;\overrightarrow{A}=\overrightarrow{ \mathrm{grad}}f.
+\overrightarrow{\mathrm{rot} }\overrightarrow{A}=0\iff \exists f,\;\overrightarrow{A}=\overrightarrow{ \mathrm{grad} }f.
 $$
 
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs3QKcp0zuoQgNG9XgHC12X" -->
 Def. Equation de Maxwell-Faraday::
 $$
-\overrightarrow{\mathrm{rot}}\overrightarrow{E}=-\frac{ \partial \overrightarrow{B} }{ \partial t } .
+\overrightarrow{\mathrm{rot} }\overrightarrow{E}=-\frac{ \partial \overrightarrow{B} }{ \partial t } .
 $$
 <!-- basicblock-end -->
 
 Par la formule de stokes
 $$
 \begin{align*}
-\oint_{\Gamma}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}l}&=\iint_{S}(\overrightarrow{\mathrm{rot}}\overrightarrow{E})\cdot \overrightarrow{\mathrm{d}S}&&\cr
+\oint_{\Gamma}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}l}&=\iint_{S}(\overrightarrow{\mathrm{rot} }\overrightarrow{E})\cdot \overrightarrow{\mathrm{d}S}&&\cr
 &=\iint_{S}\left( -\frac{ \partial \overrightarrow{B} }{ \partial t }  \right)\overrightarrow{\mathrm{d}S}&&\cr
 &=-\frac{ \partial  }{ \partial t } (\iint_{S}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}S})&&\cr
 \end{align*}

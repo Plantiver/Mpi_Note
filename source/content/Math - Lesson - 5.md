@@ -15,34 +15,34 @@ $$
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsBSlVVv4VirJXfp4tWdvFo" -->
 Def. $f:I\to \mathbb{R}$ convexe::
 $$
 \forall(\lambda,x,y)\in[0,1]\times I^{2},\;f(\lambda x+(1-\lambda)y)\leq \lambda f(x)+(1-\lambda)f(y)
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsJqYic1upb8Sp5RXO84ZD8" -->
 Th. (Jensen) $f:I\to \mathbb{R}$ convexe::
 $$
 \phantom{`}(\lambda_{i})\text{ stochastiques}\;\implies\;f\left( \sum_{i=1}^{n}\lambda_{i}x_{i} \right)\leq \sum_{i=1}^{n}\lambda_{i}f(x_{i}).\phantom{`}
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsRFY85YA6MCp6Q349r5Skb" -->
 Th. (Trois pentes) $f:I\to \mathbb{R}$ convexe::
 $$
 \forall(a,b,c)\in I^{3},\;(a<b<c)\;\implies\;\frac{f(b)-f(a)}{b-a}\leq \frac{f(c)-f(a)}{c-a}\leq \frac{f(c)-f(b)}{c-b}.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsKqcInk3Bq9Mvyc1qtlaTn" -->
 Prop. Convexité de $f\in D^{2}(I,\mathbb{R})$::
 - $f'$ croissante sur $I$
 - $f''\geq0$ sur $I$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsNWACrRa5x0o8DdzfkYT7m" -->
 Prop. Fonctions usuelles et leur tangente::
 - $e^{x}\geq 1+x$
 - $\ln(1+x)\leq x$

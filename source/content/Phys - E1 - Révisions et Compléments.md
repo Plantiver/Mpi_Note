@@ -141,7 +141,7 @@ Prop. Filtre R(L)::
 <!-- basicblock-start oid="ObsTIx7DPwYOwr3zqbfxkSHi" -->
 Prop. Pulsation propre d'un filtre du second ordre::
 $$
-\omega_{0}=\frac{1}{\sqrt{ LC }}
+\omega_{0}=\frac{1}{\sqrt{ LC } }
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsqpvqKlXZ9RWhraFjilxa7" -->
@@ -152,19 +152,19 @@ $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="Obs9LCwTIk4WJPsrxsftHCgU" -->
 Prop. Filtre RL(C)::
-- $H=\frac{1}{1+\frac{jx}{Q}-x^{2}}$
+- $H=\frac{1}{1+\frac{jx}{Q}-x^{2} }$
 - $\omega_{c}$
 - Passe bas du second ordre
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsBW2LZHkwTS02dmTMfLj9g" -->
 Prop. Filtre RC(L)::
-- $H=-\frac{x^{2}}{1+\frac{jx}{Q}-x^{2}}$
+- $H=-\frac{x^{2} }{1+\frac{jx}{Q}-x^{2} }$
 - $\omega_{c}$
 - Passe Haut du second ordre
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsUfJbeuSl5SZndRJMV3EY4" -->
 Prop. Filtre LC(R)::
-- $H=\frac{\frac{jx}{Q}}{1+\frac{jx}{Q}-x^{2}}$
+- $H=\frac{\frac{jx}{Q} }{1+\frac{jx}{Q}-x^{2} }$
 - $\omega_{c}$
 - Passe bande du second ordre
 <!-- basicblock-end -->
@@ -201,14 +201,14 @@ $$
 <!-- basicblock-start oid="ObsLH74gv5MfXqPLbkF3k9ro" -->
 Def. Valeur efficace d'un signal::
 $$
-s_{\mathrm{eff}} = \sqrt{\langle s^2(t) \rangle}
+s_{\mathrm{eff} } = \sqrt{\langle s^2(t) \rangle}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="Obshyum86iFLltwM6E2Hi4hI" -->
 Prop. Valeur efficace d'un signal sinusoïdal::
 $$
-s_{\mathrm{eff}} = \frac{1}{\sqrt{2}}
+s_{\mathrm{eff} } = \frac{1}{\sqrt{2} }
 $$
 <!-- basicblock-end -->
 
@@ -262,14 +262,14 @@ $$
 
 <!-- basicblock-start oid="ObsG97gX6wS8Ya6wItLFk984" -->
 Meth. Tracer un diagramme de Bode::
-- Tracé de $G_{\mathrm{dB}}(\omega)$ en fonction de $\log(\omega)$
+- Tracé de $G_{\mathrm{dB} }(\omega)$ en fonction de $\log(\omega)$
 - Tracé de $\varphi(\omega)$ en fonction de $\log(\omega)$.
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsI20hY9xT9Zb7wJtMGl095" -->
 Def. Bande passante d'un filtre::
 $$
-\mathrm{Set}\left(  \omega ,\;G(\omega)\geq \frac{H_{\text{max}}}{\sqrt{ 2 }}  \right).
+\mathrm{Set}\left(  \omega ,\;G(\omega)\geq \frac{H_{\text{max} } }{\sqrt{ 2 } }  \right).
 $$
 <!-- basicblock-end -->
 
@@ -285,7 +285,7 @@ $$
 <!-- basicblock-start oid="ObsM98kP1qLxRt7wNvBCz381" -->
 Th. de Millman (hp)::
 $$
-\phantom{`}\underline{U} = \frac{\sum_{k=1}^{N} \frac{\underline{V}_k}{\underline{Z}_k}}{\sum_{k=1}^{N} \frac{1}{\underline{Z}_k}}\phantom{`}
+\phantom{`}\underline{U} = \frac{\sum_{k=1}^{N} \frac{\underline{V}_k}{\underline{Z}_k} }{\sum_{k=1}^{N} \frac{1}{\underline{Z}_k} }\phantom{`}
 $$
 <!-- basicblock-end -->
 

@@ -5,21 +5,21 @@ deck: phys
 <!-- basicblock-start oid="Obsd5iNjtG0CqwBJ4FRRKp3v" -->
 Loi. de Coulomb entre $M_{1}(q_{1})$ et $M_{2}(q_{2})$::
 $$
-\overrightarrow{F_{E,M_{1}\to M_{2}}}=\frac{q_{1}q_{2}}{4\pi\varepsilon_{0}||\overrightarrow{M_{1}M_{2}}||^{3}}\overrightarrow{M_{1}M_{2}}.
+\overrightarrow{F_{E,M_{1}\to M_{2} } }=\frac{q_{1}q_{2} }{4\pi\varepsilon_{0}||\overrightarrow{M_{1}M_{2} }||^{3} }\overrightarrow{M_{1}M_{2} }.
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsOyIxU0sBQNbgmJpzC4vMN" -->
 Def. Champ électrostatique d'une particule $P(q_{1})$::
 $$
-\overrightarrow{E(M)}=\frac{q}{4\pi\varepsilon_{0}||\overrightarrow{PM}||^{3}}\overrightarrow{PM}.
+\overrightarrow{E(M)}=\frac{q}{4\pi\varepsilon_{0}||\overrightarrow{PM}||^{3} }\overrightarrow{PM}.
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="Obs7YnHeYRvyxpFK7u9wc9S8" -->
 Prop. Principe de superposition du champs électrostatique::
 $$
-\overrightarrow{E}=\sum_{i}\overrightarrow{E_{i}}.
+\overrightarrow{E}=\sum_{i}\overrightarrow{E_{i} }.
 $$
 <!-- basicblock-end -->
 
@@ -34,7 +34,7 @@ $$
 Prop. Propriété de la circulation::
 - $\phantom{`}\mathcal{C}_{\gamma}+\mathcal{C}'_{\gamma} = (\mathcal{C}+\mathcal{C}')_{\gamma}\phantom{`}$
 - $\phantom{`}\mathcal{C}_{-\gamma}=-\mathcal{C}_{\gamma}\phantom{`}$
-- $\phantom{`}\mathcal{C}_{\gamma_{1}+\gamma_{2}}=\mathcal{C}_{\gamma_{1}}+\mathcal{C}_{\gamma_{2}}\phantom{`}$.
+- $\phantom{`}\mathcal{C}_{\gamma_{1}+\gamma_{2} }=\mathcal{C}_{\gamma_{1} }+\mathcal{C}_{\gamma_{2} }\phantom{`}$.
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsQs4dxCozdUidfFJoM87Ta" -->
@@ -72,7 +72,7 @@ $$
 <!-- basicblock-start oid="Obs0iyoIFcLg06kzRL0Xn7N1" -->
 Def. Potentielle électrostatique d'une particule::
 $$
-V(r) = \frac{1}{4\pi\varepsilon_{0}}\frac{q}{r}+K
+V(r) = \frac{1}{4\pi\varepsilon_{0} }\frac{q}{r}+K
 $$
 <!-- basicblock-end -->
 
@@ -93,21 +93,21 @@ $$
 <!-- basicblock-start oid="Obs0SWEnJ3SOowUzU31DK5yQ" -->
 Def. La différentielle::
 $$
-df=(\overrightarrow{\mathrm{grad}}f)\cdot \overrightarrow{dl}=\frac{ \partial y }{ \partial x }\mathrm{d}x+\frac{ \partial f }{ \partial y }\mathrm{d}y+\frac{ \partial f }{ \partial z }\mathrm{d}z  
+df=(\overrightarrow{\mathrm{grad} }f)\cdot \overrightarrow{dl}=\frac{ \partial y }{ \partial x }\mathrm{d}x+\frac{ \partial f }{ \partial y }\mathrm{d}y+\frac{ \partial f }{ \partial z }\mathrm{d}z  
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsFqP8mxQ351ofJFjyzU8Tn" -->
 Prop. Dév Limité de $f$ en $M$ proche de $O$::
 $$
-f(M)\simeq f(O)+\overrightarrow{OM}\cdot (\overrightarrow{\mathrm{grad}}f)(O)
+f(M)\simeq f(O)+\overrightarrow{OM}\cdot (\overrightarrow{\mathrm{grad} }f)(O)
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsuDNGXnvGGTKyyE1ex9eiD" -->
 Prop. Gradient en cylindrique::
 $$
-\overrightarrow{ \mathrm{grad}}f=\frac{ \partial f }{ \partial r } \overrightarrow{e_{r}}+\frac{1}{r}\frac{ \partial f }{ \partial \theta } \overrightarrow{u_{\theta}}+\frac{ \partial f }{ \partial z } \overrightarrow{u_z}
+\overrightarrow{ \mathrm{grad} }f=\frac{ \partial f }{ \partial r } \overrightarrow{e_{r} }+\frac{1}{r}\frac{ \partial f }{ \partial \theta } \overrightarrow{u_{\theta} }+\frac{ \partial f }{ \partial z } \overrightarrow{u_z}
 $$
 <!-- basicblock-end -->
 
@@ -121,21 +121,21 @@ $$
 <!-- basicblock-start oid="ObsTOFeFdXZOJxm7GD0JcOGM" -->
 Def. Tension électrique entre $A$ et $B$::
 $$
-\phantom{`}U_{AB}=\mathcal{C}_{\gamma_{AB}}\phantom{`}
+\phantom{`}U_{AB}=\mathcal{C}_{\gamma_{AB} }\phantom{`}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsyJd2hB2Ymn4AZETIQFpvr" -->
 Def. Energie potentielle à partir de la force::
 $$
-\overrightarrow{F}=-\overrightarrow{ \mathrm{grad}}\mathcal{E}_{p}
+\overrightarrow{F}=-\overrightarrow{ \mathrm{grad} }\mathcal{E}_{p}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsyMSWtLbrkYpgHbA1QB6AY" -->
 Prop. Circulation d'un fonction $f$ différentiable::
 $$
-\oint \overrightarrow{ \mathrm{grad}}f\cdot \overrightarrow{dl}=0
+\oint \overrightarrow{ \mathrm{grad} }f\cdot \overrightarrow{dl}=0
 $$
 <!-- basicblock-end -->
 
@@ -149,7 +149,7 @@ $$
 <!-- basicblock-start oid="ObsAzbMFuwmp6Yu49aZyNN9F" -->
 Def. Travail d'une force::
 $$
-\phantom{`}W_{\gamma_{A\to B}}=\int_{\gamma_{A\to B}}\delta W\phantom{`}
+\phantom{`}W_{\gamma_{A\to B} }=\int_{\gamma_{A\to B} }\delta W\phantom{`}
 $$
 <!-- basicblock-end -->
 
@@ -161,7 +161,7 @@ $$
 <!-- basicblock-end -->
 
 $$
-W_{\infty \to M}=\int_{+\infty}^{M} \delta W =-\int_{+\infty}^{M}\mathrm{d}\mathcal{E}_p=-\mathcal{E}_p(M)=-qV(M)=-\frac{qq_{0}}{4\pi\varepsilon_{0}r}
+W_{\infty \to M}=\int_{+\infty}^{M} \delta W =-\int_{+\infty}^{M}\mathrm{d}\mathcal{E}_p=-\mathcal{E}_p(M)=-qV(M)=-\frac{qq_{0} }{4\pi\varepsilon_{0}r}
 $$
 Si $r\to_{0}$, l'energie diverge:
 - $qq_{0}<0\implies \mathcal{E}_p\to-\infty$
@@ -187,7 +187,7 @@ Def. Dipôle électrostatique::
 - Dipolaire: $\overrightarrow{p}=q\overrightarrow{NP}$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obszx3lneNg3bKhWzgQELlvF" -->
 Def. Approximation dipolaire::
 $$
 \forall M,\;\|\overrightarrow{OM}\|>>\|\overrightarrow{NP}\|.
@@ -198,17 +198,17 @@ $$
 ![[Phys - Démo - Potentiel d'un dypole]]
 
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsqjKLMYTIsax3acL72O0Ez" -->
 Prop. Action d'un champs électrique uniforme sur un dipôle::
 $$
-\text{Couple de force de moment }\overrightarrow{\Gamma_{0}}=\overrightarrow{p}\wedge \overrightarrow{E_{0}}.
+\text{Couple de force de moment }\overrightarrow{\Gamma_{0} }=\overrightarrow{p}\wedge \overrightarrow{E_{0} }.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsc7jWuIXNDp0lRTeJjZulM" -->
 Prop. Energie potentielle d'un dipôle soumis à un champs électrique uniforme::
 $$
-\mathcal{E}_{p}=-\overrightarrow{p}\cdot \overrightarrow{E_{0}}.
+\mathcal{E}_{p}=-\overrightarrow{p}\cdot \overrightarrow{E_{0} }.
 $$
 <!-- basicblock-end -->
 

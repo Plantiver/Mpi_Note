@@ -34,14 +34,7 @@ Def. ADT Array::
 - Mettre la valeur $x$ dans $i$
 - Récupérer la valeur dans $i$.
 <!-- basicblock-end -->
-<!-- basicblock-start oid="ObspSOcXq2sreQyAq9eMAQzN" -->
-Def. ADT Set::
-- Créer un ensemble vide
-- Ajouter $x$ à un ensemble
-- Enlever $x$ à un ensemble
-- Parcourir les éléments d'un ensemble
-- Savoir si $x$ est dans un ensemble.
-<!-- basicblock-end -->
+
 
 <!-- basicblock-start oid="Obsh56uIUKMAP3yxfUX8KuQk" -->
 Def. Implémentation d'un ADT::
@@ -53,7 +46,7 @@ Def. Implémentations Union&Find::
 - Graphe où la composante connexe de $i$ est sa classe d'aquivalence
 - Forêt: un tableau où $tab.(i)$ est le parent de $i$.
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsPNJAodpY8vPrxs1KQRMQz" -->
 Prop. Union par rang::
 ```ocaml
 let rec unir_rang uf i j =
@@ -68,7 +61,7 @@ let rec unir_rang uf i j =
 		uf.(i) <- (j, ri);
 ```
 <!-- basicblock-end -->
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsQC7ky1yxLYXGV3QanwbeY" -->
 Prop. Good Find::
 ```ocaml
 let rec gf uf i =

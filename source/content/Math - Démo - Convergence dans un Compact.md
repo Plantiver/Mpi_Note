@@ -1,6 +1,6 @@
 **Énoncé:**
 Soit $X\subset E$ un compact.
-Soit $(u_{n})\in X^{\mathbb{N}}$ avec pour seule Valeur d'Adhérence $l\in X$.
+Soit $(u_{n})\in X^{\mathbb{N} }$ avec pour seule Valeur d'Adhérence $l\in X$.
 Montrer que $(u_{n})\underset{ n }{ \to }l$.
 
 **Idée:**

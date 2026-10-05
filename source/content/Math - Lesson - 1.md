@@ -284,7 +284,7 @@ $$
 <!-- basicblock-start oid="ObslC8DSvFwc4Svo1l05If6o" -->
 Th. Division Euclidienne::
 $$
-\forall(A,B)\in\mathbb{K}[X]^{\star^{2}},\;\exists!(Q,R)\in \mathbb{K}[X]^{2},\;\begin{cases}
+\forall(A,B)\in\mathbb{K}[X]^{\star^{2} },\;\exists!(Q,R)\in \mathbb{K}[X]^{2},\;\begin{cases}
 A=BQ+R \cr
 \mathrm{deg}R<\mathrm{deg}B
 \end{cases}.
@@ -328,7 +328,7 @@ $$
 <!-- basicblock-start oid="ObsYSbGvmxRPqi9HSd0dAeJa" -->
 Th. Formule de Viète::
 $$
-\phantom{`}\forall k\in[1;n],\;\sigma_{k}=\sum_{I\in \mathscr{P}_{k}([1;n])}\prod_{i\in I}\alpha_{i}=(-1)^{k}\frac{a_{n-k}}{a_{n}}.\phantom{`}
+\phantom{`}\forall k\in[1;n],\;\sigma_{k}=\sum_{I\in \mathscr{P}_{k}([1;n])}\prod_{i\in I}\alpha_{i}=(-1)^{k}\frac{a_{n-k} }{a_{n} }.\phantom{`}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsgLH5hWHhtyMZVvgtbLH2w" -->
@@ -366,6 +366,6 @@ $$
 <!-- basicblock-start oid="Obshyum86iFLltwM6E2Hi4hI" -->
 Def. Polynôme de Lagrange::
 $$
-\mathrm{Set}( a_{i} )\in \mathbb{K},L_{i}=\prod_{j\in[1,n]\setminus \mathrm{Set}( i )}\frac{X-a_{j}}{a_{i}-a_{j}}
+\mathrm{Set}( a_{i} )\in \mathbb{K},L_{i}=\prod_{j\in[1,n]\setminus \mathrm{Set}( i )}\frac{X-a_{j} }{a_{i}-a_{j} }
 $$
 <!-- basicblock-end -->
