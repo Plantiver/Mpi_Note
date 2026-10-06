@@ -12,6 +12,7 @@
 - Algo $A^{\star}$.
 # [[Math]]
 - DL, relation d'ordre et d'équivalence
+- Toutes les fiches en faite
 # [[Phys]]
 - cours EM3 en fiche
 - cours de l'année dernière en fiche
@@ -29,6 +30,10 @@
 
 # Urgent
 - dm physique
+- td info
+- td maths
+- démo phys
+- fix flashcards
 
 
 

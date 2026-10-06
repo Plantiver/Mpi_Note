@@ -30,7 +30,7 @@ Pour un volume macroscopique, on définit $\rho(M)$ qui dépend de $M$. La charg
 <!-- basicblock-start oid="ObsCq6jAs7DFHZBW8o8LTbll" -->
 Prop. Charge totale dans un volume::
 $$
-Q=\iiint_{V}\rho \mathrm{d}\tau.
+Q=\iiint_{V}\rho \mathrm{d}V.
 $$
 <!-- basicblock-end -->
 Rq: En générale, la matière est électriquement neutre ($\rho$ et $Q$ sont nuls).

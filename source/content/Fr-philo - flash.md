@@ -1,3 +1,8 @@
+---
+deck: fr-philo
+---
+
+
 <!-- basicblock-start oid="ObsisKR3Kw9PLzwODJmRD9Oj" -->
 Meth. Les deux types d'interprétation d'un génitif x de y::
 - Sujet: x dans y

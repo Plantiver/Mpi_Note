@@ -49,13 +49,18 @@ She wanted to be left alone.
 
 ## Thème journalistique
 Us, humans, minority on earth.
-I've grown up in Calcutta, in a urban and crowded environment. Nature was to be found in poetry and film, and in my daily life, wasn't something I had access to, it meant snakes, and malaria... I've never really came across Nature until my own "mondialisation", when emigrating to Australia, in Canberra, which is built right in middle of the bush. At lunch, friends of mine would tell me: "Wanna go eating a sandwich on this hill?". And we would (climb/wander/...) upon the hill, we would jump in the river. Little by little, I was falling in love with all this Nature that was all around Canberra. In 2003, super fires destroyed everything. It was a chock, and the beginning of my discovery between those fires and climate change. I've discovered that scientific were saying that humanity had became the main force(..) of earth's transformation. This has changed my own being, and re targeted my work as an historian.
+I've grown up in Calcutta, in a urban and crowded environment. Nature was to be found in poetry and film, and in my daily life, wasn't something I had access to, it meant snakes, and malaria... I've never really came across Nature until my own "mondialisation", when emigrating to Australia, in Canberra, which is built right in middle of the bush. At lunch, friends of mine would tell me: "Wanna go eating a sandwich on this hill?". And we would (climb/wander/...) upon the hill, we would jump in the river. Little by little, I was falling in love with all this Nature that was all around Canberra. In 2003, wild fires destroyed everything. It was a huge shock, and the beginning of my discovery of the link between those fires and climate change. I've discovered that scientific were saying that humanity had became the main force(..) of earth's transformation. This had changed my own being, and re targeted my work as an historian.
+
+I started to realize. They were related.
 
 would: comportement typique du passé.
 chasser-croiser de traduction
+Stated/Claim: pratique
 
-
-
+"Be you,
+be proud of you, 
+because you can be, do,
+what we want to do."
 
 
 
