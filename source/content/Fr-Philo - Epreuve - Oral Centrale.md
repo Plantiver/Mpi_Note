@@ -13,3 +13,4 @@ Il peut être utile de remarquer l'organisation du texte (paragraphe).
 2. Thème: La question à laquelle le texte veut répondre (/raison d'existence du texte)
 3. Thèse: Réponse apportée à cette question (reformulation obligatoire)
 4. Structure et résumé logique de l'rgumentation
+5. Type de texte

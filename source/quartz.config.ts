@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Mpi Vault",
-    pageTitleSuffix: "A comprehensive guide for MPI",
+    pageTitle: "A comprehensive guide for Mpi",
+    pageTitleSuffix: "MPI",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
