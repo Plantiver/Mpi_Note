@@ -168,7 +168,7 @@ Prop. Filtre LC(R)::
 - $\omega_{c}$
 - Passe bande du second ordre
 <!-- basicblock-end -->
-
+#todo: fix filtre
 
 ---
 <!-- basicblock-start oid="ObsYSbGvmxRPqi9HSd0dAeJa" -->

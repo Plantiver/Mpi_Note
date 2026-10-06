@@ -27,12 +27,7 @@ IRM: $5T$.
 
 
 ## 2 - Equation de Maxwell-flux (Maxwell-Thomson)
-<!-- basicblock-start oid="ObssoRt67Ia2ZmTOiVdkEYwi" -->
-Def. Equation de Maxwell-Thomson::
-$$
-\mathrm{div}\overrightarrow{B}(M,t)=0.
-$$
-<!-- basicblock-end -->
+![[Phys - Formule#Equation de Maxwell-Thomson]]
 $\;\implies\;$ Le champs magnétique est TOUJOURS à flux conservatif.
 Donc
 $$
@@ -44,7 +39,7 @@ De plus, les lignes de champs sont toujours fermées.
 
 ## 3 - Equation de Maxwell-Ampère
 **a - Rotationnel d'un champ de vecteur**:
-def du rotationnel, voir [[Phys - EM1 - Champs et potentiels créés par des charges ponctuelles|EM1]].
+def du rotationnel, voir [[Phys - Math#Opérateur rotationnel]].
 
 rappel sur le produit vectoriel:
 règle de la main droite + longeur
@@ -54,14 +49,11 @@ ou alors produit croisée
 - calculer la circulation sur un petit carré
 - sommer les cotés face à face
 - se rendre compte que 
+> [!note]- Interprétation du rotationnel
+![[Phys - Démo - Interprétation du rotationnel]]
 
 **énoncé:**
-<!-- basicblock-start oid="ObsETF6pHDNtTKwcD95RgRhJ" -->
-Def. Equation de Maxwell-Ampère::
-$$
-\overrightarrow{\mathrm{rot} }\overrightarrow{B} = \mu_{0}\overrightarrow{j}+\frac{1}{c^{2} }\frac{ \partial E }{ \partial t } .
-$$
-<!-- basicblock-end -->
+![[Phys - Formule#Equation de Maxwell-Ampère]]
 avec:
 - $\mu_{0}$ la perméabilité magnétique du vide
 - $c$ la célérité de la lumière dans le vide
@@ -84,25 +76,16 @@ On se place dans ce cadre pour le reste du chapitre.
 Généralisation de l'interprétation du rotationnel
 Soit $\Gamma$ un contour fermé orienté.
 On note $\overrightarrow{S}$ une surface orientée par la RMD, s'appuyant sur $\Gamma$
-<!-- basicblock-start oid="ObsjkxkZtntgcB848VhZg2Q3" -->
-Th. d'Ampère::
-$$
-\iint_{S}(\overrightarrow{\mathrm{rot} }\overrightarrow{B})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
-$$
-<!-- basicblock-end -->
+
+![[Phys - Formule#Théorème d'Ampère]]
+
 **Rq:**
 On admet que
 $$
 \overrightarrow{\mathrm{rot} }\overrightarrow{A}=0\iff \exists f,\;\overrightarrow{A}=\overrightarrow{ \mathrm{grad} }f.
 $$
 
-
-<!-- basicblock-start oid="Obs3QKcp0zuoQgNG9XgHC12X" -->
-Def. Equation de Maxwell-Faraday::
-$$
-\overrightarrow{\mathrm{rot} }\overrightarrow{E}=-\frac{ \partial \overrightarrow{B} }{ \partial t } .
-$$
-<!-- basicblock-end -->
+![[Phys - Formule#Equation de Maxwell-Faraday]]
 
 Par la formule de stokes
 $$

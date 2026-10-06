@@ -37,38 +37,6 @@ Prop. Propriété de la circulation::
 - $\phantom{`}\mathcal{C}_{\gamma_{1}+\gamma_{2} }=\mathcal{C}_{\gamma_{1} }+\mathcal{C}_{\gamma_{2} }\phantom{`}$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start oid="ObsQs4dxCozdUidfFJoM87Ta" -->
-Def. Opérateur nabla::
-$$
-\overrightarrow{\nabla}=\begin{pmatrix}
-\frac{ \partial  }{ \partial x }  \cr
-\frac{ \partial  }{ \partial y }  \cr
-\frac{ \partial  }{ \partial z } 
-\end{pmatrix}
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="ObseS13l3QgyjzwoweoHEr4M" -->
-Def. Opérateur gradient::
-$$
-\overrightarrow{grad}f=\overrightarrow{\nabla}f
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="ObsyduipQ7uZ9NBPZbSHBHSf" -->
-Def. Opérateur divergence::
-$$
-\mathrm{div}\overrightarrow{f}=\overrightarrow{\nabla}\cdot \overrightarrow{f}
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="Obsj06n3JnMPAKM1896l9JgQ" -->
-Def. Opérateur rotationnel::
-$$
-\overrightarrow{rot}\overrightarrow{f}=\overrightarrow{\nabla}\wedge \overrightarrow{f}
-$$
-<!-- basicblock-end -->
-
 <!-- basicblock-start oid="Obs0iyoIFcLg06kzRL0Xn7N1" -->
 Def. Potentielle électrostatique d'une particule::
 $$
@@ -87,27 +55,6 @@ $$
 Prop. Circulation conservative du champ électrostatique::
 $$
 \oint_{\gamma}\overrightarrow{E}\cdot \overrightarrow{dl}=0
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="Obs0SWEnJ3SOowUzU31DK5yQ" -->
-Def. La différentielle::
-$$
-df=(\overrightarrow{\mathrm{grad} }f)\cdot \overrightarrow{dl}=\frac{ \partial y }{ \partial x }\mathrm{d}x+\frac{ \partial f }{ \partial y }\mathrm{d}y+\frac{ \partial f }{ \partial z }\mathrm{d}z  
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="ObsFqP8mxQ351ofJFjyzU8Tn" -->
-Prop. Dév Limité de $f$ en $M$ proche de $O$::
-$$
-f(M)\simeq f(O)+\overrightarrow{OM}\cdot (\overrightarrow{\mathrm{grad} }f)(O)
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="ObsuDNGXnvGGTKyyE1ex9eiD" -->
-Prop. Gradient en cylindrique::
-$$
-\overrightarrow{ \mathrm{grad} }f=\frac{ \partial f }{ \partial r } \overrightarrow{e_{r} }+\frac{1}{r}\frac{ \partial f }{ \partial \theta } \overrightarrow{u_{\theta} }+\frac{ \partial f }{ \partial z } \overrightarrow{u_z}
 $$
 <!-- basicblock-end -->
 

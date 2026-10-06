@@ -7,9 +7,7 @@
 - Fiches de citations
 - Fiches de sous-parties
 - doc exel
-- Voir les devoirs pour la semaine prochaine
 - Fiche méthode Dissertation + Résumé
-- 
 # [[Info]]
 - Algo $A^{\star}$.
 # [[Math]]

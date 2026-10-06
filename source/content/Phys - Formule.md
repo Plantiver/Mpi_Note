@@ -1,3 +1,6 @@
+---
+deck: phys
+---
 
 
 ### Equation de Maxwell-Gauss
@@ -5,6 +8,30 @@
 Loi. Equation de Maxwell-Gauss::
 $$
 \mathrm{div}\overrightarrow{E}=\frac{\rho}{\varepsilon_{0} }.
+$$
+<!-- basicblock-end -->
+
+### Equation de Maxwell-Thomson
+<!-- basicblock-start oid="ObssoRt67Ia2ZmTOiVdkEYwi" -->
+Def. Equation de Maxwell-Thomson::
+$$
+\mathrm{div}\overrightarrow{B}(M,t)=0.
+$$
+<!-- basicblock-end -->
+
+### Equation de Maxwell-Ampère
+<!-- basicblock-start oid="ObsETF6pHDNtTKwcD95RgRhJ" -->
+Def. Equation de Maxwell-Ampère::
+$$
+\overrightarrow{\mathrm{rot} }\overrightarrow{B} = \mu_{0}\overrightarrow{j}+\frac{1}{c^{2} }\frac{ \partial E }{ \partial t } .
+$$
+<!-- basicblock-end -->
+
+### Equation de Maxwell-Faraday
+<!-- basicblock-start oid="Obs3QKcp0zuoQgNG9XgHC12X" -->
+Def. Equation de Maxwell-Faraday::
+$$
+\overrightarrow{\mathrm{rot} }\overrightarrow{E}=-\frac{ \partial \overrightarrow{B} }{ \partial t } .
 $$
 <!-- basicblock-end -->
 
@@ -48,4 +75,10 @@ $$
 $$
 <!-- basicblock-end -->
 
-
+### Théorème d'Ampère
+<!-- basicblock-start oid="ObsjkxkZtntgcB848VhZg2Q3" -->
+Th. d'Ampère::
+$$
+\iint_{S}(\overrightarrow{\mathrm{rot} }\overrightarrow{B})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
+$$
+<!-- basicblock-end -->

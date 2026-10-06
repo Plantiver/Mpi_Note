@@ -119,14 +119,8 @@ $$
 
 
 ### Intensité du courant
-Rappel: Flux d'un vecteur
-<!-- basicblock-start oid="ObsY5eoU8nrV34tH2QaubLww" -->
-Def. Flux d'un vecteur $\overrightarrow{v}$ sur une surface orientée $\overrightarrow{S}$::
-$$
-\varphi=\iint_{S}\overrightarrow{v}\cdot \overrightarrow{\mathrm{d}S}
-$$
-<!-- basicblock-end -->
-Interprétation: Selon l'orientation de la surface, on compte plus où moins des charges qui traversent.
+Rappel: [[Phys - Math#Flux d'un champ]].
+
 Par définition, l'intensité d'un courant électrique traversant une surface $S$ vaut:
 <!-- basicblock-start oid="ObsDkwIGLCqBG8dmwjiuxtN1" -->
 Def. Intensité électrique traversant une surface $\overrightarrow{S}$::

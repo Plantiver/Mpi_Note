@@ -10,6 +10,7 @@ deck: phys
 Def. Qu'est-ce qu'$\varepsilon_{0}$ ?::
 La permittivité diélectrique du vide.
 <!-- basicblock-end -->
+#todo: specify a value for $\varepsilon_{0}$
 
 
 Le champ $\overrightarrow{E(M,t)}$ s'écrit:
@@ -75,7 +76,7 @@ formule de stockes?
 ![[Phys - Formule#Théorème de Gauss]]
 Soit un volume $V$ quelconque de surface fermée $S$.
 $$
-\phi_{s}(\overrightarrow{E})=\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}=\iiint_{V}\mathrm{div}\overrightarrow{E}\cdot \mathrm{d}V=\iiint_{V}\frac{\rho}{\varepsilon_{0} }\mathrm{d}V=\frac{1}{\varepsilon_{0} }\iint_{V}S\mathrm{d}V=\frac{Q_{\text{intérieur à }S} }{\varepsilon_{0} }
+\phi_{s}(\overrightarrow{E})=\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{\mathrm{d}S}=\iiint_{V}\mathrm{div}\overrightarrow{E}\cdot \mathrm{d}V=\iiint_{V}\frac{\rho}{\varepsilon_{0} }\mathrm{d}V=\frac{1}{\varepsilon_{0} }\iiint_{V}\rho\mathrm{d}V=\frac{Q_{\text{intérieur à }S} }{\varepsilon_{0} }
 $$
 Pour les distribution de charge à "Haut degré de symétrie", le théorème de Gauss limite les calculs.
 **Rq**
@@ -120,9 +121,8 @@ $$
 
 **Autres méthode:** calcul direct par Maxwell-Gauss.
 En sphérique:
-$$
-\mathrm{div}\overrightarrow{E}=\frac{1}{r^{2} }\frac{ \partial r^{2}E_{r} }{ \partial r } +\frac{1}{r\sin\varphi}\frac{ \partial E_{\theta} }{ \partial \theta } +\frac{1}{r\sin}\frac{ \partial \sin\theta E_{\varphi} }{ \partial \varphi } 
-$$
+![[Phys - Math#Divergence en sphérique]]
+
 Or $\overrightarrow{E}=E(r)\overrightarrow{e_{r} }$
 $\implies \mathrm{div}\overrightarrow{E}=\frac{1}{r^{2} }\frac{ \partial r^{2}E_{r} }{ \partial r }$
 
@@ -433,12 +433,6 @@ En choisissant l'origine des potentiels à l'$\infty$, on retrouve la même chos
 C'est possible de faire la même chose pour le cylindre. Mais bon...
 
 
-<!-- basicblock-start oid="ObsZF0qqNB0pyKkt5ZsOXaQ4" -->
-Def. Laplacien::
-$$
-\dot{\Delta}=\overrightarrow{\nabla}^{2}
-$$
-<!-- basicblock-end -->
 
 
 

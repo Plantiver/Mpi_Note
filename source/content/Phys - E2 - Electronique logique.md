@@ -16,7 +16,7 @@ Toutes les portes sont considérés comme idéales, i.e.
 - un courant d'entrée nul
 - une impédence d'entrée infini.
 
-Pour travailler -> besoin de l'[[Algèbre de Boole]]
+Pour travailler -> besoin de l'Algèbre de Boole
 
 ### 1 - La porte Not:
 Représentation ANSI/IEC:
@@ -186,7 +186,6 @@ Def. Système monostable::
 Système avec un unique état stable, et qui y revient en un temps caractéristique si perturbé.
 <!-- basicblock-end -->
 
-#work
 <!-- basicblock-start oid="Obs3REQIkaAR9pfD3BMz38wH" -->
 Def. Système bistable::
 Système séquentielle avec deux états stable, dont l'on peut passer de l'un à l'autre via une commande.
