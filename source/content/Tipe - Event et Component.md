@@ -12,3 +12,7 @@ Par contre, la représentation en mémoire de ces component...
 Il me faut forcément un système de hashage basé sur les champs de la structure si elle existe, et de quelque chose utilisé par l'humain pour reconnaitre ce component.
 Il faut juste que je balance bien la longueur du hash obtenu au final, pour qu'elle soit ni trop longue (lourd en mémoire) ni trop courte.
 Je pense que je vais représenter le tout sur 8 bytes, ça m'a l'air pas mal comme nombre, il faut juste que je trouve un moyen de représenter le tout.
+
+On définit deux types, les locaux et globaux, les premiers étant spécifique à un programme, et donc pouvant différer en organisation pour chaque process. Les deuxième sont quand à eux utilisé par tout les programmes du système, les forçant à être synchronisée. Ici, je peux même les forcer à être synchronisé avec une librairie statique partagée par tous, et d’empêcher chaque programme de créer ses propres.
+Cela permet aussi de beaucoup réduire la taille de nos tags, parce que l'on a beaucoup moins besoin d'avoir une grande range, pour que chacun puisse prendre le sien.
+
