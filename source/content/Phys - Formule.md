@@ -75,10 +75,18 @@ $$
 $$
 <!-- basicblock-end -->
 
-### Théorème d'Ampère
+### Formule de Stokes
 <!-- basicblock-start oid="ObsjkxkZtntgcB848VhZg2Q3" -->
+Th. Formule de Stockes::
+$$
+\iint_{S}(\overrightarrow{\mathrm{rot} }\overrightarrow{A})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
+$$
+<!-- basicblock-end -->
+
+### Théorème d'Ampère
+<!-- basicblock-start -->
 Th. d'Ampère::
 $$
-\iint_{S}(\overrightarrow{\mathrm{rot} }\overrightarrow{B})\cdot \overrightarrow{\mathrm{d}S} = \oint_{\Gamma}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}l}.
+\oint_{\Gamma}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}=\mu_{0}I_{\text{enlace}}.
 $$
 <!-- basicblock-end -->

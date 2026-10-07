@@ -6,3 +6,4 @@
 - [[Phys - Démo - Champ électrique d'une particule]]
 - [[Phys - Démo - Champ électrique d'un plan]]
 - [[Phys - Démo - Interprétation du rotationnel]]
+- [[Phys - Démo - Champ magnétique du fil infini]]

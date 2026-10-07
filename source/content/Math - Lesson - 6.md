@@ -51,16 +51,51 @@ P=\prod P_{i},\;\forall i\not=j,\;P_{i}\wedge P_{j}=1 \;\implies\;\mathrm{Ker}P(
 $$
 <!-- basicblock-end -->
 
-#todo : 5 CNS de DZ
+<!-- basicblock-start -->
+Th. 5 CNS de DZ::
+- $E=\bigoplus_{\mu \in \mathrm{Sp}u}E_{\mu}(u)$
+- $\mathrm{dim}E=\sum_{\mu \in \mathrm{Sp}u}\mathrm{dim}E_{\mu}(u)$
+- $\chi_{u}=\prod_{\mu \in \mathrm{Sp}u}(X-\mu)^{m_{\mu}}$ et $\forall \mu \in \mathrm{Sp}u,\;\mathrm{dim}E_{\mu}u=m_{\mu}$
+- $\pi_{u}=\prod_{\mu \in \mathrm{Sp}u}(X-\mu)\in \mathbb{K}[X]$
+- $\exists P\in \mathbb{K}[X],\;\begin{cases}P(u)=0\cr P=\prod(X-\lambda_{i}),\;(i\not=j\implies\lambda_{i}\not=\lambda_{j})\end{cases}$
+<!-- basicblock-end -->
 
-Th. Dz d'un induit
+<!-- basicblock-start -->
+Th. DZ d'un induit::
+- Soit $v$ induite de $u$
+- $\pi_{v} | \pi_{u}$
+- $u$ DZ $\;\implies\;v$ DZ.
+<!-- basicblock-end -->
 
-Def: TZ
+<!-- basicblock-start -->
+Def. TZ::
+- u est TZ ssi $\exists B,\;\mathcal{Mat}_{B}(u)\in \mathcal{T}_{n}^{+}(\mathbb{K})$.
+- $M$ TZ ssi $M\sim B\in \mathcal{T}_{n}^{+}(\mathbb{K})$.
+<!-- basicblock-end -->
 
-#todo : 3 CNS de TZ
+<!-- basicblock-start -->
+Th. 3 CNS de TZ::
+- $\chi_{u}$ scindé sur $\mathbb{K}$
+- $\pi_{u}$ scindé sur $\mathbb{K}$
+- $\exists P\in \mathbb{K}[X],\;P(u)=0,\;P$ scindé sur $\mathbb{K}$.
+<!-- basicblock-end -->
 
-Th. TZ d'une matrice nilpotente
-Th. Décomposition de Dunford
+<!-- basicblock-start -->
+Th. TZ d'une matrice nilpotente::
+$$
+\exists n\in \mathbb{N},\;M^{n}=0\iff M\sim \begin{pmatrix}
+0&&(\star)\cr
+&\ddots& \cr
+(0)&&0  
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+$$
+\chi_{u}\text{ scindé}\iff \exists B,\;\mathcal{Mat}_{B}(u)=D+N,\;D=\mathrm{Diag}(\lambda _{i}), N^{n}=0.
+$$
+<!-- basicblock-end -->
 
 #hp 
 Def. Matrice de Jordan

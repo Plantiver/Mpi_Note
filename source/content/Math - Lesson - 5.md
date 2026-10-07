@@ -50,25 +50,101 @@ Prop. Fonctions usuelles et leur tangente::
 <!-- basicblock-end -->
 
 
+<!-- basicblock-start -->
+Def. Norme::
+- $\|\cdot\|:E\to \mathbb{R}$
+- $\forall (\lambda,x)\in \mathbb{K}\times E,\;\|\lambda x\|=|\lambda|\|x\|$
+- $\|x\|=0\;\implies\;x=0_{E}$
+- $\forall x \in E,\;\|x\|\geq 0$
+- $\forall(x,y)\in E^{2},\;\|x+y\|\leq\|x\|+\|y\|$.
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. EVN::
+$$
+(E,+,\cdot,\|\cdot\|),\;\begin{cases}
+(E,+,\cdot)\text{ est un }\mathbb{K}\text{-EV} \cr
+\|\cdot\|\text{ est une norme sur }E.
+\end{cases}
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Distance associée à une norme::
+$$
+\forall(x,y)\in E^{2},\;\mathrm{d}(x,y)=\|x-y\|.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Prop. Inégalité triangulaire sur les distances::
+$$
+\forall(x,y,z)\in E^{3},\;d(x,z)\leq d(x,y)+d(y,z).
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Seconde inégalité triangulaire::
+$$
+\forall(x,y)\in E^{2},\;|\|x\|-\|y\||\leq\|x-y\|.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Norme associée à un produit scalaire::
+$$
+\forall x \in E,\;\|x\|=\sqrt{ <x|x> }.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Partie Bornée::
+$$
+\exists M\in \mathbb{R},\;\forall x \in X,\;\|x\|\leq M.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Fonction bornée::
+$$
+\exists M\in \mathbb{R},\;\forall x \in X,\;\|f(x)\|\leq M.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Ensemble des fonctions bornées::
+$$
+\mathscr{B}(X,E)=\mathrm{Set}( f\in \mathscr{F}(X,E),\;\exists M\in \mathbb{R},\;\|f\|\leq M ).
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Boule fermée::
+$$
+\overline{B}(x,\varepsilon)=\mathrm{Set}( y\in E,\;\|x-y\|\leq\varepsilon ).
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. Boule ouverte::
+$$
+\dot{B}(x,\varepsilon)=\mathrm{Set}( y\in E,\;\|x-y\|<\varepsilon ).
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Prop. Boules::
+- Toujours convexe
+- Toujours bornée
+- Contient toujours une boule de l'autre type.
+<!-- basicblock-end -->
 
-
-
-
-
-
-
-
+<!-- basicblock-start -->
+Def. Normes usuelles::
+- $\|\cdot\|_{1}: x\to \sum|x_{i}|$
+- $\|\cdot\|_{2}: x\to \sqrt{\sum|x_{i}|}$
+- $\|\cdot\|_{1}: x\to \sum|x_{i}|$
+<!-- basicblock-end -->
 
 
 

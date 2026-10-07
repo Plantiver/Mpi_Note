@@ -12,7 +12,7 @@
 - Algo $A^{\star}$.
 # [[Math]]
 - DL, relation d'ordre et d'équivalence
-- Toutes les fiches en faite
+- Fiches de 2,3,4,5
 # [[Phys]]
 - cours EM3 en fiche
 - cours de l'année dernière en fiche
