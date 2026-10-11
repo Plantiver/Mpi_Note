@@ -191,7 +191,12 @@ u_{n}=\sum_{i=1}^{N}u_{i_{n}}e_{i}\underset{ n }{ \to }l=\sum_{i}l_{i}e_{i}\iff 
 $$
 <!-- basicblock-end -->
 
-
+<!-- basicblock-start -->
+Th. Convergence par monotonie::
+$$
+(u_{n})\nearrow\;\implies\;(u_{n})\underset{ n }{ \to }l\in \mathbb{R}\cup \mathrm{Set}( +\infty ).
+$$
+<!-- basicblock-end -->
 
 
 

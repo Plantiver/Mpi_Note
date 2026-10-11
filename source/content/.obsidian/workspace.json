@@ -56,19 +56,9 @@
               "icon": "lucide-file",
               "title": "Math - Lesson - 5"
             }
-          },
-          {
-            "id": "75e4dc9d23541e9a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +114,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75e4dc9d23541e9a",
+  "active": "f1729299fbebfd90",
   "lastOpenFiles": [
     "Math - Lesson - 5.md",
     "Math - Lesson.md",
