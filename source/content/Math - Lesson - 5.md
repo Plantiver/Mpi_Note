@@ -140,11 +140,57 @@ Prop. Boules::
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
-Def. Normes usuelles::
+Def. Normes usuelles de $\mathbb{K}^{n}$::
 - $\|\cdot\|_{1}: x\to \sum|x_{i}|$
 - $\|\cdot\|_{2}: x\to \sqrt{\sum|x_{i}|}$
-- $\|\cdot\|_{1}: x\to \sum|x_{i}|$
+- $\|\cdot\|_{\infty}: x\to \sup|x_{i}|$.
 <!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. Normes usuelles de $\mathscr{C}_{0}([a,b],\mathbb{K})$::
+- $\|\cdot\|_{1}: f\to \int_{a}^{b}|f(t)|\mathrm{d}t$
+- $\|\cdot\|_{2}: f\to \sqrt{\int_{a}^{b}|f(t)|^{2}\mathrm{d}t}$
+- $\|\cdot\|_{\infty}: f\to \sup_{[a,b]}|f|$.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. Normes équivalentes::
+$$
+\mathscr{N}_{1}\sim \mathscr{N}_{2}\iff \exists(C_{1},C_{2})\in R_{+}^{\star^{2}},\;\forall x \in E,\;C_{1}\mathscr{N}_{1}(x)\leq \mathscr{N}_{2}(x)\leq C_{2}\mathscr{N}_{1}(x).
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. Equivalence de Norme::
+- Si $E$ est de dimension finie, Alors toutes les normes sont équivalentes.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. Notion topologique::
+$$
+\mathscr{P}\text{ est topologique}\iff \left[ (\mathscr{N}\implies \mathscr{P})\implies(\forall \mathscr{N'}\sim \mathscr{N},\;\mathscr{N'}\implies \mathscr{P}) \right].
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. Convergence::
+$$
+(u_{n})\underset{ n }{ \to }l\iff \forall\varepsilon>0,\;\exists n_{0}\in \mathbb{N},\;\forall n\geq n_{0},\;\|u_{n}-l\|<\varepsilon.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. Convergence et borne::
+- Si $u_{n}$ converge, alors la suite $(u_{n})$ est bornée.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. Convergence coordonnée par coordonnée::
+$$
+u_{n}=\sum_{i=1}^{N}u_{i_{n}}e_{i}\underset{ n }{ \to }l=\sum_{i}l_{i}e_{i}\iff \forall i,\;u_{i_{n}}\underset{ n }{ \to }l_{i}.
+$$
+<!-- basicblock-end -->
+
 
 
 

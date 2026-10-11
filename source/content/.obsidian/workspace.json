@@ -56,9 +56,19 @@
               "icon": "lucide-file",
               "title": "Math - Lesson - 5"
             }
+          },
+          {
+            "id": "75e4dc9d23541e9a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,8 +124,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1729299fbebfd90",
+  "active": "75e4dc9d23541e9a",
   "lastOpenFiles": [
+    "Math - Lesson - 5.md",
     "Math - Lesson.md",
     "Math - Lesson - 4.md",
     "Math - Lesson - 2.md",
@@ -141,7 +152,6 @@
     "Phys - EM2 - Sources continues du champ électromagnétique.md",
     "Math - Lesson - 1.md",
     "English.md",
-    "Fr-Philo - Epreuve - Oral Centrale.md",
     "_template",
     "Excalidraw",
     "FocusLog/2026",
