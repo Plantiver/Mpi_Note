@@ -115,7 +115,13 @@ $$
 ## 2 - Sphère chargée uniformément en volume
 
 > [!note]- Calcul du champ engendré par une sphère chargée uniformément
-![[Phys - Démo - Champ électrique d'une sphère]]
+> Hey, does this render
+> And this
+> Let's see
+> ![[Phys - Démo - Champ électrique d'une sphère]]
+> if this disseappea
+
+
 
 #todo : Clean up this mess, maybe put Maxwell-Gauss in a demo
 
