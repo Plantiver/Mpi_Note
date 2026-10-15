@@ -2,6 +2,7 @@
 [[Info - Td]]
 [[Info - Doc]]
 [[Info - Démo]]
+[[Info - AsMath]]
 
 
 

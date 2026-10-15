@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
-  "search": "-tag:#calendar  ",
+  "collapse-filter": false,
+  "search": "-tag:#todo  ",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "file:math",
@@ -68,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.2761491955327161,
-  "close": true
+  "close": false
 }

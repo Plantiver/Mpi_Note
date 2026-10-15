@@ -4,3 +4,4 @@
 - Différents conseils que je peux donner se trouve [[Général - Conseil|ici]].
 - Un guide pour installer cette vault, obsidian, et anki: [[Général - Installation|là]].
 - Faites [[Général - Attention|attention]].
+- Si jamais vous comptez participer (déjà, merci), voici les [[Général - Guidelines|règles de conduite]].

@@ -1,3 +1,8 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* Ensure collapsed callouts actually hide their content */
+.callout[data-is-collapsed="true"] .callout-content,
+details:not([open]) .callout-content {
+    display: none !important;
+}

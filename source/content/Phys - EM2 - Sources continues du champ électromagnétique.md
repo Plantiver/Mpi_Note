@@ -131,6 +131,7 @@ $$
 
 # II - Principe de conservation de la charge
 ## 1 - Cas unidimensionnel
+#todo : démo
 Prenons une portion de conducteur en $x$ et $x+\mathrm{d}x$.
 Voir Sch2
 Alors, la variation de charge dans ce volume pendant $\mathrm{d}t$.
@@ -202,6 +203,7 @@ $$
 
 # III - Conduction électrique dans un conducteur chimique
 # 1 - Loi d'Ohm locale
+#todo : démo
 **Conductivité électrique**:
 On admet que les interactions entre les électrons et les atomes d'un conducteur se modélisent par une force de Drude:
 $$
@@ -294,6 +296,7 @@ p_{L}=\sigma  \overrightarrow{E}^{2}.
 $$
 <!-- basicblock-end -->
 
+#todo : search more about this:
 <!-- basicblock-start oid="ObswFli8S0rj8S51gUsVxwzk" -->
 Def. Modèle de Drude:
 - électrons indépendant et libre

@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "A comprehensive guide for Mpi",
-    pageTitleSuffix: "MPI",
+    pageTitleSuffix: " - MPI",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

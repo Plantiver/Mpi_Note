@@ -7,3 +7,4 @@
 - [[Phys - Démo - Champ électrique d'un plan]]
 - [[Phys - Démo - Interprétation du rotationnel]]
 - [[Phys - Démo - Champ magnétique du fil infini]]
+- [[Phys - Démo - Champ magnétique du solénoïde infini]]

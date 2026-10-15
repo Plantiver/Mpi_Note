@@ -134,6 +134,7 @@ On parle de système monostable:
 - L'état de sortie  $s=1$ est stable
 - L'état de sortie $s=0$ est instable et dure toujours la même durée.
 
+#todo : démo convertisseur tension fréquence
 
 
 ---

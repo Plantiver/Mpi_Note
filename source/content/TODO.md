@@ -1,5 +1,6 @@
 # [[index|Main]]
 - Répondre au gens
+- detect all #todo 
 - handle all #todo 
 - update old flashcards to use either list or block
 # [[Fr-philo]]
