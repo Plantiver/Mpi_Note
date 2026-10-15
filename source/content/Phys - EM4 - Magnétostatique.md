@@ -50,7 +50,7 @@ ou alors produit croisée
 - sommer les cotés face à face
 - se rendre compte que 
 > [!note]- Interprétation du rotationnel
-![[Phys - Démo - Interprétation du rotationnel]]
+> ![[Phys - Démo - Interprétation du rotationnel]]
 
 **énoncé:**
 ![[Phys - Formule#Equation de Maxwell-Ampère]]
@@ -146,13 +146,13 @@ Il est conservé, de par les equations de Maxwell
 # III - Exemple d'application
 ## 1 - Le fil infini
 > [!note]- Le fil infini
-![[Phys - Démo - Champ magnétique du fil infini]]
+> ![[Phys - Démo - Champ magnétique du fil infini]]
 ## 2 - Le solénoïde infini
 ="La bobine"
 Voir schéma:
 On considère une infinité de spire s'enroulant autour de 
 > [!note]- Le solénoïde infini
-![[Phys - Démo - Champ magnétique du solénoïde infini]]
+> ![[Phys - Démo - Champ magnétique du solénoïde infini]]
 
 Définition de l'inductance:
 Vu en première année: $\phi_{p}=LI$.

@@ -142,7 +142,7 @@ $$
 <!-- basicblock-end -->
 
 > [!note]- Potentielle d'un dipôle
-![[Phys - Démo - Potentiel d'un dypole]]
+> ![[Phys - Démo - Potentiel d'un dypole]]
 
 
 <!-- basicblock-start oid="ObsqjKLMYTIsax3acL72O0Ez" -->
@@ -160,4 +160,4 @@ $$
 <!-- basicblock-end -->
 
 > [!note]- Application au modèle de la molécule
-![[Phys - Démo - Modélisation d'un molécule comme un dipôle]]
+> ![[Phys - Démo - Modélisation d'un molécule comme un dipôle]]

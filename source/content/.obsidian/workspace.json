@@ -63,13 +63,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
+                "file": "Phys - EM2 - Sources continues du champ électromagnétique.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss"
+              "title": "Phys - EM2 - Sources continues du champ électromagnétique"
             }
           }
         ],
@@ -131,9 +131,11 @@
   },
   "active": "698a620eea00d667",
   "lastOpenFiles": [
+    "Phys - EM4 - Magnétostatique.md",
+    "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
+    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "TODO.md",
     "file:/home/main/Téléchargements/Chapitre_7_limite_continuite.pdf",
-    "Phys - EM4 - Magnétostatique.md",
     "Général - Raccourcis Latex.md",
     "Général - Guidelines.md",
     "Général.md",
@@ -151,7 +153,6 @@
     "Info - Lesson.md",
     "Info - Lesson - 3.md",
     "Info - Td.md",
-    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - Lesson.md",
     "Phys - Démo - Champ magnétique du solénoïde infini.md",
     "Phys.md",

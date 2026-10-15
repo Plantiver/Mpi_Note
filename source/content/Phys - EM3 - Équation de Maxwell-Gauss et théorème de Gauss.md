@@ -110,16 +110,12 @@ $$
 ## 1 - La charge ponctuelle
 
 > [!note]- Calcul du champ engendré par une charge ponctuelle
-![[Phys - Démo - Champ électrique d'une particule]]
+> ![[Phys - Démo - Champ électrique d'une particule]]
 
 ## 2 - Sphère chargée uniformément en volume
 
 > [!note]- Calcul du champ engendré par une sphère chargée uniformément
-> Hey, does this render
-> And this
-> Let's see
 > ![[Phys - Démo - Champ électrique d'une sphère]]
-> if this disseappea
 
 
 
@@ -326,7 +322,7 @@ $V(r)=-\frac{\rho_{0}R^{2} }{2\varepsilon_{0} }\ln\left( \frac{r}{R} \right)$
 ## 1 - Champs d'un plan infini chargé en surface
 
 > [!note]- Calcul du champ engendré par un plan infini chargé en surface
-![[Phys - Démo - Champ électrique d'un plan]]
+> ![[Phys - Démo - Champ électrique d'un plan]]
 
 ## 2 - Le condensateur plan
 
