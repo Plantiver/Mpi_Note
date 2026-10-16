@@ -1,7 +1,7 @@
 # I - Les lois de frottements solide
 # 1 - Les lois de Coulomb
 Prenons un solide:
-![[Drawing 2026-10-16 10.17.44.excalidraw]]
+![[Drawing 2026-10-16 10.17.44.excalidraw.svg]]
 
 Lors d'un contact support/solide, le solide subit une réaction de la part du support:
 $$

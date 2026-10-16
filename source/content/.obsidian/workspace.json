@@ -50,7 +50,7 @@
               "state": {
                 "file": "Phys - M1 - Compléments de mécanique.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -116,8 +116,9 @@
   },
   "active": "1218093e0a60dfcf",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.md",
     "Phys - M1 - Compléments de mécanique.md",
+    "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.svg",
     "EM3.md",
     "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - Démo.md",
@@ -142,7 +143,6 @@
     "Phys - Démo - Champ électrique d'une sphère par Poisson.md",
     "Phys - Démo - Champ électrique d'un cylindre infini.md",
     "index.md",
-    "Phys - Démo - Champ électrique d'une sphère par Maxwell-Gauss.md",
     "file:/home/main/Téléchargements/Chapitre_7_limite_continuite.pdf",
     "file:/home/main/Téléchargements/Math - Dm - 5.pdf",
     "_template",
