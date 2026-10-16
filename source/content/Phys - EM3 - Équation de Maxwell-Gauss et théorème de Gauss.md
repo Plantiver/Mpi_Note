@@ -4,7 +4,7 @@ deck: phys
 
 
 # I - Equation de Maxwell-Gauss
-## 1 - Enoncé
+## 1 - Énoncé
 ![[Phys - Formule#Equation de Maxwell-Gauss]]
 
 ![[Phys - Constante#La permittivité diélectrique du vide]]
@@ -16,7 +16,7 @@ $$
 Connaissant $\rho$, on ne peut pas retrouver $\overrightarrow{E}$, pas assez d'équation.
 
 ## 2 - Principe de Curie
-
+#todo : clean up a bit
 On appelle **élément de symétrie** toute transformation géométrique qui laisse cette objet invariant (= en égale correspondance avec lui-même).
 *Ex*: Un cube possède ses rotations et ses symétries, mais en nombre finis, alors que la sphère c'est en nombre infinis. Si je colorie les faces de mon cube, je ne peux plus aussi facilement le faire tourner/symétriser.
 **Principe de Mr. Curie (1894)**:
@@ -125,7 +125,6 @@ $$
 
 
 ## 3 - Le cylindre infini chargé en Volume
-#todo : turn this into a demo
 
 > [!note]- Calcul du champ engendré par un cylindre infini chargé en volume
 > ![[Phys - Démo - Champ électrique d'un cylindre infini]]
@@ -161,7 +160,7 @@ $$
 C'est le modèle du condensateur plan.
 Ce sont des armatures de surfaces $S$ et de charges $\pm Q$ que l'on modélise par des plaques $\infty$ et de charges surfacique $\sigma=\frac{Q}{S}$.
 
-Dans un condensateur réel, on a des effets de fuites sur les bords. Ce sont les effets de bords, ils sont négligeable. (Les calculs sont faisables apparrement #work).
+Dans un condensateur réel, on a des effets de fuites sur les bords. Ce sont les effets de bords, ils sont négligeable. (Les calculs sont faisables apparement, #exo).
 On définit la capacité du condensateur, en Farad (F):
 $$
 \boxed{C=\frac{Q}{U} }

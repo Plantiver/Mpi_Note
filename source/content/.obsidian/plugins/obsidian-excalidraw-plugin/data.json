@@ -38,7 +38,7 @@
   "annotatePrefix": "annotated_",
   "annotatePreserveSize": false,
   "displaySVGInPreview": false,
-  "previewImageType": "SVG",
+  "previewImageType": "SVGIMG",
   "renderingConcurrency": 3,
   "imageCacheRetentionDays": 30,
   "allowImageCache": true,
