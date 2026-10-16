@@ -4,12 +4,7 @@ deck: phys
 
 # I - Description microscopique et mésoscopique des sources
 ## 1 - Distribution des charges
-<!-- basicblock-start oid="ObshIJHUDO6xotjAd5CEyU98" -->
-Val. La charge élémentaire (exacte)::
-$$
-e=1.602176634\cdot 10^{-19} C.
-$$
-<!-- basicblock-end -->
+
 
 Une charge unique est difficilement observable.
 On définit le volume mésoscopique.

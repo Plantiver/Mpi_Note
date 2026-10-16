@@ -7,10 +7,11 @@ deck: phys
 ## 1 - Enoncé
 ![[Phys - Formule#Equation de Maxwell-Gauss]]
 <!-- basicblock-start oid="Obsxrocn5932CWoSzHwqwg5K" -->
-Def. Qu'est-ce qu'$\varepsilon_{0}$ ?::
-La permittivité diélectrique du vide.
+Def. Permittivité diélectrique du vide::
+$$
+\varepsilon_{0}=8.85418782\times10^{-12}F\cdot m^{-1}.
+$$
 <!-- basicblock-end -->
-#todo: specify a value for $\varepsilon_{0}$
 
 
 Le champ $\overrightarrow{E(M,t)}$ s'écrit:
@@ -119,97 +120,10 @@ $$
 
 
 
-#todo : Clean up this mess, maybe put Maxwell-Gauss in a demo
+#todo : demo: champ electrique d'une sphère par Maxwell-Gauss
 
-**Autres méthode:** calcul direct par Maxwell-Gauss.
-En sphérique:
-![[Phys - Math#Divergence en sphérique]]
-
-Or $\overrightarrow{E}=E(r)\overrightarrow{e_{r} }$
-$\implies \mathrm{div}\overrightarrow{E}=\frac{1}{r^{2} }\frac{ \partial r^{2}E_{r} }{ \partial r }$
-
-En symétrie sphérique, calculons le flux sortant d'une coquille sphérique de rayon $r$ et d'épaisseur $\mathrm{d}r$.
-
-Flux entrant en $r$: $\phi(r)=4\pi r^{2}E(r)$
-Flux sortant en $r+\mathrm{d}r$: $\phi(r+\mathrm{d}r)=4\pi(r+\mathrm{d}r)^{2}E(r+\mathrm{d}r)$.
-
-En posant: $f(r)=r^{2}E(r)$:
-$\implies d\phi=4\pi \frac{df}{dr}dr$
-Mais $d\phi=(\mathrm{div}\overrightarrow{E})dV$.
-$dV=4\pi r^{2}dr$.
-
-Mais
-$$
-d\phi=4\pi \frac{d}{dr} (r^{2}R)dr
-$$
-et
-$$
-d\phi=\mathrm{div}\overrightarrow{E}dV=\mathrm{div}\overrightarrow{E}4\pi r^{2}dr
-$$
-Donc:
-$$
-\mathrm{div}\overrightarrow{E}=\frac{1}{r^{2} }\frac{ \partial  }{ \partial r } (r^{2}E)
-$$
-*D'après Maxwell-Gauss:*
-$$
-\mathrm{div}\overrightarrow{E}=\frac{\rho(r)}{\varepsilon_{0} }
-$$
-- Si $r<R$:
-$\rho(r)=\rho_{0}$
-$$
-\begin{align*}
-\frac{1}{r^{2} }\frac{ \partial  }{ \partial r } (r^{2}E)=&\frac{\rho_{0} }{\varepsilon_{0} }&&\cr
-\frac{ \partial  }{ \partial r } (r^{2}E)=&\frac{\rho_{0}r^{2} }{\varepsilon_{0} }&&\cr
-r^{2}E=&\frac{\rho_{0}r^{3} }{3\varepsilon_{0} }+K_{1}&&\cr
-\end{align*}
-$$
-En $r=0$, $\overrightarrow{E}$ appartient à tout les plans de symétrie, donc $\overrightarrow{E(0)}=\overrightarrow{0}$.
-Donc $K_{1}=0$.
-D'où, si $r<R$:
-$$
-E(r)=\frac{\rho r}{3\varepsilon_{0} }
-$$
-- Si $r>R$:
-$$
-\begin{align*}
-\rho(r)=&0&&\cr
-\mathrm{div}\overrightarrow{E}=&0&&\cr
-\frac{ \partial  }{ \partial r } (r^{2}E)=&0&&\cr
-E=&\frac{K_{2} }{r^{2} }&&\cr
-\end{align*}
-$$
-$E$ est continue, étant solution d'une équation différentielle:
-$E(R^{+})=E(R^{-})$
-$$
-K_{2}=\frac{\rho_{0}R^{3} }{3\varepsilon_{0} }
-$$
-$$
-\begin{align*}
-E(r)=&\frac{1}{r^{2} }\int_{0}^{r}\frac{\rho(u)u^{2} }{\varepsilon_{0} }du&&\cr
-\end{align*}
-$$
-**Calcul du potentiel électrostatique**
-$$
-\overrightarrow{E}=-\overrightarrow{ \mathrm{grad} }V=-\frac{dV}{dr}\overrightarrow{e_{r} }
-$$
-
-- Si $r<R$:
-$$
-\begin{align*}
-E=&\frac{r\rho_{0} }{3\varepsilon_{0} }&&\cr
-\implies \frac{dV}{dr}=&-\frac{r\rho_{0} }{3\varepsilon_{0} }&&\cr
-\implies V(r)=&-\frac{\rho_{0}r^{2} }{6\varepsilon_{0} }+K_{3}&&\cr
-\end{align*}
-$$
-- Si $r>R$:
-$$
-V(r)=\frac{\rho_{0}R^{3} }{3\varepsilon_{0}r}+K_{4}
-$$
-On CHOISIT de prendre l'origine des potentiels en $+\infty$.
-Donc $K_{4}=0$
-... calculs
-$K_{2}=\frac{1}{2}\frac{\rho_{0}R^{2} }{\varepsilon_{0} }$
-... schémas
+> [!note]- Calcul du champs engendré par une sphère chargée uniformément via Maxwell-Gauss
+> ![[Phys - Démo - Champ électrique d'une sphère par Maxwell-Gauss]]
 
 **Application: énergie de liaison d'un noyau atomique**:
 
@@ -235,88 +149,9 @@ Exo: retrouver $\mathscr{E}$ à partir de cette formule.
 
 ## 3 - Le cylindre infini chargé en Volume
 #todo : turn this into a demo
-En coordonnée cylindrique:
-$$
-\rho(r)=\begin{cases}
-\rho_{0}\text{ si }r<R \cr
-0 \text{ sinon}
-\end{cases}
-$$
-1. Symétries et invariances:
-invariant:
-- translation d'axe $z$
-- translation dans le temps
-- rotation d'angle $\theta$.
-symétrie:
-- Le plan de $\overrightarrow{OM}$ et $\overrightarrow{O_{z} }$.
-- Le plan de $(M,\overrightarrow{e_{r} },\overrightarrow{e_{\theta} })$
-Donc: $\overrightarrow{E(r)}=E(r)\overrightarrow{e_{r} }$.
-1. Choix de la surface de Gauss
-On choisit la surface du cylindre centrée en $O_{z}$, passant par $M$, de hauteur $H$.
-$$
-\begin{align*}
-\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{dS}&=\iint_{\text{Haut} }\overrightarrow{E}\cdot \overrightarrow{dS}+\iint_{\text{Bas} }\overrightarrow{E}\cdot \overrightarrow{dS}+\iint_{\text{side} }\overrightarrow{E}\cdot \overrightarrow{dS}&&\cr
-&=\iint_{\text{side} } E\times dS&&\cr
-&=E(r)2\pi rH&&\cr
-\end{align*}
-$$
-2. Application du th.
-$$
-\oint \int_{S}\overrightarrow{E}\cdot \overrightarrow{dS}=\frac{Q_{\text{int} } }{\varepsilon_{0} }
-$$
-- Si $r<R$:
-$$
-Q_{\text{int} }=\rho_{0}V=\rho_{0}\pi r^{2}H
-$$
-Donc:
-$$
-\begin{align*}
-E(r)2\pi rH=&\frac{\rho_{0} \pi r^{2}H}{\varepsilon_{0} }&&\cr
-\implies E(r)=&\frac{\rho_{0}r}{Z\varepsilon_{0} }&&\cr
-\end{align*}
-$$
-- Si $r>R$:
-$$
-Q_{\text{int} }=\rho_{0}\pi R^{2}H
-$$
-Donc:
-$$
-\begin{align*}
-E(r)2\pi rH=&\frac{\rho_{0}\pi R^{2}H}{\varepsilon_{0} }&&\cr
-\implies E(r)=&\frac{\rho_{0}R^{2} }{2\varepsilon_{0}r}&&\cr
-\end{align*}
-$$
 
-4. Calcul direct par Maxwell-Gauss
-$$
-\mathrm{div}\overrightarrow{E}=\frac{1}{r}\frac{ \partial  }{ \partial r } (rE(r))
-$$
-rq: $d\phi=\phi(r+dr)-\phi(r)$.
-$\phi(r)=E(r)2\pi rH$
-$\phi(r+dr)=E(r+dr)2\pi(r+dr)H$
-$d\phi=2\pi \frac{d}{dr}(rE(r))H=(\mathrm{div}\overrightarrow{E})dV$
-avec
-$dV=2\pi rdrH=\pi(r+dr)^{2}H-\pi r^{2}H$
-$\implies \mathrm{div}\overrightarrow{E}=\frac{1}{r}\frac{ \partial  }{ \partial r }(rE)$
-Ensuite, on raisonne de même que précédemment, et on obtient des valeurs similaire, on choisit  notre origine des potentielles, et c'est tout bon...
-(Je ne vais pas tout écrire, surtout si le prof dis que c'est pas tant obligatoire.)
-
-5. Calcul du potentiel
-$$
-\overrightarrow{E}=-\overrightarrow{ \mathrm{grad} }V=-\frac{dV}{dr}\overrightarrow{e_{r} }
-$$
-- $r<R$:
-$V(r)=-\frac{\rho_{0}r^{2} }{4\varepsilon_{0} }+K_{3}$
-- $r>R$:
-$V(r)=-\frac{\rho_{0}R^{3} }{2\varepsilon_{0} }+K_{4}$
-
-Choix de l'origine des potentiels:
-Dans le poly, $V(0)=0$
-Ici, on choisit $V(r=R)=0$. Le choix n'a pas d'importance tant que ce n'est pas l'infini, qui diverge.
-- $r<R$:
-$-\frac{\rho_{0}R^{2} }{4\varepsilon_{0} }+K_{3}=0\implies V(r)=\frac{\rho_{0} }{4\varepsilon_{0} }(R^{2}-r^{2})$
-- $r>R$:
-$V(r)=-\frac{\rho_{0}R^{2} }{2\varepsilon_{0} }\ln\left( \frac{r}{R} \right)$
+> [!note]- Calcul du champ engendré par un cylindre infini chargé en volume
+> ![[Phys - Démo - Champ électrique d'un cylindre infini]]
 
 # III - Le condensateur plan
 ## 1 - Champs d'un plan infini chargé en surface
@@ -400,40 +235,9 @@ Et s'il n'y a pas de charge, i.e. $\rho=0$.
 ![[Phys - Formule#Equation de Laplace]]
 
 Pourquoi on ne l'utilise pas:
-Reprenons la sphère uniforme chargée en volume:
-En sphérique:
-$$
-\begin{align*}
-\dot{\Delta} V&=\frac{1}{r^{2} }\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial  }{ \partial \theta } \left( \sin\theta \frac{ \partial V }{ \partial \theta }  \right)+\frac{1}{r^{2}\sin\theta}\frac{ \partial^{2}V }{ \partial \varphi^{2} } &&\cr
-\end{align*}
-$$
-Par les invariances:
-$$
-\frac{1}{r^{2} }\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)=-\frac{\rho}{\varepsilon_{0} }
-$$
-- $r<R$:
-$$
-\begin{align*}
-\frac{ \partial  }{ \partial r } \left( r^{2}\frac{ \partial V }{ \partial r }  \right)=&-\frac{\rho r^{2} }{\varepsilon_{0} }&&\cr
-r^{2}\frac{ \partial V }{ \partial r } =&-\frac{\rho r^{3} }{3\varepsilon_{0} }+A&&\cr
-\end{align*}
-$$
-Or $\overrightarrow{E}(0)=\overrightarrow{0}$, donc $A=0$
-$$
-V(r)=-\frac{\rho r^{2} }{6\varepsilon_{0} }+B
-$$
-- $r>R$
-$$
-\begin{align*}
-\frac{1}{r^{2} }\frac{ \partial  }{ \partial r }\left( r^{2}\frac{ \partial V }{ \partial r }  \right) &=0&&\cr
-r^{2}\frac{ \partial V }{ \partial r } &=C&&\cr
-\frac{ \partial V }{ \partial r } &=\frac{C}{r^{2} }&&\cr
-V(r)&=-\frac{C}{r}+D&&\cr
-\end{align*}
-$$
-En choisissant l'origine des potentiels à l'$\infty$, on retrouve la même chose...
-C'est possible de faire la même chose pour le cylindre. Mais bon...
 
+> [!note]- Calcul du champ engendré par une sphère chargé uniformément en volume via Poisson
+> ![[Phys - Démo - Champ électrique d'une sphère par Poisson]]
 
 
 

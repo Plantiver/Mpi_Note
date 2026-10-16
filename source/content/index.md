@@ -28,3 +28,15 @@ Pour le français ([[Fr-philo]]), de même que pour l'anglais, ce ne sont majori
 J'ai mon projet de [[TIPE]] développé ici aussi, en accès libre, mais j'imagine que c'est moins récupérable.
 
 J'ai compilé un peu tout les trucs généraux dans [[Général]].
+
+
+
+# Personal note
+(des notes pour l'écriture de tout ça, peut être utile si vous comptez participer)
+J'hésite à encore plus fragmenter le cours de physique, en faisant des notes "exemple" pour les exemples d'application que l'on fait.
+Je pense que je vais m'en occuper ces vacances.
+
+
+
+
+

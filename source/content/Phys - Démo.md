@@ -8,3 +8,6 @@
 - [[Phys - Démo - Interprétation du rotationnel]]
 - [[Phys - Démo - Champ magnétique du fil infini]]
 - [[Phys - Démo - Champ magnétique du solénoïde infini]]
+- [[Phys - Démo - Champ électrique d'une sphère par Maxwell-Gauss]]
+- [[Phys - Démo - Champ électrique d'un cylindre infini]]
+- [[Phys - Démo - Champ électrique d'une sphère par Poisson]]

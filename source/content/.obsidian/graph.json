@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#todo  ",
+  "search": "-tag:#calendar  ",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
@@ -68,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.2761491955327161,
-  "close": false
+  "close": true
 }

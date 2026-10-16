@@ -5,7 +5,7 @@ deck: phys
 
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->
-Loi. Equation de Maxwell-Gauss::
+Form. Equation de Maxwell-Gauss::
 $$
 \mathrm{div}\overrightarrow{E}=\frac{\rho}{\varepsilon_{0} }.
 $$
@@ -13,7 +13,7 @@ $$
 
 ### Equation de Maxwell-Thomson
 <!-- basicblock-start oid="ObssoRt67Ia2ZmTOiVdkEYwi" -->
-Def. Equation de Maxwell-Thomson::
+Form. Equation de Maxwell-Thomson::
 $$
 \mathrm{div}\overrightarrow{B}(M,t)=0.
 $$
@@ -21,7 +21,7 @@ $$
 
 ### Equation de Maxwell-Ampère
 <!-- basicblock-start oid="ObsETF6pHDNtTKwcD95RgRhJ" -->
-Def. Equation de Maxwell-Ampère::
+Form. Equation de Maxwell-Ampère::
 $$
 \overrightarrow{\mathrm{rot} }\overrightarrow{B} = \mu_{0}\overrightarrow{j}+\frac{1}{c^{2} }\frac{ \partial E }{ \partial t } .
 $$
@@ -29,7 +29,7 @@ $$
 
 ### Equation de Maxwell-Faraday
 <!-- basicblock-start oid="Obs3QKcp0zuoQgNG9XgHC12X" -->
-Def. Equation de Maxwell-Faraday::
+Form. Equation de Maxwell-Faraday::
 $$
 \overrightarrow{\mathrm{rot} }\overrightarrow{E}=-\frac{ \partial \overrightarrow{B} }{ \partial t } .
 $$
@@ -37,7 +37,7 @@ $$
 
 ### Green-Ostrogradski
 <!-- basicblock-start oid="ObsRsV2YxOyxcw67bKn3XKz2" -->
-Loi. Formule de Green-Ostrogradski::
+Th. Formule de Green-Ostrogradski::
 $$
 \iiint_{V}\mathrm{div}\overrightarrow{A}\mathrm{d}V=\oint \int_{S}\overrightarrow{A}\cdot \overrightarrow{\mathrm{d}S}.
 $$
@@ -61,7 +61,7 @@ $$
 
 ### Equation de Poisson
 <!-- basicblock-start oid="ObsRuI9mpuyhJqPlLYO8BIAD" -->
-Def. Equation de Poisson::
+Th. Equation de Poisson::
 $$
 \dot{\Delta} f+\frac{\rho}{\varepsilon_{0} }=0
 $$
@@ -69,7 +69,7 @@ $$
 
 ### Equation de Laplace
 <!-- basicblock-start oid="ObsHlXgVrI6eQ0V3Vv1onuZJ" -->
-Def. Equation de Laplace::
+Th. Equation de Laplace::
 $$
 \dot{\Delta} V=0
 $$
@@ -90,3 +90,23 @@ $$
 \oint_{\Gamma}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}=\mu_{0}I_{\text{enlace}}.
 $$
 <!-- basicblock-end -->
+
+### Loi de Coulomb
+En cas de glissement:
+<!-- basicblock-start -->
+Form. Loi de coulomb avec glissement::
+$$
+\|\overrightarrow{T}\|=f_{d}\cdot\|\overrightarrow{N}\|.
+$$
+<!-- basicblock-end -->
+avec $f_{d}$ le coefficient de frottement dynamique.
+
+En l'absence de glissement:
+<!-- basicblock-start -->
+Form. Loi de coulomb sans glissement::
+$$
+\|\overrightarrow{T}\|\leq f_{s}\cdot\|\overrightarrow{N}\|
+$$
+<!-- basicblock-end -->
+avec $f_{s}$ le coefficient de frottement statique.
+
