@@ -10,7 +10,7 @@ La phase de glissement s'arrête si (l'une est l'autre)
 Système: {Solide sur un plan incliné} modélisé par un point
 Référentiel: Terrestre supposé galiléen
 Coordonnées: cartésiennes
-![[Drawing 2026-10-16 11.17.45.excalidraw]]
+![[Drawing 2026-10-16 11.17.45.excalidraw.svg]]
 Bilan des forces:
 - $\overrightarrow{N}=N\overrightarrow{e_{y}}$
 - $\overrightarrow{T}=-T\overrightarrow{e_{x}}$

@@ -10,7 +10,7 @@ Système: {pingouin} modélisé par un point matériel
 On se place dans le référentiel terrestre supposé galiléen.
 On se place en coordonnée cylindrique.
 Schéma:
-![[Drawing 2026-10-16 10.44.30.excalidraw]]
+![[Drawing 2026-10-16 10.44.30.excalidraw.svg]]
 On considère:
 - $\theta(t=0)=\theta_{0}$ petit
 
