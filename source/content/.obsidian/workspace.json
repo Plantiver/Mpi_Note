@@ -50,7 +50,7 @@
               "state": {
                 "file": "Phys - M1 - Compléments de mécanique.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -116,7 +116,13 @@
   },
   "active": "1218093e0a60dfcf",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-10-16 11.17.45.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-16 11.17.45.excalidraw.svg",
+    "Phys - Exemple - Solide posée sur une pente.md",
     "Phys - M1 - Compléments de mécanique.md",
+    "Excalidraw/Drawing 2026-10-16 10.44.30.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-16 10.44.30.excalidraw.svg",
+    "Phys - Exemple - Rupture de contact.md",
     "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.md",
     "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.svg",
     "EM3.md",
@@ -124,10 +130,6 @@
     "Phys - Démo.md",
     "TODO.md",
     "Phys - Exemple - Calcul de l'énergie de liaison d'un noyau atomique.md",
-    "Excalidraw/Drawing 2026-10-16 11.17.45.excalidraw.md",
-    "Phys - Exemple - Solide posée sur une pente.md",
-    "Phys - Exemple - Rupture de contact.md",
-    "Excalidraw/Drawing 2026-10-16 10.44.30.excalidraw.md",
     "Excalidraw/Drawing 2026-10-16 11.37.27.excalidraw.md",
     "Phys - Formule.md",
     "Phys - Constante.md",
