@@ -4,7 +4,7 @@ deck: phys
 
 # I - Description microscopique et mésoscopique des sources
 ## 1 - Distribution des charges
-
+![[Phys - Constante#La charge élémentaire]]
 
 Une charge unique est difficilement observable.
 On définit le volume mésoscopique.

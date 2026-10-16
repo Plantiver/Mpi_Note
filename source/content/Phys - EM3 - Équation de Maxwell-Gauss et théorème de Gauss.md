@@ -6,13 +6,8 @@ deck: phys
 # I - Equation de Maxwell-Gauss
 ## 1 - Enoncé
 ![[Phys - Formule#Equation de Maxwell-Gauss]]
-<!-- basicblock-start oid="Obsxrocn5932CWoSzHwqwg5K" -->
-Def. Permittivité diélectrique du vide::
-$$
-\varepsilon_{0}=8.85418782\times10^{-12}F\cdot m^{-1}.
-$$
-<!-- basicblock-end -->
 
+![[Phys - Constante#La permittivité diélectrique du vide]]
 
 Le champ $\overrightarrow{E(M,t)}$ s'écrit:
 $$
@@ -125,27 +120,9 @@ $$
 > [!note]- Calcul du champs engendré par une sphère chargée uniformément via Maxwell-Gauss
 > ![[Phys - Démo - Champ électrique d'une sphère par Maxwell-Gauss]]
 
-**Application: énergie de liaison d'un noyau atomique**:
+> [!note]- Energie de liaison d'un noyau atomique
+> ![[Phys - Exemple - Calcul de l'énergie de liaison d'un noyau atomique]]
 
-Pour "construire un atome", on veut construire une boule de rayon $R$ et de charge uniforme $\rho_{0}$.
-On apporte une charge $dq$ de l'infini qu'on place en coquille sphérique au rayon $r$ d'une boule déjà construite.
-Le travaille nécessaire: $\delta W=V(r)dq$.
-Or $dq=\rho_{0}dV=\rho_{04}\pi r^{2}dr$
-et $V(r)=\frac{\rho_{0}r^{2} }{3\varepsilon_{0} }$
-Donc: $\delta W=\frac{\rho_{0}^{2}4\pi r^{2} }{3\varepsilon_{0} }dr$
-$$
-\begin{align*}
-\mathscr{E}&=\int_{0}^{R}\delta W&&\cr
-&=\int_{0}^{R}\frac{\rho_{0}^{2}4\pi r^{4} }{3\varepsilon_{0} }dr&&\cr
-&=\frac{\rho_{0}^{2}4\pi R^{5} }{15\varepsilon_{0} }&&\cr
-\end{align*}
-$$
-**Rq**:
-On peut montrer que:
-$$
-\mathscr{E}=\frac{1}{2}\iiint_{V}\rho(\overrightarrow{r})V(\overrightarrow{r})\mathrm{d}\tau
-$$
-Exo: retrouver $\mathscr{E}$ à partir de cette formule.
 
 ## 3 - Le cylindre infini chargé en Volume
 #todo : turn this into a demo
