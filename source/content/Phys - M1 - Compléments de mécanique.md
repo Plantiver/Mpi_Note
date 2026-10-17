@@ -78,8 +78,3 @@ W&=-\int_{\gamma}Tv\mathrm{d}t&&\cr
 $$
 
 Ce travail dépend du chemin suivi, les frottements ne sont jamais conservatifs.
-
-
-
-
-

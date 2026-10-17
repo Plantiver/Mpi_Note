@@ -18,7 +18,7 @@
             }
           },
           {
-            "id": "4ccced3a769ced32",
+            "id": "4f0b88ee71b9ee55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,32 +33,46 @@
             }
           },
           {
-            "id": "e234bf719e8dc322",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1218093e0a60dfcf",
+            "id": "e59c6047299342c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - M1 - Compléments de mécanique.md",
+                "file": "Phys - E0 - Rappels.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - M1 - Compléments de mécanique"
+              "title": "Phys - E0 - Rappels"
+            }
+          },
+          {
+            "id": "631d8fc0f89127cb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "file:/home/main/Téléchargements/Poly_Cours_Chap1_P3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Poly_Cours_Chap1_P3"
+            }
+          },
+          {
+            "id": "8a7af8406263ab90",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "file:/home/main/Téléchargements/Poly_Cours_Chap2_P3.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Poly_Cours_Chap2_P3"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "3432f6c93d05637d",
@@ -114,48 +127,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1218093e0a60dfcf",
+  "active": "e59c6047299342c0",
   "lastOpenFiles": [
+    "file:/home/main/Téléchargements/Poly_Cours_Chap1_P3.pdf",
+    "Phys - E0 - Rappels.md",
+    "file:/home/main/Téléchargements/Poly_Cours_Chap2_P3.pdf",
+    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
+    "TODO.md",
+    "Phys - Lesson.md",
+    "Phys - M1 - Compléments de mécanique.md",
+    "Phys.md",
+    "file:/home/main/Téléchargements/Poly_Cours_Chap3_P3.pdf",
+    "file:/home/main/Téléchargements/Poly_Cours_Chap4_P3_2026-2027.pdf",
+    "file:/home/main/Téléchargements/CNA.pdf",
+    "Excalidraw/Drawing 2026-10-06 16.37.48.excalidraw.md",
     "Excalidraw/Drawing 2026-09-29 21.59.01.excalidraw.md",
     "Excalidraw/Drawing 2026-09-29 21.59.01.excalidraw.svg",
     "Excalidraw/Drawing 2026-10-16 11.37.27.excalidraw.md",
     "Excalidraw/Drawing 2026-10-16 11.17.45.excalidraw.md",
     "Excalidraw/Drawing 2026-10-16 10.44.30.excalidraw.md",
     "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.md",
-    "Excalidraw/Drawing 2026-10-06 16.37.48.excalidraw.md",
     "Excalidraw/Drawing 2026-10-06 16.37.48.excalidraw.svg",
     "Phys - Exemple - Solide posée sur une pente.md",
-    "Phys - M1 - Compléments de mécanique.md",
     "Phys - Exemple - Rupture de contact.md",
     "Excalidraw/Drawing 2026-10-16 11.17.45.excalidraw.svg",
     "Excalidraw/Drawing 2026-10-16 10.44.30.excalidraw.svg",
     "Excalidraw/Drawing 2026-10-16 10.17.44.excalidraw.svg",
     "EM3.md",
-    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - Démo.md",
-    "TODO.md",
     "Phys - Exemple - Calcul de l'énergie de liaison d'un noyau atomique.md",
     "Phys - Formule.md",
     "Phys - Constante.md",
     "Phys - EM2 - Sources continues du champ électromagnétique.md",
-    "Phys - Lesson.md",
     "Phys - EM4 - Magnétostatique.md",
     "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
     "Phys - E2 - Electronique logique.md",
     "Phys - E1 - Révisions et Compléments.md",
-    "Phys.md",
     "file:/home/main/Téléchargements/paper/books/Analyse pour l'agrégation - Hervé Queffélec, Claude Zuily.pdf",
     "Phys - Démo - Champ électrique d'une sphère par Poisson.md",
-    "Phys - Démo - Champ électrique d'un cylindre infini.md",
-    "index.md",
     "file:/home/main/Téléchargements/Chapitre_7_limite_continuite.pdf",
     "file:/home/main/Téléchargements/Math - Dm - 5.pdf",
     "_template",
-    "Excalidraw",
-    "FocusLog/2026",
-    "FocusLog",
-    "_pomodoro_log/2026",
-    "_pomodoro_log",
-    "_scripts/latex.js"
+    "Excalidraw"
   ]
 }
