@@ -1,7 +1,3 @@
-```dataview
-list
-where contains(file.name, "Math - Lesson - ")
-```
 
 
 [[Math - Lesson - 1]]
