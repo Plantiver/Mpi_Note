@@ -26,7 +26,7 @@ On démontre bien que c'est une extractrice telle que:
 $$
 \forall n\in \mathbb{N},\;u_{\varphi(n)}\in X\cap C_{E}(\dot{B}(l,\varepsilon)).
 $$
-Or $X\cap C_{E}(\dot{B}(l,\varepsilon))$ est un compact, car #todo.
+Or $X\cap C_{E}(\dot{B}(l,\varepsilon))$ est un compact, car intersection de compacts.
 Donc, $(u_{\varphi(n)})$ possède une VA dans cette ensemble.
 Et donc $(u_{n})$ possède deux valeurs d'adhérence, ce qui contredis l'énoncé.
 

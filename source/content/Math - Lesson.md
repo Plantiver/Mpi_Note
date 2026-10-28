@@ -1,4 +1,7 @@
-
+```dataview
+list
+where contains(file.name, "Math - Lesson - ")
+```
 
 
 [[Math - Lesson - 1]]
@@ -20,6 +23,4 @@
 [[Math - Lesson - 17]]
 [[Math - Lesson - 18]]
 [[Math - Lesson - 19]]
-
-
 
