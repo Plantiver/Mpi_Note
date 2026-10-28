@@ -1,0 +1,146 @@
+Quand on fait de la mécanique, on définit notre système, le référentiel dans lequel on se place, et les coordonnées que l'on utilise.
+
+# Différents Systèmes
+### Mécanique du point
+### Mécanique du solide
+
+# Différents référentiels
+### Référentiels galiléens
+
+### Référentiels usuels
+
+
+# Différentes coordonnées
+### Coordonnées cartésiennes
+<!-- basicblock-start -->
+Def. Coordonnées en cartésien::
+$$
+\overrightarrow{OM}=\begin{pmatrix}
+x \cr
+y \cr
+z
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Vitesse en cartésien::
+$$
+\overrightarrow{v}=\begin{pmatrix}
+\dot{x} \cr
+\dot{y} \cr
+\dot{z}
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Accélération en cartésien::
+$$
+\overrightarrow{a}=\begin{pmatrix}
+\ddot{x} \cr
+\ddot{y} \cr
+\ddot{z}
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+
+Les coordonnées cartésiennes servent lorsque l'on décrit un problème avec des symétrie de translation, ou alors peu de symétrie. Dans ce cas, la simplicité de l'expression de la vitesse et de l'accélération permettent souvent de simplifier le problème.
+
+### Coordonnées cylindrique
+<!-- basicblock-start -->
+Def. Coordonnées en cylindrique::
+$$
+\overrightarrow{OM}=\begin{pmatrix}
+r \cr
+\theta \cr
+z
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Vitesse en cylindrique::
+$$
+\overrightarrow{v}=\begin{pmatrix}
+\dot{r} \cr
+r\dot{\theta} \cr
+\dot{z}
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Accélération en cylindrique::
+$$
+\overrightarrow{a}=\begin{pmatrix}
+\ddot{r}-r\dot{\theta}^{2} \cr
+r \ddot{\theta}+2\dot{r}\dot{\theta} \cr
+\ddot{z}
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+
+Les coordonnées cylindriques servent lorsqu'on cherche à décrire un mouvement circulaire, ou lorsqu'il s'avère que notre systèmes possèdes des symétries de rotation.
+
+### Coordonnées sphérique
+<!-- basicblock-start -->
+Def. Coordonnées en sphérique::
+$$
+\overrightarrow{OM}=\begin{pmatrix}
+r \cr
+\theta \cr
+\varphi
+\end{pmatrix}
+$$
+<!-- basicblock-end -->
+La vitesse et accélération étant une purge en cylindrique, elle ne sont pas très utilisées dans les exercices, et sont donc hors programmes.
+
+Les coordonnées sphériques servent majoritairement à démontrer qu'utiliser les coordonnées cylindrique est suffisant, est établissant des symétries de rotation.
+
+
+
+# La physique newtonienne
+Le modèle de newton fait des estimations très réaliste à notre échelle et jusqu'à d'assez grand systèmes (voir études des corps célestes).
+Ainsi, chaque objet interagit avec les autres aux travers de forces, réciproque entre deux objets (3ème loi). Un objet se déplace ainsi en accords avec la somme des forces qui lui sont appliquées (2ème loi).
+On définit la quantité de mouvement d'un système par:
+<!-- basicblock-start -->
+Def. Quantité de mouvement d'un système::
+$$
+\overrightarrow{p}=m\overrightarrow{v}.
+$$
+<!-- basicblock-end -->
+Alors, la deuxième loi de newton nous dis:
+![[Phys - Formule#2ème loi de Newton]]
+Ce qui se simplifie en la forme plus connue si la masse du système est constante:
+$$
+m\overrightarrow{a}=\sum \overrightarrow{F}.
+$$
+# L'analogie rotationnelle
+#todo change this title
+
+# Etude énergétique
+L'énergie est une grandeur qui se conservent au cours de l'évolution d'un système fermé, et permet donc, en étudiant les formes d'énergies présentes dans un systèmes, d'étudier le système en question.
+
+# Forces centrales
+
+
+# Exemple d'application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

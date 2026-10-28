@@ -1,8 +1,15 @@
 ---
 deck: phys
 ---
-
-
+# M
+### 2ème loi de Newton
+<!-- basicblock-start -->
+Form. 2ème loi de newtion::
+$$
+\frac{\mathrm{d}\overrightarrow{p}}{\mathrm{d}t}=\sum \overrightarrow{F}.
+$$
+<!-- basicblock-end -->
+# EM
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->
 Form. Equation de Maxwell-Gauss::

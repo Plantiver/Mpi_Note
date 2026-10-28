@@ -3,6 +3,9 @@
 - detect all #todo 
 - handle all #todo 
 - update old flashcards to use either list or block
+- create a music app
+- make this pc work
+- create a remote access to data
 # [[Fr-philo]]
 - Finir les livres
 - Fiches de citations
@@ -35,6 +38,12 @@
 - td maths
 - démo phys
 - fix flashcards
+
+# Today
+- finir le cour 8
+- 3 démo en phys
+- td info
+- faire le formulaire de math
 
 
 
