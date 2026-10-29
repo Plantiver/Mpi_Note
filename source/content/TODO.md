@@ -28,8 +28,6 @@
 - finir trad
 # [[TIPE]]
 - Memory mapping
-
-
 # Urgent
 - dm physique
 - td info
