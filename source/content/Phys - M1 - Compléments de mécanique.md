@@ -23,7 +23,7 @@ On a: $f_{d}\leq f_{s}$. (il est plus difficile de mettre en mouvement un objet 
 On note souvent $f=f_{d}=f_{s}$.
 L'absence de frottement implique $\overrightarrow{T}=\overrightarrow{0}$.
 $\overrightarrow{N}$ est nul seulement s'il n'y a pas de contact.
-Se rappeler que N plus petit que N ( #todo fix this): T peut facilement être nul, alors que N non.
+Se rappeler que $\|\overrightarrow{T}\|$ plus petit que $\|\overrightarrow{N}\|$: T peut facilement être nul, alors que N non.
 
 **Ordre de grandeur:**
 

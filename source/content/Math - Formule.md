@@ -1,3 +1,6 @@
+---
+deck: math
+---
 
 
 <!-- basicblock-start -->
@@ -14,7 +17,7 @@ Form. Combinatoire::
 - $\binom{n}{k-1}+\binom{n}{k}=\binom{n+1}{k}$
 <!-- basicblock-end -->
 
-#todo : remove duplicate from [[Math - Td - 1]]
+#todo : remove duplicate from [[Math - Lesson - 1]]
 <!-- basicblock-start -->
 Form. Développement de puissance::
 - $(a+b)^{n}=\sum_{k=0}^{n}\binom{n}{k}a^{k}b^{n-k}$
