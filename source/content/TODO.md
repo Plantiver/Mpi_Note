@@ -37,7 +37,6 @@
 
 # Today
 - 3 démo en phys
-- td info
 - faire le formulaire de math
 
 # Left todo

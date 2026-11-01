@@ -42,4 +42,27 @@ Parmi les trucs ambitieux, mais qui feront grandement avancer le projet, il y a:
 
 [[Tipe - Process]]
 
+[[Tipe - Entity]]
 
+
+
+Alors...
+Je voudrais scinder les choses en juste ce que je veux en faire, et pas forcément l'implémentation derrière, pour comme ça avoir un plan des différentes choses que j'ai à écrire.
+Donc, le noyau se lance sur un coeur, initialise tout les trucs à initialiser, et se met ensuite à ordonnancer des programmes.
+J'ai besoin de:
+- [ ] une fonction pour choisir le système suivant
+- [ ] une fonction pour récupérer toutes les ressources d'un systèmes et l'initialiser
+- [ ] une fonction pour exécuter toutes les modifs faites par un systèmes
+- [ ] une fonction pour émettre de nouveaux events et débloquer les systèmes concernées
+- [ ] une fonction pour ajouter un système
+- [ ] une fonction pour enlever un système
+- [ ] mettre en place des interrupts qui déclenchent des events
+- [x] une fonction pour transformer un fichier elf en process
+- [x] une fonction pour load tout les systèmes d'un process
+- [x] une fonction pour unload un process
+
+
+
+
+okay, le système de query ne va pas être simple à mettre en place.
+Il faut, à la compilation, que je transforme une fonction avec une annotation "système" en une fonction avec des arguments valides, et une structure pour renfermer ce système.
