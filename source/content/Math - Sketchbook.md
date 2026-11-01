@@ -170,6 +170,16 @@ Alors:
 $$
 \exists X\in \mathbb{K}^{n^{\star}},\;AX=\lambda X
 $$
+Ainsi:
+$$
+\begin{align*}
+|\lambda|\cdot\|X\|_{1}&\leq\|AX\|_{1}&&\cr
+&\leq \sum_{i=0}^{n}|\sum_{j=0}^{n}a_{i,j}x_{j}|&&\cr
+&\leq \sum_{i=0}^{n}|x_{i}|&&\cr
+&\leq 1\cdot\|X\|_{1}&&\cr
+\end{align*}
+$$
+Donc $|\lambda|\leq 1$.
 
 b)
 ça fonctionne pour $X_{0}=(1)$.
@@ -181,8 +191,9 @@ Soit $A,B\in \mathscr{S}$, alors:
 Donc $A\times B\in \mathscr{S}$.
 
 d)
-
-
+- Borné car sous-ensemble de $[0,1]^{n^{2}}$
+- Fermé car image réciproque de $\mathrm{Set}( 0 )$ par $\varphi:X\to\|AX-X\|_{1}$ qui est bien continue.
+On est en dim finie, donc c'est un compact.
 
 
 
