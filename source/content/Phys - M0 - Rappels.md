@@ -279,8 +279,6 @@ $$
 > [!note]- Démonstration de la mise sous forme effective de l'énergie mécanique
 > ![[Phys - Démo - Mise sous forme effective de l'énergie mécanique]]
 
-
-
 # Exemple d'application
 
 
