@@ -53,7 +53,7 @@ $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
-Th. accroissement fini::
+Th. égalité des accroissement fini::
 $$
 \begin{cases}
 f\in \mathcal{C}^{0}([a,b]) \cr
@@ -83,7 +83,7 @@ $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
-Th. des accroissement finis::
+Th. inégalité des accroissement finis::
 $$
 f\in \mathcal{C}^{0}(I,E),\;\left( \exists M\in \mathbb{R},\;\forall x \in I,\;\|f'(x)\|\leq M \right) \;\implies\;f\text{ est }M\text{-lispschitzienne}.
 $$

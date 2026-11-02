@@ -5,17 +5,19 @@ deck: phys
 
 Quand on fait de la mécanique, on définit notre système, le référentiel dans lequel on se place, et les coordonnées que l'on utilise.
 
-# Différents Systèmes
-### Mécanique du point
-### Mécanique du solide
+# Notion de référentiel
+<!-- basicblock-start -->
+Def. référentiel galiléen::
+- un référentiel qui satisfait la première loi de Newton.
+<!-- basicblock-end -->
 
-# Différents référentiels
-### Référentiels galiléens
-
-### Référentiels usuels
-
-
-# Différentes coordonnées
+<!-- basicblock-start -->
+Prop. référentiels usuels::
+- Terrestre
+- Géocentrique
+- Héliocentrique
+<!-- basicblock-end -->
+# Notion de coordonnées
 ### Coordonnées cartésiennes
 <!-- basicblock-start -->
 Def. Coordonnées en cartésien::
@@ -118,14 +120,6 @@ $$
 m\overrightarrow{a}=\sum \overrightarrow{F}.
 $$
 On dira qu'une force est conservatrice si elle ne dépend que des coordonnées de l'objet auquel elle s'applique. Ainsi, la force de gravité est conservatrice, mais pas les forces de frottements.
-# L'analogie rotationnelle
-De même que les objets translatent, ils tournent, et l'on retrouve beaucoup d'analogie entre les deux mouvements.
-
-On se place en coordonnée cylindrique, et l'on repère donc notre objet via l'angle plan $\theta$.
-On définit ensuite la vitesse angulaire $\omega=\dot{\theta}$ et l'accélération angulaire $\alpha=\ddot{\theta}$.
-De même qu'une force représente la modification 
-
-
 # Etude énergétique
 L'énergie est une grandeur qui se conservent au cours de l'évolution d'un système fermé, et permet donc, en étudiant les formes d'énergies présentes dans un système, d'étudier le système en question.
 En mécanique, on s'intéresse plus spécifiquement à l'énergie potentielle et cinétique d'un système, les deux se définissant comme suit:
@@ -189,10 +183,113 @@ $$
 \mathrm{d}\mathcal{E}_{m}=\sum \delta W(\overrightarrow{F}_{\text{non conservatrice}}).
 $$
 <!-- basicblock-end -->
+# L'analogie rotationnelle
+De même que les objets translatent, ils tournent, et l'on retrouve beaucoup d'analogie entre les deux mouvements.
+
+On se place en coordonnée cylindrique, et l'on repère donc notre objet via l'angle plan $\theta$.
+On définit ensuite la vitesse angulaire $\omega=\dot{\theta}$ et l'accélération angulaire $\alpha=\ddot{\theta}$.
+De même qu'une force représente la modification apportée à l'accélération dépendamment de la masse, on peut calculer de même les moments de ces forces par rapports à un axe, et en déduire l'accélération angulaire, dépendamment du moment d'inertie:
+#todo : change the name of this theorem.
+<!-- basicblock-start -->
+Th. pas moment cinétique::
+$$
+J_{\Delta}\alpha=\sum \mathcal{M}_{\Delta}(\overrightarrow{F}).
+$$
+<!-- basicblock-end -->
+Avec la définition suivante du moment d'inertie:
+<!-- basicblock-start -->
+Def. moment d'inertie::
+$$
+J_{\Delta}=\sum_{i}m_{i}r_{i}^{2}.
+$$
+<!-- basicblock-end -->
+et la définition suivante de moment d'une force:
+<!-- basicblock-start -->
+Def. moment d'une force par rapport à un axe::
+$$
+\mathcal{M}_{\Delta}(\overrightarrow{F})=\mathcal{M}_{O}(\overrightarrow{F})\cdot \overrightarrow{\Delta}.
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Def. moment d'une force par rapport à un point::
+$$
+\overrightarrow{\mathcal{M}_{O}}(\overrightarrow{F})=\overrightarrow{OM}\wedge \overrightarrow{F}.
+$$
+<!-- basicblock-end -->
+
+#todo: fiche méthode: bras de levier.
+
+On définit également le moment d'un point matériel par:
+<!-- basicblock-start -->
+Def. moment cinétique d'un point par rapport à un point::
+$$
+\overrightarrow{\mathcal{L}_{O}}(M)=\overrightarrow{OM}\wedge \overrightarrow{p}.
+$$
+<!-- basicblock-end -->
+ainsi que son moment par rapport à un axe:
+<!-- basicblock-start -->
+Def. moment cinétique d'un point par rapport à un axe::
+$$
+\mathcal{L}_{\Delta}(M)=\overrightarrow{\mathcal{L}_{O}}(M)\cdot \overrightarrow{\Delta}.
+$$
+<!-- basicblock-end -->
+
+Et l'on obtient alors le presque célèbre théorème du moment cinétique:
+<!-- basicblock-start -->
+Th. moment cinétique::
+$$
+\frac{\mathrm{d}\overrightarrow{\mathcal{L}_{O}}(M)}{\mathrm{d}t}=\sum \overrightarrow{\mathcal{M}_{O}}(\overrightarrow{F}).
+$$
+<!-- basicblock-end -->
+
+#todo : justify with a demo, or something.
+On en déduit la relation suivante:
+<!-- basicblock-start -->
+Prop. moment cinétique d'un solide par rapport à un axe::
+$$
+\mathcal{L}_{\Delta}(M)=J_{\Delta}\times\omega.
+$$
+<!-- basicblock-end -->
 # Forces centrales
+On étudie les forces conservatrice de la forme $\overrightarrow{F}=F(r,\theta,\varphi)\overrightarrow{u_{r}}$.
+On démontre qu'elles se mettent sous la forme:
+<!-- basicblock-start -->
+Def. force centrale::
+$$
+\overrightarrow{F}=F(r)\overrightarrow{u_{r}}.
+$$
+<!-- basicblock-end -->
+
+Ici, on se contentera d'étudier les forces newtoniennes, de la forme:
+<!-- basicblock-start -->
+Def. force newtonienne::
+$$
+\overrightarrow{F}=\frac{K}{r^{2}}\overrightarrow{u_{r}}.
+$$
+<!-- basicblock-end -->
+
+Une des premières conséquence qui vient est la planéité du mouvement, on le démontre via le théorème du moment cinétique, avec ici notre force de moment nul.
+<!-- basicblock-start -->
+Prop. planéité du mouvement dû à une force centrale::
+$$
+\mathcal{L}_{O}(M)=cst.
+$$
+<!-- basicblock-end -->
+
+> [!note]- Démonstration de la mise sous forme effective de l'énergie mécanique
+> ![[Phys - Démo - Mise sous forme effective de l'énergie mécanique]]
+
 
 
 # Exemple d'application
+
+
+
+
+
+
+
+
 
 
 

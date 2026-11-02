@@ -2,6 +2,9 @@
 
 Pour le td:
 29 sauf d), 37, 52, 56, 28 jusqu'à d) incluse
+
+---
+
 ### Exo 29
 a)
 Supposons par l'absurde que $f$ possède deux points fixes distincts, notées $l_{1},l_{2}$.
@@ -19,6 +22,7 @@ $f$ est continue car $1$-lipschitzienne, donc $\varphi$ est continue.
 Ainsi, $inf_{x \in K}\varphi(x)$ est en fait un minimum, car $K$ est fermé.
 
 Comment en déduire que $\varphi$ s'annule?
+Supposons par l'abs que $\alpha>0$, atteint en 
 
 c)
 Si $x_{0}=l$, alors c'est finis
@@ -26,14 +30,20 @@ Si $x_{0}\not=l$, alors:
 $$
 \forall n\in \mathbb{N},\;\|x_{n+1}-l\|<\|x_{n}-l\|
 $$
-Or, $x_{n}\in K^{\mathbb{N}}$, donc possède une VA, et l'on montre que c'est $l$.
+Or, $x_{n}\in K^{\mathbb{N}}$, donc possède une VA, et l'on montre que c'est $l$. -> Pas si facile en fait.
 Ainsi, APCR, $x_{n}$ est aussi proche que voulue de $l$, et d'après le résultat établi, $(x_{n})$ ne s'en éloigne plus.
 Ainsi, $x_{n}\underset{ n }{ \to }l$.
 
 
 
+
+---
+
 ### Exo 37
 a)
+
+!! Ne pas oublier de montrer que c'est un endomorphisme !!
+
 $$
 \begin{align*}
 |g|&=|u(f)|&&\cr
@@ -62,27 +72,18 @@ $$
 Donc, ça fonctionne.
 
 b)
-(i) $u$ est continue car application linéaire en dimension finie, et ce peu importe la norme, car elles sont équivalentes en dim fini
-(ii) Notons $i_{\text{max}}$ le $i$ tq $|a_{i}|$ soit maximal.
-Alors:
+(i) $u$ est continue car application linéaire en dimension finie, et ce peu importe la norme, car elles sont équivalentes en dim finie.
+(ii) 
 $$
 \begin{align*}
-|u(X)|&=|\sum_{i}x_{i}a_{i}|&&\cr
-&\leq \sum_{i}|a_{i_{\text{max}}}||x|&&\cr
-&\leq|a_{i_{\text{max}}}|\cdot\|X\|_{1}&&\cr
-&\leq|a_{i_{\text{max}}}|\cdot \sqrt{ n }\|X\|_{2}&&\cr
+|u(x)|&\leq \sum_{i=1}^{n}|a_{i}||x_{i}|&&\cr
+&\leq|\sum_{i=1}^{n}|a_{i}||x_{i}||&&\cr
+&\leq|<X;A>|&&\cr
+&\leq\|X\|_{2}\cdot\|A\|_{2}&&\cr
 \end{align*}
 $$
-Ainsi, $\|u\|_{op}\leq|a_{i_{\text{max}}}|\cdot \sqrt{ n }$.
-
-En prenant $X=(\mathrm{si}(a_{i}))_{i}$, on a alors:
-$$
-\begin{align*}
-\|X\|_{2}&=\sqrt{ n }&&\cr
-|u(X)|&=\sum|a_{i}|&&\cr
-\end{align*}
-$$
-·
+Donc $\|u\|_{op}\leq\|A\|_{2}$.
+On montre que pour $x=a$, on a l'égalité, ce qui entraîne $\|u\|_{op}=\|A\|_{2}$.
 
 (iii) Notons $i_{\text{max}}$ le $i$ tq $|x_{i}|$ soit maximal.
 Alors:
@@ -111,13 +112,16 @@ E\to E \cr
 P\to P'
 \end{cases}
 $$
-Alors $D\in \mathcal{L}(E)$ mais la suite des $P_{n}=X^{n}$ permet de montrer que $D\\not\in \mathcal{L}_{c}(E)$.
+Alors $D\in \mathcal{L}(E)$ mais la suite des $P_{n}=X^{n}$ permet de montrer que $D\not\in \mathcal{L}_{c}(E)$.
+
+---
 
 ### Exo 52
 a)
 Il s'agit de la norme opérateur de l'application canoniquement associée à $A$, or nous sommes en dimension finie, et donc cette application linéaire est continue, d'où l'existence.
 
 b)
+Hum, j'ai pris la norme infini... Donc ce que j'ai fait ne marche pas... et ça court pas non plus :3.
 $$
 \begin{align*}
 \frac{\|AX\|_{1}}{\|X\|_{1}}&=\frac{max_{j=1}^{n}\left( |\sum_{i=0}^{n}a_{i,j}x_{i} |\right)}{max_{j=1}^{n}x_{j}}&&\cr
@@ -126,6 +130,7 @@ $$
 \end{align*}
 $$
 c)
+Ici, de même, je me suis trompée, il fallait prendre un vecteur qui a des 0 partout, et 1 à la lignes qui donnent le max voulue... Désolée
 En prenant $X=(\mathrm{si}(a_{i,j}))_{i}$, avec $j$ tq $\sum_{i=0}^{n}|a_{i,j}|$ soit maximal.
 Alors,
 $$
@@ -136,8 +141,11 @@ $$
 $$
 Ce qui conclut.
 
+---
+
 ### Exo 56
 a) Non, car nous sommes en dimension infini, donc ça ne découle pas directement.
+On peut prendre $f_{n}:t\to t^{n}$, qui fait exploser le rapport des normes.
 
 b)
 (i)
@@ -149,7 +157,7 @@ $$
 \end{align*}
 $$
 (ii)
-$F$ est l'image réciproque par une application continue d'un fermée, donc est un fermée.
+$F$ est l'image réciproque par une application continue de $\mathrm{Set}( 0 )$, un fermée, donc est un fermée.
 
 c)
 (i)
@@ -161,6 +169,9 @@ $$
 $c$ est limite d'une suite d'élément de $F$, donc $c\in \bar{F}$.
 Or $c\not\in F$ donc $F$ n'est pas fermé pour $\|\cdot\|_{1}$. 
 
+
+
+---
 
 ### Exo 28
 
@@ -181,6 +192,8 @@ $$
 $$
 Donc $|\lambda|\leq 1$.
 
+Et NON, ça ne fonctionne pas, ce sont les lignes qui se somment à 1, pas les colonnes, donc bon...
+
 b)
 ça fonctionne pour $X_{0}=(1)$.
 
@@ -192,9 +205,48 @@ Donc $A\times B\in \mathscr{S}$.
 
 d)
 - Borné car sous-ensemble de $[0,1]^{n^{2}}$
-- Fermé car image réciproque de $\mathrm{Set}( 0 )$ par $\varphi:X\to\|AX-X\|_{1}$ qui est bien continue.
+- Fermé car image réciproque de $\mathrm{Set}( 0 )$ par $\varphi:A\to\|AX_{0}-X_{0}\|_{1}$ qui est bien continue.
 On est en dim finie, donc c'est un compact.
 
+e)
+Mq $E_{1}(A)=\mathrm{Vect}(X_{0})$.
+Inclusion réciproque:
+Soit $X=\lambda X_{0}$, alors $AX=\lambda AX_{0}=X$ donc $X\in E_{1}(A)$.
+
+Inclusion directe:
+Soit $X\in \mathcal{M}_{n,1}(\mathbb{R}),\;AX=X$, alors:
+Prenons $i_{0}$ tq $x_{i_{0}}=max_{i=1}^{n}x_{i}$.
+On a:
+$$
+\forall i\in[1,n],\;\sum_{j=1}^{n}a_{i,j}x_{j}=x_{i}.
+$$
+
+En particulier pour $i=i_{0}$:
+$$
+\begin{align*}
+\sum_{j=1}^{n}a_{i_{0},j}x_{j}&=x_{i_{0}}&&\cr
+&=\sum_{k=1}^{n}a_{i_{0},k}x_{i_{0}}&&\cr
+\;\implies\;\sum_{k=1}^{n}a_{i_{0},k}(x_{k}-x_{i_{0}})&=0&&\cr
+&&&\cr
+\end{align*}
+$$
+Or c'est une somme de termes positifs ou nuls, donc chacun est nul.
+Ainsi, $\forall i\in[1,n],\;x_{i}=x_{i_{0}}$.
+Donc $X=(x_{i_{0}})\in \mathrm{Vect}(X_{0})$.
+
+f)
+- $\supset$ est toujours vraie.
+- Mtr $\subset$:
+Or $E_{1}(A)\subset E_{1}(A^{k})$, car si $X\in E_{1}(A)\text{, i.e. }AX=X,\;\;\implies\;A^{k}X=X\;\implies\;X\in E_{1}(A^{k})$.
+Donc, par e), $E_{1}(A^{k})\subset \mathrm{Vect}(X_{0})$ car $A$ stochastique.
+
+g)
+(i)
+Soit $X\in E_{1}(A)$, alors $AX=X$.
+D'où
+
+
+---
 
 
 

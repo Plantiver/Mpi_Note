@@ -177,11 +177,36 @@ Def. Heuristique admissible::
 - si $u\underset{ d }{ \to }t$, alors $h_{t}(u)\leq d$.
 <!-- basicblock-end -->
 
+---
 
 
+#todo 
+```ocaml
+
+let diff_sym m p =
+...
+;;
+
+let couplage g s1 s2 =
+	let n = Array.length g in
+	let m = Array.init n None in
+	List.iter ( fun x ->
+		let p=[] in
+		let visite = Array.init n false in
+		let rec aux l = 
+			match l with
+			| [] -> None
+			| y::l' where visite.(y) -> aux l'
+			| y::l' -> visite.(y) <- true;
+				
+		in match aux g.(x) with
+		| None -> ()
+		| Some(p) -> diff_sym m p
+	) s1
 
 
-
+;;
+```
 
 
 
