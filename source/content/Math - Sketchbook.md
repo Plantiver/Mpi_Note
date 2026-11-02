@@ -1,252 +1,218 @@
+# Problème 1
+## Partie I
 
-
-Pour le td:
-29 sauf d), 37, 52, 56, 28 jusqu'à d) incluse
+### Q1.
+$$
+C_{t}=\begin{pmatrix}
+0 & 1 \\
+t & 0
+\end{pmatrix},\;C_{t}^{2}=\begin{pmatrix}
+t & 0 \\
+0 & t
+\end{pmatrix}
+$$
+Ainsi, $P=X^{2}-t$ est un polynôme annulateur de $C_{t}$.
 
 ---
-
-### Exo 29
-a)
-Supposons par l'absurde que $f$ possède deux points fixes distincts, notées $l_{1},l_{2}$.
-Alors:
+### Q2.
+Supposons $t>0$, alors:
 $$
 \begin{align*}
-\|f(l_{1})-f(l_{2})\|&<\|l_{1}-l_{2}\|&&\cr
-\|l_{1}-l_{2}\|&<\|l_{1}-l_{2}\|&&\cr
+\chi_{A_{t}}&=X^{2}-X+\frac{1-t}{4}&&\cr
+&=\left( X-\frac{1+\sqrt{ t }}{2} \right)\left( X-\frac{1-\sqrt{ t }}{2} \right)&&\cr
 \end{align*}
 $$
-Absurde.
-
-b)
-$f$ est continue car $1$-lipschitzienne, donc $\varphi$ est continue.
-Ainsi, $inf_{x \in K}\varphi(x)$ est en fait un minimum, car $K$ est fermé.
-
-Comment en déduire que $\varphi$ s'annule?
-Supposons par l'abs que $\alpha>0$, atteint en 
-
-c)
-Si $x_{0}=l$, alors c'est finis
-Si $x_{0}\not=l$, alors:
+est un polynôme scindé à racine simple, donc les valeurs propres de $A_{t}$ en sont les racines.
+Et donc:
 $$
-\forall n\in \mathbb{N},\;\|x_{n+1}-l\|<\|x_{n}-l\|
+\mathrm{Sp}A_{t}=\mathrm{Set}\left(  \frac{1\pm \sqrt{ t }}{2}  \right).
 $$
-Or, $x_{n}\in K^{\mathbb{N}}$, donc possède une VA, et l'on montre que c'est $l$. -> Pas si facile en fait.
-Ainsi, APCR, $x_{n}$ est aussi proche que voulue de $l$, et d'après le résultat établi, $(x_{n})$ ne s'en éloigne plus.
-Ainsi, $x_{n}\underset{ n }{ \to }l$.
 
-
-
-
----
-
-### Exo 37
-a)
-
-!! Ne pas oublier de montrer que c'est un endomorphisme !!
-
-$$
-\begin{align*}
-|g|&=|u(f)|&&\cr
-&=\int_{0}^{1}|\int_{0}^{x}f(t)\mathrm{d}t|\mathrm{d}x&&\cr
-&\leq \int_{0}^{1}\int_{0}^{x}|f(t)|\mathrm{d}t\mathrm{d}x&&\cr
-&\leq \int_{0}^{1}\int_{0}^{1}|f(t)|\mathrm{d}t\mathrm{d}x&&\cr
-&\leq \int_{0}^{1}|f|\mathrm{d}x&&\cr
-&\leq 1\cdot|f|&&\cr
-\end{align*}
-$$
-Donc $u$ est continue.
-
-Cherchons maintenant $|\|u\||$. Educated guess, is it $1$?
-Introduisons $f_{n}=(t\to ne^{-tn})$.
-
-On a alors, pour $n>1$:
-$$
-\begin{align*}
-\frac{|u(f_{n})|}{|f_{n}|}&=\frac{\int_{0}^{1}|\int_{0}^{x}ne^{-nt}\mathrm{d}t|\mathrm{d}x}{\int_{0}^{1}|ne^{-nt}|\mathrm{d}t}&&\cr
-&=\frac{\int_{0}^{1}|1-e^{-nx}|\mathrm{d}x}{1-e^{-n}}&&\cr
-&=\frac{1-\left( -\frac{1}{n} \right)(e^{-n}-1)}{1-e^{-n}}&&\cr
-&=-\frac{1}{n}+\frac{1}{1-e^{-n}}&&\cr
-&\underset{ n }{ \to }1&&\cr
-\end{align*}
-$$
-Donc, ça fonctionne.
-
-b)
-(i) $u$ est continue car application linéaire en dimension finie, et ce peu importe la norme, car elles sont équivalentes en dim finie.
-(ii) 
-$$
-\begin{align*}
-|u(x)|&\leq \sum_{i=1}^{n}|a_{i}||x_{i}|&&\cr
-&\leq|\sum_{i=1}^{n}|a_{i}||x_{i}||&&\cr
-&\leq|<X;A>|&&\cr
-&\leq\|X\|_{2}\cdot\|A\|_{2}&&\cr
-\end{align*}
-$$
-Donc $\|u\|_{op}\leq\|A\|_{2}$.
-On montre que pour $x=a$, on a l'égalité, ce qui entraîne $\|u\|_{op}=\|A\|_{2}$.
-
-(iii) Notons $i_{\text{max}}$ le $i$ tq $|x_{i}|$ soit maximal.
-Alors:
-$$
-\begin{align*}
-|u(X)|&=|\sum_{i}x_{i}a_{i}|&&\cr
-&\leq \sum_{i}|a_{i}|\cdot|x_{i_{\text{max}}}|&&\cr
-&\leq\|A\|_{1}\cdot\|X\|_{\infty}&&\cr
-\end{align*}
-$$
-Ainsi, $\|u\|_{op}\leq\|A\|_{1}$.
-Or, en prenant $X=(\mathrm{si}(a_{i})_{i})$, on a alors:
-$$
-\begin{align*}
-\|X\|_{\infty}&=1&&\cr
-|u(X)|&=\|A\|_{1}&&\cr
-\end{align*}
-$$
-Ainsi, $\|u\|_{op}=\|A\|_{1}$.
-
-c)
-Prenons $(\mathbb{R}[X], \|\cdot\|_{\infty})$, alors considérons:
-$$
-D:\begin{cases}
-E\to E \cr
-P\to P'
-\end{cases}
-$$
-Alors $D\in \mathcal{L}(E)$ mais la suite des $P_{n}=X^{n}$ permet de montrer que $D\not\in \mathcal{L}_{c}(E)$.
-
----
-
-### Exo 52
-a)
-Il s'agit de la norme opérateur de l'application canoniquement associée à $A$, or nous sommes en dimension finie, et donc cette application linéaire est continue, d'où l'existence.
-
-b)
-Hum, j'ai pris la norme infini... Donc ce que j'ai fait ne marche pas... et ça court pas non plus :3.
-$$
-\begin{align*}
-\frac{\|AX\|_{1}}{\|X\|_{1}}&=\frac{max_{j=1}^{n}\left( |\sum_{i=0}^{n}a_{i,j}x_{i} |\right)}{max_{j=1}^{n}x_{j}}&&\cr
-&\leq \frac{max_{j=1}^{n}\left( \sum_{i=0}^{n}|a_{i,j}|\cdot |x_{max}| \right)}{|x_{max}|}&&\cr
-&\leq max_{j=1}^{n}\left( \sum_{i=0}^{n}|a_{i,j}| \right)&&\cr
-\end{align*}
-$$
-c)
-Ici, de même, je me suis trompée, il fallait prendre un vecteur qui a des 0 partout, et 1 à la lignes qui donnent le max voulue... Désolée
-En prenant $X=(\mathrm{si}(a_{i,j}))_{i}$, avec $j$ tq $\sum_{i=0}^{n}|a_{i,j}|$ soit maximal.
 Alors,
 $$
 \begin{cases}
-\|X\|_{1}&=1 \cr
-\|AX\|_{1}&=\sum_{i=0}^{n}|a_{i,j}|
+E_{\frac{1+\sqrt{ t }}{2}}(A_{t})&=\mathrm{Ker}\begin{pmatrix}
+-\sqrt{ t } & 1 \\
+t & -\sqrt{ t }
+\end{pmatrix} &= \mathrm{Vect}(v_{1}=\begin{pmatrix}
+1 \\
+\sqrt{ t }
+\end{pmatrix}) \\
+E_{\frac{1-\sqrt{ t }}{2}}(A_{t})&=\mathrm{Ker}\begin{pmatrix}
+\sqrt{ t } & 1 \\
+t & \sqrt{ t }
+\end{pmatrix}&=\mathrm{Vect}(v_{2}=\begin{pmatrix}
+1 \\
+-\sqrt{ t }
+\end{pmatrix})
 \end{cases}
 $$
-Ce qui conclut.
+Or $\begin{vmatrix}1 & 1\cr\sqrt{ t } & -\sqrt{ t }\end{vmatrix}=-2\sqrt{ t }\not=0$, donc $\mathscr{B}=(v_{1},v_{2})$ est une base propre et
+$$
+\begin{cases}
+A_{t}&=PDP^{-1} \\ \\
+D&=\begin{pmatrix}
+\frac{1+\sqrt{ t }}{2} & 0 \\
+0 & \frac{1-\sqrt{ t }}{2}
+\end{pmatrix} \\
+P&=\begin{pmatrix}
+1 & 1 \\
+\sqrt{ t } & -\sqrt{ t }
+\end{pmatrix}
+\end{cases}
+$$
+
+---
+### Q3.
+Supposons $t<0$:
+$$
+\begin{align*}
+\chi_{A_{t}}&=X^{2}-X+\frac{1-t}{4}&&\cr
+&=\left( X-\frac{1+i\sqrt{ -t }}{2} \right)\left( X-\frac{1-i\sqrt{ -t }}{2} \right)&&\cr
+\end{align*}
+$$
+De même que pour Q2.:
+$$
+\begin{cases}
+E_{\frac{1+i\sqrt{ -t }}{2}}(A_{t})&=\mathrm{Ker}\begin{pmatrix}
+-i\sqrt{ -t } & 1 \\
+t & -i\sqrt{ -t }
+\end{pmatrix}&=\mathrm{Vect}(\bar{v_{1}}=\begin{pmatrix}
+1 \\
+i\sqrt{ -t }
+\end{pmatrix}) \\
+E_{\frac{1-i\sqrt{ -t }}{2}}(A_{t})&=\mathrm{Ker}\begin{pmatrix}
+i\sqrt{ -t } & 1 \\
+t & i\sqrt{ -t }
+\end{pmatrix}&=\mathrm{Vect}(\bar{v_{2}}=\begin{pmatrix}
+1 \\
+-i\sqrt{ -t }
+\end{pmatrix})
+\end{cases}
+$$
+Et donc, avec $\mathscr{\bar{B}}=(\bar{v_{1}},\bar{v_{2}})$ base propre:
+$$
+\begin{cases}
+A_{t}&=PDP^{-1} \\
+D&=\begin{pmatrix}
+\frac{1+i\sqrt{ -t }}{2} & 0 \\
+0 & \frac{1-i\sqrt{ -t }}{2}
+\end{pmatrix} \\
+P&=\begin{pmatrix}
+1 & 1 \\
+i\sqrt{ -t } & -i\sqrt{ -t }
+\end{pmatrix}
+\end{cases}
+$$
+Le polynôme caractéristique n'étant pas scindé sur $\mathbb{R}$, $A_{t}$ n'est pas trigonalisable sur $\mathbb{R}$.
+
+---
+### Q4.
+$$
+A_{0}=\frac{1}{2}\begin{pmatrix}
+1 & 1 \\
+0 & 1
+\end{pmatrix}
+$$
+Ainsi, $A_{0}$ est triangulaire supérieur, donc ses valeurs propres sont ses coefficients diagonaux.
+$$
+\mathrm{Sp}A_{0}=\mathrm{Set}\left(  \frac{1}{2}  \right).
+$$
+Et donc, si $A_{0}$ était diagonalisable, elle serait semblable à $\begin{pmatrix}\frac{1}{2} & 0\cr0 & \frac{1}{2}\end{pmatrix}$, donc égale à cette matrice, ce qui est absurde. Donc $A_{0}$ n'est pas diagonalisable, ni sur $\mathbb{R}$, ni sur $\mathbb{C}$.
+En prenant $J=\begin{pmatrix}0 & 1\cr0 & 0\end{pmatrix}$, ça fonctionne.
+
+Ainsi, sur $\mathbb{C}$, $A_{0}$ est diagonalisable pour $t\in \mathbb{R}^{\star}$, et triangulaire supérieur pour $t=0$.
+Sur $\mathbb{R}$, $A_{0}$ est diagonalisable pour $t\in \mathbb{R}^{\star}_{+}$, n'est même pas trigonalisable pour $t\in \mathbb{R}^{\star}_{-}$, et est triangulaire supérieur pour $t=0$.
+
+---
+## Partie II
+### Q5.
+$$
+\begin{align*}
+A_{0}^{m}&=\left( \frac{1}{2}(I_{2}+J) \right)^{m}&&\cr
+&=\frac{1}{2^{m}}\sum_{k=0}^{m}\binom{m}{k}J^{k}&&\cr
+&=\frac{1}{2^{m}}(I_{2}+mJ)&&\cr
+&\underset{ m }{ \to }0.&&\cr
+\end{align*}
+$$
+Car $I_{2}$ et $J$ commutent.
+
+---
+## Partie III
+# Problème 2
+
+## Partie I
+
+## Partie II
+
+## Partie III
+
+### Q24.
+Tout élément de $\mathscr{P}$ a pour polynôme annulateur $P=X^{2}-X=X(X-1)$ qui est scindé à racine simple, donc est diagonalisable et a son spectre inclus dans $\mathrm{Set}( 0,1 )$.
+Ainsi, $\forall P\in \mathscr{P},\;\mathrm{Tr}P\in \mathrm{Set}( 0,1,2 )$.
+
+Introduisons $\phi:\begin{cases}\mathcal{M}_{2}(\mathbb{R})\to \mathbb{R}_{+}\cr M\to\|M^{2}-M\|\end{cases}$, est continue, alors $\mathscr{P}=\phi ^{-1}(\mathrm{Set}( 0 ))$, l'image réciproque d'un ensemble fermé par une application continue, donc un fermé.
+
+---
+### Q25.
+$$
+\forall s \in \mathbb{R},\;P_{s}^{2}=P_{s}\;\implies\;\forall s\in \mathbb{R},\;P_{s}\in \mathscr{P}.
+$$
+Or,
+$$
+\forall s\in \mathbb{R},\;\|P_{s}\|=1+|s|.
+$$
+Ainsi, $\mathscr{P}$ n'est pas borné.
+Or, tout compact est bornée, donc $\mathscr{P}$ n'est pas un compact.
+
+---
+### Q26.
+Soit $r\geq0$, alors:
+- $\mathscr{P}_{r}$ est borné par définition
+- $\mathscr{P}_{r}$ est un fermé car l'intersection de $\mathscr{P}$ et $\|\cdot\|^{-1}([-r, r])$, deux fermés.
+Or, nous sommes en dimension finie, donc ces hypothèses suffisent: $\mathscr{P}_{r}$ est compact.
+
+---
+### Q27.
+Soit $\psi:\begin{cases}\mathcal{M}_{2}(\mathbb{R})&\to \mathcal{M}_{2}(\mathbb{R})\cr M&\to M^{T}-M\end{cases}$.
+Alors, $S=\mathscr{P}\cap \psi ^{-1}(\mathrm{Set}(0_{\mathcal{M}_{2}(\mathbb{R})}))$, est un fermé par intersection de fermé.
+
+Soit
+$$
+s=\begin{pmatrix}
+a & b \\
+b & d
+\end{pmatrix}\in S.
+$$
+Alors,
+$$
+S^{2}=S\;\implies\;\begin{pmatrix}
+a^{2}+b^{2} & ab+bd \\
+ab+bd & b^{2}+d^{2}
+\end{pmatrix}=\begin{pmatrix}
+a & b \\
+b & d
+\end{pmatrix}.
+$$
+- **Si $b\not=0$:**
+On a $a+d=1$, donc $a^{2}+2ad+d^{2}=1=a^{2}+2b^{2}+d^{2}$, donc $ad=b^{2}$.
+Ainsi:$\begin{cases}d=1-a\cr b=\pm\sqrt{ a(1-a) }\end{cases}$, et $a\in[0,1]$.
+Ainsi, $s=\begin{pmatrix}a & \pm \sqrt{ a(1-a) } \\  \pm \sqrt{ a(1-a) } & 1-a\end{pmatrix}$, et $\|s\|\leq2$.
+- **Si $b=0$:**
+alors $(a,d)\in \mathrm{Set}( 0,1 )^{2}$, donc $\|s\|\leq1$.
+
+Ainsi, $S$ est borné et fermé en dimension finie, donc $S$ est compact.
 
 ---
 
-### Exo 56
-a) Non, car nous sommes en dimension infini, donc ça ne découle pas directement.
-On peut prendre $f_{n}:t\to t^{n}$, qui fait exploser le rapport des normes.
-
-b)
-(i)
-$u\in \mathcal{L}(E,\mathbb{R})$, ainsi, on cherche à savoir s'il existe $k$ qui convient:
-$$
-\begin{align*}
-|u(f)|&=|f(0)|&&\cr
-&\leq1\cdot\|f\|_{\infty}&&\cr
-\end{align*}
-$$
-(ii)
-$F$ est l'image réciproque par une application continue de $\mathrm{Set}( 0 )$, un fermée, donc est un fermée.
-
-c)
-(i)
-En découpant l'aire en deux morceaux:
-$$
-\|f_{n}-c\|_{1}=\frac{1}{2}\cdot \frac{1}{n}.
-$$
-(ii)
-$c$ est limite d'une suite d'élément de $F$, donc $c\in \bar{F}$.
-Or $c\not\in F$ donc $F$ n'est pas fermé pour $\|\cdot\|_{1}$. 
 
 
 
----
-
-### Exo 28
-
-a)
-Soit $\lambda \in \mathrm{Sp}A$.
-Alors:
-$$
-\exists X\in \mathbb{K}^{n^{\star}},\;AX=\lambda X
-$$
-Ainsi:
-$$
-\begin{align*}
-|\lambda|\cdot\|X\|_{1}&\leq\|AX\|_{1}&&\cr
-&\leq \sum_{i=0}^{n}|\sum_{j=0}^{n}a_{i,j}x_{j}|&&\cr
-&\leq \sum_{i=0}^{n}|x_{i}|&&\cr
-&\leq 1\cdot\|X\|_{1}&&\cr
-\end{align*}
-$$
-Donc $|\lambda|\leq 1$.
-
-Et NON, ça ne fonctionne pas, ce sont les lignes qui se somment à 1, pas les colonnes, donc bon...
-
-b)
-ça fonctionne pour $X_{0}=(1)$.
-
-c)
-Soit $A,B\in \mathscr{S}$, alors:
-- $A\times B$ est à coefficient positif
-- $(A\times B)X_{0}=X_{0}$
-Donc $A\times B\in \mathscr{S}$.
-
-d)
-- Borné car sous-ensemble de $[0,1]^{n^{2}}$
-- Fermé car image réciproque de $\mathrm{Set}( 0 )$ par $\varphi:A\to\|AX_{0}-X_{0}\|_{1}$ qui est bien continue.
-On est en dim finie, donc c'est un compact.
-
-e)
-Mq $E_{1}(A)=\mathrm{Vect}(X_{0})$.
-Inclusion réciproque:
-Soit $X=\lambda X_{0}$, alors $AX=\lambda AX_{0}=X$ donc $X\in E_{1}(A)$.
-
-Inclusion directe:
-Soit $X\in \mathcal{M}_{n,1}(\mathbb{R}),\;AX=X$, alors:
-Prenons $i_{0}$ tq $x_{i_{0}}=max_{i=1}^{n}x_{i}$.
-On a:
-$$
-\forall i\in[1,n],\;\sum_{j=1}^{n}a_{i,j}x_{j}=x_{i}.
-$$
-
-En particulier pour $i=i_{0}$:
-$$
-\begin{align*}
-\sum_{j=1}^{n}a_{i_{0},j}x_{j}&=x_{i_{0}}&&\cr
-&=\sum_{k=1}^{n}a_{i_{0},k}x_{i_{0}}&&\cr
-\;\implies\;\sum_{k=1}^{n}a_{i_{0},k}(x_{k}-x_{i_{0}})&=0&&\cr
-&&&\cr
-\end{align*}
-$$
-Or c'est une somme de termes positifs ou nuls, donc chacun est nul.
-Ainsi, $\forall i\in[1,n],\;x_{i}=x_{i_{0}}$.
-Donc $X=(x_{i_{0}})\in \mathrm{Vect}(X_{0})$.
-
-f)
-- $\supset$ est toujours vraie.
-- Mtr $\subset$:
-Or $E_{1}(A)\subset E_{1}(A^{k})$, car si $X\in E_{1}(A)\text{, i.e. }AX=X,\;\;\implies\;A^{k}X=X\;\implies\;X\in E_{1}(A^{k})$.
-Donc, par e), $E_{1}(A^{k})\subset \mathrm{Vect}(X_{0})$ car $A$ stochastique.
-
-g)
-(i)
-Soit $X\in E_{1}(A)$, alors $AX=X$.
-D'où
 
 
----
+
+
+
 
 
 

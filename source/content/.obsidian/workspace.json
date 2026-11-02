@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - M0 - Rappels.md",
+                "file": "Math - Sketchbook.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - M0 - Rappels"
+              "title": "Math - Sketchbook"
             }
           }
         ],
@@ -105,9 +105,9 @@
   },
   "active": "0a53d6e491bc7f88",
   "lastOpenFiles": [
+    "Phys - M0 - Rappels.md",
     "Phys - Exo.md",
     "Phys - Démo - Mise sous forme effective de l'énergie mécanique.md",
-    "Phys - M0 - Rappels.md",
     "Phys - M1 - Compléments de mécanique.md",
     "Phys.md",
     "TODO.md",
