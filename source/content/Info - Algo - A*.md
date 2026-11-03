@@ -1,4 +1,3 @@
-#todo : do the thing
 # Énoncé
 On souhaite trouver le plus cours chemin entre deux point d'un graphe pondéré, et l'on a pour s'aider une heuristique admissible sur ce graphe.
 
@@ -32,7 +31,7 @@ fini
 ```
 
 # Preuve
-#todo : démo de correction, et de terminaison
+#todo : démo de correction, et de terminaison, et de complexité
 
 # Implémentation
 #todo : make it work...

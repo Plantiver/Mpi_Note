@@ -35,9 +35,6 @@
 - Phys: Ds
 - Français: beaucoup
 
-
-
-
 # Left to_do for the lesson
 ```dataview
 list from #todo
