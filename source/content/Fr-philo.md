@@ -2,7 +2,4 @@
 [[Fr-philo - Résumé]]
 [[Fr-philo - Citation]]
 
-[[Fr-philo - note]]
-[[Fr-philo - flash]]
-
 [[Fr-Philo - Epreuve]]

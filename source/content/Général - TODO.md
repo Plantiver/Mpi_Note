@@ -28,20 +28,26 @@
 - finir trad
 # [[TIPE]]
 - Memory mapping
-# Urgent
-- dm physique
-- td info
-- td maths
-- démo phys
-- fix flashcards
 
-# Today
-- 3 démo en phys
-- faire le formulaire de math
+# Général
+- English: the text+midterm's news
+
+
+
+
+
+
+
+
+
+
+
 
 # Left todo
 ```dataview
 list from #todo
+where !contains(file.name, "Démo")
+sort ascending
 ```
 
 

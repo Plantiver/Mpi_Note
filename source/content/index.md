@@ -8,7 +8,7 @@ Vous pourrez également trouver tout ce qui n'a pas sa place ici sur mon [github
 
 Je suis, pour l'instant, une certaine organisation que j'espère tenir toute l'année.
 
-Je garde la liste que j'ai à faire dans le prochain temps dans [[TODO]]. (attention, il y a aussi un peu de perso, que je supprimerais une fois l'année terminée).
+Je garde la liste que j'ai à faire dans le prochain temps dans [[Général - TODO]]. (attention, il y a aussi un peu de perso, que je supprimerais une fois l'année terminée).
 
 ! ============================================================ ! 
 De nombreuse notes sont incomplètes, je signale souvent cela par #todo  
