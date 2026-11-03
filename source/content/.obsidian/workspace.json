@@ -33,22 +33,37 @@
             }
           },
           {
-            "id": "a676c6490deae2c6",
+            "id": "6c8c0f1e548697e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math - Lesson - 8.md",
+                "file": "Phys - EM2 - Sources continues du champ électromagnétique.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Math - Lesson - 8"
+              "title": "Phys - EM2 - Sources continues du champ électromagnétique"
+            }
+          },
+          {
+            "id": "7f6900088c057975",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phys - EM4 - Magnétostatique.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Phys - EM4 - Magnétostatique"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,9 +118,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a676c6490deae2c6",
+  "active": "7f6900088c057975",
   "lastOpenFiles": [
+    "Phys - Démo - Champ électrique d'une sphère.md",
+    "Phys - EM4 - Magnétostatique.md",
+    "Phys - Math.md",
+    "Phys - Formule.md",
+    "Phys - EM2 - Sources continues du champ électromagnétique.md",
+    "Phys - Démo - Equation locale de conservation de la charge unidimensionnelle.md",
+    "Phys - Démo - Equation locale de conservation de la charge.md",
+    "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
+    "Phys - Lesson.md",
+    "Phys.md",
+    "TIPE.md",
     "Général - TODO.md",
+    "Math - Lesson - 8.md",
     "Math - Lesson - 7.md",
     "Math - Lesson - 5.md",
     "Math.md",
@@ -119,18 +146,6 @@
     "Info - Doc.md",
     "Info.md",
     "Général - Démo.md",
-    "Info - Démo.md",
-    "Info - Démo - Lemme de l'étoile.md",
-    "Math - Démo.md",
-    "Phys - Démo.md",
-    "Général - Conseil.md",
-    "Général - Calendar.md",
-    "Fr-philo.md",
-    "Fr-Philo - Epreuve - Oral Centrale.md",
-    "Fr-philo - Résumé.md",
-    "Fr-philo - note.md",
-    "Fr-philo - flash.md",
-    "Fr-Philo - Epreuve.md",
     "file:/home/main/Téléchargements/Poly_Cours_Chap2_P3.pdf",
     "file:/home/main/Téléchargements/Poly_Cours_Chap1_P3.pdf",
     "file:/home/main/Téléchargements/Poly_Cours_Chap3_P3.pdf",

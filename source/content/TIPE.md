@@ -66,3 +66,15 @@ J'ai besoin de:
 
 okay, le système de query ne va pas être simple à mettre en place.
 Il faut, à la compilation, que je transforme une fonction avec une annotation "système" en une fonction avec des arguments valides, et une structure pour renfermer ce système.
+
+Okay, je dois pas définir une structure à chaque fois, car je ne peux pas recompiler à chaque fois, mais plutôt une structure pour les représenter, dans laquelle je vais stocker les informations que je récupère quand je parse le fichier elf.
+Donc, il faut que je définisse un trait que devront implémenter les différents trucs avec une fonction pour les transformer en mon type, et c'est mon type seulement que je stockerais sur mon Os.
+
+
+
+---
+Okay, discussion avec Mirliaz, il faut d'avantage que je précise ce que je veux faire.
+Je dois me concentrer sur faire quelque chose de fonctionnelle, qui laisse lieu à une petite implémentation pour comparer avec un autre os.
+Tout ce dont j'ai besoin, c'est deux petits programmes, un qui tournera bien sous linux, un qui tournera bien sous Crusty.
+Bon, le problème c'est qu'il faut que je puisse transposer facilement de l'un à l'autre pour faire une comparaison fair.
+Dans l'idée, je ferais sans doute un petit programme dans le terminal

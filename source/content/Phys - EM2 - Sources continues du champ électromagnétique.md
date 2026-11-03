@@ -126,46 +126,10 @@ $$
 
 # II - Principe de conservation de la charge
 ## 1 - Cas unidimensionnel
-#todo : démo
-Prenons une portion de conducteur en $x$ et $x+\mathrm{d}x$.
-Voir Sch2
-Alors, la variation de charge dans ce volume pendant $\mathrm{d}t$.
-Variation du stock: $Q(t+\mathrm{d}t)-Q(t)$.
-$$
-\mathrm{d}Q=Q(t+\mathrm{d}t)-Q(t)=\delta Q_{\text{entrant} }-\delta Q_{\text{sortant} }
-$$
-Or, $Q(t)=\rho(t)\mathrm{d}V$, $\rho$ uniforme car le volume est infinitésimal, avec $\mathrm{d}V=S\mathrm{d}x$.
-$$
-\mathrm{d}Q=(\rho(t+\mathrm{d}t)-\rho(t))S\mathrm{d}x
-$$
-On a: $\rho(t+\mathrm{d}t)=\rho(t)+\frac{ \partial \rho }{ \partial t }(t)\mathrm{d}t+o(\mathrm{d}t)$... SUPER IMPORTANT, A SAVOIR.
-Donc:
-$$
-\mathrm{d}Q=\frac{ \partial \rho }{ \partial t }(t) \mathrm{d}tS\mathrm{d}x
-$$
-De plus:
-$$
-\delta Q_{\text{entrant} }=I_{\text{entrant} }\mathrm{d}t=j(x)S\mathrm{d}t
-$$
-et
-$$
-\delta Q_{\text{sortant} }=j(x+\mathrm{d}x)S\mathrm{d}t
-$$
-Donc, le flux:
-$$
-\delta Q_{\text{entrant} }-\delta Q_{\text{sortant} }=-\frac{ \partial j }{ \partial x } \mathrm{d}xS\mathrm{d}t
-$$
-Donc, au final:
-$$
-\frac{ \partial \rho }{ \partial t } \mathrm{d}tS\mathrm{d}x=-\frac{ \partial j }{ \partial x }\mathrm{d}xS\mathrm{d}t 
-$$
-$$
-\implies \frac{ \partial \rho }{ \partial t } =-\frac{ \partial j }{ \partial x } 
-$$
-Demo. Equation de conservation de la charge en unidimensionnel:
-$$
-\frac{ \partial \rho }{ \partial t }=-\frac{ \partial j }{ \partial x }  
-$$
+
+> [!note]- Démo, Cas unidimensionnel
+> ![[Phys - Démo - Equation locale de conservation de la charge unidimensionnelle]]
+
 ## 2 - Divergence d'un champ de vecteurs
 Prenons un cube infinitésimal.
 Joli schema
@@ -179,6 +143,10 @@ $$
 $$
 La divergence décrit la quantité sortante.
 ## 3 - Généralisation
+
+> [!note]- Démo de l'equation locale de la conservation de la charge
+> ![[Phys - Démo - Equation locale de conservation de la charge]]
+
 <!-- basicblock-start oid="ObsurMtr2g5J8KTfrfw1MI8D" -->
 Def. Equation locale de la conservation de la charge::
 $$
@@ -194,7 +162,6 @@ $$
 I_{\text{sortant} }-I_{\text{entrant} }&=0&&\cr
 \end{align*}
 $$
-
 
 # III - Conduction électrique dans un conducteur chimique
 # 1 - Loi d'Ohm locale

@@ -70,7 +70,7 @@ f\in \mathcal{C}^{0}([a,b]) \cr
 f\nearrow\nearrow\text{ ou }f\searrow\searrow
 \end{cases}\;\implies\;\begin{cases}
 f:[a,b]\leftrightsquigarrow [\lim_{ a } f,\lim_{ b } f] \cr
-f:^{-1}\in \mathcal{C}^{0}
+f^{-1}\in \mathcal{C}^{0}
 \end{cases}
 $$
 <!-- basicblock-end -->
@@ -85,7 +85,7 @@ $$
 <!-- basicblock-start -->
 Th. inégalité des accroissement finis::
 $$
-f\in \mathcal{C}^{0}(I,E),\;\left( \exists M\in \mathbb{R},\;\forall x \in I,\;\|f'(x)\|\leq M \right) \;\implies\;f\text{ est }M\text{-lispschitzienne}.
+f\in \mathcal{C}^{1}(I,E),\;\left( \exists M\in \mathbb{R},\;\forall x \in I,\;\|f'(x)\|\leq M \right) \;\implies\;f\text{ est }M\text{-lispschitzienne}.
 $$
 <!-- basicblock-end -->
 

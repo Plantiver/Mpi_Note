@@ -250,7 +250,7 @@ Ordre de grandeur:
 - Petit aimant: 1 Am$^{-2}$
 - Aimant: 10...
 - Terre: $8\cdot10^{22}$.
-Rappel: les pôles magnétiques ne sont pas alignés avec les pôles géographiques, et sont inversées
+Rappel: les pôles magnétiques ne sont pas alignés avec les pôles géographiques, et sont inversées.
 
 ## 2 - Champ créé par un dipôle magnétique
 Soit $\overrightarrow{\mathcal{m}}$ un moment magnétique observée sous approximation dipolaires:
