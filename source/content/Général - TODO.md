@@ -38,11 +38,15 @@
 
 
 
-# Left todo
+# Left to_do for the lesson
 ```dataview
 list from #todo
 where !contains(file.name, "Démo")
-sort ascending
+and !contains(file.name, "Exemple")
+and !contains(file.name, "Algo")
+and !contains(file.name, "Général")
+and file.name!="index"
+sort file.name ASC
 ```
 
 
