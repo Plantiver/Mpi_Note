@@ -42,10 +42,11 @@ $$
 b)
 $$
 \begin{align*}
-v_{n}&\sim \frac{1}{n}\left( \frac{\frac{(2n)^{2n}}{e^{2n}} \sqrt{ 4\pi n }}{\frac{n^{n}}{e^{n}}\sqrt{ 2\pi n }}\right)&&\cr
-&\sim\frac{1}{n}\left( \frac{(4n^{3})^{n}}{e^{3n}}\sqrt{ 2 } \right)&&\cr
-&\sim \frac{4^{n}}{n} \left( \frac{n}{e} \right)^{3n}\sqrt{ 2 }&&\cr
-&\to +\infty&&\cr
+\ln(v_{n})&=\frac{1}{n}\left( \sum_{k=1}^{2n}\ln(k)-\sum_{k=1}^{n}\ln(k)-n\ln(n) \right)&&\cr
+&=\frac{1}{n}\left( \sum_{k=n+1}^{2n}\ln(k)-n\ln n \right)&&\cr
+&=\frac{1}{n}\left( \sum_{i=1}^{n}\ln\left( 1+\frac{i}{n} \right) \right)&&\cr
+v_{n}&=e^{\sigma/n}&&\cr
+&\to e&&\cr
 \end{align*}
 $$
 
