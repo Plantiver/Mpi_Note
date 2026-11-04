@@ -1,7 +1,7 @@
-**Énoncé:**
+# Énoncé
 
-**Idée:**
+# Idée
 
-**Démo:**
+# Démo
 
-**Conséquence:**
+# Conséquence

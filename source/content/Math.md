@@ -6,4 +6,4 @@ Ici, en Maths, on suit les différents chapitres données par le prof, en fichan
 - [[Math - Démo]]
 - [[Math - Formule]]
 
-
+Pour écrire des trucs qui vont pas durer (td, dm), [[Math - Sketchbook]].

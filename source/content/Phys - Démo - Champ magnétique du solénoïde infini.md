@@ -1,13 +1,12 @@
-
-
-**Énoncé:**
+---
+deck: phys
+---
+# Énoncé
 On place une infinité de spires enroulées autour de l'axe $O_{z}$. Parcourue par un courant $I$.
 On veut calculer $\overrightarrow{B}$.
-
-**Idée:**
-#todo 
-
-**Démo:**
+# Idée
+On applique la méthode et on l'apprends
+# Démo
 1. Invariance et symétrie
 - Invariance par translation selon $z$ et par rotation d'angle $\theta$.
 - Pour $M$ quelconque, $(M,\overrightarrow{e_{r}},\overrightarrow{e_{\theta}})$ est un plan de symétrie
@@ -18,8 +17,8 @@ On prend un rectangle $(ABCD)$.
 Donc
 $$
 \begin{align*}
-\oint_{ABCD}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}&=\int_{AB}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}+\int_{BC}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}+\int_{CD}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}&&\cr
-&=\int_{AB}B\mathrm{d}l+0-\int_{CD}B\mathrm{d}l+0&&\cr
+\oint_{ABCD}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}&=\int_{AB}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}+\int_{BC}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}+\int_{CD}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}+\int_{DA}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}&&\cr
+&=\int_{AB}B(r_{1})\mathrm{d}l+0-\int_{CD}B(r_{2})\mathrm{d}l+0&&\cr
 &=(B(r_{1})-B(r_{2}))L&&\cr
 \end{align*}
 $$
@@ -61,5 +60,5 @@ $$
 \end{cases}
 $$
 
-**Conséquence:**
+# Conséquence
 Cela nous permet de développer un modèle pour la bobine.

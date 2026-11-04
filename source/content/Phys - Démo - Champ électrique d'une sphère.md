@@ -1,11 +1,11 @@
-**Énoncé:**
+# Énoncé 
 On s'intéresse à une sphère chargée uniformément, de centre $O$, de rayon $R$, et de densité de charge $\rho_{0}$.
 On place un point $M(r,\theta,\varphi)$, et l'on cherche l'expression de $\overrightarrow{E}(M,t)$ ainsi que de $V(M,t)$.
 
-**Idée:**
-On applique la méthode et on l'apprends
+# Idée
+On applique la méthode et on l'apprends.
 
-**Démo:**
+# Démo
 1. Invariance et symétrie
 - Toute translation de $t$ laisse $\overrightarrow{E}(M,t)$ inchangé
 - Toute rotation de $\theta$ laisse $\overrightarrow{E}(M,t)$ inchangé
@@ -96,7 +96,7 @@ K_{1}&=\frac{7}{6}\cdot \frac{R^{2}\rho_{0} }{\varepsilon_{0} }&&\cr
 \end{align*}
 $$
 
-**Conséquence:**
+# Conséquence
 Si l'on se place à l'extérieur de la sphère, on obtient la même chose que pour une particule.
 Ainsi, toute les "approximations" faites en première année, de considérer des objets comme des particules n'en sont pas pour l'expression des forces électrique et gravitationnelle.
 

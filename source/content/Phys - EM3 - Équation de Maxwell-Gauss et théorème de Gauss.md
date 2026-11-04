@@ -1,8 +1,6 @@
 ---
 deck: phys
 ---
-
-
 # I - Equation de Maxwell-Gauss
 ## 1 - Énoncé
 ![[Phys - Formule#Equation de Maxwell-Gauss]]
