@@ -12,7 +12,7 @@ de même, par induction, et sur le deuxième cas encore
 Par le lemme de l'étoile.
 Supposons $\mathcal{L}(S)$ régulier, alors
 Soit $N$ tq $\forall u,\;|u|\geq N,\;\exists xyz=u,\;|xy|< N,\;y\not=\varepsilon ,\;\mathcal{L}(xy^{\star}z)\subset \mathcal{L}(S)$.
-Or, pour $S\;\underset{ S.2^{N},S.3 }{ \implies }^{\star}\;u=(ba)^{N}c^{N}$, on doit prendre $y=a^{\delta}(ba)^{k}b^{\sigma}$, et la dernière propriété n'est pas respecté.
+Or, pour $S\;\underset{ S.2^{N},S.3 }{ \implies }^{\star}\;u=(ba)^{N}c^{N}$, on doit prendre $y=a^{\delta}(ba)^{k}b^{\sigma}$, (disjonction selon si $k=\sigma=0$ ou non, pour oui, alors ça fait trop de a, pour non, ça fait trop de b) et la dernière propriété n'est pas respecté.
 Ainsi, $\mathcal{L}(S)$ n'est pas régulier.
 
 exo 2
