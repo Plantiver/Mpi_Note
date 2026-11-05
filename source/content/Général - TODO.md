@@ -46,26 +46,3 @@ and file.name!="index"
 sort file.name ASC
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -23,21 +23,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Général - TODO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Général - TODO"
-            }
-          },
-          {
-            "id": "a42752cc4c19830e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Math - Sketchbook.md",
                 "mode": "source",
                 "source": false,
@@ -45,6 +30,21 @@
               },
               "icon": "lucide-file",
               "title": "Math - Sketchbook"
+            }
+          },
+          {
+            "id": "06463aa4c9fc060d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math - Lesson - 9.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Math - Lesson - 9"
             }
           }
         ],
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3432f6c93d05637d",
@@ -103,10 +104,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a42752cc4c19830e",
+  "active": "06463aa4c9fc060d",
   "lastOpenFiles": [
+    "Math - Lesson.md",
+    "Math - Lesson - 9.md",
     "Math.md",
     "Math - Sketchbook.md",
+    "TIPE.md",
+    "Excalidraw/Drawing 2026-10-06 16.37.48.excalidraw.md",
+    "Général - TODO.md",
+    "Tipe - Ordonnanceur.md",
     "Info - sketchbook.md",
     "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - EM1 - Champs et potentiels créés par des charges ponctuelles.md",
@@ -114,7 +121,6 @@
     "Phys - Démo - Loi d'Ohm locale.md",
     "Phys - EM4 - Magnétostatique.md",
     "Phys - Exemple - moment magnétique d'un atome d'hydrogène.md",
-    "Général - TODO.md",
     "Phys - Démo - Champ magnétique du fil infini.md",
     "Phys - Démo - Champ magnétique du solénoïde infini.md",
     "Phys - Démo - Champ électrique d'une sphère.md",
@@ -126,11 +132,6 @@
     "Phys.md",
     "Info - Démo - Lemme de l'étoile.md",
     "Info - Démo - Non-contextualité des langages réguliers.md",
-    "_template/Demo.md",
-    "_template/Algo.md",
-    "Info - Lesson.md",
-    "Info - Algo - A*.md",
-    "Info.md",
     "file:/home/main/Téléchargements/Poly_Cours_Chap2_P3.pdf",
     "file:/home/main/Téléchargements/Poly_Cours_Chap1_P3.pdf",
     "file:/home/main/Téléchargements/Poly_Cours_Chap3_P3.pdf",

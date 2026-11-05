@@ -69,9 +69,33 @@ c)
 Or, $P^{2}$ est continue et positive, donc la question précédente signifie que $P^{2}=0\;\implies\;P=0$, donc $\mathrm{Ker}\theta=\mathrm{Set}( 0 )$, et donc $\theta$ est injective.
 Or, ce sont deux espaces de même dim, donc $\theta$ est bijective, un isomorphisme.
 
+---
 
 
+cour en visio
+# 49
+pour arctan:
+on dérive, on fait le dev limité, et on intègre. La constante est nulle par évaluation.
 
+# 52
+
+$$
+\begin{align*}
+\tan x&=\frac{\sin x}{\cos x}&&\cr
+&=\frac{x-\frac{x^{3}}{6}+o(x^{4})}{1-\frac{x^{2}}{2}+o(x^{3})}&&\cr
+&=\left( x-\frac{x^{3}}{6}+o(x^{3})\left( 1+\frac{x^{2}}{2}+o(x^{3}) \right) \right)&&\cr
+&=x+\frac{x^{3}}{3}+o(x^{3})&&\cr
+\end{align*}
+$$
+$$
+\begin{align*}
+S(x)&=\tan x-(0+x)&&\cr
+&=x+x^{3}+o(x^{3})-x&&\cr
+&=x^{3}+o(x^{3})&&\cr
+\end{align*}
+$$
+---
+Chapitre 9
 
 
 
