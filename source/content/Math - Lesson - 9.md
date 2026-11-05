@@ -98,7 +98,7 @@ Donc, ça converge par convergence des intégrales partielles.
 <!-- basicblock-start -->
 Def. fonction absolument convergente::
 $$
-\int_{I}|f(t)|\mathrm{d}t\text{ CV}
+f,\;\int_{I}|f(t)|\mathrm{d}t\text{ CV}
 $$
 <!-- basicblock-end -->
 
@@ -209,8 +209,11 @@ Th. ipp d'intégrale impropre::
 
 
 
+---
 
-
+Questions à poser:
+- Peut-on passer des applications linéaires dans des intégrales impropres?
+- Sur la méthode de calcul, est-ce qu'on sépare toujours, ou, est-ce qu'on peut faire tendre les deux bornes? à ce moment est-ce qu'on peut faire tendre comme on veut, ou pas?
 
 
 
