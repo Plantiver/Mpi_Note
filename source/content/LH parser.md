@@ -38,6 +38,7 @@ There's a lot to say, but not so much time left to me.
 ```grammar
 1000.S -> E
 1000.E -> l
+1000.E -> @e
 1000.E -> E*
 1000.E -> (E)
 100.E -> EE

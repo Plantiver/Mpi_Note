@@ -9,7 +9,8 @@ $$
 \frac{\mathrm{d}\overrightarrow{p}}{\mathrm{d}t}=\sum \overrightarrow{F}.
 $$
 <!-- basicblock-end -->
-
+### 3ème loi de Newton
+Il existe des référentiels galiléens.
 ### Loi de composition des vitesses
 <!-- basicblock-start -->
 Form. Loi de composition des vitesses::

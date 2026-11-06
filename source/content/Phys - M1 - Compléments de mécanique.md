@@ -279,7 +279,61 @@ $$
 $$
 \Delta \mathcal{E}_{c}(M/\mathcal{R_{1}})=\sum W(\overrightarrow{F})+W(\overrightarrow{F_{ie}}).
 $$
+## 3 - Caractère non galiléen du référentiel terrestre
+**Rappel:** Un référentiel est galiléen ssi le principe d'inertie s'applique.
+Un référentiel en translation rectiligne uniforme avec un référentiel galiléen est galiléen.
+
+![[Phys - Formule#2ème loi de Newton]]
+(ce qui est totalement faux).
+
+1. Le référentiel terrestre
+Il tourne avec la Terre.
+Pour une expérience de durée $<<24h$, il peut être supposé galiléen.
+2. Le référentiel géocentrique
+Il tourne autour du Soleil.
+Supposé galiléen pour $\tau<<1$ an
+3. Le référentiel héliocentrique
+Il tourne dans la galaxie.
+Supposé galiléen pour $\tau<<220$ millions d'année.
+
+##### a) Le référentiel terrestre
+Durée de rotation de la terre:
+$$
+\begin{align*}
+T&=23h,\;56min,\;4s&&\cr
+&\simeq24h&&\cr
+\end{align*}
+$$
+Mais une journée dure bien 24h, la différence vient de si on compte en jour sidéral ou jour solaire.
+La vitesse angulaire de rotation de la terre: $\boxed{\Omega_{T}=\frac{2\pi}{T}}$.
+## 4 - Dynamique dans le référentiel terrestre
+
+On se place dans $\mathcal{R_{T}}$ étudié par rapport à $\mathcal{R_{géo}}$.
+D'après la seconde loi de Newton:
+$$
+m\overrightarrow{a}=\sum \overrightarrow{F}+\overrightarrow{F_{ie}}+\overrightarrow{F_{ic}}.
+$$
+avec $\sum \overrightarrow{F}=m\overrightarrow{g}+\sum \overrightarrow{F}_{\text{autres}}$ avec $\overrightarrow{g}$ définit par un théorème de Gauss gravitationnel.
+
+> [!note]- Exemple 1
+> ![[Phys - Exemple - Direction du fil à plomb]]
+
+> [!note]- Exemple 2
+> ![[Phys - Exemple - La déviation vers l'est]]
+
+> [!note]- Exemple 3
+> ![[Phys - Exemple - Les marées]]
 
 
 
 
+
+
+
+
+
+
+
+
+
+En un tiers d'année, il fait minuit à midi...
