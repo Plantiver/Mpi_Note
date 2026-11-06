@@ -330,10 +330,4 @@ avec $\sum \overrightarrow{F}=m\overrightarrow{g}+\sum \overrightarrow{F}_{\text
 
 
 
-
-
-
-
-
-
 En un tiers d'année, il fait minuit à midi...

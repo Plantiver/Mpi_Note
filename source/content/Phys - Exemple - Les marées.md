@@ -83,9 +83,19 @@ $$
 \overrightarrow{F}_{\text{marée}}=m\mathscr{G}M_{L}\frac{R_{T}}{a^{3}}(2\cos\lambda \overrightarrow{e_{x}}-\sin\lambda \overrightarrow{e_{y}})
 $$
 Joli schéma...
-Les points alignées sur $GL$ sont fortement attirés : cela arrive deux fois par jour avec la rotation de la Terre. Donc, le cycle des marées dure environ 12h.
+Les points alignées sur $GL$ sont fortement attirés : cela arrive deux fois par jour avec la rotation de la Terre. Donc, le cycle des marées dure environ 12 h.
 
-
+On définit $g_{\text{marée}=\mathscr{G}M_{L}\frac{R_{T}}{a^{3}}}$.
+$$
+\left( \frac{g_{\text{marée}}}{g} \right)_{\text{lune}}=5,7\cdot10^{-8}
+$$
+$$
+\left( \frac{g_{\text{marée}}}{g} \right)_{\text{soleil}}=2,6\cdot10^{-8}
+$$
+$$
+\left( \frac{g_{\text{marée}}}{g} \right)_{\text{autre}}\sim10^{-10}
+$$
+On a donc, selon l'alignement de la Terre, de la Lune, et du Soleil, des effets qui se compensent ou se renforcent.
 
 
 
