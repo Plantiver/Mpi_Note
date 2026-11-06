@@ -17,6 +17,14 @@ $$
 \overrightarrow{v}(M/\mathcal{R})=\overrightarrow{v_{e}}+\overrightarrow{v_{r}}.
 $$
 <!-- basicblock-end -->
+
+### Loi de composition des accélérations
+<!-- basicblock-start -->
+Form. loi de composition des accélérations::
+$$
+\overrightarrow{a}(M/\mathcal{R})=\overrightarrow{a_{r}}+\overrightarrow{a_{e}}+\overrightarrow{a_{c}}
+$$
+<!-- basicblock-end -->
 # EM
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->

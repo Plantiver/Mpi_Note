@@ -151,22 +151,134 @@ vitesse du point coïncident dans $\mathcal{R}$
 
 ## 3 - Loi de composition des accélérations
 
+$$
+\begin{align*}
+\frac{\mathrm{d}^{2}\overrightarrow{OM}}{\mathrm{d}t^{2}}&=\frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{z}}}+\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}} \right)&&\cr
+&=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}+x \ddot{\overrightarrow{e_{x}}}+y \ddot{\overrightarrow{e_{y}}}+z \ddot{\overrightarrow{e_{z}}}+2(\dot{x} \dot{\overrightarrow{e_{x}}}+\dot{y} \dot{\overrightarrow{e_{y}}}+\dot{z} \dot{\overrightarrow{e_{z}}})&&\cr
+\end{align*}
+$$
+#todo add $\ddot{x}$ and all (coriolis)
+- On appelle accélération relative $\overrightarrow{a_{r}}=\overrightarrow{a}(M/\mathcal{R_{1}})$
+- On appelle accélération d'entrainement l'accélération du point coïncident dans $\mathcal{R}$ notée $\overrightarrow{a_{e}}$.
+
+Dans un cas de translation, $\overrightarrow{a_{e}}=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}$.
+
+Dans un cas de rotation:
+$$
+\begin{align*}
+\ddot{\overrightarrow{e_{x}}}&=\dot{\overrightarrow{\Omega}\wedge \overrightarrow{e_{x}}}&&\cr
+&=\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{e_{x}}+\overrightarrow{\Omega}\wedge \dot{\overrightarrow{e_{x}}}&&\cr
+&=\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{e_{x}}+\overrightarrow{\Omega}\wedge(\overrightarrow{\Omega}\wedge e_{x})&&\cr
+\end{align*}
+$$
+Donc:
+$$
+\begin{align*}
+\overrightarrow{v_{e}}&=\overrightarrow{\Omega}\wedge \overrightarrow{OM}&&\cr
+\overrightarrow{a_{e}}&=\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{OM}+\overrightarrow{\Omega}\wedge(\overrightarrow{\Omega}\wedge \overrightarrow{OM})&&\cr
+\end{align*}
+$$
+
+- Dans le cas générale:
+$$
+\overrightarrow{a_{}}=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}+x \ddot{\overrightarrow{e_{x}}}+y \ddot{\overrightarrow{e_{y}}}+z \ddot{\overrightarrow{e_{z}}}.
+$$
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Attention !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$$
+\overrightarrow{a_{e}}\not=\frac{\mathrm{d}\overrightarrow{v_{e}}}{\mathrm{d}t}
+$$
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Attention !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
+On appelle accélération de Coriolis et l'on note $a_{c}$ le terme restant.
 
+Et donc:
+<!-- basicblock-start -->
+Prop. accélération de Coriolis::
+$$
+\overrightarrow{a_{c}}=2\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}}.
+$$
+<!-- basicblock-end -->
+Ainsi, pour $\overrightarrow{\Omega}=\overrightarrow{0}$ ou $\overrightarrow{v_{r}}=\overrightarrow{0}$, alors $\overrightarrow{a_{c}}=\overrightarrow{0}$.
 
+![[Phys - Formule#Loi de composition des accélérations]]
 
+> [!note]- Cas particulier de la rotation uniforme
+> ![[Phys - Exemple - Rotation uniforme]]
 
+Remarque:
+Le mouvement d'une fourmi sur un rayon de roue de vélo:
+$$
+\begin{align*}
+\overrightarrow{OM}&=r(t)\overrightarrow{e_{r}}&&\cr
+\overrightarrow{v}&=\dot{r}\overrightarrow{e_{r}}+r\dot{\theta}\overrightarrow{e_{\theta}}&&\cr
+\overrightarrow{a}&=\ddot{r}\overrightarrow{e_{r}}+2\dot{r}\dot{\theta}\overrightarrow{e_{\theta}}+(r \ddot{\theta}\overrightarrow{e_{\theta}}-r\dot{\theta}^{2}\overrightarrow{e_{r}}).&&\cr
+\end{align*}
+$$
+# III - Dynamique en référentiel non galiléen
+# 1 - Seconde loi de Newton
+- $\mathcal{R_{g}}$ référentiel galiléen supposé fixe
+- $\mathcal{R_{1}}$ référentiel mobile dans $\mathcal{R_{g}}$
 
+Dans $\mathcal{R_{g}}$, on a la seconde loi de Newton:
+$$
+m\overrightarrow{a}(M/\mathcal{R_{g}})=\sum \overrightarrow{F}
+$$
+Mais, par la loi de composition des accélérations:
+$$
+\begin{align*}
+\overrightarrow{a}(M/\mathcal{R_{g}})&=\overrightarrow{a}(M/\mathcal{R_{1}})+\overrightarrow{a_{e}}+\overrightarrow{a_{c}}&&\cr
+m(\overrightarrow{a}(M/\mathcal{R_{1}})+\overrightarrow{a_{e}}+\overrightarrow{a_{c}})&=\sum \overrightarrow{F}&&\cr
+m\overrightarrow{a}(M/\mathcal{R_{1}})&=\sum \overrightarrow{F}-m\overrightarrow{a_{e}}-m\overrightarrow{a_{c}}&&\cr
+\end{align*}
+$$
+En référentiel galiléen on rajoute deux pseudo-forces d'inertie:
+<!-- basicblock-start -->
+Prop. pseudo-forces d'inertie::
+- Force d'inertie d'entrainement: $\overrightarrow{F_{ie}}=-m\overrightarrow{a_{e}}$
+- Force d'inertie de Coriolis: $\overrightarrow{F_{ic}}=-m\overrightarrow{a_{c}}$
+<!-- basicblock-end -->
 
+ex:
+- Une voiture accélère, $\overrightarrow{F_{ie}}$ est opposé à l'accélération, on "recule".
+- Une machine à laver qui tourne, $\overrightarrow{F_{ie}}=m\omega^{2}\overrightarrow{HM}$ est la "force centrifuge", et projette à l'extérieur.
 
+De même, on a le théorème du moment cinétique:
+$$
+\frac{\mathrm{d}}{\mathrm{d}t}\overrightarrow{L_{O}}(M/\mathcal{R_{1}})=\sum \overrightarrow{\mathcal{M}_{O}(\overrightarrow{F})}+\mathcal{M}_{O}(\overrightarrow{F_{ie}})+\mathcal{M}_{O}(\overrightarrow{F_{ic}})
+$$
 
+## 2 - Aspects énergétiques
+**Coriolis:**
+$$
+\begin{align*}
+P(\overrightarrow{F_{ic}})_{\mathcal{R_{1}}}&=(-2m\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}})\cdot \overrightarrow{v_{r}}&&\cr
+&=0&&\cr
+\end{align*}
+$$
+La force d'inertie de Coriolis ne travaille pas.
 
+**Entrainement:**
+- Si translation uniforme $\overrightarrow{a_{c}}=a_{c}\overrightarrow{e_{u}}$
+$$
+\overrightarrow{F_{ie}}=-ma_{e}\overrightarrow{e_{u}}=-\overrightarrow{ \mathrm{grad}}(\mathcal{E}_{p}).
+$$
+- Si rotation uniforme $\overrightarrow{a_{c}}=-\omega^{2}r\overrightarrow{e_{r}}$
+$$
+\overrightarrow{F_{ie}}=m\omega^{2}r\overrightarrow{e_{r}}=-\overrightarrow{ \mathrm{grad}}(\mathcal{E}_{p}).
+$$
+Dans ces deux cas, $\overrightarrow{F_{ie}}$ est conservatrice.
 
-
-
-
-
+**Théorème:**
+- de la puissance cinétique
+$$
+\frac{\mathrm{d}}{\mathrm{d}t}\mathcal{E}_{c}(M/\mathcal{R_{1}})=\sum \mathcal{P}_{F}+\mathcal{P_{ie}}.
+$$
+- de l'énergie cinétique
+$$
+\Delta \mathcal{E}_{c}(M/\mathcal{R_{1}})=\sum W(\overrightarrow{F})+W(\overrightarrow{F_{ie}}).
+$$
 
 
 
