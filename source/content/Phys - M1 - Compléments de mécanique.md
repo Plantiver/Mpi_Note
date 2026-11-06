@@ -1,3 +1,6 @@
+---
+deck: phys
+---
 # I - Les lois de frottements solide
 # 1 - Les lois de Coulomb
 Prenons un solide:
@@ -78,3 +81,93 @@ W&=-\int_{\gamma}Tv\mathrm{d}t&&\cr
 $$
 
 Ce travail dépend du chemin suivi, les frottements ne sont jamais conservatifs.
+
+# II - Cinématique et changement de référentiels
+
+Un référentiel, c'est avant tout un point de vu sur un mouvement.
+
+Ex: Valve d'une roue de vélo
+- Vache sur la route: cycloïde
+- Cycliste: cercle
+- roue: immobile
+## 1 - Notion de point coïncident
+Introduisons 2 référentiels:
+- $\mathcal{R}$ considéré fixe
+- $\mathcal{R_{1}}$ considéré mobile
+Soit un point $M(t)$ mobile dans $\mathcal{R}$ et $\mathcal{R_{1}}$
+
+Le point coïncident est le point fixe dans $\mathcal{R_{1}}$ qui coincide avec $M(t)$ à l'instant $t$.
+Ce point fixe dans $\mathcal{R_{1}}$ permet de décrire le mouvement $\mathcal{R_{1}}/\mathcal{R}$.
+
+## 2 - Loi de composition des vitesses
+- $\mathcal{R}$ repère fixe $O,\overrightarrow{i}, \overrightarrow{j}, \overrightarrow{k}$
+- $\mathcal{R_{1}}$ repère mobile $O_{1},\overrightarrow{e_{x}},\overrightarrow{e_{y}},\overrightarrow{e_{z}}$
+On veut étudier le mouvement de $M$:
+$$
+\begin{align*}
+\overrightarrow{v}(M/\mathcal{R})&=\frac{\mathrm{d}\overrightarrow{OM}}{\mathrm{d}t}&&\cr
+&=\frac{\mathrm{d}(\overrightarrow{OO_{1}}+\overrightarrow{O_{1}M})}{\mathrm{d}t}&&\cr
+&=&&\cr
+\end{align*}
+$$
+Vu $\overrightarrow{O_{1}M}=x\overrightarrow{e_{x}}+y\overrightarrow{e_{y}}+z\overrightarrow{e_{z}}$, et ces vecteurs étant mobiles dans $\mathcal{R}$:
+$$
+\frac{\mathrm{d}\overrightarrow{O_{1}M}}{\mathrm{d}t}=\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{z}}}.
+$$
+On appelle vitesse relative $\overrightarrow{v}(M/\mathcal{R_{1}})$.
+On appelle vitesse d'entrainement de $\mathcal{R}/\mathcal{R_{1}}$: $\overrightarrow{v}_{e}=\frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}} +z \dot{\overrightarrow{e_{z}}}$.
+
+On retient:
+![[Phys - Formule#Loi de composition des vitesses]]
+
+Regardons la vitesse d'entrainement:
+- Si $\mathcal{R_{1}}$ est en translation dans $\mathcal{R}$:
+Dans ce cas, les vecteurs sont d'orientations fixe dans $\mathcal{R}$ #todo : be more precise
+ex: voiture sur une route droite, nacelle de grande roue
+à ce moment là:
+$$
+\overrightarrow{v_{e}}=\frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}.
+$$
+- Si $\mathcal{R_{1}}$ est en rotation (sans translation) dans $\mathcal{R}$:
+$O_{1}$ est fixe dans $\mathcal{R}$.
+à ce moment là:
+$$
+\overrightarrow{v_{e}}=x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{y}}}.
+$$
+> [!note]- Exemple de rotation de même centre
+> ![[Phys - Exemple - Rotation de même centre]]
+
+- Si $\mathcal{R_{1}}$ est un mouvement quelconque
+$$
+\overrightarrow{v_{e}}=\frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+\overrightarrow{\Omega}\wedge \overrightarrow{O_{1}M}
+$$
+
+
+<!-- basicblock-start -->
+Def. vitesse d'entrainement::
+vitesse du point coïncident dans $\mathcal{R}$
+<!-- basicblock-end -->
+
+
+## 3 - Loi de composition des accélérations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

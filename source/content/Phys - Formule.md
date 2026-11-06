@@ -9,6 +9,14 @@ $$
 \frac{\mathrm{d}\overrightarrow{p}}{\mathrm{d}t}=\sum \overrightarrow{F}.
 $$
 <!-- basicblock-end -->
+
+### Loi de composition des vitesses
+<!-- basicblock-start -->
+Form. Loi de composition des vitesses::
+$$
+\overrightarrow{v}(M/\mathcal{R})=\overrightarrow{v_{e}}+\overrightarrow{v_{r}}.
+$$
+<!-- basicblock-end -->
 # EM
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->
