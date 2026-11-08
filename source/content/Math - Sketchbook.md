@@ -1,110 +1,69 @@
-19, 22 a,b, 27, 31
+TD MPI. 6, 10, 16, 19
 
-# 19
-a)
-$f$ est $\mathcal{C}^{1}$ donc $f'$ est $\mathcal{C}^{0}$, et donc par le th. des bornes atteintes, est bornée et atteint ses bornes. Donc $supA$ est licite et atteint.
-$\varphi:\begin{cases}X^{2}&\to \mathbb{R} \\  (x,y)&\to \begin{cases}|\frac{f(x)-f(y)}{x-y}|\text{ si }x\not=y \\  |f'(x)|\text{ sinon}\end{cases}\end{cases}$ est continue et défini sur un compact. Donc $\varphi(X^{2})$ est un compact, donc borné, et donc $B\subset\varphi(X^{2})$ est borné.
 
+# 6
+a) ? parce qu'elle est intégrable, mais pour quoi exactement ?
 b)
-hein???
-
-# 22
-a)
-$$
-f:t\to \frac{\sin t-t}{t\sin t}
-$$
-$$
-\begin{align*}
-f&\sim- \frac{t^{3}}{6t^{2}}&&\cr
-&\sim- \frac{t}{6}&&\cr
-\end{align*}
-$$
-Ainsi$f$ qui est $\mathcal{C}^{1}$ partout ailleurs qu'en $0$, et est $\mathcal{C}^{0}$ partout en posant $f(0)=0$, On a que $f$ est $\mathcal{C}^{1}$.
-
-b)
-$f:t\to \arctan e^{-t^{2}}$
-$$
-\begin{align*}
-f(t)&=\arctan\left( 1-t^{2}+\frac{t^{4}}{2}+o(t^{5}) \right)&&\cr
-&=&&\cr
-\end{align*}
-$$
-
-# 27
-a)
-$$
-\begin{align*}
-u_{n}&=\frac{1}{n}\sum_{k=1}^{n}\ln\left( 1+\frac{k}{n} \right)&&\cr
-&\to \int_{1}^{2}\ln(t)\mathrm{d}t&&\cr
-&\to2\ln 2-1&&\cr
-\end{align*}
-$$
-b)
-$$
-\begin{align*}
-\ln(v_{n})&=\frac{1}{n}\left( \sum_{k=1}^{2n}\ln(k)-\sum_{k=1}^{n}\ln(k)-n\ln(n) \right)&&\cr
-&=\frac{1}{n}\left( \sum_{k=n+1}^{2n}\ln(k)-n\ln n \right)&&\cr
-&=\frac{1}{n}\left( \sum_{i=1}^{n}\ln\left( 1+\frac{i}{n} \right) \right)&&\cr
-v_{n}&=e^{\sigma/n}&&\cr
-&\to e&&\cr
-\end{align*}
-$$
-
-# 31
-a)
-Bon, ça se fait rapidement, flemme
-
-b)
-Soit $P=\sum_{k=0}^{n}a_{k}X^{k}\in\mathrm{Ker}\theta$.
-Alors, par linéarité:
-$$
-\begin{align*}
-\sum_{k=0}^{n}a_{k}\theta_{k}(P)&=0&&\cr
-&=\int_{0}^{1}\sum_{k=0}^{n}a_{k}t^{k}P(t)\mathrm{d}t&&\cr
-&=\int_{0}^{1}P^{2}(t)\mathrm{d}t&&\cr
-\end{align*}
-$$
-
+Soit $l\in \mathbb{R},\;\lim_{ x \to +\infty }f(x)=l$. Alors, $\exists A\in \mathbb{R}^{+},\;\forall x\geq A,\;f(x)\in\left[ \frac{l}{2};\frac{3l}{2} \right]$. et l'on a $\int_{\mathbb{R}^{+}}f\simeq \int_{A}^{+\infty}f$, avec $f$ alors de signe constant $\mathrm{si}(l)$. Si par l'absurde $l\not=0$, alors cette intégrale diverge, ce qui contredis l'énoncé.
 c)
-Or, $P^{2}$ est continue et positive, donc la question précédente signifie que $P^{2}=0\;\implies\;P=0$, donc $\mathrm{Ker}\theta=\mathrm{Set}( 0 )$, et donc $\theta$ est injective.
-Or, ce sont deux espaces de même dim, donc $\theta$ est bijective, un isomorphisme.
-
----
-
-
-cour en visio
-# 49
-pour arctan:
-on dérive, on fait le dev limité, et on intègre. La constante est nulle par évaluation.
-
-# 52
-
+Par IPP:
 $$
 \begin{align*}
-\tan x&=\frac{\sin x}{\cos x}&&\cr
-&=\frac{x-\frac{x^{3}}{6}+o(x^{4})}{1-\frac{x^{2}}{2}+o(x^{3})}&&\cr
-&=\left( x-\frac{x^{3}}{6}+o(x^{3})\left( 1+\frac{x^{2}}{2}+o(x^{3}) \right) \right)&&\cr
-&=x+\frac{x^{3}}{3}+o(x^{3})&&\cr
+\int_{0}^{+\infty}f(t)\sin(xt)\mathrm{d}t&=\left[ -\frac{f(t)\cos(xt)}{x} \right]_{0}^{+\infty}-\int_{0}^{+\infty}f'(t)\times\left( -\frac{\cos(xt)}{x} \right)\mathrm{d}t&&\cr
+&=\frac{f(0)}{x}+\frac{1}{x}\int_{0}^{+\infty}f'(t)\cos(xt)\mathrm{d}t &&\cr
 \end{align*}
 $$
+Avec le crochet licite par $|\cos x|\leq 1$ et $f$ intégrable.
+d)
+On a, par une deuxième IPP, qui se justifie comme la première:
 $$
 \begin{align*}
-S(x)&=\tan x-(0+x)&&\cr
-&=x+x^{3}+o(x^{3})-x&&\cr
-&=x^{3}+o(x^{3})&&\cr
+\int_{0}^{+\infty}f'(t)\cos(xt)\mathrm{d}t&=\left[ \frac{f'(t)\sin(xt)}{x} \right]_{0}^{+\infty}-\int_{0}^{+\infty}\frac{f''(t)\sin(xt)}{x}\mathrm{d}t &&\cr
+&=-\frac{f'(0)}{x}-\frac{1}{x}\int_{0}^{+\infty}f''(t)\sin(xt)\mathrm{d}t&&\cr
+&=-\frac{1}{x}\left( f'(0)+\int_{0}^{+\infty}f''(t)\sin(xt)\mathrm{d}t \right)&&\cr
+&=-\frac{1}{x}\lambda&&\cr
 \end{align*}
 $$
+Donc:
+$$
+I= \frac{f(0)}{x}-\frac{1}{x}\left( \frac{1}{x}\lambda \right)=\frac{f(0)}{x}+o\left( \frac{1}{x} \right).
+$$
+Et donc, si $f(0)\not=0$:
+$$
+I\underset{ +\infty }{ \sim } \frac{f(0)}{x}
+$$
 ---
-Chapitre 9
+# 10
+Soit
+$$
+I=\int_{0}^{+\infty}\frac{t^{x-1}}{1+t}\mathrm{d}t
+$$
+Notons $f:t\to \frac{t^{x-1}}{1+t}\in \mathcal{C}^{0}(]0;+\infty[)$.
+On observe que $\lim_{ t \to 0^{+} }f(t)=0$ pour $x\not=1$, et l'on décide de prolonger $f$ par continuité en $t=0$.
 
+En $t\to+ \infty$, par positivité de $f$:
+$$
+\begin{align*}
+\int_{42}^{+ \infty}\frac{t^{x-1}}{1+t}\mathrm{d}t&\simeq \int_{42}^{+ \infty}t^{x-2}\mathrm{d}t&&\cr
+\end{align*}
+$$
+Par critère de Riemann, $I$ converge pour $x \in \mathbb{R}_{-}^{\star}$.
+De plus:
+$$
+\begin{align*}
+I&=\int_{0}^{1}\frac{t^{x-1}}{1+t}\mathrm{d}t+\int_{1}^{+\infty}\frac{t^{x-1}}{1+t}\mathrm{d}t&&\cr
+&=\int_{0}^{1}\frac{t^{x-1}}{1+t}\mathrm{d}t+\int_{1}^{0}\left( \frac{u^{1-x}}{1+\frac{1}{u}} \right)\left( -\frac{1}{u^{2}} \right)\mathrm{d}u&&\cr
+&=\int_{0}^{1}\frac{t^{x-1}}{1+t}\mathrm{d}t+\int_{0}^{1}\frac{u^{-x}}{1+u}\mathrm{d}u&&\cr
+&=\int_{0}^{1}\frac{t^{x-1}+t^{-x}}{1+t}\mathrm{d}t&&\cr
+\end{align*}
+$$
+En posant $u=\frac{1}{t}$.
 
+---
+# 16
 
-
-
-
-
-
-
+---
+# 19
 
 
 

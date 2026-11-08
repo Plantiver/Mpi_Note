@@ -1,4 +1,4 @@
-This is personal, and you can read it, but it has nothing to do with anything here.
+!This is personal, and you can read it, but it has nothing to do with anything here.
 
 Stands for Lost-Hazard.
 
@@ -35,15 +35,26 @@ There's a lot to say, but not so much time left to me.
 
 
 # Grammar:
+regexp:
 ```grammar
-1000.S -> E
 1000.E -> l
-1000.E -> @e
+1000.E -> -
 1000.E -> E*
 1000.E -> (E)
 100.E -> EE
 10.E -> E|E
+1.S -> E
 ```
+
+the grammar itself:
+See the itself implementation of https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form.
+I'll make something like this, I think.
+Okay, let's split the grammar between lexer and parser side:
+Each non-terminal would either have only non-terminal rule, or only terminal rule.
+Those with terminal rules would be put into the lexer.
+Okay, the same way, we have something that describe regular expression, and with priority/
+We transform those terminal rules into regex, and then we traverse the string, matching always the longest regex possible.
+
 
 
 
