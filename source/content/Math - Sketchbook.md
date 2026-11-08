@@ -61,13 +61,53 @@ En posant $u=\frac{1}{t}$.
 
 ---
 # 16
+a)
+Soit $f:t\to \ln \sin t\in \mathcal{C}^{0}(]0;\pi/2])$.
+On a $f(t)\underset{ 0 }{ \sim } \ln(t)$ de signe constant, donc $\int_{0}^{1}f(t)\mathrm{d}t\simeq \int_{0}^{1}\ln t\mathrm{d}t$, qui converge par Bertrand.
+Ainsi, $I$ converge.
+Or, par le changement de variable $u=\frac{\pi}{2}-t$ dans I, on obtient $I=J$.
+Ensuite, par changement de variable $u=\frac{\pi}{2}+t$ dans $J$, on obtient via Chasles $K=I+J$.
+
+b)
+$$
+\begin{align*}
+I+J&=\int_{0}^{\pi/2}\ln(\sin ^{2} t)\mathrm{d}t &&\cr
+&=\int_{0}^{1}\ln(u^{2})\cos u\mathrm{d}u&&\cr
+I&=&&\cr
+\end{align*}
+$$
+En posant $u=\arcsin t,\;\mathrm{d}u=\frac{1}{\sqrt{ 1-t^{2} }}\mathrm{d}t\;\implies\;\mathrm{d}t=\cos u\mathrm{d}u$
+c)
+...
 
 ---
 # 19
+a)
+$f:t\to P(t)e^{t}\in \mathcal{C}^{0}(\mathbb{R})$.
+En $t\to-\infty$, $P(t)\sim a_{d}t^{d}$ et donc $|f|\sim\left( \frac{1}{t^{2}} \right)(|a_{d}t^{d+2}|e^{t})=o\left( \frac{1}{t^{2}} \right)$. Et, donc $\int_{-\infty}^{x}f(t)\mathrm{d}t$ CV $\forall x \in \mathbb{R}$.
+b)
+$$
+\begin{align*}
+L(\mu_{k+1})&: x\to e^{-x}\int_{-\infty}^{x}t^{k+1}e^{t}\mathrm{d}t&&\cr
+&: x\to e^{-x}\left( \left[ t^{k+1}e^{t} \right]_{-\infty}^{x}-\int_{-\infty}^{x}(k+1)t^{k}e^{t}\mathrm{d}t  \right)&&\cr
+&: x\to t^{k+1}-(k+1)e^{-x}\int_{-\infty}^{x}t^{k}e^{t}\mathrm{d}t &&\cr
+&=\mu_{k+1}-(k+1)L(\mu_{k})&&\cr
+\end{align*}
+$$
+Or $L(\mu_{0})=1$, donc par récurrence:
+$$
+L(\mu_{k})=(-1)^{k}k!\sum_{j=0}^{k}\frac{(-1)^{j}}{j!}\mu_{j}.
+$$
+c)
+La matrice de $L$ est trig sup, donc les valeurs propres de $L$ sont $1$, mais $L$ n'est pas l'identité, donc $L$ n'est pas DZ.
 
 
 
 
+
+
+---
+# DM
 
 
 
