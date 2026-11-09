@@ -3,7 +3,7 @@
 # Exercice 1
 ### 1
 $$
-\boxed{\lim_{ n \to \infty } P_{n}=X^{3}+1}
+\boxed{\lim_{ n \to \infty } P_{n}=X^{3}-1}
 $$
 $$
 \boxed{\mathrm{Rac}_{\mathbb{C}}P=\mathrm{Set}( 1,j,\bar{j} )}
@@ -53,18 +53,62 @@ Alors, $\det A=(-1)^{p}(-x_{n})^{p-2k}(\lambda_{n} \bar{\lambda_{n}})^{k}=x_{n}^
 
 ---
 ### 7
+On a donc $x_{n}=1+u_{n}$, et donc
+$$
+\begin{align*}
+0&=P(x_{n})&&\cr
+&=(1+u_{n})^{3}+\frac{1}{n}(1+u_{n})-1&&\cr
+&=1+3u_{n}+3u_{n}^{2}+u_{n}^{3}+\frac{1}{n}+\frac{u_{n}}{n}-1&&\cr
+&=u_{n}(3+3u_{n}+u_{n}^{2})+\frac{1}{n}&&\cr
+\end{align*}
+$$
+Or, pour $n\to +\infty$, $u_{n}\to0$, et donc $u_{n}=o(1)$, ainsi
+$$
+\begin{align*}
+u_{n}(3+o(1))&=\frac{1}{n}&&\cr
+u_{n}&\underset{ n }{ \sim }\frac{1}{3n}.&&\cr
+\end{align*}
+$$
 
+---
+### 8
+Par 2), on obtient que:
+$$
+\boxed{P_{n}=(X-x_{n})(X-z_{n})(X-y_{n})}
+$$
+avec $y_{n}=\bar{z_{n}}$.
 
-
-
-
-
-
-
-
-
-
-
-
-
+---
+### 9
+En développant la définition de $P$, on trouve
+$$
+\begin{cases}
+0&=x_{n}+y_{n}+z_{n} \\
+\frac{1}{n}&=x_{n}y_{n}+y_{n}z_{n}+z_{n}x_{n} \\
+-1&=-x_{n}y_{n}z_{n}
+\end{cases}
+$$
+Ainsi
+$$
+\begin{cases}
+y_{n}+z_{n}=-x_{n} \\
+y_{n}z_{n}=\frac{1}{x_{n}}.
+\end{cases}
+$$
+Ensuite, par
+$$
+\begin{cases}
+y_{n}+z_{n}&=2\mathrm{\mathrm{Re}}(y_{n}) \\
+y_{n}z_{n}&=|y_{n}|^{2}
+\end{cases}
+$$
+Et donc
+$$
+\begin{cases}
+\mathrm{\mathrm{Re}}(y_{n})&=-\frac{x_{n}}{2} \\
+|y_{n}|&=\frac{1}{\sqrt{ x_{n} }}
+\end{cases}
+$$
+En passant à la limite, on trouve $y_{n}=j$
+Ainsi, ce résultat est bien cohérent avec ce qui a été formulé en question 1).
 
