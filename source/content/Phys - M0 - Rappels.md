@@ -58,9 +58,18 @@ Def. Coordonnées en cylindrique::
 $$
 \overrightarrow{OM}=\begin{pmatrix}
 r \cr
-\theta \cr
+0 \cr
 z
 \end{pmatrix}
+$$
+<!-- basicblock-end -->
+<!-- basicblock-start -->
+Prop. Dérivée des vecteurs en cylindrique::
+$$
+\begin{align*}
+\dot{\overrightarrow{u_{r}}}&=\dot{\theta}\overrightarrow{u_{\theta}}&&\cr
+\dot{\overrightarrow{u_{\theta}}}&=-\dot{\theta}\overrightarrow{u_{r}}&&\cr
+\end{align*}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start -->
@@ -92,8 +101,8 @@ Def. Coordonnées en sphérique::
 $$
 \overrightarrow{OM}=\begin{pmatrix}
 r \cr
-\theta \cr
-\varphi
+0 \cr
+0
 \end{pmatrix}
 $$
 <!-- basicblock-end -->

@@ -59,7 +59,11 @@ R_{t}&\leq R_{n}&&\cr
 \end{align*}
 $$
 
-
+---
+### Exo 11
+1)
+En coordonnée polaire:
+On a $M:\begin{pmatrix}ut \\  \omega t \\  0\end{pmatrix}$
 
 
 

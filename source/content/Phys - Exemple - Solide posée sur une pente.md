@@ -10,7 +10,7 @@ La phase de glissement s'arrête si (l'une est l'autre)
 Système: {Solide sur un plan incliné} modélisé par un point
 Référentiel: Terrestre supposé galiléen
 Coordonnées: cartésiennes
-![[Drawing 2026-10-16 11.17.45.excalidraw.svg]]
+![[Solide sur une pente 2.svg]]
 Bilan des forces:
 - $\overrightarrow{N}=N\overrightarrow{e_{y}}$
 - $\overrightarrow{T}=-T\overrightarrow{e_{x}}$
@@ -69,7 +69,7 @@ Ainsi, on a bien $a_{0}>0$ car $\tan\theta>f$, c'est cohérent, le solide descen
 4. Lancer vers le haut
 $\theta$ quelconque mais $\overrightarrow{v_{0}}=-v_{0}\overrightarrow{e_{x}}$.
 C'est en dynamique parce que l'objet est mis en mouvement
-![[Drawing 2026-10-16 11.37.27.excalidraw]]
+![[Solide sur une pente]]
 Bilan des forces:
 - $\overrightarrow{N}=N\overrightarrow{e_{y}}$
 - $\overrightarrow{T}=T\overrightarrow{e_{x}}$

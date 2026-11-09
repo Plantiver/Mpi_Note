@@ -1,4 +1,4 @@
-!This is personal, and you can read it, but it has nothing to do with anything here.
+!! This is personal, and you can read it, but it has nothing to do with anything here !!
 
 Stands for Lost-Hazard.
 
