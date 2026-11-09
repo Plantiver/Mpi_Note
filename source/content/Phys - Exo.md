@@ -116,7 +116,13 @@ On mesure $13N$ de force d'inertie d'entrainement. Or
 $$
 \overrightarrow{F_{ie}}=-m\overrightarrow{a_{e}}
 $$
-Considérons
+On considère l'ascenseur immobile avant la première accélération, il aura ensuite une vitesse constante qu'on souhaite calculer.
+L'accélération étant constante, la vitesse sera juste $v=t_{a}a_{e}$, avec $t_{a}$ le que dure l'accélération.
+On a alors la distance parcoure $d=t_{a}t_{d}a_{e}$ avec $t_{d}$ le temps de déplacement.
+A.N.
+- $t_{a}=2s$
+- $t_{d}=6s$
+- $a_{e}=$
 
 
 
