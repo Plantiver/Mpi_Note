@@ -63,7 +63,72 @@ $$
 ### Exo 11
 1)
 En coordonnée polaire:
-On a $M:\begin{pmatrix}ut \\  \omega t \\  0\end{pmatrix}$
+On a $\overrightarrow{OM}=\begin{pmatrix}ut \\  0 \\  0\end{pmatrix}$
+Donc
+$$
+\overrightarrow{v}=u\overrightarrow{e_{r}}+ut\omega \overrightarrow{e_{\theta}}
+$$
+Et
+$$
+\overrightarrow{a}=2u\omega \overrightarrow{e_{\theta}}-ut\omega^{2}\overrightarrow{e_{r}}
+$$
+2)
+On se place dans le référentiel de la roue. On a alors:
+$$
+\begin{align*}
+\overrightarrow{v}&=\overrightarrow{v_{r}}+\overrightarrow{v_{e}}&&\cr
+&=u\overrightarrow{e_{r}}+\overrightarrow{\Omega}\wedge \overrightarrow{OM}&&\cr
+&=u\overrightarrow{e_{r}}+\omega ut\overrightarrow{e_{\theta}}&&\cr
+\end{align*}
+$$
+et
+$$
+\begin{align*}
+\overrightarrow{a}&=\overrightarrow{a_{r}}+\overrightarrow{a_{e}}+\overrightarrow{a_{c}}&&\cr
+&=\overrightarrow{0}+(-\omega^{2}ut\overrightarrow{e_{r}})+2\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}}&&\cr
+&=-\omega^{2}ut\overrightarrow{e_{r}}+2u\omega \overrightarrow{e_{\theta}}&&\cr
+\end{align*}
+$$
+
+---
+### Exo 12
+
+---
+### Exo 13
+1. 
+L'avion doit aller vers le bas, pour avoir une accélération d'entrainement qui compensent le poids.
+2. 
+(a) la rotation du référentielle de la roue crée une force d'inertie d'entrainement
+(b)
+
+---
+### Exo 14
+
+---
+### Exo 15
+1. 
+On $\|\overrightarrow{P}\|=mg$. Et donc
+$$
+m=\frac{100N}{g}\simeq10kg.
+$$
+2. 
+On mesure $13N$ de force d'inertie d'entrainement. Or 
+$$
+\overrightarrow{F_{ie}}=-m\overrightarrow{a_{e}}
+$$
+Considérons
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

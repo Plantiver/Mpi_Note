@@ -323,11 +323,3 @@ avec $\sum \overrightarrow{F}=m\overrightarrow{g}+\sum \overrightarrow{F}_{\text
 
 > [!note]- Exemple 3
 > ![[Phys - Exemple - Les marées]]
-
-
-
-
-
-
-
-En un tiers d'année, il fait minuit à midi...
