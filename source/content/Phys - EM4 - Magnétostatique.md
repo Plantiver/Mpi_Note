@@ -127,7 +127,7 @@ $$
 $$
 L'effet concret du champ magnétique est réalisé par $\overrightarrow{v}\wedge \overrightarrow{B}$. C'est cette grandeur qui vérifie le principe de Curie.
 Cela implique.
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsYYBvhqV5Y5PP9YtXfPZuX" -->
 Prop. Champ Magnétique::
 - $\overrightarrow{B}$ est orthogonal aux plans de symétrie de la distribution du courant
 - $\overrightarrow{B}\in$ plans d'antisymétrie de cette distribution
@@ -198,14 +198,14 @@ $$
 ## 3 - Actions mécaniques d'un champ extérieur sur un dipôle
 Soit un dipôle magnétique $\mathcal{\overrightarrow{M}}$ dans un champ uniforme est constant $\overrightarrow{B_{0}}$.
 Le couple subit:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsOBbJQZinb0S1WSyxeAiVt" -->
 Prop. Action d'un champ magnétique uniforme sur un dipôle::
 $$
 \overrightarrow{\Gamma}=\overrightarrow{\mu}\wedge \overrightarrow{B_{0}}.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsaw9sudGhLVFt85B4B69Cy" -->
 Prop. Energie potentielle d'un dipôle dans un champ magnétique::
 $$
 \mathcal{E}_{p}=-\overrightarrow{\mu}\cdot \overrightarrow{B_{0}}

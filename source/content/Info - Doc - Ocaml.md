@@ -3,7 +3,7 @@ deck: info
 ---
 
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsyhKXCfujLHd3hnaWm9cjm" -->
 Prop. `List` module::
 - `List.init -> int -> (int->'a) -> 'a list`
 - `List.lentgh -> 'a list -> int`
@@ -17,7 +17,7 @@ Prop. `List` module::
 - `List.partition -> ('a -> bool) -> 'a list -> 'a list * 'a list`
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsRPuO08G2lgeyLMbeDG7TF" -->
 Prop. `Array` module::
 - `Array.init -> int -> (int->'a) -> 'a array`
 - `Array.length -> 'a array -> int`
@@ -28,7 +28,7 @@ Prop. `Array` module::
 - modify: `ar.(i) <- v`.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsBSahXtoFWFgTDibw1qZKF" -->
 Prop. `Random` module::
 - `Random.self_init -> () -> ()`
 - `Random.init -> int -> ()`
@@ -37,28 +37,28 @@ Prop. `Random` module::
 - `Random.float -> float -> float`
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs7Eydssyms1ZynUAtYAf7I" -->
 Prop. ref in Ocaml::
 - define: `let a = ref b`
 - access: `!a`
 - modify: `a:=x;`
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsjRdE9AIfgNGQfXvtUEKGT" -->
 Prop. loops in Ocaml::
 - for: `for i=k to n do ... done;`
 - for: `for i=k downto n do ... done;`
 - while: `while cond do ... done;`
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsreyXHG9l2hD1chrtfcwO7" -->
 Prop. exception in Ocaml::
 - define: `exception MyException;;`
 - raise: `raise MyException`
 - try/catch: `try expr with |MyException->expr`
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsogTGarkxPeUa83CIiOSSe" -->
 Prop. match pattern in Ocaml::
 - declaring: `match expr with`
 - basic case: `| pattern -> expr`
@@ -70,21 +70,5 @@ Prop. match pattern in Ocaml::
 - Record: `| {hey=x; _} -> expr`
 - list: `| h::t -> expr`
 <!-- basicblock-end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

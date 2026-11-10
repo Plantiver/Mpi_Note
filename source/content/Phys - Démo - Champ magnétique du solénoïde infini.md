@@ -40,7 +40,7 @@ $$
 $$
 Avec $N$ le nombre de spire sur la longueur $L$.
 On définit la densité linéique de spires:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObskXPdgWHonI7qNEnyGZw4i" -->
 Def. Densité linéique de spires::
 $$
 n=\frac{N_{\text{tot}}}{L_{\text{tot}}}

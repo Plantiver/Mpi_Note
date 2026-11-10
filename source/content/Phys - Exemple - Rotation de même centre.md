@@ -16,7 +16,7 @@ On a en général:
 $$
 \dot{\overrightarrow{e_{c}}}=\overrightarrow{\Omega}\wedge \overrightarrow{e_{c}}.
 $$
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsjWl0i3LZJJBc6iIpE1X0i" -->
 Prop. vitesse d'entrainement pour la rotation de même centre::
 $$
 \overrightarrow{v_{e}}=\overrightarrow{\Omega}\wedge \overrightarrow{O_{1}M}

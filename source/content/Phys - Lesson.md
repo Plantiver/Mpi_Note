@@ -1,3 +1,4 @@
+Ces cours proviennent directement de ceux que vous trouverez [ici](https://mchampion.fr/).
 
 [[Phys - Math]]
 

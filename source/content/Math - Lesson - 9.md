@@ -1,20 +1,20 @@
 ---
 deck: math
 ---
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs2bj85bpGMtggr2c81a3YA" -->
 Def. intervalle impropre::
 $$
 \int_{]a,b]}f(t)\mathrm{d}t,\;f\text{ DV en }a.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsVAopmTMKvdxqTU852dG39" -->
 Prop. calcul d'une intégral impropre::
 - $\int_{]a,b]}f(t)\mathrm{d}t=\lim_{ x \to a }\int_{[x,b]}f(t)\mathrm{d}t$
 - 
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs8lcGlWTKfwWkCj0RImxiE" -->
 Th. convergence d'une intégral impropre::
 $$
 \int_{[a,b[}f(t)\mathrm{d}t\text{ CV}\iff \exists M,\;\forall x \in[a,b[,\;\int_{[a,x]}f(t)\mathrm{d}t\leq M
@@ -95,7 +95,7 @@ $$
 La décomposition en élément simple à la première ligne se fait à part bien sûr
 Donc, ça converge par convergence des intégrales partielles.
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsh5PC36GzD5xppnCwKTjWZ" -->
 Def. fonction absolument convergente::
 $$
 f,\;\int_{I}|f(t)|\mathrm{d}t\text{ CV}
@@ -119,7 +119,7 @@ Par hypothèse, ceci est majorée, donc, par positivité de $|f|$, et notre CNS,
 
 
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObseVE4PeT6PBZfQxru4c1XR" -->
 Th. convergence usuelle::
 - $\ln \in \mathcal{L}^{1}(]0,1])$
 - $(t\to e^{-at})\in \mathcal{L}^{1}([0,+\infty[)\iff a>0$
@@ -127,7 +127,7 @@ Th. convergence usuelle::
 - $\left( t\to\frac{1}{t^{a}} \right)\in \mathcal{L}^{1}(]0,1])\iff a<1$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsIsswKymPdv3KerUayQ6T6" -->
 Th. nature d'une intégrale::
 - Convergente
 - Divergente
@@ -135,14 +135,14 @@ Th. nature d'une intégrale::
 
 Dans la suite, deux intégrale de même natures seront notées avec $\simeq$.
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsL9AKIpmuUrgRzioh191Hp" -->
 Th. intégrale tronqué::
 $$
 \int_{[a,b[}f(t)\mathrm{d}t\simeq \int_{[c>a,b[}f(t)\mathrm{d}t.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsEdBnZ3SHkjy6qVUor51kt" -->
 Prop. changement de variable pour une intégrale impropre::
 - $\mathcal{C}^{1}$
 - $\leftrightsquigarrow$
@@ -202,7 +202,7 @@ voir les photos du profs...
 
 
 #todo : do it properly
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObslZURWyWHVnyfWpmtxl8T3" -->
 Th. ipp d'intégrale impropre::
 - L’IPP sur des fonctions C 1 conserve la nature/valeur des intégrales impropres si l’on signale/justifie qu’il y a des limites finies aux crochets impropre.
 <!-- basicblock-end -->

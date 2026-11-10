@@ -3,7 +3,7 @@ deck: phys
 ---
 # M
 ### 2ème loi de Newton
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs3K0KzBp8LPkgCoQ9rBwJi" -->
 Form. 2ème loi de newtion::
 $$
 \frac{\mathrm{d}\overrightarrow{p}}{\mathrm{d}t}=\sum \overrightarrow{F}.
@@ -12,7 +12,7 @@ $$
 ### 3ème loi de Newton
 Il existe des référentiels galiléens.
 ### Loi de composition des vitesses
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsgmMJWBeAw8YCIBPeSRkym" -->
 Form. Loi de composition des vitesses::
 $$
 \overrightarrow{v}(M/\mathcal{R})=\overrightarrow{v_{e}}+\overrightarrow{v_{r}}.
@@ -20,7 +20,7 @@ $$
 <!-- basicblock-end -->
 
 ### Loi de composition des accélérations
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObslSyzbgZ8fGnmHZWhHqTUh" -->
 Form. loi de composition des accélérations::
 $$
 \overrightarrow{a}(M/\mathcal{R})=\overrightarrow{a_{r}}+\overrightarrow{a_{e}}+\overrightarrow{a_{c}}
@@ -108,7 +108,7 @@ $$
 <!-- basicblock-end -->
 
 ### Théorème d'Ampère
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsUz74qYc7VKgEfvqCJqxAo" -->
 Th. d'Ampère::
 $$
 \oint_{\Gamma}\overrightarrow{B}\cdot \overrightarrow{\mathrm{d}l}=\mu_{0}I_{\text{enlace}}.
@@ -117,7 +117,7 @@ $$
 
 ### Loi de Coulomb
 En cas de glissement:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsPVayji00PvFE1i0oEqbAg" -->
 Form. Loi de coulomb avec glissement::
 $$
 \|\overrightarrow{T}\|=f_{d}\cdot\|\overrightarrow{N}\|.
@@ -126,7 +126,7 @@ $$
 avec $f_{d}$ le coefficient de frottement dynamique.
 
 En l'absence de glissement:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsES7R6gojX7DIj0KV3lRxm" -->
 Form. Loi de coulomb sans glissement::
 $$
 \|\overrightarrow{T}\|\leq f_{s}\cdot\|\overrightarrow{N}\|

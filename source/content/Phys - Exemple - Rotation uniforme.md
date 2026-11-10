@@ -19,7 +19,7 @@ avec:
 - $H$ le projeté orthogonal de $M$ sur l'axe de rotation.
 
 Et donc:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs3nLo6f1cWlsmu21WjkLY9" -->
 Prop. accélération d'entrainement pour une rotation uniforme::
 $$
 \overrightarrow{a_{e}}=-\omega^{2}\overrightarrow{HM}.

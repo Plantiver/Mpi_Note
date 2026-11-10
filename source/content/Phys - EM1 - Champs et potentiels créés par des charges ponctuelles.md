@@ -142,7 +142,7 @@ $$
 <!-- basicblock-end -->
 
 > [!note]- Potentielle d'un dipôle
-> ![[Phys - Démo - Potentiel d'un dypole]]
+> ![[Phys - Démo - Potentiel d'un dipole]]
 
 
 <!-- basicblock-start oid="ObsqjKLMYTIsax3acL72O0Ez" -->

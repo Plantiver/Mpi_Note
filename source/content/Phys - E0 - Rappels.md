@@ -51,7 +51,7 @@ U=RI.
 $$
 Où $R$ est donc la résistance en Ohm du dipôle.
 La résistance dissipe de l'énergie sous forme de chaleurs, et la puissance dissipée est:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObswbCU338aJKG1sZ0w33MkQ" -->
 Prop. Puissance dissipée par une résistance::
 $$
 \mathcal{P}_{R}=RI^{2}.
@@ -74,7 +74,7 @@ Si la tension imposé à un condensateur est trop haute, le courant va commencer
 Ce phénomène apparaît pour une tension supérieur à la tension disruptive du matériaux entre les deux bornes.
 
 L'énergie stocké par un condensateur est:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsYBwMrDUDj1KQ5tQgkASPo" -->
 Prop. Energie stocké par un condensateur::
 $$
 E_{C}=\frac{1}{2}CU^{2}

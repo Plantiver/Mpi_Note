@@ -143,7 +143,7 @@ $$
 $$
 
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs0BQbXhU2qJTgUnMR2JxFJ" -->
 Def. vitesse d'entrainement::
 vitesse du point coïncident dans $\mathcal{R}$
 <!-- basicblock-end -->
@@ -194,7 +194,7 @@ $$
 On appelle accélération de Coriolis et l'on note $a_{c}$ le terme restant.
 
 Et donc:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsHAS0PICTyjPVKZQRehbgI" -->
 Prop. accélération de Coriolis::
 $$
 \overrightarrow{a_{c}}=2\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}}.
@@ -234,7 +234,7 @@ m\overrightarrow{a}(M/\mathcal{R_{1}})&=\sum \overrightarrow{F}-m\overrightarrow
 \end{align*}
 $$
 En référentiel galiléen on rajoute deux pseudo-forces d'inertie:
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsPOQqHoK93fJe6xTTyKR6X" -->
 Prop. pseudo-forces d'inertie::
 - Force d'inertie d'entrainement: $\overrightarrow{F_{ie}}=-m\overrightarrow{a_{e}}$
 - Force d'inertie de Coriolis: $\overrightarrow{F_{ic}}=-m\overrightarrow{a_{c}}$

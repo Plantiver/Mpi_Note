@@ -10522,6 +10522,7 @@ class ObsidianAnkiSyncPlugin extends obsidian.Plugin {
                 }
             }
         }
+        console.log("Hey, what's up? If you like what I've done, don't forget to send me a text, I'll be happy to see I helped someone");
         // -- Update Anki and show summery --
         await invoke("removeEmptyNotes", {});
         await invoke("reloadCollection", {});

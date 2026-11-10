@@ -1,3 +1,6 @@
+---
+deck: phys
+---
 ### La charge élémentaire
 <!-- basicblock-start oid="ObshIJHUDO6xotjAd5CEyU98" -->
 Val. Charge élémentaire::
