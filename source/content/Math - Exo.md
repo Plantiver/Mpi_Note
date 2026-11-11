@@ -211,6 +211,7 @@ $$
 ---
 ### 38
 Voir [[Math - Exo#25]], o).
+Et en 0, on majore par 1 le $\cos$ et on conclut par Riemann.
 
 # Chapitre 10
 ### 15
@@ -223,9 +224,7 @@ $$
 &=\frac{x}{a\sqrt{ (a+x)(x^{2}+1) }}\cdot \frac{1}{\sqrt{ a }}&&\cr
 \end{align*}
 $$
-
-
-
+b)
 
 
 
