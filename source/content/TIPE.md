@@ -77,4 +77,24 @@ Okay, discussion avec Mirliaz, il faut d'avantage que je précise ce que je veux
 Je dois me concentrer sur faire quelque chose de fonctionnelle, qui laisse lieu à une petite implémentation pour comparer avec un autre os.
 Tout ce dont j'ai besoin, c'est deux petits programmes, un qui tournera bien sous linux, un qui tournera bien sous Crusty.
 Bon, le problème c'est qu'il faut que je puisse transposer facilement de l'un à l'autre pour faire une comparaison fair.
-Dans l'idée, je ferais sans doute un petit programme dans le terminal
+Dans l'idée, je ferais sans doute un petit programme dans le terminal.
+
+
+---
+Okay, Je vais donc créer une structure pour tenir compte des informations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

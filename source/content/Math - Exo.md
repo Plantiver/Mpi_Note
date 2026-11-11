@@ -193,6 +193,8 @@ $$
 $$
 Bon, ce ne nous donne pas la valeur de l'intégrale de départ, mais ça nous assure la convergence.
 
+Le prof m'a également signalé que par une IPP en dérivant la racine, on prouve la convergence.
+
 ---
 ### 27
 a)
@@ -206,3 +208,48 @@ I&=\int_{1}^{+\infty}\frac{1}{t(t+1)(t+2)}\mathrm{d}t &&\cr
 &=-\ln \frac{\sqrt{ 3 }}{2}&&\cr
 \end{align*}
 $$
+---
+### 38
+Voir [[Math - Exo#25]], o).
+
+# Chapitre 10
+### 15
+a)
+Soit $f_{a}:\begin{cases}\mathbb{R}_{+}^{\star}&\to \mathbb{K} \\  x&\to \frac{x}{a\sqrt{ (a^{2}-x^{2})(x^{2}+1) }}\end{cases}$
+- $\forall a\in \mathbb{R}_{+}^{\star},\;f_{a}\in \mathcal{C}^{0}([0,a[)$
+$$
+\begin{align*}
+|f(x)|&=\frac{x}{a\sqrt{ (a+x)(x^{2}+1) }}\cdot\frac{1}{\sqrt{ a-x }}&&\cr
+&=\frac{x}{a\sqrt{ (a+x)(x^{2}+1) }}\cdot \frac{1}{\sqrt{ a }}&&\cr
+\end{align*}
+$$
+
+
+
+
+
+
+
+---
+### 19
+a)
+$$
+\forall n\in \mathbb{N},\;f_{n}\in \mathcal{C}^{0}([0;+\infty[)
+$$
+
+$$
+\begin{align*}
+|f_{n}(t)|&=o_{+\infty}\left( \frac{1}{t^{2}} \right)\in \mathcal{L}^{1}(\mathbb{R}_{+})&&\cr
+\end{align*}
+$$
+Donc, $\forall n\in \mathbb{N},\;f_{n}\in \mathcal{L}^{1}(\mathbb{R}_{+})$.
+b)
+- $\forall t\in \mathbb{R}_{+},\;\lim_{ n \to +\infty }f_{n}(t)=\frac{1}{1+t^{2}}$
+- $\forall n\in \mathbb{N},\;f_{n}(t)\leq \frac{1}{t^{2}}\in \mathcal{L}^{1}(\mathbb{R}_{+})$
+Par le théorème de convergence dominée discret:
+$$
+I_{n}=\int_{0}^{+\infty}\frac{1}{1+t^{2}}\mathrm{d}t=[\arctan t]_{0}^{t\to +\infty}=\frac{\pi}{2}
+$$
+
+
+
