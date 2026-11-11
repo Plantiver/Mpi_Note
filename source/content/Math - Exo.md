@@ -224,8 +224,9 @@ $$
 &=\frac{x}{a\sqrt{ (a+x)(x^{2}+1) }}\cdot \frac{1}{\sqrt{ a }}&&\cr
 \end{align*}
 $$
-b)
 
+b)
+C'est juste la même 
 
 
 
