@@ -26,6 +26,22 @@ $$
 \overrightarrow{a}(M/\mathcal{R})=\overrightarrow{a_{r}}+\overrightarrow{a_{e}}+\overrightarrow{a_{c}}
 $$
 <!-- basicblock-end -->
+
+# T
+### Premier principe infinétismal
+<!-- basicblock-start -->
+Form. 1er principe infinitésimal::
+$$
+\mathrm{d}U+\mathrm{d}\mathcal{E}_{c}=\delta W+\delta Q.
+$$
+<!-- basicblock-end -->
+### Loi phénoménologique de Fourier
+<!-- basicblock-start -->
+Form. loi phénoménologique de Fourier::
+$$
+\overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T.
+$$
+<!-- basicblock-end -->
 # EM
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->

@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - Sketchbook.md",
+                "file": "Phys - T1 - Les transferts thermiques.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - Sketchbook"
+              "title": "Phys - T1 - Les transferts thermiques"
             }
           }
         ],
@@ -112,6 +112,11 @@
   },
   "active": "d4f220b4a1dd31f0",
   "lastOpenFiles": [
+    "Phys - Formule.md",
+    "Phys - T1 - Les transferts thermiques.md",
+    "Phys - T0 - Rappels.md",
+    "Phys - Lesson.md",
+    "P.md",
     "Phys.md",
     "Phys - Sketchbook.md",
     "Phys - M1 - Compléments de mécanique.md",
@@ -134,11 +139,6 @@
     "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
     "Phys - EM2 - Sources continues du champ électromagnétique.md",
     "Math - Exo.md",
-    "Math - Lesson - 10.md",
-    "Math - Lesson - 8.md",
-    "Math - Lesson - 9.md",
-    "Info - Doc - Ocaml.md",
-    "Math - Lesson - 7.md",
     "Excalidraw/Exo pinguoin.svg",
     "Excalidraw/Solide sur une pente 2.svg",
     "Excalidraw/Math - Sketchbook 2026-11-08 22.30.26.excalidraw.svg",
