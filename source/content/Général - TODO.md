@@ -18,7 +18,6 @@
 # [[Phys]]
 - cours EM3 en fiche
 - cours de l'année dernière en fiche
-- carte mentale EM
 - Démo moment dipolaire d'une molécule EM1
 - Démo calcul du courant moyen EM2
 - Démo loi d'ohm locale
@@ -27,12 +26,11 @@
 - Note grammar
 - finir trad
 # [[TIPE]]
+- maestro
 - Memory mapping
 
 # Général
-- English: the text+midterm's news
-- Info: lots
-- Phys: Ds
+- Phys: Dm
 - Français: beaucoup
 
 # Left to_do for the lesson

@@ -1,7 +1,7 @@
 ---
 deck: info
 ---
-
+#todo : do the thing
 
 
 <!-- basicblock-start oid="ObsJhkcrA9uXBYkO2zeiW5FE" -->

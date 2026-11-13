@@ -213,7 +213,24 @@ $$
 Voir [[Math - Exo#25]], o).
 Et en 0, on majore par 1 le $\cos$ et on conclut par Riemann.
 
+---
 # Chapitre 10
+### 11
+Soit
+$$
+I_{n}=\int_{0}^{+\infty}e^{-(x+1/2)^{n}}\mathrm{d}x.
+$$
+- $\forall x \in \mathbb{R}_{+},\;e^{-(x+1/2)^{n}}\underset{ n }{ \to }\begin{cases}1\text{ si }x< \frac{1}{2} \\  e^{-1}\text{ si }x=\frac{1}{2} \\  0\text{ si }x>\frac{1}{2}\end{cases}:=l(x)\in \mathcal{C}^{0}_{(m)}(\mathbb{R}_{+})$.
+- $\forall n\in \mathbb{N}^{*},\;f_{n}\in \mathcal{C}^{0}_{(m)}(\mathbb{R}_{+})$
+- $\forall n\in \mathbb{N}^{*},\;\forall x \in \mathbb{R}_{+},\;|e^{-(x+1/2)^{n}}|\leq \begin{cases}1\text{ si }x\leq \frac{1}{2} \\  e^{-(x+1/2)}\text{ sinon}\end{cases}:=\varphi(x)\in \mathcal{L}^{1}(\mathbb{R}_{+})$.
+Ainsi par théorème de convergence dominée discret:
+$$
+\begin{align*}
+\lim_{ n \to +\infty } I_{n}&=\int_{0}^{+\infty}l(x)\mathrm{d}x&&\cr
+&=\frac{1}{2}.&&\cr
+\end{align*}
+$$
+---
 ### 15
 a)
 Soit $f_{a}:\begin{cases}\mathbb{R}_{+}^{\star}&\to \mathbb{K} \\  x&\to \frac{x}{a\sqrt{ (a^{2}-x^{2})(x^{2}+1) }}\end{cases}$
@@ -226,8 +243,47 @@ $$
 $$
 
 b)
-C'est juste la même 
+C'est juste la même chose, donc bon...
 
+c)
+$$
+\begin{align*}
+I(a)&=\int_{0}^{a}\frac{x}{\sqrt{ (a^{2}-x^{2})(1+x^{2}) }}\mathrm{d}x&&\cr
+&=\int_{0}^{1}\frac{au}{\sqrt{ (a^{2}-(au)^{2})(1+(au)^{2}) }}\frac{1}{a}\mathrm{d}u&&\cr
+&=\int_{0}^{1}\frac{u}{a\sqrt{ (1-u^{2})(1+(au)^{2}) }}\mathrm{d}u&&\cr
+&=\frac{1}{a}G(a)&&\cr
+\end{align*}
+$$
+
+
+
+
+
+
+
+
+---
+### 16
+a)
+Introduisons $f:(x,t)\to \frac{\ln(t)}{t^{2}+x}$.
+- $\forall x \in \mathbb{R}_{+}^{*},\;f(x,\cdot)\in \mathcal{C}^{0}(\mathbb{R}_{+}^{*})$
+Soit $x \in \mathbb{R}_{+}^{*}$, alors:
+Problème en 0:
+$$
+\begin{align*}
+f(x,t)&\underset{ t\to0 }{ \sim }-\frac{\ln(t)}{x}\in \mathcal{L}^{1}(]0;1])&&\cr
+\end{align*}
+$$
+Problème en $+\infty$:
+$$
+f(x,t)\underset{ t\to+\infty }{ \sim }\frac{\ln(t)}{t^{2}}\in \mathcal{L}^{1}([1;+\infty[)
+$$
+Ainsi, $F(x)$ est licite.
+
+**Continuité sous l'intégrale**
+- $\forall t\in \mathbb{R}_{+},\;f(\cdot,t)\in \mathcal{C}^{0}(\mathbb{R}_{+}^{*})$
+- $\forall x \in \mathbb{R}_{+}^{*},\;f(x,\cdot)\in \mathcal{C}^{0}(\mathbb{R}_{+})$
+- $\forall(x,t)\in [a,b]\times \mathbb{R}_{+},\;|f(x,t)|\leq$
 
 
 ---
@@ -250,6 +306,52 @@ Par le théorème de convergence dominée discret:
 $$
 I_{n}=\int_{0}^{+\infty}\frac{1}{1+t^{2}}\mathrm{d}t=[\arctan t]_{0}^{t\to +\infty}=\frac{\pi}{2}
 $$
+---
+### 32
+a)
+Soit $h:(x,t)\to \frac{e^{-x(1+t^{2})}}{1+t^{2}}=e^{-x}\left( \frac{e^{-xt^{2}}}{1+t^{2}} \right)$.
+Alors, $f: x\to \int_{0}^{+\infty}h(x,t)\mathrm{d}t$.
+Si $x<0$, $f(x)$ est grossièrement divergente.
+Si $x\geq 0$, $f(x)$ est ACV par majoration de l'exponentielle décroissante par 1, puis par Riemann.
+
+b)
+$$
+\frac{ \partial h }{ \partial x } (x,t)=-e^{-x(1+t^{2})}
+$$
+**Th. Leibniz intégral**
+- $\forall t\in \mathbb{R}_{+},\;h(\cdot,t)\in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$
+- $\forall x \in \mathbb{R}_{+}^{*}, h(x,\cdot)\in \mathcal{L}^{1}(\mathbb{R}_{+}),\;\frac{ \partial h }{ \partial x }(x,\cdot)\in \mathcal{L}^{1}(\mathbb{R}_{+}^{*})$
+- $\forall(x,t)\in [a,b]\times \mathbb{R}_{+},\;|\frac{ \partial h }{ \partial x }(x,t)|\leq e^{-a(1+t^{2})}\in \mathcal{L}^{1}(\mathbb{R}_{+})$
+donc $f\in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$ et
+$$
+f'(x)=-\int_{0}^{+\infty}e^{-x(1+t^{2})}\mathrm{d}t=-e^{-x}\int_{0}^{+\infty}e^{-xt^{2}}\mathrm{d}t
+$$
+On pose $u=\sqrt{ x }t$, donc $\mathrm{d}u=\sqrt{ x }\mathrm{d}t$, donc
+$$
+f'(x)=-\frac{e^{-x}}{\sqrt{ x }}I.
+$$
+c)
+Soit $A>0$, alors
+$$
+\begin{align*}
+f(A)-f\left( \frac{1}{A} \right)&=\left[ f(t) \right]_{\frac{1}{A}}^{A}. &&\cr
+\end{align*}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

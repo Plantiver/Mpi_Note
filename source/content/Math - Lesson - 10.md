@@ -3,7 +3,7 @@
 
 <!-- basicblock-start oid="Obs8ljm9V8lx9421H4Y9cJTS" -->
 Th. convergence dominée discret::
-- $\forall t\in J,\;f_{n}(t)\underset{ n }{ \to }l(t)$
+- $\forall t\in J,\;f_{n}(t)\underset{ n }{ \to }l(t)\in \mathcal{C}^{0}_{(m)}(J)$
 - $\forall n\in \mathbb{N},\;f_{n}\in \mathcal{C}^{0}_{m}(J)$
 - $\forall n\in \mathbb{N},\;\forall t\in J,\;|f_{n}(t)|\leq\varphi(t)\in \mathcal{L}^{1}(J)$
 $$

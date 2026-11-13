@@ -11,7 +11,8 @@ Les charges présentent dans le circuit se déplacent des hauts potentielles ver
 Le courant désigne le déplacement de ses charges dans le circuit.
 L'intensité quantifie ce courant, on mesure la quantité de charge traversant une section (orientée) au cours d'un petit temps. Par convention, on oriente la section des bas potentielles vers les hauts potentielles.
 
-Dans un circuit, il existe deux manières principales d'associer des composants, en série et en dérivations (voir schéma (en ligne pour l'instant #todo )).
+Dans un circuit, il existe deux manières principales d'associer des composants, en série et en dérivations:
+![[Phys - E0 - Rappels 2026-11-12 16.38.14.excalidraw.svg]]
 
 Un nœud est un point de jonction de plusieurs composants.
 Une branche désigne l'ensemble des composants entre deux nœuds.

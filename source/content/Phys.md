@@ -5,6 +5,6 @@
 [[Phys - Constante]]
 
 [[Phys - Exo]]
-
-Id: mpc
+[[Phys - Sketchbook]]
+Id: mpi
 Mdp: toto

@@ -24,7 +24,7 @@ Ici, $\overrightarrow{v}$ est la vitesse de l'objet par rapport au support, non 
 Ce sont des égalités/inégalités sur des normes, pas sur les vecteurs.
 On a: $f_{d}\leq f_{s}$. (il est plus difficile de mettre en mouvement un objet que de le pousser une fois qu'il se déplace).
 On note souvent $f=f_{d}=f_{s}$.
-L'absence de frottement implique $\overrightarrow{T}=\overrightarrow{0}$.
+L'absence de frottement implique $\overrightarrow{T}=\overrightarrow{0}$et si contacte avec un support, $\overrightarrow{v}=\overrightarrow{0}$.
 $\overrightarrow{N}$ est nul seulement s'il n'y a pas de contact.
 Se rappeler que $\|\overrightarrow{T}\|$ plus petit que $\|\overrightarrow{N}\|$: T peut facilement être nul, alors que N non.
 
@@ -122,7 +122,7 @@ On retient:
 
 Regardons la vitesse d'entrainement:
 - Si $\mathcal{R_{1}}$ est en translation dans $\mathcal{R}$:
-Dans ce cas, les vecteurs sont d'orientations fixe dans $\mathcal{R}$ #todo : be more precise
+Dans ce cas, la base des vecteurs de $\mathcal{R_{1}}$ est d'orientation fixe dans $\mathcal{R}$.
 ex: voiture sur une route droite, nacelle de grande roue
 à ce moment là:
 $$
@@ -154,10 +154,9 @@ vitesse du point coïncident dans $\mathcal{R}$
 $$
 \begin{align*}
 \frac{\mathrm{d}^{2}\overrightarrow{OM}}{\mathrm{d}t^{2}}&=\frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{z}}}+\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}} \right)&&\cr
-&=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}+x \ddot{\overrightarrow{e_{x}}}+y \ddot{\overrightarrow{e_{y}}}+z \ddot{\overrightarrow{e_{z}}}+2(\dot{x} \dot{\overrightarrow{e_{x}}}+\dot{y} \dot{\overrightarrow{e_{y}}}+\dot{z} \dot{\overrightarrow{e_{z}}})&&\cr
+&=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}+x \ddot{\overrightarrow{e_{x}}}+y \ddot{\overrightarrow{e_{y}}}+z \ddot{\overrightarrow{e_{z}}}+2(\dot{x} \dot{\overrightarrow{e_{x}}}+\dot{y} \dot{\overrightarrow{e_{y}}}+\dot{z} \dot{\overrightarrow{e_{z}}})+\ddot{x}\overrightarrow{e_{x}}+\ddot{y}\overrightarrow{e_{y}}+\ddot{z}\overrightarrow{e_{z}}&&\cr
 \end{align*}
 $$
-#todo add $\ddot{x}$ and all (coriolis)
 - On appelle accélération relative $\overrightarrow{a_{r}}=\overrightarrow{a}(M/\mathcal{R_{1}})$
 - On appelle accélération d'entrainement l'accélération du point coïncident dans $\mathcal{R}$ notée $\overrightarrow{a_{e}}$.
 

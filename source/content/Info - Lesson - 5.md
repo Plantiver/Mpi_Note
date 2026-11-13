@@ -1,6 +1,8 @@
 ---
 deck: info
 ---
+
+
 Exo 1.4
 - $S\;\implies\; ST\;\implies\;SaS\;\implies\;Sa\;\implies\;a$
 - $S\;\implies\;ST\;\implies\;STT\;\implies\;SbST\;\implies\;SbSbS\;\implies\;bSbS\;\implies\;bbS\;\implies\;bb$

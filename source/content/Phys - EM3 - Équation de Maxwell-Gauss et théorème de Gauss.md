@@ -14,7 +14,7 @@ $$
 Connaissant $\rho$, on ne peut pas retrouver $\overrightarrow{E}$, pas assez d'équation.
 
 ## 2 - Principe de Curie
-#todo : clean up a bit
+todo : clean up a bit
 On appelle **élément de symétrie** toute transformation géométrique qui laisse cette objet invariant (= en égale correspondance avec lui-même).
 *Ex*: Un cube possède ses rotations et ses symétries, mais en nombre finis, alors que la sphère c'est en nombre infinis. Si je colorie les faces de mon cube, je ne peux plus aussi facilement le faire tourner/symétriser.
 **Principe de Mr. Curie (1894)**:
@@ -111,16 +111,11 @@ $$
 > [!note]- Calcul du champ engendré par une sphère chargée uniformément
 > ![[Phys - Démo - Champ électrique d'une sphère]]
 
-
-
-#todo : demo: champ electrique d'une sphère par Maxwell-Gauss
-
 > [!note]- Calcul du champs engendré par une sphère chargée uniformément via Maxwell-Gauss
 > ![[Phys - Démo - Champ électrique d'une sphère par Maxwell-Gauss]]
 
 > [!note]- Energie de liaison d'un noyau atomique
 > ![[Phys - Exemple - Calcul de l'énergie de liaison d'un noyau atomique]]
-
 
 ## 3 - Le cylindre infini chargé en Volume
 

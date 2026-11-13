@@ -8,6 +8,7 @@ $$
 $$
 <!-- basicblock-end -->
 
+#todo : correct the interval over which those are defined, and finish the thing
 <!-- basicblock-start oid="ObsVAopmTMKvdxqTU852dG39" -->
 Prop. calcul d'une intégral impropre::
 - $\int_{]a,b]}f(t)\mathrm{d}t=\lim_{ x \to a }\int_{[x,b]}f(t)\mathrm{d}t$

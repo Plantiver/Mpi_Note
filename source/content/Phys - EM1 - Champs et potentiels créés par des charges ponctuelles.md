@@ -123,8 +123,10 @@ $$
 
 <!-- basicblock-start oid="ObstqCY6UlWt8rwMQNuQ7odG" -->
 Prop. Les lignes du champ électrique::
-- $\overrightarrow{E}$ est tangent aux lignes de champ.
-- #todo 
+- commencent dans les charges positives
+- se terminent dans les charges négatives
+- ne se croisent jamais
+- dirigent $\overrightarrow{E}$.
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsXN2lYJdIy5klRC89trkFb" -->

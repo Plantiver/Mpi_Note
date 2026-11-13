@@ -212,7 +212,7 @@ p_{L}=\sigma  \overrightarrow{E}^{2}.
 $$
 <!-- basicblock-end -->
 
-#todo : search more about this:
+todo : search more about this
 <!-- basicblock-start oid="ObswFli8S0rj8S51gUsVxwzk" -->
 Def. Modèle de Drude:
 - électrons indépendant et libre
