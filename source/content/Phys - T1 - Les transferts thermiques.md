@@ -204,20 +204,132 @@ Rq:
 
 
 
+## 2 - Equation de diffusion thermique
+$$
+\rho c\frac{ \partial T }{ \partial t } =-\mathrm{div}\overrightarrow{j_{\text{th}}}+\mathscr{P}_{V}
+$$
+Or $\overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T$
+Donc
+$$
+\begin{align*}
+\mathrm{div}\overrightarrow{j_{\text{th}}}&=-\lambda \mathrm{div}\overrightarrow{ \mathrm{grad}T}&&\cr
+&=-\lambda \dot{\Delta} T&&\cr
+\end{align*}
+$$
+<!-- basicblock-start -->
+Th. equation de diffusion de la chaleur::
+$$
+\frac{ \partial T }{ \partial t } =\frac{\lambda}{\rho c}\dot{\Delta}T+\frac{\mathscr{P}_{V}}{\rho c}
+$$
+<!-- basicblock-end -->
+On l'écrit souvent en 1D sans source de chaleur ($\mathscr{P}_{V}=0$):
+$$
+\frac{ \partial T }{ \partial t } =D\frac{ \partial^{2} T }{ \partial x^{2} } 
+$$
+avec $D=\frac{\lambda}{\rho c}$ la diffusivité thermique en $m^{2}\cdot s^{-1}$.
+Rq:
+- C'est une équation de **diffusion** qui traduit un phénomène **irreversible**. C'est l'inverse de l'équation de d'Alembert (cf [[Phys - EM5 - Le champ électromagnétique]]).
+- Loi d'échelle:
+#todo transform = into $\simeq$.
+On note $\tau$ le temps caractéristique de la diffusion, et $L$ la distance associée à ce temps.
+Voir schema...
+On peut estimer que $\frac{ \partial T }{ \partial t }=\frac{T_{1}-T_{0}}{\tau}$.
+Voir schema 2...
+On peut estimer que $\frac{ \partial^{2} T }{ \partial x^{2} }=\frac{T_{1}-T_{0}}{L^{2}}$.
+Ce sont des estimations très violentes, mais en ordre de grandeur, ça va.
+Et donc
+$$
+\begin{align*}
+\frac{ \partial T }{ \partial t } &=D\frac{ \partial^{2}T }{ \partial x^{2} } &&\cr
+\frac{T_{1}-T_{0}}{\tau}&=D\frac{T_{1}-T_{0}}{L^{2}}&&\cr
+L&=\sqrt{ D\tau }&&\cr
+L&\propto \sqrt{ \tau }&&\cr
+\end{align*}
+$$
+On retrouvera ça dans la vitesse de phase.
+
+## 3 - Régime stationnaire sans source: les résistances thermiques
+$$
+\begin{align*}
+\frac{ \partial T }{ \partial t } &=D\dot{\Delta}T+\frac{\mathscr{P}_{V}}{\rho c}&&\cr
+\dot{\Delta}T&=0&&\cr
+\end{align*}
+$$
+C'est le régime sans accumulation de chaleur.
+Le flux thermique est constant.
+Toute l'énergie thermique entrante va ressortir.
+
+ANALOGIE:
+Avec l'ARQS électrique.
+
+| Elec                                                           | Thermo                                                                     |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| $\overrightarrow{j}=-\sigma \overrightarrow{ \mathrm{grad}}V$  | $\overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T$ |
+| $I=\iint \overrightarrow{j}\cdot \overrightarrow{\mathrm{d}S}$ | $\phi=\iint \overrightarrow{j_{th}}\cdot \overrightarrow{\mathrm{d}S}$     |
+| $V_{2}-V_{1}=RI$                                               | $T_{2}-T_{1}=R\phi$                                                        |
+En cartésien 1D
+$$
+\dot{\Delta}T=0
+$$
+Donc
+$$
+T=Ax+B
+$$
+Voir schema...
+$$
+\begin{align*}
+T(0)&=T_{1}=B&&\cr
+T(L)&=T_{2}=AL+B&&\cr
+\end{align*}
+$$
+Donc
+$$
+T=T_{1}+\frac{T_{2}-T_{1}}{L}x
+$$
+Et donc
+$$
+j_{\text{th}}=-\lambda \frac{ \partial T }{ \partial x } =-\lambda \frac{T_{2}-T_{1}}{L}
+$$
+Et
+$$
+\phi=Sj_{\text{th}}=-\lambda S\frac{T_{2}-T_{1}}{L}.
+$$
+Ainsi
+<!-- basicblock-start -->
+Prop. résistance thermique unidimensionnelle::
+$$
+R_{\text{th}}=\frac{L}{\lambda S}.
+$$
+<!-- basicblock-end -->
 
 
+**En cylindrique:**
+On a
+$$
+\phi=-\lambda \frac{\mathrm{d}T}{\mathrm{d}r}(2\pi rH)
+$$
+En stationnaire avec $\phi$ constant,
+$$
+\frac{\mathrm{d}T}{\mathrm{d}r}=-\frac{\phi}{2\pi r\lambda H}
+$$
+Et intégrant entre $T_{1}$ et $T_{2}$
+$$
+T_{2}-T_{1}=-\frac{\phi}{2\pi\lambda H}\ln\left( \frac{r_{2}}{r_{1}} \right)
+$$
+Et donc
+$$
+R_{\text{th}}=\frac{1}{2\pi\lambda H}|\ln\left( \frac{r_{2}}{r_{1}} \right)|
+$$
 
-
-
-
-
-
-
-
-
-
-
-
+**En sphérique:**
+$$
+\begin{align*}
+\phi&=-\frac{\lambda \mathrm{d}T}{\mathrm{d}r}4\pi r^{2}&&\cr
+\frac{\mathrm{d}T}{\mathrm{d}r}&=-\frac{\phi}{4\pi\lambda r^{2}}&&\cr
+T_{2}-T_{1}&=\frac{\phi}{4\pi\lambda}\left( \frac{1}{r_{2}}-\frac{1}{r_{1}} \right)&&\cr
+R&=\frac{1}{4\pi\lambda}|\frac{1}{r_{2}}-\frac{1}{r_{1}}|&&\cr
+\end{align*}
+$$
 
 
 

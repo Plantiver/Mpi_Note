@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - T1 - Les transferts thermiques.md",
+                "file": "Phys - Exemple - Le slip-stick.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - T1 - Les transferts thermiques"
+              "title": "Phys - Exemple - Le slip-stick"
             }
           }
         ],
@@ -112,14 +112,17 @@
   },
   "active": "d4f220b4a1dd31f0",
   "lastOpenFiles": [
-    "Phys - Formule.md",
+    "Excalidraw/Phys - Exemple - Le slip-stick 2026-11-13 15.29.27.excalidraw.md",
+    "Phys - Exemple - Le slip-stick.md",
+    "Excalidraw/Phys - Exemple - Le slip-stick 2026-11-13 15.29.27.excalidraw.svg",
+    "Phys - M1 - Compléments de mécanique.md",
     "Phys - T1 - Les transferts thermiques.md",
+    "Phys - Formule.md",
     "Phys - T0 - Rappels.md",
     "Phys - Lesson.md",
     "P.md",
     "Phys.md",
     "Phys - Sketchbook.md",
-    "Phys - M1 - Compléments de mécanique.md",
     "Math - Lesson - 2.md",
     "Info - Lesson - 5.md",
     "Info - Lesson.md",
@@ -136,9 +139,6 @@
     "Phys - E0 - Rappels.md",
     "Excalidraw/Phys - E0 - Rappels 2026-11-12 16.38.14.excalidraw.md",
     "Excalidraw/Phys - E0 - Rappels 2026-11-12 16.38.14.excalidraw.svg",
-    "Phys - EM3 - Équation de Maxwell-Gauss et théorème de Gauss.md",
-    "Phys - EM2 - Sources continues du champ électromagnétique.md",
-    "Math - Exo.md",
     "Excalidraw/Exo pinguoin.svg",
     "Excalidraw/Solide sur une pente 2.svg",
     "Excalidraw/Math - Sketchbook 2026-11-08 22.30.26.excalidraw.svg",
@@ -152,7 +152,6 @@
     "file:/home/main/Téléchargements/Poly_Cours_Chap4_P3_2026-2027.pdf",
     "file:/home/main/Téléchargements/CNA.pdf",
     "Excalidraw/Drawing 2026-09-29 21.59.01.excalidraw.svg",
-    "Excalidraw/TIPE_schem.svg",
     "file:/home/main/Téléchargements/paper/books/Analyse pour l'agrégation - Hervé Queffélec, Claude Zuily.pdf",
     "file:/home/main/Téléchargements/Chapitre_7_limite_continuite.pdf",
     "file:/home/main/Téléchargements/Math - Dm - 5.pdf",

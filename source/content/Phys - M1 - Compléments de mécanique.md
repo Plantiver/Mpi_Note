@@ -38,6 +38,7 @@ Se rappeler que $\|\overrightarrow{T}\|$ plus petit que $\|\overrightarrow{N}\|$
 | pneu   | neige         | 0.2     | ...     |
 | pneu   | glace         | 0.05    | ...     |
 Attention, $f$ est mal défini, car il dépend énormément de l'état de surface.
+Pour mesurer $f$, on prend un plan incliné sur lequel on pose l'objet, on mesure l'angle auquel il se met à glisser, et l'on prends l'arctangeante.
 
 **Idée:**
 Si on regarde microscopiquement les surfaces:
@@ -47,6 +48,8 @@ Donc les aspérités créé: les frottements
 > [!note]- Exemple rupture de glissement
 > ![[Phys - Exemple - Rupture de contact]]
 
+> [!note]- Exemple du slip-stick
+> ![[Phys - Exemple - Le slip-stick]]
 ## 2 - Différentes phases possibles
 
 > [!note]- Exemple du solide sur une pente
