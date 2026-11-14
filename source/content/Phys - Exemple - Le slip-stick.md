@@ -1,3 +1,4 @@
+#todo : finish this
 On se place dans le référentiel terrestre supposé galiléen.
 On considère une masse $m$ accroché à un mur par un ressort $(l_{0},k)$, et posée sur un tapis roulant de vitesse horizontale $\overrightarrow{v_{0}}$ fixe qui éloigne la masse de son attache.
 On considérera les forces de frottements, et l'on donne $f_{d}=0$.
