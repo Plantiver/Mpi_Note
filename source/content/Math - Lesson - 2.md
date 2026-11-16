@@ -119,11 +119,112 @@ $$
 
 Prop. pratique sur le rang
 - taille de la plus grande matrice extraite inversible
+- $\mathrm{rg}(u\circ v)\leq max(\mathrm{rg}u,\mathrm{rg}v)$
+- $\mathrm{rg}u\leq max(\mathrm{dim}E,\mathrm{dim}F)$.
 
+<!-- basicblock-start -->
+Th. noyau/image d'une application linéaire::
+$$
+\mathrm{Im}u\simeq F,\;E=F\oplus \mathrm{Ker}u.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Th. du rang::
+$$
+\mathrm{dim}E=\mathrm{dim}\mathrm{Ker}u+\mathrm{rg}u.
+$$
+<!-- basicblock-end -->
 
-#todo : end this
+<!-- basicblock-start -->
+Th. isomorphisme d'espace vectoriel::
+$$
+\mathrm{dim}E=\mathrm{dim}F<+\infty \;\implies\;\left( u:E\leftrightsquigarrow F\iff u:E\leftrightarrow F\iff u:E\rightsquigarrow F \right) .
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Th. isomorphisme sur les matrices::
+$$
+A\in \mathcal{M}_{n}(\mathbb{K})\;\implies\;\left( \mathrm{Ker}A=\mathrm{Set}( 0 )\iff A\in GL_{n}(\mathbb{K})\iff\mathrm{rg}A=n \right) 
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. projecteur::
+$$
+p\circ p=p.
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Prop. élément propre d'un projecteur::
+$$
+\begin{cases}
+I&=\mathrm{Im}p=\mathrm{Ker}(p-id) &\text{ invariants} \\
+J&=\mathrm{Ker}p&\text{ s'annulent}
+\end{cases}
+$$
+<!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. symétrie::
+$$
+s\circ s=id.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. élément propre d'une symétrie::
+$$
+\begin{cases}
+I&=\mathrm{Ker}(s-id)&\text{ invariants} \\
+J&=\mathrm{Ker}(s+id)&\text{ retournés}
+\end{cases}
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. élément propre des projecteurs et symétries::
+$$
+E=I\oplus J.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. forme linéaire::
+$$
+u\in E^{\star}\iff u\in \mathcal{L}(E,\mathbb{K}).
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. hyperplan::
+$$
+\mathrm{Ker}u,\;u\in E^{\star}.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. structure d'algèbre::
+- $(A,+,\times,\cdot)$ est une $\mathbb{K}$-Algèbre ssi
+- $(A,+,\times)$ est un anneau
+- $(A,+,\cdot)$ est un $\mathbb{K}$-EV
+- Les produites $\times$ et $\cdot$ sont compatibles.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. sous-algèbre::
+- $1_{A}\in B$
+- $(B,+,\cdot)<(A,+,\cdot)$
+- $\forall (a,b)\in B^{2},\;a\times b\in B$.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. morphisme d'algèbre::
+- $f(1_{A})=1_{B}$
+- $f\in \mathcal{L}(A,B)$
+- $\forall (a,b)\in A^{2},\;f(a\times b)=f(a)\times f(b)$.
+<!-- basicblock-end -->
+
+On a plusieurs autres théorèmes sur la structure d'algèbre. Je ne les considère pas comme particulièrement important, notamment au vu de l'usage qu'il en est fait dans les sujets.
