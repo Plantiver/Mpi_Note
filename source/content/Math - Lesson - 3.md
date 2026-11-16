@@ -159,37 +159,3 @@ $$
 <!-- basicblock-end -->
 
 Okay, on suppose que les théorèmes restant sont négligeable devant mon envie de dormir. Donc, par moi, je vais dodo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#todo do the thing
