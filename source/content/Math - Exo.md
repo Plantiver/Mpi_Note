@@ -330,8 +330,13 @@ f(x)&=\frac{1}{x}-f(x+1)&&\cr
 &\sim \frac{1}{x} &&\cr
 \end{align*}
 $$
-Ce résultat est faux, on ne peut pas additionner des équivalents, mais je n'ai pas d'idée de comment faire.
-Par contre, j'ai bien calculé $f(1)$ pour la question e).
+Bon, pas besoin de calculer $f(1)$, on peut juste conclure en disant que c'est un nombre.
+
+En $x\to +\infty$:
+...
+
+e)
+Voir ci-dessus.
 
 ---
 ### 19
@@ -381,9 +386,14 @@ c)
 Soit $A>0$, alors
 $$
 \begin{align*}
-f(A)-f\left( \frac{1}{A} \right)&=\left[ f(t) \right]_{\frac{1}{A}}^{A}. &&\cr
+f(A)-f\left( \frac{1}{A} \right)&=\left[ f(t) \right]_{\frac{1}{A}}^{A}&&\cr
+&=\int_{\frac{1}{A}}^{A}f'(t)\mathrm{d}t &&\cr
+&=-I\int_{\frac{1}{A}}^{A} \frac{e^{-x}}{\sqrt{ x }}\mathrm{d}x&&\cr
+&=-2I\int_{\frac{1}{\sqrt{ A }}}^{\sqrt{ A }}e^{-u^{2}}\mathrm{d}u &&\cr
 \end{align*}
 $$
+
+
 
 ---
 ### 33
@@ -392,6 +402,7 @@ $$
 I(x)&=\int_{0}^{\pi/2} \frac{1}{\cos ^{2}t+x\sin ^{2}t}\mathrm{d}t &&\cr
 &=\int_{0}^{\pi/2} \frac{1}{\cos ^{2}t}\cdot \frac{1}{1+x\tan ^{2}t}\mathrm{d}t &&\cr
 &=\int_{0}^{+\infty} \frac{1}{1+xu^{2}}\mathrm{d}u&&\cr
+&=\frac{1}{\sqrt{ x }}\int_{0}^{+\infty} \frac{\sqrt{ x }}{1+(\sqrt{ x }u)^{2}}\mathrm{d}u&&\cr
 &=\left[ \frac{1}{\sqrt{ x }}\arctan(\sqrt{ x }u) \right]_{0}^{u\to+\infty}&&\cr
 &=\frac{\pi}{2\sqrt{ x }} &&\cr
 \end{align*}
@@ -415,6 +426,13 @@ f'(t)=-(2\cos t(-\sin t)+2x\sin t\cos t)f^{2}(t)=2(x-1)\cos t\sin tf^{2}(t)
 $$
 Pas d'idée... Ha si. Dommage, crochet impropre.
 
+Montrons que $I\in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$, via Leibniz intégral:
+Soit $f:(x,t)\to \frac{1}{\cos ^{2}t+x\sin ^{2}t}$, alors
+- $\forall t\in [0;\frac{\pi}{2}], f(\cdot,t)\in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$
+- 
+- 
+
+
 ---
 ### 39
 a)
@@ -437,15 +455,82 @@ $$
 Théorème de convergence dominée:
 - $\forall x \in \mathbb{R}_{+},\; \frac{sh(x)}{x}e^{-ax} \underset{ a }{ \to }0=l(x)\in \mathcal{L}^{1}$
 - ...
-- Domination sur $[b,c]\in \mathbb{R}_{+}^{*}$:
+- Domination sur $[42;+\infty[$:
 $$
-f(a,x)\leq \frac{sh(x)}{x}e^{-bx}\in \mathcal{L}^{1}(\mathbb{R}_{+})
+f(a,x)\leq \frac{sh(x)}{x}e^{-42x}\in \mathcal{L}^{1}(\mathbb{R}_{+})
 $$
 Donc l'intégrale de la limite existe et l'on peut les permuter:
 $$
 \lim_{ a \to +\infty } \int_{\mathbb{R}_{+}}f(a,x)\mathrm{d}x=0
 $$
 c)
+
+
+
+---
+### 42
+a)
+Soit $s\in]0;1[$, alors
+Problème en 0, par Riemann:
+$$
+|u^{s-1}e^{iu}|=\frac{1}{u^{1-s}}\in \mathcal{L}^{1}([0;1])
+$$
+Problème en $+\infty$:
+Par une IPP ne changeant pas la nature:
+$$
+\begin{align*}
+\int_{1}^{+\infty}u^{s-1}e^{iu}\mathrm{d}u&=\left[ u^{s-1}e^{iu} \right] -\int_{1}^{+\infty}u^{s-2}e^{iu}\mathrm{d}u&&\cr
+&=e^{i}-\int_{1}^{+\infty} \frac{1}{u^{2-s}}e^{iu}\mathrm{d}u&&\cr
+\end{align*}
+$$
+Et donc, par Riemann, la deuxième est ACV, DLR.
+
+b)
+Soit $x \in \mathbb{R}$, alors
+Problème en 0, par Riemann:
+$$
+|t^{s-1}e^{(-1+ix)t}|\sim_{0} \frac{1}{t^{1-s}}\in \mathcal{L}^{1}([0;1])
+$$
+Problème en $+\infty$, par CC:
+$$
+|t^{s-1}e^{(-1+ix)t}|\sim_{+\infty} t^{s-1}e^{-t}\in \mathcal{L}^{1}([1;+\infty[).
+$$
+c)
+Soit $g:(x,t)\to t^{s-1}e^{(-1+ix)t}$
+Par Leibniz intégral:
+- $\forall t\in \mathbb{R}_{+}, g(\cdot,t)\in \mathcal{C}^{1}(\mathbb{R})$, et $\frac{ \partial g }{ \partial x }(\cdot,t)=it^{s}e^{(-1+ix)t}$
+- $\forall x \in \mathbb{R},\;g(x,\cdot)\in \mathcal{L}^{1}(\mathbb{R}_{+})$ et $\frac{ \partial g }{ \partial x }(x,\cdot)\in \mathcal{L}^{1}(\mathbb{R}_{+})$ par Riemann et CC
+- Domination:
+$$
+\begin{align*}
+|\frac{ \partial g }{ \partial x } (x,t)|&=t^{s}e^{-t}\in \mathcal{L}^{1}(\mathbb{R}_{+}).&&\cr
+\end{align*}
+$$
+Donc
+$$
+f\in \mathcal{C}^{1}(\mathbb{R})\text{ et }f'(x)=\int_{0}^{+\infty}it^{s}e^{(-1+ix)t}\mathrm{d}t.
+$$
+Par IPP,
+$$
+\begin{align*}
+f'(x)&=&&\cr
+\end{align*}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

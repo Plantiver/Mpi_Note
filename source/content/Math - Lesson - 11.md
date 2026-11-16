@@ -32,9 +32,9 @@ Th. comparaison sur les série à termes positifs::
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
-Th. Cauchy-Schwartz du pauvre::
+Prop. Cauchy-Schwartz du pauvre::
 $$
-ab\leq \frac{1}{2}(a^{2}+b^{2})
+|ab|\leq \frac{1}{2}(a^{2}+b^{2})
 $$
 <!-- basicblock-end -->
 
@@ -53,7 +53,7 @@ Th. série spéciale alternée::
 $$
 \begin{cases}
 (u_{n})\text{ alternée} \\
-u_{n} \searrow_{0}
+|u_{n}| \searrow_{0}
 \end{cases}\;\implies\;\begin{cases}
 \sum u_{n}\text{ CV} \\
 \mathrm{si}\left( \sum u_{n} \right)=\mathrm{si}(u_{0}) \\

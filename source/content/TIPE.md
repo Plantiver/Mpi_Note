@@ -81,8 +81,17 @@ Dans l'idée, je ferais sans doute un petit programme dans le terminal.
 
 
 ---
-Okay, Je vais donc créer une structure pour tenir compte des informations 
 
+Okay, je pense que je vais prendre exemple sur le système mis en place par wayland. Je rends le microkernel responsable uniquement de passer les informations correctement à un programme principal, le maestro. C'est lui ensuite qui s'occupe de décider quels programme tourne et comment, et de leur accorder des ressources.
+J'ai donc besoin de deux choses, un protocole de communication entre mon kernel et mon maestro, et un entre mon maestro et les applications.
+Je vais créer mon propre maestro, azalea, avec uniquement quelques fonctions basiques, et ne faisant aucune vérification sur les programmes à exécuter. Ensuite, je ferais quelques petits programmes à faire tourner dessus, et faire des comparaisons statistiques sur les programmes. Il faudra bien que je précise que l'intérêt particulier de cette approche est l'analyse qu'elle autorise au système sur les programmes qu'il exécute (théorie des graphes).
+
+Je pense que je vais faire une petite app graphique de terminal, un shell, et quelques programmes qui tournent dedans.
+
+Je pense que je vais faire une séparation claire entre les systèmes relevant du maestro, qui ont tout les droits, et ceux exécuté, qui se comportent dans leur propre espace.
+
+Pour que deux programmes communiques l'un avec l'autre, il faudra que les events d'entrée de l'un soit ouvert aux events de sortie de l'autre, et vice-versa.
+Quand on souhaite kill un programme, on arrête juste de register ses events de sortie.
 
 
 

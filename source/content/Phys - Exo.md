@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 # Mécanique
 ### Exo 8
 1. 
@@ -125,12 +119,44 @@ A.N.
 - $a_{e}=$
 
 
+### 16
+1. 
+Je me place dans le référentiel tournant autour de l'axe $O_{x}$.
+FDP:
+- Poids
+- Réaction normale
+- Réaction tangentielle (nulle par hypotèse)
+- Force d'inertie
+- Force de Coriolis (nulle par static)
 
-
-
-
-
-
+On a donc
+$$
+\begin{align*}
+\overrightarrow{0}&=m\overrightarrow{g}+N\overrightarrow{u_{\theta}}-\omega^{2}\overrightarrow{HM_{0}}&&\cr
+\begin{cases}
+0 \\
+0
+\end{cases}&=\begin{cases}
+mg+N\sin\alpha \\
+-\omega^{2}\bar{HM_{0}}-N\cos\alpha
+\end{cases}&&\cr
+\bar{HM_{0}}&=\frac{mg\cot\alpha}{\omega^{2}}&&\cr
+\end{align*}
+$$
+Et donc
+$$
+M_{0}=\frac{mg\cos\alpha}{\Omega^{2}}.
+$$
+2. 
+De même, avec la force d'inertie de Coriolis $\overrightarrow{F_{ic}}=2\overrightarrow{\Omega}\wedge \overrightarrow{v}$.
+Avec $\overrightarrow{\Omega}=\omega \overrightarrow{u_{y}}$, on obtient
+$$
+\overrightarrow{F_{ic}}=2\omega \sin\alpha \dot{x}.
+$$
+Or
+$$
+\bar{HM}=\frac{x}{\sin\alpha}
+$$
 
 
 

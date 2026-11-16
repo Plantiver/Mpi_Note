@@ -285,7 +285,7 @@ $$
 **Rappel:** Un référentiel est galiléen ssi le principe d'inertie s'applique.
 Un référentiel en translation rectiligne uniforme avec un référentiel galiléen est galiléen.
 
-![[Phys - Formule#2ème loi de Newton]]
+![[Phys - Formule#3ème loi de Newton]]
 (ce qui est totalement faux).
 
 1. Le référentiel terrestre

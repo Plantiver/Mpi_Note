@@ -230,19 +230,18 @@ avec $D=\frac{\lambda}{\rho c}$ la diffusivité thermique en $m^{2}\cdot s^{-1}$
 Rq:
 - C'est une équation de **diffusion** qui traduit un phénomène **irreversible**. C'est l'inverse de l'équation de d'Alembert (cf [[Phys - EM5 - Le champ électromagnétique]]).
 - Loi d'échelle:
-#todo transform = into $\simeq$.
 On note $\tau$ le temps caractéristique de la diffusion, et $L$ la distance associée à ce temps.
 Voir schema...
-On peut estimer que $\frac{ \partial T }{ \partial t }=\frac{T_{1}-T_{0}}{\tau}$.
+On peut estimer que $\frac{ \partial T }{ \partial t }\simeq\frac{T_{1}-T_{0}}{\tau}$.
 Voir schema 2...
-On peut estimer que $\frac{ \partial^{2} T }{ \partial x^{2} }=\frac{T_{1}-T_{0}}{L^{2}}$.
+On peut estimer que $\frac{ \partial^{2} T }{ \partial x^{2} }\simeq\frac{T_{1}-T_{0}}{L^{2}}$.
 Ce sont des estimations très violentes, mais en ordre de grandeur, ça va.
 Et donc
 $$
 \begin{align*}
 \frac{ \partial T }{ \partial t } &=D\frac{ \partial^{2}T }{ \partial x^{2} } &&\cr
-\frac{T_{1}-T_{0}}{\tau}&=D\frac{T_{1}-T_{0}}{L^{2}}&&\cr
-L&=\sqrt{ D\tau }&&\cr
+\frac{T_{1}-T_{0}}{\tau}&\simeq D\frac{T_{1}-T_{0}}{L^{2}}&&\cr
+L&\simeq\sqrt{ D\tau }&&\cr
 L&\propto \sqrt{ \tau }&&\cr
 \end{align*}
 $$
