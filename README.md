@@ -2,7 +2,7 @@
 
 Contient une vault avec l'ensemble des cours de l'année.
 
-Tout est accessible depuis la pages github de ce repo.
+Tout est accessible depuis la pages github de ce repo: https://plantiver.github.io/Mpi_Note/ .
 
 Il vous est aussi possible de clone ce repo et de l'ouvrir en tant que Vault sur obsidian (voir la page dédiée à l'installation sur le site).
 

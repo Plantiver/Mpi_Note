@@ -30,8 +30,8 @@
 - Memory mapping
 
 # Général
-- Phys: Dm
 - Français: beaucoup
+- 
 
 # Left to_do for the lesson
 ```dataview

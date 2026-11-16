@@ -1,8 +1,11 @@
 ---
 deck: info
 ---
-
 #todo change notations
+
+
+
+
 
 <!-- basicblock-start oid="ObsoFoU2GJiaUWCzmwP72ZzE" -->
 Def. Automate fini::

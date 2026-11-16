@@ -164,20 +164,6 @@ Def. $(A,+,\times)$ est un corps ssi::
 - $A^{\times}=A\setminus \mathrm{Set}( 0_{A} )$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start oid="ObsCrs4ZKW7ZYAM4mfE7db1c" -->
-Form. Différence de puissance, soit $(A,+,\times)$ un anneau commutatif, on a::
-$$
-\forall(a,b,n)\in A^{2}\times \mathbb{N},a^{n}-b^{n}=(a-b)\sum_{k=0}^{n-1}a^{k}b^{n-k-1}.
-$$
-<!-- basicblock-end -->
-
-<!-- basicblock-start oid="Obs939gbzAKRuaD3ekB6malj" -->
-Form. Binôme de Newton, soit $(A,+,\times)$ un anneau commutatif, on a::
-$$
-\forall(a,b,n)\in A^{2}\times \mathbb{N},\;(a+b)^{n}=\sum_{k=0}^{n}a^{k}b^{n-k}.
-$$
-<!-- basicblock-end -->
-
 <!-- basicblock-start oid="ObstGuRJQ5dtevdLa4qMH6TK" -->
 Def. Bijection::
 $$

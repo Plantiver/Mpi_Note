@@ -1,7 +1,12 @@
 ---
 deck: info
 ---
-#todo : do the thing
+#todo improve flashcards
+
+> [!note]- Démo Lemme de l'étoile
+> ![[Info - Démo - Lemme de l'étoile]]
+
+Un langage est un monoïde libre sur un ensemble.
 
 
 <!-- basicblock-start oid="ObsJhkcrA9uXBYkO2zeiW5FE" -->
@@ -47,7 +52,7 @@ $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="Obs60eDozbyV1GSFxBGTqbf2" -->
 Def. Langages réguliers::
-- Sous ensemble de $P(\Sigma^{\star})$
+- Sous ensemble de $\Sigma^{\star}$
 - Contenant $\emptyset$
 - Contenant tout les $l\in\Sigma$
 - Stable par $\cup$, complémentaire, $\cdot$, et $\cdot^{\star}$.

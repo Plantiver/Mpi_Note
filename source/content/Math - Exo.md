@@ -285,6 +285,53 @@ Ainsi, $F(x)$ est licite.
 - $\forall x \in \mathbb{R}_{+}^{*},\;f(x,\cdot)\in \mathcal{C}^{0}(\mathbb{R}_{+})$
 - $\forall(x,t)\in [a,b]\times \mathbb{R}_{+},\;|f(x,t)|\leq$
 
+---
+### 18
+a)
+Soit $x \in \mathbb{R}^{*}$, alors $f_{x}:t\to \frac{t^{-x}}{1+t}\in \mathcal{C}^{0}([1;+\infty[)$.
+Problème en $+\infty$:
+Par Riemann, $|f_{x}(t)|\sim\frac{1}{t^{1+x}}\in \mathcal{L}^{1}([1;+\infty[)$ ssi $x>0$.
+Ainsi, $f$ est défini sur $\mathbb{R}_{+}^{*}$.
+
+b)
+Soit $h:(x,t)\to \frac{t^{-x}}{1+t}$.
+Leibniz intégral:
+- $\forall t\in \mathbb{R}_{+},\;h(\cdot,t)\in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})$
+- $\forall x \in \mathbb{R}_{+}^{*},\;h(x,\cdot)\in \mathcal{L}^{1}(\mathbb{R}_{+}),\;\frac{ \partial h }{ \partial x }=-\ln (t)h(x,t)\in \mathcal{L}^{1}(\mathbb{R}_{+})$
+- Domination pour $x \in[a;b]\subset \mathbb{R}_{+}^{*}$:
+$$
+\forall t\in [1;+\infty[,\;|h(x,t)|\leq \frac{t^{-a}}{1+t}\in \mathcal{L}^{1}([1;+\infty[)
+$$
+Donc
+$$
+f\in \mathcal{C}^{1}(\mathbb{R}_{+}^{*})\text{ et }f'(x)=-\int_{1}^{+\infty}\ln(t) \frac{t^{-x}}{1+t}\mathrm{d}t.
+$$
+De plus, en tant qu'intégrale d'intégrande négative, $f'(x)$ est négative, donc $f\searrow$ sur $\mathbb{R}_{+}^{*}$.
+
+c)
+$$
+\begin{align*}
+f(x)+f(1+x)&=\int_{1}^{+\infty} \frac{t^{-x}}{1+t}+\frac{t^{-(x+1)}}{1+t}\mathrm{d}t&&\cr
+&=\int_{1}^{+\infty} \frac{t^{-(x+1)}}{1+t}(t+1)\mathrm{d}t &&\cr
+&=\int_{1}^{+\infty} t^{-(x+1)}\mathrm{d}t &&\cr
+&=\left[ -\frac{1}{x}t^{-x} \right]_{1}^{t\to +\infty}&&\cr
+&=\frac{1}{x}  &&\cr
+\end{align*}
+$$
+d)
+$$
+\begin{align*}
+f(x)&=\frac{1}{x}-f(x+1)&&\cr
+&=\frac{1}{x}-\int_{1}^{+\infty} \frac{t^{-(x+1)}}{t+1}\mathrm{d}t &&\cr
+&\sim_{0} \frac{1}{x}-\int_{1}^{+\infty} \frac{1}{t(t+1)}\mathrm{d}t &&\cr
+&\sim \frac{1}{x}-\int_{1}^{+\infty} \frac{1}{t}-\frac{1}{t+1}\mathrm{d}t &&\cr
+&\sim \frac{1}{x}-\left[ \ln t-\ln(t+1) \right]_{1}^{t\to +\infty}&&\cr
+&\sim\frac{1}{x}+\ln2&&\cr
+&\sim \frac{1}{x} &&\cr
+\end{align*}
+$$
+Ce résultat est faux, on ne peut pas additionner des équivalents, mais je n'ai pas d'idée de comment faire.
+Par contre, j'ai bien calculé $f(1)$ pour la question e).
 
 ---
 ### 19
@@ -337,6 +384,69 @@ $$
 f(A)-f\left( \frac{1}{A} \right)&=\left[ f(t) \right]_{\frac{1}{A}}^{A}. &&\cr
 \end{align*}
 $$
+
+---
+### 33
+$$
+\begin{align*}
+I(x)&=\int_{0}^{\pi/2} \frac{1}{\cos ^{2}t+x\sin ^{2}t}\mathrm{d}t &&\cr
+&=\int_{0}^{\pi/2} \frac{1}{\cos ^{2}t}\cdot \frac{1}{1+x\tan ^{2}t}\mathrm{d}t &&\cr
+&=\int_{0}^{+\infty} \frac{1}{1+xu^{2}}\mathrm{d}u&&\cr
+&=\left[ \frac{1}{\sqrt{ x }}\arctan(\sqrt{ x }u) \right]_{0}^{u\to+\infty}&&\cr
+&=\frac{\pi}{2\sqrt{ x }} &&\cr
+\end{align*}
+$$
+En posant $u=\tan t$, $\mathrm{d}u=\frac{1}{\cos ^{2}(t)}\mathrm{d}t$.
+
+$$
+\begin{align*}
+J(x)&=\int_{0}^{\pi/2} \frac{\sin^{2}(t)}{(\cos ^{2}t+x\sin ^{2}t)^{2}}\mathrm{d}t &&\cr
+&=\int_{0}^{\pi/2}\frac{\sin(t)}{\cos(t)} \frac{\cos(t)\sin(t)}{(\cos ^{2}t+x\sin ^{2}t)^{2}}\mathrm{d}t &&\cr
+&=\left[\tan t\times \frac{1}{2(x-1)(\cos ^{2}t+x\sin ^{2}t)} \right]_{0}^{t\to \pi/2}-\int_{0}^{\pi/2}(1+\tan ^{2} t) \frac{1}{2(x-1)(\cos ^{2}t+x\sin ^{2}t)}\mathrm{d}t &&\cr
+&= &&\cr
+\end{align*}
+$$
+
+$$
+f(t)=\frac{1}{\cos ^{2}t+x\sin ^{2}t}
+$$
+$$
+f'(t)=-(2\cos t(-\sin t)+2x\sin t\cos t)f^{2}(t)=2(x-1)\cos t\sin tf^{2}(t)
+$$
+Pas d'idée... Ha si. Dommage, crochet impropre.
+
+---
+### 39
+a)
+Soit $a\in]1;+\infty[$, alors
+Problème en $+\infty$:
+$$
+\frac{sh(x)}{x}e^{-ax}=\frac{1}{x^{2}}\cdot\left( x\frac{e^{(1-a)x}-e^{-(1+a)x}}{2} \right)\in \mathcal{L}^{1}([1;+\infty[)
+$$
+Problème en $0$:
+$$
+\frac{sh(x)}{x}e^{-ax}\sim_{0} \frac{x}{x}e^{-ax}\in \mathcal{L}^{1}([0;1])
+$$
+Donc $\forall a\in]1;+\infty[$, $I(a)$ existe.
+
+b)
+soit
+$$
+f: (a,x)\to  \frac{sh(x)}{x}e^{-ax}
+$$
+Théorème de convergence dominée:
+- $\forall x \in \mathbb{R}_{+},\; \frac{sh(x)}{x}e^{-ax} \underset{ a }{ \to }0=l(x)\in \mathcal{L}^{1}$
+- ...
+- Domination sur $[b,c]\in \mathbb{R}_{+}^{*}$:
+$$
+f(a,x)\leq \frac{sh(x)}{x}e^{-bx}\in \mathcal{L}^{1}(\mathbb{R}_{+})
+$$
+Donc l'intégrale de la limite existe et l'on peut les permuter:
+$$
+\lim_{ a \to +\infty } \int_{\mathbb{R}_{+}}f(a,x)\mathrm{d}x=0
+$$
+c)
+
 
 
 
