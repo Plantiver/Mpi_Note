@@ -23,52 +23,52 @@
             }
           },
           {
-            "id": "3e5b3f32fc3c2ae4",
+            "id": "3dc50c5ccb6a63ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math - Lesson - 3.md",
+                "file": "Math - Lesson - 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Math - Lesson - 3"
+              "title": "Math - Lesson - 5"
             }
           },
           {
-            "id": "09999a0a1c989bd0",
+            "id": "8e4073f60b8cf1ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - M1 - Compléments de mécanique.md",
+                "file": "Math - notation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - M1 - Compléments de mécanique"
+              "title": "Math - notation"
             }
           },
           {
-            "id": "ca6452f6451c2e76",
+            "id": "8beb3bbc75753c5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIPE.md",
+                "file": "English - Traduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TIPE"
+              "title": "English - Traduction"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +106,35 @@
   "right": {
     "id": "3432f6c93d05637d",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "835c5f445fe0fbd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "284677b77e1432da",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-agent-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Calendar agent"
+            }
+          },
+          {
+            "id": "c700bfadf1258422",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
     "direction": "horizontal",
     "width": 200,
     "collapsed": true
@@ -125,16 +153,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e5b3f32fc3c2ae4",
+  "active": "8beb3bbc75753c5c",
   "lastOpenFiles": [
-    "Général - TODO.md",
+    "Math - Lesson - 5.md",
+    "English - Traduction.md",
+    "Math - Lesson - 4.md",
+    "Math - notation.md",
+    "English.md",
     "Math - Lesson - 3.md",
-    "Math - Lesson - 2.md",
-    "Math - Lesson.md",
-    "Math.md",
-    "Phys - Exo.md",
+    "Math - Lesson - 1.md",
     "TIPE.md",
+    "Fr-philo - Résumé.md",
+    "Général - TODO.md",
+    "Fr-philo.md",
+    "Math - Lesson - 12.md",
+    "Math - Lesson.md",
+    "Math - Lesson - 9.md",
     "Phys - M1 - Compléments de mécanique.md",
+    "Math.md",
+    "Math - Lesson - 2.md",
+    "Phys - Exo.md",
     "Phys - T1 - Les transferts thermiques.md",
     "Math - Lesson - 11.md",
     "Info - Lesson - 6.md",
@@ -143,17 +181,7 @@
     "Info - Exo.md",
     "Info.md",
     "Info - sketchbook.md",
-    "Info - Démo - Problème de l'arrêt.md",
-    "Info - Lesson - 5.md",
-    "Personal - Subnet.md",
-    "Info - Lesson - 2.md",
-    "Info - Lesson - 1.md",
-    "Math - Formule.md",
-    "Math - Lesson - 1.md",
-    "Phys - Exemple - Le slip-stick.md",
-    "Excalidraw/Phys - Exemple - Le slip-stick 2026-11-13 15.29.27.excalidraw.md",
     "Excalidraw/Phys - Exemple - Le slip-stick 2026-11-13 15.29.27.excalidraw.svg",
-    "Phys - Formule.md",
     "Excalidraw/Phys - E0 - Rappels 2026-11-12 16.38.14.excalidraw.svg",
     "Excalidraw/Exo pinguoin.svg",
     "Excalidraw/Solide sur une pente 2.svg",

@@ -64,10 +64,17 @@ what we want to do."
 
 ---
 
-
-
-
-
+Nathan spent his full morning meeting with collaborators which he supervised the work, to do the dot on current folders. Abby has been her assistant for several years. Coming from California, she accepted to follow him to New York because of their good relationship.
+"Nathan?"
+Abby has just got in without knocking, as she was used to when they were just the two of them. The young woman made the point upon noon's program, then added:
+"A friend of Ashley Jordan called this morning, he wanted an urgent meeting. Some Garrett Goodrich..."
+"Goodrich? Doesn't ring a bell."
+"Based on what I understood, he's one of his childhood's friend, a so-called medicine"
+"And what can I do for this man?" he asked while "froncer les sourcils".
+"Idk, he didn't say a thing. He just said that, according to Jordan, you were the best."
+*And that was true: not a single trial lost in my whole career. None.*
+"Try to call Ashley, please."
+"He's gone for Baltimore an hour ago. You know, the Kyle case..."
 
 
 

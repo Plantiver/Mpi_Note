@@ -32,7 +32,6 @@ E_{i,j}\times E_{k,l}=\delta_{j,k}E_{i,l}.
 $$
 <!-- basicblock-end -->
 
-? Est-ce que je devrais mettre un s ?
 <!-- basicblock-start -->
 Def. matrices diagonales::
 $$
@@ -148,12 +147,14 @@ x&\to&u(x)
 $$
 <!-- basicblock-end -->
 
+Rajout de la stabilité des espaces propres, par le chapitre 4.
 <!-- basicblock-start -->
 Th. stabilité déduite des applications commutantes::
 $$
 u\circ v=v\circ u\;\implies\;\begin{cases}
 v(\mathrm{Ker}u)\subset\mathrm{Ker}u \\
-v(\mathrm{Im}u)\subset\mathrm{Im}u
+v(\mathrm{Im}u)\subset\mathrm{Im}u \\
+v(E_{\lambda}(u))\subset E_{\lambda}(u)
 \end{cases}
 $$
 <!-- basicblock-end -->

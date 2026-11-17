@@ -30,10 +30,9 @@
 - Memory mapping
 
 # Général
-- Français: beaucoup
 - 
 
-# Left to_do for the lesson
+# Left to_do for lessons
 ```dataview
 list from #todo
 where !contains(file.name, "Démo")

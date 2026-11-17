@@ -1,3 +1,5 @@
 {
-  "showRibbon": true
+  "showRibbon": false,
+  "showViewHeader": true,
+  "nativeMenus": false
 }

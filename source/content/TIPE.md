@@ -104,6 +104,55 @@ Quand on souhaite kill un programme, on arrête juste de register ses events de 
 
 
 
+Il faut que je travaille sur la distinction claire entre le kernel et le maestro. Je pense que je vais lister différents comportement usuels d'un ordinateur, et voir comment je veux split les taches. Dans l'idée, il faut que le kernel gère tout ce qui est relié au hardware, et se pose en couche d'abstraction au dessus de la machine. Le maestro au contraire s'occupe du coté software, et permet d'abstract les interactions complexes entre les applications. 
+En soit, un maestro est assez petit, son unique rôle est de gérer les applications, et leurs autorisations, pour qu'elles n'accèdes pas directement au kernel. Il réagi à tout problème que peuvent avoir les applications, et les règle à leur place. C'est pratique.
+Ainsi, il ne faut pas faire ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
