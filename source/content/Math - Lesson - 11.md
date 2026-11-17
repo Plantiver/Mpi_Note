@@ -65,11 +65,16 @@ $$
 <!-- basicblock-start -->
 Th. série télescopique::
 $$
-\sum u_{n}\simeq \sum(u_{n}-u_{n+1}).
+u_{n}\simeq \sum(u_{n}-u_{n+1}).
 $$
 <!-- basicblock-end -->
 
-
+<!-- basicblock-start -->
+Th. absolu convergence en dimension finie::
+$$
+ACV\;\implies\;CV.
+$$
+<!-- basicblock-end -->
 
 
 

@@ -64,7 +64,7 @@ what we want to do."
 
 ---
 
-Nathan spent his full morning meeting with collaborators which he supervised the work, to do the dot on current folders. Abby has been her assistant for several years. Coming from California, she accepted to follow him to New York because of their good relationship.
+Nathan spent his full morning meeting with collaborators which he supervised the work, to do the dot on current folders. Abby has been his assistant for several years. She's from California, she accepted to follow him to New York because of their good relationship.
 "Nathan?"
 Abby has just got in without knocking, as she was used to when they were just the two of them. The young woman made the point upon noon's program, then added:
 "A friend of Ashley Jordan called this morning, he wanted an urgent meeting. Some Garrett Goodrich..."
