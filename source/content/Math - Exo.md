@@ -538,6 +538,16 @@ V&=a_{n}+\sum_{k=1}^{n}1-\frac{k^{2}}{1+k^{2}}&&\cr
 &=a_{n}+n\frac{\pi}{2}&&\cr
 \end{align*}
 $$
+Bon c'est faux.
+Par contre, grâce au magnifique théorème du cours de ce matin
+$$
+\frac{1}{1+k^{2}}\sim \frac{1}{k^{2}}\geq 0.
+$$
+Donc, par convergence par Riemann et positivité
+$$
+a_{n}\sim \sum_{k=n}^{+\infty} \frac{1}{k^{2}}\sim \frac{1}{n}
+$$
+
 
 ---
 ### 5
@@ -558,18 +568,77 @@ $$
 &&&\cr
 \end{align*}
 $$
+Bon, tout ce qu'il y a au-dessus n'est d'aucune utilité, je recommence.
+a)
+1. 
+On sait que $b_{0}=1$, et $b_{n+1}=b_{n}+\frac{a_{n}}{b_{n}}>b_{n}$, donc si $(b_{n})$ converge, c'est vers $l\geq 1$.
+2. 
+???
+
+b)
+1. 
+Par a) 1. on a $\forall n\in \mathbb{N},\;b_{n}\geq1\;\implies\;\frac{a_{n}}{b_{n}}\leq a_{n}$, ainsi par CV de $\sum a_{n}$, $\sum \frac{a_{n}}{b_{n}}$ CV.
+2. 
+$$
+\forall n\in \mathbb{N},\;b_{n}=b_{0}+\sum_{k=0}^{n-1}\frac{a_{k}}{b_{k}}
+$$
+Et donc, par passage à la limite, $(b_{n})$ CV.
+
 
 
 ---
 ### 21
+a)
+Très simplement par les intégrales partielles, on découpe et on passe à la limite, et on obtient que c'est le double de la somme moins le terme initiale.
+
+b)
+Soit $u_{n}=(-1)^{n}$, alors $\sum u_{n+1}+u_{n}=0$ CV, mais pas $\sum u_{n}$.
+
+c)
+Soit $u_{n}\geq 0$, supposons $\sum u_{n+1}+u_{n}$ CV.
+Introduisons $P_{n}=\sum_{k=0}^{n}u_{k+1}+u_{k}$ qui converge par hypothèse et $S_{n}=\sum_{k=0}^{n}u_{k}$ dont l'on va montrer la convergence.
+(Ainsi, $\sum_{n=0}^{+\infty}P_{n+1}-P_{n}=\sum_{n=0}^{+\infty}a_{}$ CV... Hah. NON.)
+
+Ainsi, par positivité de $u_{n}$, $S_{n}\nearrow$, et $\forall n\in \mathbb{N},\;0\leq S_{n}\leq P_{n}$.
+Par passage à la limite, $S_{n}$ majorée et croissante, donc CV, donc $\sum u_{n}$ CV.
 
 ---
 ### 50
 g)
+$$
+\begin{align*}
+u_{n}&=e^{\ln(n)/n^{2}}-1&&\cr
+&\sim \frac{\ln(n)}{n^{2}}\geq0&&\cr
+\end{align*}
+$$
+Et donc, par BeBert, $\sum u_{n}$ CV
 i)
+$$
+\begin{align*}
+u_{n}&=e(1-e^{n\ln(1+1/n)-1})&&\cr
+&\sim e\left( n\ln\left( 1+\frac{1}{n} \right)-1 \right)&&\cr
+&\sim e\left( n\left( \frac{1}{n}-\frac{1}{2n^{2}}+O\left( \frac{1}{n^{3}} \right) \right)-1 \right)&&\cr
+&\sim -\frac{e}{2}\cdot \frac{1}{n^{2}}\leq 0&&\cr
+\end{align*}
+$$
+Et donc, par Riemann et équivalence de série, $\sum u_{n}$ CV.
 o)
+$\forall n\in \mathbb{N},\;u_{n}\not=0$, donc, par d'Alembert
+$$
+\begin{align*}
+| \frac{u_{n+1}}{u_{n}}|&=|\frac{(-1)^{n+1}(2n+2)!}{(-1)^{n}(2n)!}\cdot \frac{4^{n}(n!)^{2}}{4^{n+1}((n+1)!)^{2}}|&&\cr
+&=|(-1)(2n+2)(2n+1)\cdot \frac{1}{4(n+1)^{2}}|&&\cr
+&=\frac{4n^{2}+3n+2}{4n^{2}+8n+4}&&\cr
+&\to 1.&&\cr
+\end{align*}
+$$
+Bon, d'Alembert donne rien.
 
-
+Par SSA:
+- $u_{n}$ est bien alterné
+Att, mais est-ce que son terme général ne tend pas vers $+\infty$?
+Je ne sais passssss
+Il est tard...
 
 
 
