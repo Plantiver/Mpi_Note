@@ -4,3 +4,5 @@
 
 - Quels sont les changements de variables légaux dans une série?
 - Peut-on considérer $[0;+\infty]$ comme un compact, et en déduire des choses?
+
+- Y a-t-il une formule pour les DL de suite?

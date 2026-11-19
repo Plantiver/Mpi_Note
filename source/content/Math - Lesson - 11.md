@@ -76,7 +76,23 @@ ACV\;\implies\;CV.
 $$
 <!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Th. relation des termes généraux de série::
+$$
+\begin{cases}
+v_{n}\geq0 \\
+u_{n}=\mathscr{R}(v_{n})
+\end{cases}\;\implies\;\begin{cases}
+\text{Si }\sum v_{n}\text{ CV}&\sum_{n=p+1}^{+\infty}=\mathscr{R}\left( \sum_{n=p+1}^{+\infty}v_{n} \right) \\
+\text{Si }\sum v_{n}\text{ DV}&\sum_{n=0}^{p}u_{n}=\mathscr{R}\left( \sum_{n=0}^{p}v_{n} \right)
+\end{cases}
+$$
+<!-- basicblock-end -->
 
-
-
+<!-- basicblock-start -->
+Prop. exponentielle généralisée::
+- $\mathrm{Sp}A\subset \mathrm{Sp}e^{A}$, avec égalité pour $K=\mathbb{C}$
+- $e^{A+B}=e^{A}\times e^{B}$
+- $(e^{A})^{-1}=e^{-A}$.
+<!-- basicblock-end -->
 
