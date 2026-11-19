@@ -1,7 +1,7 @@
 ---
 deck: math
 ---
-#todo do the thing
+#todo make all theorem and definition be for matrix and morphisme
 
 <!-- basicblock-start -->
 Def. vecteur propre::
@@ -46,9 +46,6 @@ $$
 \exists (P,D)\in \mathcal{GL}_{n}(\mathbb{K})\times \mathcal{D}_{n}(\mathbb{K}),\;A=PDP^{-1}.
 $$
 <!-- basicblock-end -->
-#todo replace GL with GL
-#todo make all theorem and definition be for matrix and morphisme
-On notera $\mathcal{DZ}$ l'ensemble des matrices diagonalisables.
 
 <!-- basicblock-start -->
 Th. spectrale 1/4::

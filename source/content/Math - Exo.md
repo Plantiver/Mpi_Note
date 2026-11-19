@@ -286,6 +286,7 @@ Ainsi, $F(x)$ est licite.
 - $\forall(x,t)\in [a,b]\times \mathbb{R}_{+},\;|f(x,t)|\leq$
 
 ---
+
 ### 18
 a)
 Soit $x \in \mathbb{R}^{*}$, alors $f_{x}:t\to \frac{t^{-x}}{1+t}\in \mathcal{C}^{0}([1;+\infty[)$.
@@ -359,6 +360,7 @@ $$
 I_{n}=\int_{0}^{+\infty}\frac{1}{1+t^{2}}\mathrm{d}t=[\arctan t]_{0}^{t\to +\infty}=\frac{\pi}{2}
 $$
 ---
+
 ### 32
 a)
 Soit $h:(x,t)\to \frac{e^{-x(1+t^{2})}}{1+t^{2}}=e^{-x}\left( \frac{e^{-xt^{2}}}{1+t^{2}} \right)$.
@@ -513,16 +515,59 @@ $$
 Par IPP,
 $$
 \begin{align*}
-f'(x)&=&&\cr
+f'(x)&=\left[ \frac{i}{-1+ix}t^{s}e^{(-1+ix)t} \right]_{0}^{+\infty}-\int_{0}^{+\infty} \frac{is}{-1+ix}t^{s-1}e^{(-1+ix)t}\mathrm{d}t &&\cr
+&=\frac{is}{1-ix}f(x) &&\cr
+\end{align*}
+$$
+
+d)
+
+
+---
+# [[Math - Lesson - 11|Chapitre 11]]
+
+### 2
+
+$$
+\begin{align*}
+\sum_{k=1}^{+\infty} \frac{1}{1+k^{2}}&=a_{n}+\sum_{k=1}^{n} \frac{1}{1+k^{2}}&&\cr
+V&=a_{n}+\sum_{k=1}^{n}1-\frac{k^{2}}{1+k^{2}}&&\cr
+&=a_{n}+n\times \frac{1}{n}\sum_{k=1}^{n}1-\frac{\left( \frac{k}{n} \right)^{2}}{1+\left( \frac{k}{n} \right)^{2}}&&\cr
+&=a_{n}+n\int_{0}^{1}1-\frac{t^{2}}{1+t^{2}}\mathrm{d}t &&\cr
+&=a_{n}+n\left[ \arctan t \right] _{0}^{1}&&\cr
+&=a_{n}+n\frac{\pi}{2}&&\cr
+\end{align*}
+$$
+
+---
+### 5
+1. 
+si $b_{n}\underset{n}{\to}l\in \mathbb{R}$, alors
+$$
+l=
+$$
+
+Alors, en inversant la relation, on trouve:
+$$
+a_{n}=b_{n}(b_{n+1}-b_{n})
+$$
+Or, $a_{n}\not=0$ par $b_{n}\not=b_{n+1}\not=0$, donc d'alembert:
+$$
+\begin{align*}
+|\frac{a_{n+1}}{a_{n}}|&=\frac{b_{n+1}}{b_{n}}\frac{b_{n+2}-b_{n+1}}{b_{n+1}-b_{n}}&&\cr
+&&&\cr
 \end{align*}
 $$
 
 
+---
+### 21
 
-
-
-
-
+---
+### 50
+g)
+i)
+o)
 
 
 

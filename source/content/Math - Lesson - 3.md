@@ -20,7 +20,7 @@ Prop. transposée::
 - $\cdot^{T}\in \mathcal{L}(\mathcal{M}_{n}(\mathbb{K}))$
 - $(A\times B)^{T}=B^{T}\times A^{T}$
 - $(\cdot^{T})^{2}=id$
-- $\cdot^{T}\circ\cdot^{-1}=\cdot^{1}\circ\cdot^{T}$
+- $\cdot^{T}\circ\cdot^{-1}=\cdot^{-1}\circ\cdot^{T}$
 - Invariance de la trace, du rang, du déterminant, et du polynôme caractéristique par $\cdot^{T}$.
 <!-- basicblock-end -->
 
@@ -77,7 +77,7 @@ Prop. determinant d'une matrice::
 - $\det(A\times B)=\det A\times \det B$
 - $\det(\lambda\cdot A)=\lambda ^{n}\cdot\det A$
 - forme $n$-linéaire alternée avec $\det I_{n}=1$
-- $\det A=0\iff A\notin GL_{n}(\mathbb{K})$.
+- $\det A=0\iff A\notin \mathcal{GL}_{n}(\mathbb{K})$.
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
@@ -124,14 +124,14 @@ Tout les trucs de définition de changement de base.
 <!-- basicblock-start -->
 Def. matrices semblables::
 $$
-A\sim B\iff \exists P\in GL_{n}(\mathbb{K}),\;A=PBP^{-1}.
+A\sim B\iff \exists P\in \mathcal{GL}_{n}(\mathbb{K}),\;A=PBP^{-1}.
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
 Def. matrices équivalentes::
 $$
-A\simeq B\iff \exists(P,Q)\in GL_{n}(\mathbb{K})^{2},\;A=PBQ.
+A\simeq B\iff \exists(P,Q)\in \mathcal{GL}_{n}(\mathbb{K})^{2},\;A=PBQ.
 $$
 <!-- basicblock-end -->
 

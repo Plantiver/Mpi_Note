@@ -198,5 +198,213 @@ $$
 $$
 <!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Th. suite adjacente::
+$$
+\begin{cases}
+(u_{n})\searrow \\
+(v_{n})\nearrow \\
+|u_{n}-v_{n}|\underset{ n }{ \to }0
+\end{cases}\;\implies\;\begin{cases}
+u_{n}\underset{ n }{ \to }l\in \mathbb{R} \\
+v_{n}\underset{ n }{ \to }l\in \mathbb{R}
+\end{cases}
+$$
+<!-- basicblock-end -->
 
-#todo : finish this
+<!-- basicblock-start -->
+Th. des points fixes::
+$$
+\begin{cases}
+f\in \mathcal{C}^{0}(\mathbb{R}) \\
+u_{n+1}=f(u_{n})
+\end{cases}\;\implies\;\left( u_{n}\underset{n}{\to}l\;\implies\;l=f(l) \right). 
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. extractrice::
+$$
+\begin{cases}
+\varphi:\mathbb{N}\to \mathbb{N} \\
+\varphi\nearrow\nearrow
+\end{cases}
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. suite extraite::
+$$
+u_{\varphi(_{n})}.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. comportement d'une suite extraite de suite convergente::
+$$
+u_{n}\underset{n}{\to}l\in \bar{\mathbb{R}}\;\implies\;u_{\varphi(n)}\underset{n}{\to}l.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. valeur d'adhérence d'une suite::
+$$
+u_{\varphi(n)}\to l\in E.
+$$
+<!-- basicblock-end -->
+
+Bon, une suite qui converge a une unique valeur d'adhérence... Cela découle directement du fait que toute suite extraite tend vers cette limite, et donc il n'y a que cette valeur d'adhérence.
+
+<!-- basicblock-start -->
+Th. caractérisation epsilonesque de valeur d'adhérence::
+$$
+\forall\varepsilon>0,\;\forall n_{0}\in \mathbb{N},\;\exists n\geq n_{0},\;u_{n}\in B(a,\varepsilon).
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. voisinage d'un point::
+$$
+X,\;\exists\varepsilon>0,\;B(a,\varepsilon)\subset X.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. point adhérent à un ensemble::
+$$
+\forall\varepsilon>0,\;B(a,\varepsilon)\cap X\not=\emptyset.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. adhérence d'un ensemble::
+$$
+\bar{X}=\mathrm{Set}( \text{point adhérant à }X ).
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. point intérieur à un ensemble::
+$$
+\forall\varepsilon>0,\;B(a,\varepsilon)\subset X.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. intérieur d'un ensemble::
+$$
+\mathring{X}=\mathrm{Set}( \text{point intérieur à }X ).
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. frontière d'un ensemble::
+$$
+\delta X=\bar{X}\setminus \mathring{X}.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. caractérisation séquentielle de point adhérent::
+$$
+\exists(x_{n})\in X^{\mathbb{N}},\;x_{n}\underset{n}{\to}a.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. densité d'un ensemble dans un autre::
+$$
+X\subset E,\;\bar{X}=E.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. caractérisation par les voisinages de densité::
+$$
+\forall e\in E,\;\forall\varepsilon>0,\;B(e,\varepsilon)\cap X\not=\emptyset.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. caractérisation séquentielle de densité::
+$$
+\forall e\in E,\;\exists(x_{n})\in X^{\mathbb{N}},\;x_{n}\underset{n}{\to}e.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. ensemble ouvert::
+$$
+X=\mathring{X}.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. ensemble fermé::
+$$
+C_{X}^{E}\in \mathscr{U}(E).
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. caractérisation séquentielle des fermés::
+$$
+\forall(x_{n})\in X^{\mathbb{N}},\;\left( x_{n}\underset{n}{\to}x\;\implies\;x \in X \right) .
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. ensemble fermé::
+- un produit de fermé est fermé
+- un sev de dim finie est fermé
+- stable par intersection quelconque
+- stable par union finie.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. ensemble ouvert::
+- un produit d'ouvert est ouvert
+- stable par union quelconque
+- stable par intersection finie.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. fermé relatif d'un ensemble::
+$$
+X\cap F
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. ouvert relatif d'un ensemble::
+$$
+X\cap U.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. ensemble compacte::
+$$
+\forall(x_{n})\in X^{\mathbb{N}},\;\exists\varphi ,\;x_{\varphi(n)}\underset{n}{\to}l\in X.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Prop. ensemble compacte::
+- un produit de compact est un compact
+- est fermé et borné
+- tout fermé relatif est un compact.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. caractérisation des compacts en dim finies::
+- fermé
+- borné.
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. de Bolzano-Weierstrass dans un EVN::
+$$
+\forall(u_{n})\in E^{\mathbb{N}},\;(\exists M,\;\forall n\in \mathbb{N},\;|u_{n}|\leq M\;\implies\;\exists l\in E,\;\exists\varphi ,\;u_{\varphi(n)}\underset{n}{\to}l).
+$$
+<!-- basicblock-end -->

@@ -8,7 +8,8 @@
 - $\mathcal{D}_{n}(\mathbb{K})$ sont les matrices diagonales de taille $n$ à coefficient dans $\mathbb{K}$
 - $\mathcal{DZ}_{n}(\mathbb{K})$ sont les matrices diagonalisables de taille $n$ à coefficient dans $\mathbb{K}$
 - $\mathcal{T_{n}}^{+}(\mathbb{K})$ sont les matrices triangulaires supérieurs de taille $n$ à coefficient dans $\mathbb{K}$
-- $\mathcal{TZ}_{n}(\mathbb{K})$ sont les matrices trigonalisables de taille $n$ à coefficient dans $\mathbb{K}$.
+- $\mathcal{TZ}_{n}(\mathbb{K})$ sont les matrices trigonalisables de taille $n$ à coefficient dans $\mathbb{K}$
+- $\mathcal{V}$ désigne un voisinage.
 
 # Relation
 - $\simeq$, pour les intégrales, est l'équivalence sur la nature (CV/DV)

@@ -62,4 +62,3 @@ x&\to \int_{J}f(x,t)dt
 \end{cases}\in \mathcal{C}^{1}(I)\text{ et }\forall k\in[0,n],\;g^{(k)}(x)=\int_{J}\frac{ \partial ^{k} f }{ \partial x^{k} } (x,t)\mathrm{d}t
 $$
 <!-- basicblock-end -->
-

@@ -42,6 +42,14 @@ $$
 \overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T.
 $$
 <!-- basicblock-end -->
+
+### Travail des forces de pression
+<!-- basicblock-start -->
+Form. travail des forces de pression::
+$$
+W=-\int_{\Gamma}P_{ext}\mathrm{d}V.
+$$
+<!-- basicblock-end -->
 # EM
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->
