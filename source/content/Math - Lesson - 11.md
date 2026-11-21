@@ -96,3 +96,20 @@ Prop. exponentielle généralisée::
 - $(e^{A})^{-1}=e^{-A}$.
 <!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Def. ensemble dénombrable::
+$$
+\exists f:X\leftrightsquigarrow \mathbb{N}.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Def. somme d'une famille sommable::
+$$
+\sum_{i\in I}a_{i}=sup_{J\subset I\text{ fini}}\left( \sum_{j\in J}a_{j} \right)
+$$
+<!-- basicblock-end -->
+
+
+
+

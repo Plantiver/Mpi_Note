@@ -486,6 +486,7 @@ $$
 \end{align*}
 $$
 Et donc, par Riemann, la deuxième est ACV, DLR.
+(Bon, je me rends compte que mon IPP est pas bonne, mais ça fonctionne comme ça)
 
 b)
 Soit $x \in \mathbb{R}$, alors
@@ -584,6 +585,12 @@ $$
 $$
 Et donc, par passage à la limite, $(b_{n})$ CV.
 
+---
+### 17
+Soit
+$$
+u_{n}=\frac{1}{a_{n}} \sum_{k=1}^{n}a_{k}b_{k}.
+$$
 
 
 ---
@@ -618,7 +625,7 @@ $$
 u_{n}&=e(1-e^{n\ln(1+1/n)-1})&&\cr
 &\sim e\left( n\ln\left( 1+\frac{1}{n} \right)-1 \right)&&\cr
 &\sim e\left( n\left( \frac{1}{n}-\frac{1}{2n^{2}}+O\left( \frac{1}{n^{3}} \right) \right)-1 \right)&&\cr
-&\sim -\frac{e}{2}\cdot \frac{1}{n^{2}}\leq 0&&\cr
+&\sim \frac{e}{2}\cdot \frac{1}{n^{2}}\leq 0&&\cr
 \end{align*}
 $$
 Et donc, par Riemann et équivalence de série, $\sum u_{n}$ CV.
@@ -640,23 +647,47 @@ Att, mais est-ce que son terme général ne tend pas vers $+\infty$?
 Je ne sais passssss
 Il est tard...
 
+Et bien, continuons le SSA
+- Par ma tentative de d'Alembert, on voit $|u_{n}|\searrow$
+- Pour le fait que ça tende vers 0, j'ai pas d'idée, tentons stirling
+
+$$
+\begin{align*}
+|u_{n}|&\sim \frac{\frac{(2n)^{2n}}{e^{2n}}\sqrt{ 4\pi n }}{4^{n} \frac{n^{2n}}{e^{2n}}2\pi n}&&\cr
+&\sim \frac{2^{2n}}{4^{n}\sqrt{ \pi n }}&&\cr
+&\sim \frac{1}{\sqrt{ \pi n }}&&\cr
+&\to0&&\cr
+\end{align*}
+$$
+ça fonctionne.
+Donc par SSA, $\sum u_{n}$ CV.
 
 
+q)
+$$
+\begin{align*}
+u_{n}&=\frac{(-1)^{n}(n+i)}{n^{2}-1}&&\cr
+&=\frac{(-1)^{n}n}{n^{2}-1}+i\frac{(-1)^{n}}{n^{2}-1}&&\cr
+\end{align*}
+$$
+Par SSA, les deux convergent, et l'on obtient la convergence coordonnée par coordonnée.
 
+---
 
+### 52
+a)
+par récurrence immédiate, $\forall n\in \mathbb{N},\;u_{n}\in \mathbb{R}_{+}^{\star}$.
+De même, $(u_{n})\searrow$.
+Ainsi, $\exists l\in [0;1],\;u_{n}\underset{n}{\to}l$.
+Donc $l=le^{-l}$. Si par l'absurde, $l\not=0\;\implies\;l=0$, donc $l=0$.
 
-
-
-
-
-
-
-
-
-
-
-
-
+b)
+On a
+$$
+u_{n}= u_{n}\left( 1-u_{n}+\frac{u_{n}^{2}}{2}+O(u_{n}^{3}) \right)\;\implies\;u_{n}^{2}=\frac{u_{n}^{3}}{2}+O(u_{n}^{4})\;\implies\;u_{n}\sim \sqrt{ \frac{u_{n}^{3}}{2} }
+$$
+Heinn????
+ça montre des choses bizarres...
 
 
 
