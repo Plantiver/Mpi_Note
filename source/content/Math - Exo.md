@@ -127,6 +127,10 @@ $$
 ### 25
 e)
 Soit $f: t\to \frac{\mathrm{ch}t-\cos t}{t^{5/2}}\in \mathcal{C}^{0}(]0;1])$
+Is everything okay<??
+
+
+
 Par DL en 0:
 $$
 \begin{align*}

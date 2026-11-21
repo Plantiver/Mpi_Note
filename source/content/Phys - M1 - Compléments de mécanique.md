@@ -87,6 +87,9 @@ Ce travail dépend du chemin suivi, les frottements ne sont jamais conservatifs.
 
 # II - Cinématique et changement de référentiels
 
+#todo rewrite everything with explanation
+
+
 Un référentiel, c'est avant tout un point de vu sur un mouvement.
 
 Ex: Valve d'une roue de vélo
@@ -250,7 +253,7 @@ De même, on a le théorème du moment cinétique:
 $$
 \frac{\mathrm{d}}{\mathrm{d}t}\overrightarrow{L_{O}}(M/\mathcal{R_{1}})=\sum \overrightarrow{\mathcal{M}_{O}(\overrightarrow{F})}+\mathcal{M}_{O}(\overrightarrow{F_{ie}})+\mathcal{M}_{O}(\overrightarrow{F_{ic}})
 $$
-
+#todo change Mo into a vector
 ## 2 - Aspects énergétiques
 **Coriolis:**
 $$
@@ -285,7 +288,7 @@ $$
 **Rappel:** Un référentiel est galiléen ssi le principe d'inertie s'applique.
 Un référentiel en translation rectiligne uniforme avec un référentiel galiléen est galiléen.
 
-![[Phys - Formule#3ème loi de Newton]]
+![[Phys - Formule#1ère loi de Newton]]
 (ce qui est totalement faux).
 
 1. Le référentiel terrestre

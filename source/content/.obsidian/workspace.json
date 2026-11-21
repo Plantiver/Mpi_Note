@@ -51,9 +51,19 @@
               "icon": "lucide-file",
               "title": "Math - Lesson - 11"
             }
+          },
+          {
+            "id": "8800229393524802",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,14 +148,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90ef7c1535a8d916",
+  "active": "8800229393524802",
   "lastOpenFiles": [
-    "Info - Lesson - 5.md",
     "Math - Lesson - 11.md",
+    "Math - Lesson - 7.md",
+    "Phys - Exemple - Solide en contact avec un fluide en mouvement.md",
+    "Phys - Exemple - La tige de refroidissement.md",
+    "Phys - Démo - Effet de peau thermique.md",
+    "Info - Lesson - 5.md",
     "Math - Exo.md",
     "Info - Exo.md",
     "Math - ToAsk.md",
-    "Math - Lesson - 7.md",
     "Math - Lesson - 9.md",
     "Math - notation.md",
     "Math - Lesson - 5.md",
@@ -164,9 +177,6 @@
     "Math - Lesson - 10.md",
     "TIPE.md",
     "English - Traduction.md",
-    "English.md",
-    "Math - Lesson - 1.md",
-    "Fr-philo - Résumé.md",
     "Excalidraw/Phys - Exemple - Le slip-stick 2026-11-13 15.29.27.excalidraw.svg",
     "Excalidraw/Phys - E0 - Rappels 2026-11-12 16.38.14.excalidraw.svg",
     "Excalidraw/Exo pinguoin.svg",

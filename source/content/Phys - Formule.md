@@ -9,7 +9,7 @@ $$
 \frac{\mathrm{d}\overrightarrow{p}}{\mathrm{d}t}=\sum \overrightarrow{F}.
 $$
 <!-- basicblock-end -->
-### 3ème loi de Newton
+### 1ère loi de Newton
 Il existe des référentiels galiléens.
 ### Loi de composition des vitesses
 <!-- basicblock-start oid="ObsgmMJWBeAw8YCIBPeSRkym" -->
@@ -48,6 +48,14 @@ $$
 Form. travail des forces de pression::
 $$
 W=-\int_{\Gamma}P_{ext}\mathrm{d}V.
+$$
+<!-- basicblock-end -->
+
+### Loi de Newton
+<!-- basicblock-start -->
+Form. Loi de Newton::
+$$
+j_{\text{th}}=h(T_{\text{solide}}-T_{\text{fluide}}).
 $$
 <!-- basicblock-end -->
 # EM
