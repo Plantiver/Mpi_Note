@@ -187,7 +187,6 @@ Par l'observation, Fourier a donné la loi phénoménologique de Fourier
 ![[Phys - Formule#Loi phénoménologique de Fourier]]
 avec $\lambda$ la conductivité thermique en $W\cdot m^{-1}\cdot K^{-1}$.
 
-
 | Matériau   | $\lambda$ |
 | ---------- | --------- |
 | Cuivre     | 390       |
@@ -198,7 +197,7 @@ avec $\lambda$ la conductivité thermique en $W\cdot m^{-1}\cdot K^{-1}$.
 | air        | 0.03      |
 
 Rq:
-- On admet que bon conducteur électrique $\iff$ bon conducteur thermique.
+- On admet que, dans le cas des métaux, bon conducteur électrique $\iff$ bon conducteur thermique.
 - $\oplus$ les atomes sont liés, $\oplus$ la conduction est bonne.
 - Le - dans l'équation est la matérialisation de l'inversion de gradient de température.
 
@@ -212,8 +211,8 @@ Or $\overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T$
 Donc
 $$
 \begin{align*}
-\mathrm{div}\overrightarrow{j_{\text{th}}}&=-\lambda \mathrm{div}\overrightarrow{ \mathrm{grad}T}&&\cr
-&=-\lambda \dot{\Delta} T&&\cr
+\mathrm{div}\overrightarrow{j_{\text{th}}}&=\lambda \mathrm{div}\overrightarrow{ \mathrm{grad}T}&&\cr
+&=\lambda \dot{\Delta} T&&\cr
 \end{align*}
 $$
 <!-- basicblock-start -->
@@ -330,7 +329,20 @@ R&=\frac{1}{4\pi\lambda}|\frac{1}{r_{2}}-\frac{1}{r_{1}}|&&\cr
 \end{align*}
 $$
 
+### Effet de peau thermique
+> [!note]- Effet de peau thermique
+> ![[Phys - Démo - Effet de peau thermique]]
+ 
+# Couplage conducto-convectif à l'interface fluide/solide
+### 1 - Loi de Newton
 
+> [!note]- Exemple - Solide en contact avec un fluide en mouvement
+> ![[Phys - Exemple - Solide en contact avec un fluide en mouvement]]
+
+### 2 - Un exemple
+
+> [!note]- Exemple - La tige de refroidissement
+> ![[Phys - Exemple - La tige de refroidissement]]
 
 
 
