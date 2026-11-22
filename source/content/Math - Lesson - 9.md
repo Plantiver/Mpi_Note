@@ -8,7 +8,7 @@ $$
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsbJMszRN9LAnfxm28nfPoO" -->
 Def. convergence d'une intégrale impropre::
 $$
 \int_{[a;b[}f(t)\mathrm{d}t\text{ CV}\iff \lim_{ x \to b }\int_{[a;x[}f(t) \mathrm{d}t \text{ CV}.
@@ -29,7 +29,7 @@ $$
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsPRX57eSdurpvBSp1b7Y6f" -->
 Def. espace de Lebesgue::
 $$
 \mathcal{L}^{p}=\mathrm{Set}\left(  f,\;\|f\|_{p}\in[0;+\infty[  \right).
@@ -64,7 +64,7 @@ Prop. condition de changement de variable::
 - $\nearrow\nearrow$ ou $\searrow\searrow$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsuKoGAdFVsZeFgiCCrlAT2" -->
 Th. convergence de fonctions positives::
 - si $f=O(g)$, alors $\begin{cases}\int_{a}^{b}g\text{ CV}&\;\implies\;\int_{a}^{b}f\text{ CV} \\  \int_{a}^{b}f\text{ DV}&\;\implies\;\int_{a}^{b}g\text{ DV}\end{cases}$
 - si $f\sim_{b} g$, alors $\int_{a}^{b}f\simeq \int_{a}^{b}g$.
@@ -72,13 +72,13 @@ Th. convergence de fonctions positives::
 
 Bon, le théorème qui dis que ACV implique CV, c'est évident pour les espaces dans lesquelles on travaille (complet), mais cette notion est hors programme, donc autant laisser les gens assumez que c'est vrai partout.
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs03ex6BANPEwLpf4CnB8OX" -->
 Th. ipp d'intégrale impropre::
 - licite ssi tout converge
 - nature/valeur inchangées.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsyiJwYcbsybL1Fy8Sk5dPO" -->
 Th. intégration des relations de comparaison::
 $$
 \begin{cases}

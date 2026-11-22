@@ -198,13 +198,7 @@ De même que les objets translatent, ils tournent, et l'on retrouve beaucoup d'a
 On se place en coordonnée cylindrique, et l'on repère donc notre objet via l'angle plan $\theta$.
 On définit ensuite la vitesse angulaire $\omega=\dot{\theta}$ et l'accélération angulaire $\alpha=\ddot{\theta}$.
 De même qu'une force représente la modification apportée à l'accélération dépendamment de la masse, on peut calculer de même les moments de ces forces par rapports à un axe, et en déduire l'accélération angulaire, dépendamment du moment d'inertie:
-#todo : change the name of this theorem.
-<!-- basicblock-start oid="ObspC1LUqfCGqmVtgHyk7DLp" -->
-Th. pas moment cinétique::
-$$
-J_{\Delta}\alpha=\sum \mathcal{M}_{\Delta}(\overrightarrow{F}).
-$$
-<!-- basicblock-end -->
+ #todo fix this
 Avec la définition suivante du moment d'inertie:
 <!-- basicblock-start oid="ObsEYZloOMVVoCfvOvVqYy9M" -->
 Def. moment d'inertie::
@@ -222,7 +216,7 @@ $$
 <!-- basicblock-start oid="ObsM15OX6atw2S6RU9fNuWmU" -->
 Def. moment d'une force par rapport à un point::
 $$
-\overrightarrow{\mathcal{M}_{O}}(\overrightarrow{F})=\overrightarrow{OM}\wedge \overrightarrow{F}.
+\phantom{`}\overrightarrow{\mathcal{M}_{O}}(\overrightarrow{F})=\overrightarrow{OM}\wedge \overrightarrow{F}\phantom{`}.
 $$
 <!-- basicblock-end -->
 
@@ -232,7 +226,7 @@ On définit également le moment d'un point matériel par:
 <!-- basicblock-start oid="ObsYk9IKKz5r574GFRBR7mBG" -->
 Def. moment cinétique d'un point par rapport à un point::
 $$
-\overrightarrow{\mathcal{L}_{O}}(M)=\overrightarrow{OM}\wedge \overrightarrow{p}.
+\phantom{`}\overrightarrow{\mathcal{L}_{O}}(M)=\overrightarrow{OM}\wedge \overrightarrow{p}\phantom{`}.
 $$
 <!-- basicblock-end -->
 ainsi que son moment par rapport à un axe:
@@ -247,7 +241,7 @@ Et l'on obtient alors le presque célèbre théorème du moment cinétique:
 <!-- basicblock-start oid="Obs3o80TRaZCeWuk87ayRJBb" -->
 Th. moment cinétique::
 $$
-\frac{\mathrm{d}\overrightarrow{\mathcal{L}_{O}}(M)}{\mathrm{d}t}=\sum \overrightarrow{\mathcal{M}_{O}}(\overrightarrow{F}).
+\phantom{`}\frac{\mathrm{d}\overrightarrow{\mathcal{L}_{O}}(M)}{\mathrm{d}t}=\sum \overrightarrow{\mathcal{M}_{O}}(\overrightarrow{F}).\phantom{`}
 $$
 <!-- basicblock-end -->
 

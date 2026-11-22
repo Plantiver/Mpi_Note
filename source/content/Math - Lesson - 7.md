@@ -5,21 +5,21 @@ deck: math
 <!-- basicblock-start oid="ObstVfN4mo70B831cVmtxUvF" -->
 Def. critère générale d'une limite::
 $$
-(f(x)\underset{ x\to x_{0} }{ \to }l)\iff\left[\forall \mathcal{V}_{l},\;\exists \mathcal{V}_{x_{0}},\;\forall x \in D,\;(x \in \mathcal{V}_{x_{0}}\;\implies\;f(x)\in \mathcal{V}_{l})\right].
+\forall \mathcal{V},\;\exists \mathcal{V}',\;\forall x \in D,\;(x \in \mathcal{V}'\;\implies\;f(x)\in \mathcal{V}).
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsNgzQhyOQ3Zmo5ptch8QIt" -->
 Def. fonction continue en un point::
 $$
-f\in \mathcal{C}^{0}_{x_{0}}(D,A)\iff \forall(u_{n})\in D^{\mathbb{N}},\;u_{n}\underset{ n }{ \to }x_{0}\;\implies\;f(u_{n})\underset{ n }{ \to }f(x_{0}).
+\forall(x_{n})\underset{ n }{ \to }x_{0}\;\implies\;f(x_{n})\underset{ n }{ \to }f(x_{0}).
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObseFjgY3jSe0SdBMQWYTdYC" -->
 Def. fonction lipshitziannité::
 $$
-\exists k\in \mathbb{R}_{+},\; \forall(x,y)\in E^{2},\;\|f(x)-f(y)\|_{F}\leq k\|x-y\|_{E}.
+\phantom{`}\exists k\in \mathbb{R}_{+},\; \forall(x,y)\in E^{2},\;\|f(x)-f(y)\|_{F}\leq k\|x-y\|_{E}.\phantom{`}
 $$
 <!-- basicblock-end -->
 
@@ -40,17 +40,18 @@ $$
 <!-- basicblock-start oid="Obsgmaai35BVboTgjhrWbqgf" -->
 Th. CS de continuité d'une application::
 - Lipschitzienne
+- Uniforme continuité
 - Les composantes sont polynomiales en les coordonnées.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsHthdZrKQvOUMCnyeZTwTN" -->
 Def. propriété vraie à un voisinage::
 $$
 \exists \mathcal{V},\;P(\mathcal{V})\text{ est vraie}.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsnCXnzhz0AmA3bKF4EJEql" -->
 Th. conséquence de limite finie en un point::
 $$
 f(x)\underset{ x\to a }{ \to } l\;\implies\;\exists \mathcal{V},\;\forall x \in \mathcal{V},\;\exists M,\;|f(x)|\leq M.
@@ -59,21 +60,21 @@ $$
 
 Plein de choses sur les équivalents... ça ne sert à rien évidement (faux, le ds va me détruire)
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObssGDoIzPYdqX3VN51uqpD7" -->
 Th. caractérisation topologique des applications continue::
 $$
 \forall U\in \mathscr{U}(F),\;f^{-1}(U)\in \mathscr{U}(E).
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsIQ0D2Qq2p5QtsUY1iECLA" -->
 Def. chemin d'un ensemble::
 $$
 \gamma:[a,b]\to X\in \mathcal{C}^{0}.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObshYmv6fGdHJCyTsKufy6qZ" -->
 Def. composantes fortement connexes::
 $$
 C\subset X,\;\forall(a,b)\in C,\;\exists\gamma \in C^{[0;1]},\;\begin{cases}
@@ -83,7 +84,7 @@ C\subset X,\;\forall(a,b)\in C,\;\exists\gamma \in C^{[0;1]},\;\begin{cases}
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsz8nbveV3ubUA368esvkVP" -->
 Def. ensemble connexe par arc::
 $$
 \forall(a,b)\in X,\;\exists\gamma \in C^{[0;1]},\;\begin{cases}
@@ -93,20 +94,20 @@ $$
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsgA1aiUN7tFhVg97ZHexvy" -->
 Prop. ensemble CPA usuels::
 - les ensembles convexes
 - les ensembles étoilés.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs1ix2kivnHSe4G4qbatvVA" -->
 Th. image par une fonction continue::
 - CPA
 - intervalle
 - compact.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsrl2ebN954dPAlJwOm7mSa" -->
 Th. TVI::
 $$
 \begin{cases}
@@ -116,12 +117,12 @@ I=[a,b]
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsZFVsPqMYuujjLoGzSJiO3" -->
 Th. des bornes::
 - Toute fonction continue sur un compact est bornée et atteint ses bornes.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsSDM2lRLpg2bkBcBTGagZE" -->
 Def. fonction multilinéaire::
 $$
 \forall i\in[1,n],\;f(x_{1},\dots,x_{i-1},\cdot,x_{i+1},\dots,x_{n})\in \mathcal{L}(E,F).

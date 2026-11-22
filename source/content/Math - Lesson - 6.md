@@ -61,7 +61,7 @@ Th. 5 CNS de DZ::
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="Obswos35LzH0Lr8ARFJLT3aQ" -->
-Th. DZ d'un induit::
+Prop.  application induite::
 - Soit $v$ induite de $u$
 - $\pi_{v} | \pi_{u}$
 - $u$ DZ $\;\implies\;v$ DZ.
@@ -69,7 +69,7 @@ Th. DZ d'un induit::
 
 <!-- basicblock-start oid="Obs5c74YydwyA75dj4RkGVuj" -->
 Def. TZ::
-- u est TZ ssi $\exists B,\;\mathcal{Mat}_{B}(u)\in \mathcal{T}_{n}^{+}(\mathbb{K})$.
+- u est TZ ssi $\phantom{`}\exists B,\;\mathcal{Mat}_{B}(u)\in \mathcal{T}_{n}^{+}(\mathbb{K})\phantom{`}$.
 - $M$ TZ ssi $M\sim B\in \mathcal{T}_{n}^{+}(\mathbb{K})$.
 <!-- basicblock-end -->
 

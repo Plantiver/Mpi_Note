@@ -122,42 +122,42 @@ Prop. pratique sur le rang
 - $\mathrm{rg}(u\circ v)\leq max(\mathrm{rg}u,\mathrm{rg}v)$
 - $\mathrm{rg}u\leq max(\mathrm{dim}E,\mathrm{dim}F)$.
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsLxk4kAoG1Tn4WwGaP9GMB" -->
 Th. noyau/image d'une application linéaire::
 $$
 \mathrm{Im}u\simeq F,\;E=F\oplus \mathrm{Ker}u.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs7GYdARmtOgw8qsfiiWgm9" -->
 Th. du rang::
 $$
 \mathrm{dim}E=\mathrm{dim}\mathrm{Ker}u+\mathrm{rg}u.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsdaQeWqSjjTgLAmDoNVSvu" -->
 Th. isomorphisme d'espace vectoriel::
 $$
 \mathrm{dim}E=\mathrm{dim}F<+\infty \;\implies\;\left( u:E\leftrightsquigarrow F\iff u:E\leftrightarrow F\iff u:E\rightsquigarrow F \right) .
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsRd12UoCvMcZazAfpnxCzd" -->
 Th. isomorphisme sur les matrices::
 $$
 A\in \mathcal{M}_{n}(\mathbb{K})\;\implies\;\left( \mathrm{Ker}A=\mathrm{Set}( 0 )\iff A\in GL_{n}(\mathbb{K})\iff\mathrm{rg}A=n \right) 
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsVpGkMznVyNhqtdYDsxjW6" -->
 Def. projecteur::
 $$
 p\circ p=p.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs8VIH4SllnhonQGqhz9m1W" -->
 Prop. élément propre d'un projecteur::
 $$
 \begin{cases}
@@ -167,14 +167,14 @@ J&=\mathrm{Ker}p&\text{ s'annulent}
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsRYvILBcPyUSxIxefnuWcI" -->
 Def. symétrie::
 $$
 s\circ s=id.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsqeSyROFSnOv5IwUUdHCGw" -->
 Prop. élément propre d'une symétrie::
 $$
 \begin{cases}
@@ -184,28 +184,28 @@ J&=\mathrm{Ker}(s+id)&\text{ retournés}
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsBjOdueudjX6MsLOyzn6pV" -->
 Th. élément propre des projecteurs et symétries::
 $$
 E=I\oplus J.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs5Px7DefvWABPZAqfXJmVr" -->
 Def. forme linéaire::
 $$
 u\in E^{\star}\iff u\in \mathcal{L}(E,\mathbb{K}).
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsSxlP9CyJoR0PW5czQgJzG" -->
 Def. hyperplan::
 $$
 \mathrm{Ker}u,\;u\in E^{\star}.
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsyWqaErRF5k4Mp6Hg9pUgz" -->
 Def. structure d'algèbre::
 - $(A,+,\times,\cdot)$ est une $\mathbb{K}$-Algèbre ssi
 - $(A,+,\times)$ est un anneau
@@ -213,14 +213,14 @@ Def. structure d'algèbre::
 - Les produites $\times$ et $\cdot$ sont compatibles.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsOJBV0gbnJVjIksnkDiTLL" -->
 Def. sous-algèbre::
 - $1_{A}\in B$
 - $(B,+,\cdot)<(A,+,\cdot)$
 - $\forall (a,b)\in B^{2},\;a\times b\in B$.
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsRGhqMaD9b7CLUaDX84G8i" -->
 Def. morphisme d'algèbre::
 - $f(1_{A})=1_{B}$
 - $f\in \mathcal{L}(A,B)$

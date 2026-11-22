@@ -20,17 +20,21 @@
 
 # Usage usuelle
 - $X,Y$ sont des ensembles, ou des matrices colonnes
-- $f,g,h$ sont des applications
-- $\star,\diamond$ sont des l.c.i
+- $S$ est ensemble à structure, sans préciser laquelle
 - $G,H$ sont des groupes
-- $n_{[:group]}$ est le neutre de $[:group]$.
-- $g,h$ sont des morphismes de groupes
+- $A,B$ sont des anneaux, voire des algèbres
+- $\mathbb{K},\mathbb{L}$ sont des corps
 - $E,F$ sont des espaces vectoriels
-- $u,v$ sont des morphismes d'espaces vectoriels
 - 
 
+# Applications
+- $\varphi,\psi$ sont des morphismes
+- $u,v$ sont des morphismes d'EV
+- $f,g,h$ sont des applications
+- $\star,\diamond$ sont des l.c.i
+- 
 
-
-
+# Éléments
+- $n_{[:group]}$ est le neutre de $[:group]$.
 
 

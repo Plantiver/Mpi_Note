@@ -29,14 +29,14 @@ $$
 
 # T
 ### Premier principe infinétismal
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs5VTJvcMeZ3oXjN2OzsRVF" -->
 Form. 1er principe infinitésimal::
 $$
 \mathrm{d}U+\mathrm{d}\mathcal{E}_{c}=\delta W+\delta Q.
 $$
 <!-- basicblock-end -->
 ### Loi phénoménologique de Fourier
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs4pc8QQKxgFiEpBFRnRzmB" -->
 Form. loi phénoménologique de Fourier::
 $$
 \overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T.
@@ -44,7 +44,7 @@ $$
 <!-- basicblock-end -->
 
 ### Travail des forces de pression
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs4qp4YQHO8T8Itm0In0x6U" -->
 Form. travail des forces de pression::
 $$
 W=-\int_{\Gamma}P_{ext}\mathrm{d}V.
@@ -52,7 +52,7 @@ $$
 <!-- basicblock-end -->
 
 ### Loi de Newton
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsLz9lFW4ex3P6GPlONJgk2" -->
 Form. Loi de Newton::
 $$
 j_{\text{th}}=h(T_{\text{solide}}-T_{\text{fluide}}).
@@ -103,7 +103,7 @@ $$
 <!-- basicblock-start oid="ObsSkFoo4AB9FXTnJaG62ZFA" -->
 Th. de Gauss::
 $$
-\phi_{S}(\overrightarrow{E})=\frac{Q_{\text{dans }S} }{\varepsilon_{0} }
+\phi_{S}(\overrightarrow{E})=\frac{Q_{\text{int}} }{\varepsilon_{0} }
 $$
 <!-- basicblock-end -->
 

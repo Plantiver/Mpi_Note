@@ -27,7 +27,7 @@ avec $e$ l'épaisseur de la couche limite.
 
 En stationnaire, on a la résistance thermique
 Voir schéma #todo 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsVsUqcIcMLVSY5wvc5SDCq" -->
 Prop. résistance thermique pour un fluide au contact d'un solide::
 $$
 R_{\text{th}}=\frac{1}{hS}.

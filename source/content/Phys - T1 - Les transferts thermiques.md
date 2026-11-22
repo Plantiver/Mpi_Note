@@ -9,7 +9,7 @@ L'agitation thermique des atomes est transférée à d'autres.
 On la note $Q$, et, pour une transformation infinitésimale, $\delta Q$.
 
 ## 2 - Les 3 types d'échanges thermiques
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsyE4fnji6LubN0up3vjko9" -->
 Def. les types d'échanges thermiques::
 - Conduction
 - Convection
@@ -77,7 +77,7 @@ Différentes réaction qui libère de la chaleur:
 - effet Joule
 - frottements
 On écrit dans ce cas
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obsm9UxbWIjv1v3uWgbc63QS" -->
 Def. chaleur produite par une puissance::
 $$
 \delta Q_{\text{produit}}=\mathscr{P}_{V}\mathrm{d}V\mathrm{d}T
@@ -87,14 +87,14 @@ avec
 - $\mathscr{P}_{V}$ la puissance volumique produite, en $W\cdot m^{-3}$.
 
 On définit
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsfENGwX429tqD5pyzZCn1k" -->
 Def. chaleur infinitésimale échangée::
 $$
 \delta Q_{\text{échangé}}=\delta Q_{\text{entrant}}-\delta Q_{\text{sortant}}
 $$
 <!-- basicblock-end -->
 On l'écrit comme un flux d'un vecteur
-<!-- basicblock-start -->
+<!-- basicblock-start oid="Obs9QERzHuKz4IM2iSsaa63c" -->
 Def. vecteur densité de flux thermique::
 $$
 \overrightarrow{j_{th}}
@@ -215,7 +215,7 @@ $$
 &=\lambda \dot{\Delta} T&&\cr
 \end{align*}
 $$
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsmgzCniY22pVuf9AxVSSVh" -->
 Th. equation de diffusion de la chaleur::
 $$
 \frac{ \partial T }{ \partial t } =\frac{\lambda}{\rho c}\dot{\Delta}T+\frac{\mathscr{P}_{V}}{\rho c}
@@ -293,7 +293,7 @@ $$
 \phi=Sj_{\text{th}}=-\lambda S\frac{T_{2}-T_{1}}{L}.
 $$
 Ainsi
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsD9p0gf14zZpuzQgdRyhod" -->
 Prop. résistance thermique unidimensionnelle::
 $$
 R_{\text{th}}=\frac{L}{\lambda S}.

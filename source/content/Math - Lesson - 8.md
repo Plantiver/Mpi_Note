@@ -18,13 +18,6 @@ f^{(k)}\in \mathcal{C}^{0}(D,E)
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start oid="Obs5iN9V8oc20UeGwTokBG5Z" -->
-Prop. Chain rule::
-$$
-(f\circ g)'=g'\times f'\circ g.
-$$
-<!-- basicblock-end -->
-
 <!-- basicblock-start oid="ObsV2hvhRdulkONFpdSuIa4s" -->
 Prop. Structures des classes de régularités::
 - $\mathcal{C}^{k}(D,E)$ est un $\mathbb{K}$-EV
@@ -75,13 +68,6 @@ f^{-1}\in \mathcal{C}^{0}
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start oid="ObsQsQhOwqgQBZOWIfzgiZPf" -->
-Prop. Dérivée d'une réciproque::
-$$
-(f^{-1})' = \frac{1}{f'\circ f^{-1}}.
-$$
-<!-- basicblock-end -->
-
 <!-- basicblock-start oid="ObsiQOxRK47p4aK9ljUsiiOp" -->
 Th. inégalité des accroissement finis::
 $$
@@ -122,7 +108,6 @@ Th. fondamentale de l'analyse::
 - $F(x)=\int_{a}^{x}f(t)\mathrm{d}t\;\implies\;\begin{cases}F(a)=0\cr F'=f\end{cases}$
 - $F'=f\;\implies\;\int_{a}^{b}f=F(b)-F(a)$.
 <!-- basicblock-end -->
-
 
 <!-- basicblock-start oid="ObswsGp1Y6e4oTZVZ8T8NEGg" -->
 Th. développement de Taylor::

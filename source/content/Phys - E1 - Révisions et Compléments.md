@@ -23,7 +23,7 @@ ou:$$j=e^{j\pi/2}$$
 Prenons $$u(t) = U\cos(\omega t+\phi)$$
 Ainsi, on a:$$\underline{U(t)} = U e^{j\phi}e^{j\omega t}$$
 <!-- basicblock-start oid="ObsDcOFKhTCsgwxYKWv33wMz" -->
-Def. Notation complexe de $u(t)$::
+Def. notation complexe de la tension sinusoïdale::
 $$
 \underline{U(t)}=U_{0}e^{j\varphi}e^{j\omega t}
 $$
@@ -33,7 +33,7 @@ Amplitude complexe:$$\underline U = Ue^{j\phi}$$ On a: $$U = |\underline U|\Phi 
 ### Interet pratique calculatoire
 $$\frac{d}{dt}\underline{U(t)} = j\omega\underline{U(t)}$$
 <!-- basicblock-start oid="Obs2cuqnNGSZUdz8s5BnfBa6" -->
-Prop. Intérêt de la notation complexe de $u(t)$::
+Prop. intérêt de la notation complexe d'une tension sinusoïdale::
 $$
 \frac{d}{\mathrm{d}t}\underline{U(t)}=j\omega\underline{U(t)}
 $$
@@ -125,45 +125,45 @@ Passe Haut 1er ordre: $$ \underline H = \frac{jx}{1+jx} $$
 Passe Bac 1er ordre: $$ \underline H = \frac{1}{1+jx} $$
 # Fiche de filtres
 <!-- basicblock-start oid="ObsbBANwN6cXxxUxkvt3AX6I" -->
-Prop. Filtre R(C)::
+Prop. filtre R(C)::
 - $H=\frac{1}{1+jx}$
 - $\omega_{0}=\frac{1}{RC}$
 - $\omega_{c}=\omega_{0}$
 - Passe bas du premier ordre
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObscZMCzjTGdP5E0M7vLENuC" -->
-Prop. Filtre R(L)::
+Prop. filtre R(L)::
 - $H=\frac{jx}{1+jx}$
 - $\omega_{0}=\frac{R}{L}$
 - $\omega_{c}=\omega_{0}$
 - Passe haut du premier ordre
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsTIx7DPwYOwr3zqbfxkSHi" -->
-Prop. Pulsation propre d'un filtre du second ordre::
+Prop. pulsation propre d'un filtre du second ordre::
 $$
 \omega_{0}=\frac{1}{\sqrt{ LC } }
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsqpvqKlXZ9RWhraFjilxa7" -->
-Prop. Facteur de qualité d'un filtre du second ordre::
+Prop. facteur de qualité d'un filtre du second ordre::
 $$
 Q=\frac{1}{R}\sqrt{ \frac{L}{C} }
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="Obs9LCwTIk4WJPsrxsftHCgU" -->
-Prop. Filtre RL(C)::
+Prop. filtre RL(C)::
 - $H=\frac{1}{1+\frac{jx}{Q}-x^{2} }$
 - $\omega_{c}$
 - Passe bas du second ordre
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsBW2LZHkwTS02dmTMfLj9g" -->
-Prop. Filtre RC(L)::
+Prop. filtre RC(L)::
 - $H=-\frac{x^{2} }{1+\frac{jx}{Q}-x^{2} }$
 - $\omega_{c}$
 - Passe Haut du second ordre
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsUfJbeuSl5SZndRJMV3EY4" -->
-Prop. Filtre LC(R)::
+Prop. filtre LC(R)::
 - $H=\frac{\frac{jx}{Q} }{1+\frac{jx}{Q}-x^{2} }$
 - $\omega_{c}$
 - Passe bande du second ordre
@@ -172,109 +172,103 @@ Prop. Filtre LC(R)::
 
 ---
 <!-- basicblock-start oid="ObsYSbGvmxRPqi9HSd0dAeJa" -->
-Def. Signal périodique $s(t)$::
+Def. signal périodique $s(t)$::
 $$
 \exists T > 0, \quad \forall t \in \mathbb{R}, \quad s(t+T) = s(t)
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsgLH5hWHhtyMZVvgtbLH2w" -->
-Def. Fréquence d'un signal::
+Def. fréquence d'un signal::
 $$
 f = \frac{1}{T}
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="ObsGKwmPzRRrJvP1EJWOrZKn" -->
-Def. Pulsation d'un signal::
+Def. pulsation d'un signal::
 $$
 \omega=2\pi f=\frac{2\pi}{T}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObseLvZUajhc3AOPwscKFymd" -->
-Def. Valeur moyenne d'un signal::
+Def. valeur moyenne d'un signal::
 $$
 \langle s(t) \rangle = \frac{1}{T} \int_{t_0}^{t_0+T} s(t) \, \mathrm{d}t
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsLH74gv5MfXqPLbkF3k9ro" -->
-Def. Valeur efficace d'un signal::
+Def. valeur efficace d'un signal::
 $$
 s_{\mathrm{eff} } = \sqrt{\langle s^2(t) \rangle}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="Obshyum86iFLltwM6E2Hi4hI" -->
-Prop. Valeur efficace d'un signal sinusoïdal::
+Prop. valeur efficace d'un signal sinusoïdal::
 $$
 s_{\mathrm{eff} } = \frac{1}{\sqrt{2} }
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="Obs389f4GvhjK09xLWqPn901" -->
-Def. Notation complexe d'un signal::
+Def. notation complexe d'un signal::
 $$
 u(t)=u_{0}\cos(\omega t+\varphi) \implies\underline{U}(t) = u_{0} e^{j\omega t+j\varphi}
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start oid="ObsK92mP1qLxRt7wNvBCz382" -->
-Prop. Dérivation temporelle du signal complexe::
-$$
-\frac{\mathrm{d}u}{\mathrm{d}t} = j\omega u
-$$
-<!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsM74vL9pQqRz1wXtBYn603" -->
-Def. Impédance d'un dipôle::
+Def. impédance d'un dipôle::
 $$
 \underline{Z} = \frac{u}{i}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsP21xN8mKlQr5wZtCVb495" -->
-Prop. Impédances des dipôles usuels::
+Prop. impédances des dipôles usuels::
 - Résistance $R$ : $\underline{Z}_R = R$
 - Inductance $L$ : $\underline{Z}_L = jL\omega$
 - Capacité $C$ : $\underline{Z}_C = \frac{1}{jC\omega}$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsZ75cT4sN4Uw2wEtHBg540" -->
-Th. Décomposition en série de Fourier::
+Th. décomposition en série de Fourier::
 $$
 s(t) = c_0 + \sum_{n=1}^{+\infty} c_n \cos(2\pi n f t + \varphi_n)
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsMScrzCbx6vKbsZuIMpFf1" -->
-Def. Gain d'un filtre::
+Def. gain d'un filtre::
 $$
 G = |\underline{H}|
 $$
 <!-- basicblock-end -->
 <!-- basicblock-start oid="Obsh9D93UnueOh8ECUAC0zoF" -->
-Def. Gain en décibel d'un filtre::
+Def. gain en décibel d'un filtre::
 $$
 G_{dB}=20\log(G)
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsG97gX6wS8Ya6wItLFk984" -->
-Meth. Tracer un diagramme de Bode::
+Meth. tracer un diagramme de Bode::
 - Tracé de $G_{\mathrm{dB} }(\omega)$ en fonction de $\log(\omega)$
 - Tracé de $\varphi(\omega)$ en fonction de $\log(\omega)$.
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsI20hY9xT9Zb7wJtMGl095" -->
-Def. Bande passante d'un filtre::
+Def. bande passante d'un filtre::
 $$
 \mathrm{Set}\left(  \omega ,\;G(\omega)\geq \frac{H_{\text{max} } }{\sqrt{ 2 } }  \right).
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsK53iZ2yU0Ac8wKtNHm106" -->
-Prop. Condition de mise en série de filtres::
+Prop. condition de mise en série de filtres::
 $$
 \phantom{`}|\underline{Z}_{e,2}| \gg |\underline{Z}_{s,1}|.\phantom{`}
 $$
