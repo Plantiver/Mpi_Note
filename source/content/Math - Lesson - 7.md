@@ -30,7 +30,6 @@ $$
 $$
 <!-- basicblock-end -->
 
-#todo finish this one
 <!-- basicblock-start oid="Obs3CYoS8T0oPEj5eT2wpPTP" -->
 Th. continuité d'application linéaire en dimension finie::
 $$

@@ -1,19 +1,24 @@
 ---
 deck: math
 ---
-#todo make all theorem and definition be for matrix and morphisme
 
 <!-- basicblock-start -->
 Def. vecteur propre::
 $$
-\exists\lambda \in \mathbb{K},\;u(x)=\lambda x.
+\begin{cases}
+\exists\lambda \in \mathbb{K},\;u(x)=\lambda x \\
+\exists\lambda \in \mathbb{K},\;AX=\lambda X
+\end{cases}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
 Def. valeur propre::
 $$
-\exists x \in E^{\star},\;u(x)=\lambda x.
+\begin{cases}
+\exists x \in E^{\star},\;&u(x)=\lambda x \\
+\exists X\in \mathcal{M}_{n,1}(\mathbb{K})^{\star},\;&AX=\lambda X
+\end{cases}
 $$
 <!-- basicblock-end -->
 
@@ -29,14 +34,20 @@ Théorème de diagonalisation 1.
 <!-- basicblock-start -->
 Def. sous-espace propre associée à une valeur propre::
 $$
-E_{\lambda}(u)=\mathrm{Ker}(u-\lambda id).
+\begin{cases}
+E_{\lambda}(u)=\mathrm{Ker}(u-\lambda id) \\
+E_{\lambda}(A)=\mathrm{Ker}(A-\lambda I_{n})
+\end{cases}
 $$
 <!-- basicblock-end -->
 
 <!-- basicblock-start -->
-Def. polynôme caractéristique d'un endomorphisme::
+Def. polynôme caractéristique::
 $$
-\chi_{u}=\det(Xid-u).
+\begin{cases}
+\chi_{u}=\det(Xid-u) \\
+\chi_{A}=\det(XI_{n}-A)
+\end{cases}
 $$
 <!-- basicblock-end -->
 
@@ -54,7 +65,7 @@ $$
 $$
 <!-- basicblock-end -->
 
-Modification de la stabilité par commutativité pour inclure
+Modification de la stabilité par commutativité pour inclure les SEP, voir [[Math - Lesson - 3]].
 
 <!-- basicblock-start -->
 Prop. particularité des SEP::

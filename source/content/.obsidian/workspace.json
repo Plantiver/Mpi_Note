@@ -23,47 +23,16 @@
             }
           },
           {
-            "id": "59778c6f15a2d390",
+            "id": "550c314267170e0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math - Lesson - 7.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Math - Lesson - 7"
-            }
-          },
-          {
-            "id": "90ef7c1535a8d916",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math - Lesson - 11.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Math - Lesson - 11"
-            }
-          },
-          {
-            "id": "8800229393524802",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,22 +117,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8800229393524802",
+  "active": "21cccb7601aadcdf",
   "lastOpenFiles": [
+    "Math - Exo.md",
+    "Général - TODO.md",
+    "Math - Lesson - 9.md",
     "Math - Lesson - 11.md",
+    "Math - Lesson - 4.md",
     "Math - Lesson - 7.md",
     "Phys - Exemple - Solide en contact avec un fluide en mouvement.md",
     "Phys - Exemple - La tige de refroidissement.md",
     "Phys - Démo - Effet de peau thermique.md",
     "Info - Lesson - 5.md",
-    "Math - Exo.md",
     "Info - Exo.md",
     "Math - ToAsk.md",
-    "Math - Lesson - 9.md",
     "Math - notation.md",
     "Math - Lesson - 5.md",
-    "Général - TODO.md",
-    "Math - Lesson - 4.md",
     "Phys - T1 - Les transferts thermiques.md",
     "Phys - Formule.md",
     "Info - Lesson - 6.md",

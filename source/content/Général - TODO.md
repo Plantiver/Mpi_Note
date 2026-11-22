@@ -3,7 +3,7 @@
 - detect all #todo 
 - handle all #todo 
 - update old flashcards to use either list or block
-- find a way to publish dataview to the website
+- find a way to publish dataview to the website (Maybe not?? is it really worth it)
 # [[Fr-philo]]
 - Finir les livres
 - Fiches de citations
@@ -30,7 +30,7 @@
 - Memory mapping
 
 # Général
-- 
+- Dm math
 
 # Left to_do for lessons
 ```dataview

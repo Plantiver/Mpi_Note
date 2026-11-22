@@ -127,7 +127,7 @@ $$
 ### 25
 e)
 Soit $f: t\to \frac{\mathrm{ch}t-\cos t}{t^{5/2}}\in \mathcal{C}^{0}(]0;1])$
-Is everything okay<??
+Is everything okay ??
 
 
 
@@ -614,6 +614,65 @@ Ainsi, par positivité de $u_{n}$, $S_{n}\nearrow$, et $\forall n\in \mathbb{N},
 Par passage à la limite, $S_{n}$ majorée et croissante, donc CV, donc $\sum u_{n}$ CV.
 
 ---
+### 38
+a)
+$$
+u_{n}=\sin(\pi(2-\sqrt{ 3 })^{n})
+$$
+On a
+$$
+0\leq i=2-\sqrt{ 3 }<1
+$$
+Donc
+$$
+i^{n}\underset{n}{\to}0
+$$
+Ainsi,
+$$
+\begin{align*}
+u_{n}&\sim \pi i^{n}\geq 0&&\cr
+\end{align*}
+$$
+Et donc $\sum u_{n}$ CV.
+
+b)
+$$
+0=\sin(\pi((2-\sqrt{ 3 })^{n}+(2+\sqrt{ 3 }^{n})))=\cos(\pi(2-\sqrt{ 3 })^{n})\sin(\pi(2+\sqrt{ 3 })^{n})+\cos(\pi(2+\sqrt{ 3 })^{n})\sin(\pi(2-\sqrt{ 3 })^{n}).
+$$
+
+donc
+$$
+\begin{align*}
+\sin(\pi(2+\sqrt{ 3 })^{n})&=-\frac{\cos(\pi(2+\sqrt{ 3 })^{n})}{\cos(\pi i^{n})}\sin(\pi i^{n})&&\cr
+&\sim-\cos(\pi(2+\sqrt{ 3 })^{n})\pi i^{n}&&\cr
+\end{align*}
+$$
+Or
+$$
+|-\cos(\pi(2+\sqrt{ 3 })^{n})\pi i^{n}|\leq \pi i^{n}\in \mathcal{L}^{1}(\mathbb{N}).
+$$
+Donc $\sum v_{n}$ CV.
+
+---
+### 39
+
+$$
+\begin{align*}
+u_{n}&=\ln \left( \frac{n^{2}+2an+a^{2}}{n^{2}+(b+c)n+bc} \right)&&\cr
+&=\ln \left( 1+ \frac{(2a-b-c)n+a^{2}-bc}{n^{2}+(b+c)n+bc}\right)&&\cr
+&\sim \frac{(2a-b-c)n+a^{2}-bc}{n^{2}+(b+c)n+bc}  \text{ de signe constant}&&\cr
+\end{align*}
+$$
+Donc $\sum u_{n}$ CV ssi $2a=b+c$.
+
+Bon, par le SSA:
+- $(-1)^{n}u_{n}$ est alterné APCR
+- $|(-1)^{n}u_{n}|\underset{n}{\to} 0$ par l'équivalent trouvé
+- $|(-1)^{n}u_{n}|\searrow$ par l'équivalent trouvé
+
+Ainsi $\sum(-1)^{n}u_{n}$ CV.
+
+---
 ### 50
 g)
 $$
@@ -693,9 +752,51 @@ $$
 Heinn????
 ça montre des choses bizarres...
 
+---
+### 54
+a)
+Soit
+$$
+(u_{n}):\begin{cases}
+u_{0}\in \mathbb{R} \\
+u_{n+1}=\frac{e^{-u_{n}}}{n+1}
+\end{cases}
+$$
+On travaille sur $\mathbb{N}^{\star}$ afin d'avoir $u_{n}\geq 0$
 
+Lemme: $u_{n}\underset{n}{\to} 0$
+Démo: par $u_{n}\geq0$, $u_{n+1}\leq \frac{1}{n+1}$.
 
+Par d'Alembert
+on pose $v_{n}= \frac{1}{u_{n}}\underset{n}{\to}+\infty$.
+$$
+\begin{align*}
+|\frac{u_{n+1}}{u_{n}}|&= \frac{e^{-u_{n}}}{(n+1)u_{n}}&&\cr
+&= \frac{1}{n+1}\cdot \frac{v_{n}}{e^{v_{n}}}&&\cr
+&\underset{n}{\to}0.&&\cr
+\end{align*}
+$$
+Donc, $\sum u_{n}$ CV(A).
 
+b)
+Par $\sum u_{n}$ ACV, $\sum(-1)^{n}u_{n}$ CV.
 
+APCR, $u_{n}\leq 1$, donc $u_{n}^{2}\leq u_{n}$.
+Par théorème de comparaison sur les séries à termes positifs, $\sum u_{n}^{2}$ CV.
+
+---
+### 58
+On groupe selon des paquet de Cauchy, $n=p+q$.
+Soit $r=|z|$, $\sum_{p,q}\binom{p+q}{q}z^{p+q}$ est sommable ssi $S=\sum_{n=0}^{+\infty}\sum_{k=0}^{n}\binom{n}{k}r^{n}$ CV
+
+$$
+\begin{align*}
+S&=\sum_{n=0}^{+\infty}r^{n}\sum_{k=0}^{n}\binom{n}{k}&&\cr
+&=\sum_{n=0}^{+\infty}r^{n}2^{n+1}&&\cr
+&=2\sum_{n=0}^{+\infty}(2r)^{n}&&\cr
+\end{align*}
+$$
+ CV ssi $2r<1\iff r< \frac{1}{2}$
+Donc $F$ est sommable ssi $|z|< \frac{1}{2}$.
 
 
