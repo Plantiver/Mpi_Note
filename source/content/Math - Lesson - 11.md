@@ -110,6 +110,23 @@ $$
 $$
 <!-- basicblock-end -->
 
+<!-- basicblock-start -->
+Th. sommation par paquet::
+$$
+\bigsqcup I_{n}=I,\;\begin{cases}
+p_{n}=\sum_{i\in I_{n}}a_{i}<+\infty \\
+S=\sum_{n\in \mathbb{N}}p_{n}<+\infty
+\end{cases}\;\implies\;\sum_{i\in I}a_{i}=S.
+$$
+<!-- basicblock-end -->
 
-
+<!-- basicblock-start -->
+Th. de Fubini::
+$$
+\begin{cases}
+p_{n}=\sum_{m\in \mathbb{N}}|a_{n,m}|<+\infty \\
+\sum_{n\in \mathbb{N}}p_{n}<+\infty
+\end{cases}\;\implies\;\sum_{n\in \mathbb{N}}\sum_{m\in \mathbb{N}}a_{n,m}=\sum_{m\in \mathbb{N}}\sum_{n\in \mathbb{N}}a_{n,m}.
+$$
+<!-- basicblock-end -->
 
