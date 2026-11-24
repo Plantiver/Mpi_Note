@@ -278,4 +278,69 @@ avec $\sum \overrightarrow{F}=m\overrightarrow{g}+\sum \overrightarrow{F}_{\text
 
 (! ce chapitre ne suit pas la construction du prof, et a été écris par mes soins !)
 
+Très souvent, les nombreux calculs à réaliser avec des vecteurs (en particulier les produits vectoriel) introduisent des erreurs dans les résultats. C'est pourquoi j'essaye ici de développer une méthode pour rendre ces calculs matriciels, avec lesquelles les élèves ont plus de facilités.
+
+Voir [ce site](https://www.physics.muni.cz/~janam/download/EJP-non-inertial.pdf) et [ce site](https://personal.maths.manchester.ac.uk/jm/wiki/uploads/Mechanics/5RotatingFrames.pdf) pour plus de précision sur la provenance des résultats.
+
+## 1 - Représentation matricielle
+
+On considère deux référentiel, $\mathcal{R}$ et $\mathcal{R}'$, et pour deux vecteurs avec des représentations différentes dans $\mathcal{R}$ et $\mathcal{R}'$, on le notera en minuscule si pris avec ses coordonnées dans $\mathcal{R}$, et en majuscule si pris avec ses coordonnées dans $\mathcal{R}'$.
+
+En décomposant notre mouvement, et avec $q$ la position, on obtient
+$$
+q=\tau+RQ
+$$
+avec
+- $\tau$ le vecteur translation entre les origines des repères
+- $R$ la matrice de rotation des vecteurs des repères.
+
+Par construction, $R$ est une matrice orthonormale, donc $RR^{T}=I_{3}$.
+
+## 2 - Vitesse et accélération
+
+Introduisons
+$$
+\Omega=R^{T}\dot{R}.
+$$
+Alors:
+- $\Omega$ est la matrice de vitesse angulaire
+- $\Omega$ est anti-symétrique
+- $\Omega u=\overrightarrow{\Omega}\wedge \overrightarrow{u}$, avec $\overrightarrow{\Omega}$ le vecteur rotation introduit plus haut.
+
+Plus spécifiquement, on a
+$$
+\Omega=\begin{pmatrix}
+0 & -c & b \\
+c & 0 & -a \\
+-b & a & 0
+\end{pmatrix}\longleftrightarrow \overrightarrow{\Omega}=\begin{pmatrix}
+a \\
+b \\
+c
+\end{pmatrix}.
+$$
+
+On a donc
+$$
+\dot{R}=R\Omega.
+$$
+Ainsi, on peut dériver notre expression de la position, et obtenir
+$$
+\begin{align*}
+v&=\dot{\tau}+\dot{R}Q+RV&&\cr
+&=\dot{\tau}+R(\Omega Q+V).&&\cr
+\end{align*}
+$$
+Si l'on dérive encore, on retombe sur l'expression de l'accélération
+$$
+\begin{align*}
+a&=\ddot{\tau}+R\Omega(\Omega Q+V)+R(\dot{\Omega}Q+\Omega V+A)&&\cr
+&=\ddot{\tau}+R(\dot{\Omega}Q+\Omega^{2}Q+A+2\Omega V).&&\cr
+\end{align*}
+$$
+
+## 3 - Calculs avec ces notations
+
+Ces notations ne sont nullement officielles, mais peuvent être utilisé au brouillon, ou alors hors des concours.
+
 
