@@ -344,3 +344,13 @@ $$
 Ces notations ne sont nullement officielles, mais peuvent être utilisé au brouillon, ou alors hors des concours.
 
 
+
+
+
+# V - Exercices
+
+## 1 - Enfant sur un tourniquet
+
+Un enfant joue sur un tourniquet, il y est assis au bords, et le tourniquet tourne à une vitesse uniforme $\omega$. L'enfant lance une balle à son chien, à l'extérieur du tourniquet, on suppose le lancer perpendiculaire à la rotation. Décrivez le mouvement de la balle.
+
+## 2 - ...
