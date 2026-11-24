@@ -6,6 +6,11 @@ deck: phys
 Quand on fait de la mécanique, on définit notre système, le référentiel dans lequel on se place, et les coordonnées que l'on utilise.
 
 # Notion de référentiel
+<!-- basicblock-start -->
+Def. référentiel::
+- un choix d'une base orthonormée de l'espace et d'une horloge.
+<!-- basicblock-end -->
+
 <!-- basicblock-start oid="ObsGRzjlWSfza7Q9t9U8IHTx" -->
 Def. référentiel galiléen::
 - un référentiel qui satisfait la première loi de Newton.

@@ -339,13 +339,28 @@ a&=\ddot{\tau}+R\Omega(\Omega Q+V)+R(\dot{\Omega}Q+\Omega V+A)&&\cr
 \end{align*}
 $$
 
-## 3 - Calculs avec ces notations
+## 3 - Forces d'inerties
+
+On a
+$$
+\begin{align*}
+A&=R^{T}a-(R^{T}\ddot{\tau}+(\dot{\Omega}+\Omega^{2})Q)-2\Omega V&&\cr
+mA&=\sum \overrightarrow{F}-m(R^{T}\ddot{\tau}+(\dot{\Omega}+\Omega^{2})Q)-2m\Omega V.&&\cr
+\end{align*}
+$$
+On retrouve alors
+$$
+\begin{cases}
+F_{ie}=-m(R^{T}\ddot{\tau}+(\dot{\Omega}+\Omega^{2})Q) \\
+F_{ic}=-2m\Omega V.
+\end{cases}
+$$
+
+## 4 - Calculs avec ces notations
 
 Ces notations ne sont nullement officielles, mais peuvent être utilisé au brouillon, ou alors hors des concours.
 
-
-
-
+On commencera par calculer la matrice de rotation $R$, et la matrice vitesse angulaire $\Omega$. Ensuite...
 
 # V - Exercices
 
