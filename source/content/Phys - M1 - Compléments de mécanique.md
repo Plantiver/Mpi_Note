@@ -87,140 +87,86 @@ Ce travail dépend du chemin suivi, les frottements ne sont jamais conservatifs.
 
 # II - Cinématique et changement de référentiels
 
-#todo rewrite everything with explanation
+(! ce chapitre ne suit pas la construction du prof, et a été écris par mes soins !)
 
+Dès que l'on se place dans un référentiel non-galiléen, toute notre théorie s'effondre, et l'on ne sait plus comment appliquer nos connaissance. Étendons donc la théorie au référentiel non-galiléen.
 
-Un référentiel, c'est avant tout un point de vu sur un mouvement.
+Pour cela, prenons 2 référentiel, $\mathcal{R_{g}}(O,\overrightarrow{e_{i}},\overrightarrow{e_{j}},\overrightarrow{e_{k}})$ galiléen, et $\mathcal{R}(O',\overrightarrow{e_{x}},\overrightarrow{e_{y}},\overrightarrow{e_{z}})$ non, et un objet $M$ en mouvement.
+On sait décrire le mouvement de $M$ dans $\mathcal{R}$, et le mouvement de $\mathcal{R}$ selon $\mathcal{R_{g}}$, on va donc essayer de combiner les deux pour retrouver nos lois du mouvement.
 
-Ex: Valve d'une roue de vélo
-- Vache sur la route: cycloïde
-- Cycliste: cercle
-- roue: immobile
-## 1 - Notion de point coïncident
-Introduisons 2 référentiels:
-- $\mathcal{R}$ considéré fixe
-- $\mathcal{R_{1}}$ considéré mobile
-Soit un point $M(t)$ mobile dans $\mathcal{R}$ et $\mathcal{R_{1}}$
+$$
+\overrightarrow{OM}=\overrightarrow{OO'}+\overrightarrow{O'M}.
+$$
 
-Le point coïncident est le point fixe dans $\mathcal{R_{1}}$ qui coincide avec $M(t)$ à l'instant $t$.
-Ce point fixe dans $\mathcal{R_{1}}$ permet de décrire le mouvement $\mathcal{R_{1}}/\mathcal{R}$.
+## 1 - Vitesse dans un référentiel non-galiléen
 
-## 2 - Loi de composition des vitesses
-- $\mathcal{R}$ repère fixe $O,\overrightarrow{i}, \overrightarrow{j}, \overrightarrow{k}$
-- $\mathcal{R_{1}}$ repère mobile $O_{1},\overrightarrow{e_{x}},\overrightarrow{e_{y}},\overrightarrow{e_{z}}$
-On veut étudier le mouvement de $M$:
+La vitesse est la dérivée de la position, calculons
 $$
 \begin{align*}
-\overrightarrow{v}(M/\mathcal{R})&=\frac{\mathrm{d}\overrightarrow{OM}}{\mathrm{d}t}&&\cr
-&=\frac{\mathrm{d}(\overrightarrow{OO_{1}}+\overrightarrow{O_{1}M})}{\mathrm{d}t}&&\cr
-&=&&\cr
+\frac{\mathrm{d}\overrightarrow{OM}}{\mathrm{d}t}&=\frac{\mathrm{d}\overrightarrow{OO'}}{\mathrm{d}t}+ \frac{\mathrm{d}\overrightarrow{O'M}}{\mathrm{d}t}&&\cr
+&=\frac{\mathrm{d}\overrightarrow{OO'}}{\mathrm{d}t}+\frac{\mathrm{d}(x\overrightarrow{e_{x}}+y\overrightarrow{e_{y}}+z\overrightarrow{e_{z}})}{\mathrm{d}t}&&\cr
+&=\frac{\mathrm{d}\overrightarrow{OO'}}{\mathrm{d}t}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{z}}}+\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}}&&\cr
+&=\overrightarrow{v_{e}}+\overrightarrow{v_{r}}.&&\cr
 \end{align*}
 $$
-Vu $\overrightarrow{O_{1}M}=x\overrightarrow{e_{x}}+y\overrightarrow{e_{y}}+z\overrightarrow{e_{z}}$, et ces vecteurs étant mobiles dans $\mathcal{R}$:
-$$
-\frac{\mathrm{d}\overrightarrow{O_{1}M}}{\mathrm{d}t}=\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{z}}}.
-$$
-On appelle vitesse relative $\overrightarrow{v}(M/\mathcal{R_{1}})$.
-On appelle vitesse d'entrainement de $\mathcal{R}/\mathcal{R_{1}}$: $\overrightarrow{v}_{e}=\frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}} +z \dot{\overrightarrow{e_{z}}}$.
+avec
+- $\overrightarrow{v_{e}}$ la vitesse d'entrainement, la vitesse due au mouvement de $\mathcal{R}$ dans $\mathcal{R_{g}}$
+- $\overrightarrow{v_{r}}$ la vitesse relative, la vitesse de $M$ dans $\mathcal{R}$.
 
-On retient:
 ![[Phys - Formule#Loi de composition des vitesses]]
 
-Regardons la vitesse d'entrainement:
-- Si $\mathcal{R_{1}}$ est en translation dans $\mathcal{R}$:
-Dans ce cas, la base des vecteurs de $\mathcal{R_{1}}$ est d'orientation fixe dans $\mathcal{R}$.
-ex: voiture sur une route droite, nacelle de grande roue
-à ce moment là:
+Pour simplifier l'expression de $\overrightarrow{v_{e}}$, on introduit $\overrightarrow{\Omega}$, le vecteur rotation, orienté selon l'axe de rotation, dirigé par la règle de la main droite, et de norme la vitesse de rotation.
+En exprimant les vecteurs $\dot{\overrightarrow{e_{x}}},\dot{\overrightarrow{e_{y}}},\dot{\overrightarrow{e_{z}}}$ dans la base $\overrightarrow{e_{i}},\overrightarrow{e_{j}},\overrightarrow{e_{k}}$, on obtient que dérivée ces vecteurs revient à faire un produit scalaire avec $\overrightarrow{\Omega}$. Ainsi
+<!-- basicblock-start -->
+Prop. vitesse d'entrainement::
 $$
-\overrightarrow{v_{e}}=\frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}.
+\overrightarrow{v_{e}}=\frac{\mathrm{d}\overrightarrow{OO'}}{\mathrm{d}t}+\overrightarrow{\Omega}\wedge \overrightarrow{O'M}.
 $$
-- Si $\mathcal{R_{1}}$ est en rotation (sans translation) dans $\mathcal{R}$:
-$O_{1}$ est fixe dans $\mathcal{R}$.
-à ce moment là:
-$$
-\overrightarrow{v_{e}}=x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{y}}}.
-$$
-> [!note]- Exemple de rotation de même centre
-> ![[Phys - Exemple - Rotation de même centre]]
-
-- Si $\mathcal{R_{1}}$ est un mouvement quelconque
-$$
-\overrightarrow{v_{e}}=\frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+\overrightarrow{\Omega}\wedge \overrightarrow{O_{1}M}
-$$
-
-
-<!-- basicblock-start oid="Obs0BQbXhU2qJTgUnMR2JxFJ" -->
-Def. vitesse d'entrainement::
-vitesse du point coïncident dans $\mathcal{R}$
 <!-- basicblock-end -->
 
+> [!note]- Exemple - La rotation de même centre
+> ![[Phys - Exemple - Rotation de même centre]]
 
-## 3 - Loi de composition des accélérations
 
+## 2 - Accélération dans un référentiel non-galiléen
+
+L'accélération est la dérivée de la vitesse, calculons
 $$
 \begin{align*}
-\frac{\mathrm{d}^{2}\overrightarrow{OM}}{\mathrm{d}t^{2}}&=\frac{\mathrm{d}}{\mathrm{d}t}\left( \frac{\mathrm{d}\overrightarrow{OO_{1}}}{\mathrm{d}t}+x \dot{\overrightarrow{e_{x}}}+y \dot{\overrightarrow{e_{y}}}+z \dot{\overrightarrow{e_{z}}}+\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}} \right)&&\cr
-&=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}+x \ddot{\overrightarrow{e_{x}}}+y \ddot{\overrightarrow{e_{y}}}+z \ddot{\overrightarrow{e_{z}}}+2(\dot{x} \dot{\overrightarrow{e_{x}}}+\dot{y} \dot{\overrightarrow{e_{y}}}+\dot{z} \dot{\overrightarrow{e_{z}}})+\ddot{x}\overrightarrow{e_{x}}+\ddot{y}\overrightarrow{e_{y}}+\ddot{z}\overrightarrow{e_{z}}&&\cr
+\overrightarrow{a}&=\frac{\mathrm{d}\overrightarrow{v}}{\mathrm{d}t}&&\cr
+&=\frac{\mathrm{d}\overrightarrow{v_{e}}}{\mathrm{d}t}+\frac{\mathrm{d}\overrightarrow{v_{r}}}{\mathrm{d}t}&&\cr
+&=\frac{\mathrm{d}^{2}\overrightarrow{OO'}}{\mathrm{d}t^{2}}+\frac{\mathrm{d}(\overrightarrow{\Omega}\wedge \overrightarrow{O'M})}{\mathrm{d}t}+\frac{\mathrm{d}(\dot{x}\overrightarrow{e_{x}}+\dot{y}\overrightarrow{e_{y}}+\dot{z}\overrightarrow{e_{z}})}{\mathrm{d}t}&&\cr
+&=\frac{\mathrm{d}^{2}\overrightarrow{OO'}}{\mathrm{d}t^{2}}+\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{O'M}+\overrightarrow{\Omega}\wedge \dot{\overrightarrow{O'M}}+\ddot{x}\overrightarrow{e_{x}}+\ddot{y}\overrightarrow{e_{y}}+\ddot{z}\overrightarrow{e_{z}}+\dot{x} \dot{\overrightarrow{e_{x}}}+\dot{y}\dot{\overrightarrow{e_{y}}}+\dot{z}\dot{\overrightarrow{e_{z}}}&&\cr
+&=\frac{\mathrm{d}^{2}\overrightarrow{OO'}}{\mathrm{d}t^{2}}+\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{O'M}+\overrightarrow{\Omega}\wedge (\overrightarrow{v_{r}}+\overrightarrow{\Omega}\wedge \overrightarrow{O'M})+\ddot{x}\overrightarrow{e_{x}}+\ddot{y}\overrightarrow{e_{y}}+\ddot{z}\overrightarrow{e_{z}}+\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}}&&\cr
+&=\frac{\mathrm{d}^{2}\overrightarrow{OO'}}{\mathrm{d}t^{2}}+\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{O'M}+\overrightarrow{\Omega}\wedge (\overrightarrow{\Omega}\wedge \overrightarrow{O'M})+\ddot{x}\overrightarrow{e_{x}}+\ddot{y}\overrightarrow{e_{y}}+\ddot{z}\overrightarrow{e_{z}}+2\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}}&&\cr
+&=\overrightarrow{a_{e}}+\overrightarrow{a_{r}}+\overrightarrow{a_{c}}.&&\cr
 \end{align*}
 $$
-- On appelle accélération relative $\overrightarrow{a_{r}}=\overrightarrow{a}(M/\mathcal{R_{1}})$
-- On appelle accélération d'entrainement l'accélération du point coïncident dans $\mathcal{R}$ notée $\overrightarrow{a_{e}}$.
+avec
+- $\overrightarrow{a_{e}}$ l'accélération d'entrainement
+- $\overrightarrow{a_{r}}$ l'accélération relative, l'accélération de $M$ dans $\mathcal{R}$*
+- $\overrightarrow{a_{e}}$ l'accélération de Coriolis.
 
-Dans un cas de translation, $\overrightarrow{a_{e}}=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}$.
+![[Phys - Formule#Loi de composition des accélérations]]
 
-Dans un cas de rotation:
-$$
-\begin{align*}
-\ddot{\overrightarrow{e_{x}}}&=\dot{\overrightarrow{\Omega}\wedge \overrightarrow{e_{x}}}&&\cr
-&=\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{e_{x}}+\overrightarrow{\Omega}\wedge \dot{\overrightarrow{e_{x}}}&&\cr
-&=\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{e_{x}}+\overrightarrow{\Omega}\wedge(\overrightarrow{\Omega}\wedge e_{x})&&\cr
-\end{align*}
-$$
-Donc:
-$$
-\begin{align*}
-\overrightarrow{v_{e}}&=\overrightarrow{\Omega}\wedge \overrightarrow{OM}&&\cr
-\overrightarrow{a_{e}}&=\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{OM}+\overrightarrow{\Omega}\wedge(\overrightarrow{\Omega}\wedge \overrightarrow{OM})&&\cr
-\end{align*}
-$$
+**Attention,** on remarque que l'accélération d'entrainement n'est pas la dérivée de la vitesse d'entrainement, de même que l'accélération relative n'est pas la dérivée de la vitesse relative.
 
-- Dans le cas générale:
+<!-- basicblock-start -->
+Prop. accélération d'entrainement::
 $$
-\overrightarrow{a_{}}=\frac{\mathrm{d}^{2}\overrightarrow{OO_{1}}}{\mathrm{d}t^{2}}+x \ddot{\overrightarrow{e_{x}}}+y \ddot{\overrightarrow{e_{y}}}+z \ddot{\overrightarrow{e_{z}}}.
+\overrightarrow{a_{e}}=\frac{\mathrm{d}^{2}\overrightarrow{OO'}}{\mathrm{d}t^{2}}+\dot{\overrightarrow{\Omega}}\wedge \overrightarrow{O'M}+\overrightarrow{\Omega}\wedge(\overrightarrow{\Omega}\wedge \overrightarrow{O'M}).
 $$
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Attention !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-$$
-\overrightarrow{a_{e}}\not=\frac{\mathrm{d}\overrightarrow{v_{e}}}{\mathrm{d}t}
-$$
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Attention !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-On appelle accélération de Coriolis et l'on note $a_{c}$ le terme restant.
-
-Et donc:
-<!-- basicblock-start oid="ObsHAS0PICTyjPVKZQRehbgI" -->
+<!-- basicblock-end -->
+<!-- basicblock-start -->
 Prop. accélération de Coriolis::
 $$
 \overrightarrow{a_{c}}=2\overrightarrow{\Omega}\wedge \overrightarrow{v_{r}}.
 $$
 <!-- basicblock-end -->
-Ainsi, pour $\overrightarrow{\Omega}=\overrightarrow{0}$ ou $\overrightarrow{v_{r}}=\overrightarrow{0}$, alors $\overrightarrow{a_{c}}=\overrightarrow{0}$.
-
-![[Phys - Formule#Loi de composition des accélérations]]
 
 > [!note]- Cas particulier de la rotation uniforme
 > ![[Phys - Exemple - Rotation uniforme]]
 
-Remarque:
-Le mouvement d'une fourmi sur un rayon de roue de vélo:
-$$
-\begin{align*}
-\overrightarrow{OM}&=r(t)\overrightarrow{e_{r}}&&\cr
-\overrightarrow{v}&=\dot{r}\overrightarrow{e_{r}}+r\dot{\theta}\overrightarrow{e_{\theta}}&&\cr
-\overrightarrow{a}&=\ddot{r}\overrightarrow{e_{r}}+2\dot{r}\dot{\theta}\overrightarrow{e_{\theta}}+(r \ddot{\theta}\overrightarrow{e_{\theta}}-r\dot{\theta}^{2}\overrightarrow{e_{r}}).&&\cr
-\end{align*}
-$$
 # III - Dynamique en référentiel non galiléen
 # 1 - Seconde loi de Newton
 - $\mathcal{R_{g}}$ référentiel galiléen supposé fixe
@@ -251,9 +197,8 @@ ex:
 
 De même, on a le théorème du moment cinétique:
 $$
-\frac{\mathrm{d}}{\mathrm{d}t}\overrightarrow{L_{O}}(M/\mathcal{R_{1}})=\sum \overrightarrow{\mathcal{M}_{O}(\overrightarrow{F})}+\mathcal{M}_{O}(\overrightarrow{F_{ie}})+\mathcal{M}_{O}(\overrightarrow{F_{ic}})
+\frac{\mathrm{d}}{\mathrm{d}t}\overrightarrow{L_{O}}(M/\mathcal{R_{1}})=\sum \overrightarrow{\mathcal{M}_{O}(\overrightarrow{F})}+\overrightarrow{\mathcal{M}_{O}(\overrightarrow{F_{ie}})}+\overrightarrow{\mathcal{M}_{O}(\overrightarrow{F_{ic}})}
 $$
-#todo change Mo into a vector
 ## 2 - Aspects énergétiques
 **Coriolis:**
 $$
@@ -328,3 +273,9 @@ avec $\sum \overrightarrow{F}=m\overrightarrow{g}+\sum \overrightarrow{F}_{\text
 
 > [!note]- Exemple 3
 > ![[Phys - Exemple - Les marées]]
+
+# IV - Calculs matriciels
+
+(! ce chapitre ne suit pas la construction du prof, et a été écris par mes soins !)
+
+

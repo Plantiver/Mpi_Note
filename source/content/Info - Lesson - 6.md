@@ -2,7 +2,7 @@
 deck: info
 ---
 # Calculabilité
-
+#todo check for reduction? is this the right way?
 <!-- basicblock-start oid="ObstHkJl8YnP2v0ETbiFZMWG" -->
 Def. problème algorithmique::
 $$
@@ -103,7 +103,7 @@ $$
 
 Toute les définitions sur la complexité, bon...
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsLNyoTAiKORlyvpx2zPTrd" -->
 Def. problème de la classe $\textbf{P}$::
 $$
 \exists<A>_{\mathcal{P}},\;|A(e)|=O(P(|e|)).
@@ -130,7 +130,7 @@ $$
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObshEYArQu0HbyjUlWFyIlDX" -->
 Def. problème de la classe $\textbf{NP}$::
 $$
 \exists C,\;\exists g\in \mathrm{Set}( \top,\bot )^{E\times C},\;\begin{cases}
@@ -168,7 +168,16 @@ $$
 > [!note]- Démo FNC SAT dans NP
 > ![[Info - Démo - FNC SAT dans NP]]
 
+#hp
 <!-- basicblock-start -->
+Prop. exemple de problème $\textbf{NP}$-complet::
+- Existence d'un cycle hamiltonien dans un graphe
+- Voyageur de commerce
+- Sac à dos
+- Clique maximum.
+<!-- basicblock-end -->
+
+<!-- basicblock-start oid="undefined" -->
 Th. condition d'égalité $\textbf{P}=\textbf{NP}$::
 $$
 \exists \mathcal{P}\;\textbf{NP}\text{-complet},\;\mathcal{P}\in \textbf{P}.

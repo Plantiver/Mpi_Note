@@ -15,6 +15,7 @@ Form. combinatoire::
 - $\binom{n}{k}=\frac{n!}{k!(n-k)!}$
 - $\binom{n}{k}=\binom{n}{n-k}$
 - $\binom{n}{k-1}+\binom{n}{k}=\binom{n+1}{k}$
+- $\sum_{k=0}^{n}\binom{n}{k}=2^{n}.$
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsB7NFXaVjkJ8phlFG9AGnv" -->
@@ -67,8 +68,21 @@ Form. fonctions usuelles et leur tangente::
 - $|\sin(x)|\leq|x|$.
 <!-- basicblock-end -->
 
+# Identité remarquable
+<!-- basicblock-start -->
+Form. identité remarquable d'une norme euclidienne::
+- $\|x\pm y\|=\|x\|+\|y\|\pm2<x;y>$
+- $\|x\|^{2}-\|y\|^{2}=<x+y;x-y>$
+- $<x;y>=\frac{1}{2}(\|x+y\|^{2}-\|x\|^{2}-\|y\|^{2})$.
+<!-- basicblock-end -->
 
-
+#hp 
+<!-- basicblock-start -->
+Form. identité des parallélogrammes::
+$$
+\|x+y\|^{2}+\|x-y\|^{2}=2(\|x\|^{2}+\|y\|^{2}).
+$$
+<!-- basicblock-end -->
 
 
 

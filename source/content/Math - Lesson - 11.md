@@ -1,8 +1,6 @@
 ---
 deck: math
 ---
-#todo : do the thing
-
 
 <!-- basicblock-start oid="Obsv7huxEgrXDg1IErKn9lv7" -->
 Th. convergence d'une série à terme positif::
@@ -110,7 +108,7 @@ $$
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObstWPj7LkqFVaJlJk9B5wO5" -->
 Th. sommation par paquet::
 $$
 \bigsqcup I_{n}=I,\;\begin{cases}
@@ -120,13 +118,23 @@ S=\sum_{n\in \mathbb{N}}p_{n}<+\infty
 $$
 <!-- basicblock-end -->
 
-<!-- basicblock-start -->
+<!-- basicblock-start oid="ObsCPB8osxC5I1BAbAezfwcD" -->
 Th. de Fubini::
 $$
 \begin{cases}
 p_{n}=\sum_{m\in \mathbb{N}}|a_{n,m}|<+\infty \\
 \sum_{n\in \mathbb{N}}p_{n}<+\infty
 \end{cases}\;\implies\;\sum_{n\in \mathbb{N}}\sum_{m\in \mathbb{N}}a_{n,m}=\sum_{m\in \mathbb{N}}\sum_{n\in \mathbb{N}}a_{n,m}.
+$$
+<!-- basicblock-end -->
+
+<!-- basicblock-start -->
+Th. produit de série::
+$$
+\begin{cases}
+\sum u_{n}\text{ ACV} \\
+\sum v_{n}\text{ ACV}
+\end{cases}\;\implies\;\sum u_{n}v_{n}=\sum c_{n},\;c_{n}=\sum_{p+q=n}u_{p}v_{q}.
 $$
 <!-- basicblock-end -->
 

@@ -23,7 +23,7 @@ $$
 <!-- basicblock-start oid="ObslSyzbgZ8fGnmHZWhHqTUh" -->
 Form. loi de composition des accélérations::
 $$
-\overrightarrow{a}(M/\mathcal{R})=\overrightarrow{a_{r}}+\overrightarrow{a_{e}}+\overrightarrow{a_{c}}
+\overrightarrow{a}(M/\mathcal{R})=\overrightarrow{a_{e}}+\overrightarrow{a_{r}}+\overrightarrow{a_{c}}.
 $$
 <!-- basicblock-end -->
 

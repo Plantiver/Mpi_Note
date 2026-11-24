@@ -531,6 +531,48 @@ d)
 ---
 # [[Math - Lesson - 11|Chapitre 11]]
 
+### 46
+a)
+Soit
+$$
+I_{n}=\int_{0}^{+\infty} \frac{1}{(1+t^{2})^{n}}\mathrm{d}t.
+$$
+Notons
+$$
+f_{n}:t\to \frac{1}{(1+t^{2})^{n}}\in \mathcal{C}^{0}([0;+\infty[).
+$$
+Problème en $+\infty$:
+$$
+f_{n}(t)\sim \frac{1}{t^{2n}}\in \mathcal{L}^{1}([1;+\infty[).
+$$
+Donc, $\forall n\in \mathbb{N}^{\star},\;I_{n}$ existe.
+
+b)
+Par le théorème de domination discret:
+- $\forall t\in \mathbb{R}_{+}^{\star},\;f_{n}(t)\underset{n}{\to}0=l(t)\in \mathcal{L}^{1}(\mathbb{R}_{+})$
+- $\forall n\in \mathbb{N},\;f_{n}\in \mathcal{C}^{0}_{(m)}(\mathbb{R}_{+})$
+- Domination
+$$
+\begin{align*}
+|f_{n}(t)|&= \frac{1}{(1+t^{2})^{n}}&&\cr
+&\leq \frac{1}{1+t^{2}}\in \mathcal{L}^{1}(\mathbb{R}_{+}).&&\cr
+\end{align*}
+$$
+Donc $\lim_{ n \to +\infty }I_{n}=0$.
+
+c)
+Par changement de variable, on pose $u=1+t^{2},\;t=\sqrt{ u-1 }$
+Donc $\mathrm{d}u=2t\mathrm{d}t$
+Ainsi
+$$
+\begin{align*}
+I_{n}&=\int_{1}^{+\infty} \frac{1}{u^{n}2\sqrt{ u-1 }}\mathrm{d}u&&\cr
+&=\left[ \frac{\sqrt{ u-1 }}{u^{n}} \right]_{1}^{u\to +\infty}+\int_{1}^{+\infty} \frac{\sqrt{ u-1 }}{u^{n+1}}\mathrm{d}u&&\cr
+&=\int_{0}^{+\infty} \frac{v}{(v+1)^{2n+2}}2v\mathrm{d}v&&\cr
+&=\int_{0}^{+\infty} \frac{2v^{2}}{(v+1)^{2n+2}}\mathrm{d}v&&\cr
+\end{align*}
+$$
+Par SSA en fait, moi qui espérais l'éviter...
 ### 2
 
 $$
@@ -614,6 +656,34 @@ Ainsi, par positivité de $u_{n}$, $S_{n}\nearrow$, et $\forall n\in \mathbb{N},
 Par passage à la limite, $S_{n}$ majorée et croissante, donc CV, donc $\sum u_{n}$ CV.
 
 ---
+### 27
+a)
+$$
+\begin{align*}
+e^{(1/n)\sum_{k=1}^{n}\ln k}&\geq 1+\frac{1}{n}\sum_{k=1}^{n}\ln k&&\cr
+&\geq&&\cr
+\end{align*}
+$$
+
+
+---
+### 34
+
+Vu $\sum a_{n}$ CV, $\exists M,\;\forall n\in \mathbb{N},\;\sum ^{n}a_{k}\leq M$.
+
+On a alors
+$$
+\begin{align*}
+|\frac{\sum_{k=0}^{n}\lambda_{k}u_{k}}{\sum_{k=0}^{n}\lambda_{k}}|&\leq M| \frac{\sum_{k=0}^{n}\lambda_{k}}{\sum_{k=0}^{n}\lambda_{k}}|&&\cr
+&\leq M&&\cr
+\end{align*}
+$$
+Donc cette suite est majorée...
+Mais ce n'est pas ce que je veux.
+
+
+
+---
 ### 38
 a)
 $$
@@ -671,6 +741,7 @@ Bon, par le SSA:
 - $|(-1)^{n}u_{n}|\searrow$ par l'équivalent trouvé
 
 Ainsi $\sum(-1)^{n}u_{n}$ CV.
+Hah, en fait le SSA ne suffit pas, il faut faire un DL
 
 ---
 ### 50
@@ -767,22 +838,18 @@ On travaille sur $\mathbb{N}^{\star}$ afin d'avoir $u_{n}\geq 0$
 Lemme: $u_{n}\underset{n}{\to} 0$
 Démo: par $u_{n}\geq0$, $u_{n+1}\leq \frac{1}{n+1}$.
 
-Par d'Alembert
-on pose $v_{n}= \frac{1}{u_{n}}\underset{n}{\to}+\infty$.
+Ainsi
 $$
 \begin{align*}
-|\frac{u_{n+1}}{u_{n}}|&= \frac{e^{-u_{n}}}{(n+1)u_{n}}&&\cr
-&= \frac{1}{n+1}\cdot \frac{v_{n}}{e^{v_{n}}}&&\cr
-&\underset{n}{\to}0.&&\cr
+u_{n}&\sim \frac{1}{n+1}&&\cr
+&\sim \frac{1}{n}\geq0&&\cr
 \end{align*}
 $$
-Donc, $\sum u_{n}$ CV(A).
+Donc $\sum u_{n}$ DV.
 
 b)
-Par $\sum u_{n}$ ACV, $\sum(-1)^{n}u_{n}$ CV.
+Ainsi, $u_{n}^{2}\sim  \frac{1}{n^{2}}\geq0$ Donc $\sum u_{n}^{2}$ CV.
 
-APCR, $u_{n}\leq 1$, donc $u_{n}^{2}\leq u_{n}$.
-Par théorème de comparaison sur les séries à termes positifs, $\sum u_{n}^{2}$ CV.
 
 ---
 ### 58
@@ -792,11 +859,55 @@ Soit $r=|z|$, $\sum_{p,q}\binom{p+q}{q}z^{p+q}$ est sommable ssi $S=\sum_{n=0}^{
 $$
 \begin{align*}
 S&=\sum_{n=0}^{+\infty}r^{n}\sum_{k=0}^{n}\binom{n}{k}&&\cr
-&=\sum_{n=0}^{+\infty}r^{n}2^{n+1}&&\cr
-&=2\sum_{n=0}^{+\infty}(2r)^{n}&&\cr
+&=\sum_{n=0}^{+\infty}r^{n}2^{n}&&\cr
+&=\sum_{n=0}^{+\infty}(2r)^{n}&&\cr
 \end{align*}
 $$
  CV ssi $2r<1\iff r< \frac{1}{2}$
 Donc $F$ est sommable ssi $|z|< \frac{1}{2}$.
+
+---
+### 59
+a)
+
+Soit $p\geq2$
+$$
+\forall n\geq 2,\;u_{n,p}=\left( \frac{z}{p} \right)^{n}
+$$
+Or $|\frac{z}{p}|<1$ donc
+$$
+\sum_{n\geq 2}u_{n,p}=\frac{z^{2}}{p^{2}-pz}.
+$$
+$$
+S_{p}=\sum_{n\geq2}|\frac{z}{p}|^{n}=\frac{|z|^{2}}{p^{2}-p|z|}.
+$$
+b)
+
+On a
+$$
+\sum_{p\geq 2}S_{p}\text{ CV par Riemann.}
+$$
+Donc, par Fubini, la famille est sommable.
+
+c)
+
+donc, par Fubini, on a
+$$
+\begin{align*}
+\sum_{n\geq 2}\sum_{p\geq 2}u_{n,p}&=\sum_{p\geq 2}\sum_{n\geq2}u_{n,p}&&\cr
+\sum_{n\geq 2}z^{n}\sum_{p\geq 2} \frac{1}{p^{n}}&=\sum_{p\geq 2} \frac{z^{2}}{p(p-z)}&&\cr
+\sum_{n\geq 2}z^{n}(\zeta(n)-1)&=\sum_{p\geq 2}\frac{z^{2}}{p(p-z)}&&\cr
+\end{align*}
+$$
+En prenant $z=1$, on obtient
+$$
+\begin{align*}
+\sum_{n\geq 2}(\zeta(n)-1)&=\sum_{n\geq2} \frac{1}{p(p-1)}&&\cr
+&=\sum_{n\geq 2}\left( \frac{1}{p}-\frac{1}{p-1} \right) &&\cr
+&=\frac{1}{2-1}&&\cr
+&=1.&&\cr
+\end{align*}
+$$
+
 
 

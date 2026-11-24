@@ -1,6 +1,11 @@
 #todo : do all of them, in the order they appear
 # Ensemble
-- $\mathbb{K}$ désigne un corps
+- $X,Y$ sont des ensembles, ou des matrices colonnes
+- $S$ est ensemble à structure, sans préciser laquelle
+- $G,H$ sont des groupes
+- $A,B$ sont des anneaux, voire des algèbres
+- $\mathbb{K},\mathbb{L}$ sont des corps
+- $E,F$ sont des espaces vectoriels
 - $\mathcal{M}_{n}(\mathbb{K})$ sont les matrices de taille $n$ à coefficient dans $\mathbb{K}$
 - $\mathcal{GL}_{n}(\mathbb{K})$ sont les matrices inversibles de taille $n$ à coefficient dans $\mathbb{K}$
 - $\mathcal{S}_{n}(\mathbb{K})$ sont les matrices symétriques de taille $n$ à coefficient dans $\mathbb{K}$
@@ -17,16 +22,6 @@
 - $\simeq$, pour les matrices, est l'équivalence usuelles ($A=PBQ$)
 - $\sim$, pour les matrices, est désigne la fait d'être semblable ($A=PBP^{-1}$)
 - $<$, pour des ensembles à structures, signifie qu'ils ont la même structure, et sont inclus l'un dans l'autre
-
-# Usage usuelle
-- $X,Y$ sont des ensembles, ou des matrices colonnes
-- $S$ est ensemble à structure, sans préciser laquelle
-- $G,H$ sont des groupes
-- $A,B$ sont des anneaux, voire des algèbres
-- $\mathbb{K},\mathbb{L}$ sont des corps
-- $E,F$ sont des espaces vectoriels
-- 
-
 # Applications
 - $\varphi,\psi$ sont des morphismes
 - $u,v$ sont des morphismes d'EV
@@ -37,4 +32,10 @@
 # Éléments
 - $n_{[:group]}$ est le neutre de $[:group]$.
 
+# Types d'application
+- $f:X\to Y$ est une application
+- $f:X\leftrightarrow Y$ est une application injective
+- $f:X\rightsquigarrow Y$ est une application surjective
+- $f:X\leftrightsquigarrow Y$ est une application bijective
 
+f forme linéaire.

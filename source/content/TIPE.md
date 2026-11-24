@@ -185,6 +185,8 @@ Bon, cela me semble un peu étrange à écrire, mais cohérent. On garde les sys
 La gestion des ressources est ma principale problématique. Que suis-je censée en faire, qu'est-ce donc qu'une ressource. Dans l'idéal, chaque programmes doit être capable de créer ses propres ressources, et les transmettre comme voulu d'un système à un autre. Le seul problème, c'est que j'ai aussi besoin de les rendre transférable d'un programme à un autre, en particulier depuis la maestro.
 
 
+---
+
 
 
 

@@ -32,45 +32,35 @@ Il n'y a pas besoin de support matériel, le milieu peut être le vide.
 Ex: Un feu de cheminée, ou le soleil (et d'autres, c'est pas parce que je met ou que ce sont les seuls).
 
 ## 3 - Bilan local d'énergie
-Système: {portion infinitésimale de phase condensée (solide ou liquide)}
-Appliquons le premier principe sur une transformation infinitésimale.
-Ici, on néglige tout les travaux et variations microscopique d'$\mathcal{E}_{c}$.
-Pour rappels, pour une phase condensée:
-$$
-\mathrm{d}U\simeq \mathrm{d}H\text{ car }C_{V}\simeq C_{p}=C
-$$
-Donc:
+
+On travaille sur un volume infinitésimal de phase condensée idéale, et l'on souhaite établir une expression de la variation de l'énergie. On se place dans un cas sans variation de l'énergie cinétique, ni travaille sur la matière.
+
+Par les hypothèses, on a
 $$
 \begin{align*}
-\mathrm{d}U&\simeq \mathrm{d}H&&\cr
-&=C\mathrm{d}T&&\cr
-&=c_{v}\mathrm{d}V\mathrm{d}T&&\cr
+\mathrm{d}U&=\mathrm{d}H&&\cr
+&=\dots &&\cr
+&=\rho c\mathrm{d}T\mathrm{d}V.&&\cr
 \end{align*}
 $$
-On utilise les grandeurs massiques:
-- $c$: capacités calorifique massique en $J\cdot K^{-1}\cdot kg^{-1}$
-et
+#todo correct this
+
+<!-- basicblock-start -->
+Prop. variation de l'énergie interne d'une phase condensé idéale::
 $$
-c_{v}=c\rho.
+\mathrm{d}U=\rho c\mathrm{d}T\mathrm{d}V.
 $$
-Ainsi
-$$
-\mathrm{d}U=\rho c\mathrm{d}V\mathrm{d}T.
-$$
-**Bilan d'énergie** entre $t$ et $t+\mathrm{d}t$:
-$$
-\begin{align*}
-U(t+\mathrm{d}t)-U(t)&=\frac{ \partial U }{ \partial t } \mathrm{d}t&&\cr
-&=\rho c\frac{ \partial T }{ \partial t } \mathrm{d}t\mathrm{d}V&&\cr
-\end{align*}
-$$
+<!-- basicblock-end -->
+
+
 Mais, ici, le premier principe s'écrit
 $$
 \begin{align*}
 \mathrm{d}U&=\delta Q&&\cr
-&=\delta Q_{\text{entrant}}-\delta Q_{\text{sortant}}+\delta Q_{\text{produit}}&&\cr
+&=\delta Q_{\text{échangée}}+\delta Q_{\text{produit}}&&\cr
 \end{align*}
 $$
+
 Différentes réaction qui libère de la chaleur:
 - chimique
 - nucléaires
@@ -86,104 +76,34 @@ $$
 avec
 - $\mathscr{P}_{V}$ la puissance volumique produite, en $W\cdot m^{-3}$.
 
-On définit
+
+On définit la chaleur échangée à travers une surface comme l'intégrale du flux de chaleur au cour du temps. Ce flux thermique peut être décrit comme le flux d'un vecteur densité à travers cette surface, on l'appelle le vecteur densité de chaleur.
+On peut distinguer dans la chaleur échangée la chaleur entrante dans la surface, et la chaleur sortante, l'un compté positivement et l'autre négativement.
+
 <!-- basicblock-start oid="ObsfENGwX429tqD5pyzZCn1k" -->
-Def. chaleur infinitésimale échangée::
+Def. chaleur échangée infinitésimale::
 $$
-\delta Q_{\text{échangé}}=\delta Q_{\text{entrant}}-\delta Q_{\text{sortant}}
-$$
-<!-- basicblock-end -->
-On l'écrit comme un flux d'un vecteur
-<!-- basicblock-start oid="Obs9QERzHuKz4IM2iSsaa63c" -->
-Def. vecteur densité de flux thermique::
-$$
-\overrightarrow{j_{th}}
+\delta Q_{\text{échangée}}=\phi_{\text{th}}\mathrm{d}t.
 $$
 <!-- basicblock-end -->
-ou courant thermique.
+<!-- basicblock-start -->
+Def. flux thermique::
+$$
+\phi_{\text{th}}=\int_{S}\overrightarrow{j_{\text{th}}}\cdot \overrightarrow{\mathrm{d}S}.
+$$
+<!-- basicblock-end -->
+
 On a donc
 $$
-\delta Q_{\text{échangé}}=-\oint \int_{S}\overrightarrow{j_{th}}\cdot \overrightarrow{\mathrm{d}S}\mathrm{d}t=\phi \mathrm{d}t.
-$$
-Et donc
-$$
-\begin{align*}
-\delta Q_{\text{entrant}}&=\phi_{\text{entrant}}\mathrm{d}t &&\cr
-\delta Q_{\text{sortant}}&=\phi_{\text{sortant}}\mathrm{d}t&&\cr
-\end{align*}
-$$
-avec $\phi=jS$.
-Ainsi
-$$
-\rho c\frac{ \partial T }{ \partial t } \mathrm{d}t\mathrm{d}V=(\phi_{\text{entrant}}-\phi_{\text{sortant}}+\mathscr{P}_{V}\mathrm{d}V)\mathrm{d}t.
+\rho c\frac{ \partial T }{ \partial t } \mathrm{d}t\mathrm{d}V=(\phi+\mathscr{P}_{V}\mathrm{d}V)\mathrm{d}t.
 $$
 
-**Calcul du flux unidimensionnel:**
-$$
-\begin{align*}
-\phi_{\text{entrant}}&=j_{\text{th}}(x)S&&\cr
-\phi_{\text{sortant}}&=j_{\text{th}}(x+\mathrm{d}x)S&&\cr
-\end{align*}
-$$
-Et donc
-$$
-\begin{align*}
-\phi_{\text{entrant}}-\phi_{\text{sortant}}&=-\frac{ \partial j_{\text{th}} }{ \partial x } \mathrm{d}xS&&\cr
-\end{align*}
-$$
-D'où
-$$
-\rho c\frac{ \partial T }{ \partial t } =-\frac{ \partial j_{\text{th}} }{ \partial x }+\mathscr{P}_{V} 
-$$
-**Calcul du flux en cylindrique:**
-$$
-\begin{align*}
-\overrightarrow{j_{\text{th}}}=j_{\text{th}}(r)\overrightarrow{e_{r}}&&&\cr
-\mathrm{d}V&=2\pi rH\mathrm{d}r&&\cr
-\phi_{\text{entrant}}&=j_{\text{th}}(r)2\pi rH&&\cr
-\phi_{\text{sortant}}&=j_{\text{th}}(r+\mathrm{d}r)2\pi(r+\mathrm{d}r)H&&\cr
-\phi_{\text{entrant}}-\phi_{\text{sortant}}&=-\frac{ \partial j_{\text{th}}(r)r }{ \partial r }2\pi H\mathrm{d}r&&\cr
-&=-\frac{ \partial rj_{\text{th}} }{ \partial r } \frac{1}{r}2\pi Hr\mathrm{d}r &&\cr
-\end{align*}
-$$
-
-Bilan d'énergie:
-$$
-\begin{align*}
-\rho c\frac{ \partial T }{ \partial t } \mathrm{d}t\mathrm{d}V&=-\frac{1}{r}\frac{ \partial rj_{\text{th}} }{ \partial r } \mathrm{d}t\mathrm{d}V+\mathscr{P}_{V}\mathrm{d}t\mathrm{d}V&&\cr
-\rho c\frac{ \partial T }{ \partial t } &=-\frac{1}{r}\frac{ \partial rj_{\text{th}} }{ \partial r } +\mathscr{P}_{V}&&\cr
-\end{align*}
-$$
-**Calcul du flux en sphérique:**
-$$
-\begin{align*}
-\mathrm{d}V&=4\pi r^{2}\mathrm{d}r &&\cr
-\phi_{\text{entrant}}&=j_{\text{th}}(r)4\pi r^{2}&&\cr
-\phi_{\text{sortant}}&=j_{\text{th}}(r+\mathrm{d}r)4\pi(r+\mathrm{d}r)^{2}&&\cr
-\phi_{\text{entrant}}-\phi_{\text{sortant}}&=-4\pi \frac{ \partial r^{2}j_{\text{th}} }{ \partial r } \mathrm{d}r&&\cr
-&=-\frac{1}{r^{2}}\frac{ \partial r^{2}j_{\text{th}} }{ \partial r } \mathrm{d}V&&\cr
-\end{align*}
-$$
-Bilan d'énergie:
-$$
-\rho c\frac{ \partial T }{ \partial t } =-\frac{1}{r^{2}}\frac{ \partial r^{2}j_{\text{th}} }{ \partial r } +\mathscr{P}_{V}
-$$
-**Calcul du flux en général:**
-$$
-\rho c\frac{ \partial T }{ \partial t } =-\mathrm{div}\overrightarrow{j_{\text{th}}}+\mathscr{P}_{V}
-$$
-Démo:
-$$
-\begin{align*}
-\phi_{\text{entrant}}-\phi_{\text{sortant}}&=-\oint \int_{S}\overrightarrow{j_{\text{th}}}\cdot \overrightarrow{\mathrm{d}S}&&\cr
-&=-\iiint_{V}(\mathrm{div}\overrightarrow{j_{\text{th}}})\mathrm{d}V&&\cr
-\end{align*}
-$$
-Et donc, on conclut par le bilan d'énergie.
+> [!note]- Démo - Calcul du flux thermique
+> ![[Phys - Démo - Calcul du flux thermique]]
 
 # II - Conduction dans un milieu immobile
 ## 1 - Loi de Fourier
-Par l'observation, Fourier a donné la loi phénoménologique de Fourier
+Par l'observation, Fourier a donné la loi phénoménologique éponyme
 ![[Phys - Formule#Loi phénoménologique de Fourier]]
 avec $\lambda$ la conductivité thermique en $W\cdot m^{-1}\cdot K^{-1}$.
 
@@ -201,9 +121,11 @@ Rq:
 - $\oplus$ les atomes sont liés, $\oplus$ la conduction est bonne.
 - Le - dans l'équation est la matérialisation de l'inversion de gradient de température.
 
+## 2 - Equation de diffusion de la chaleur
 
+> [!note]- Démo - Équation de diffusion de la chaleur
+> ![[Phys - Démo - Équation de diffusion de la chaleur]]
 
-## 2 - Equation de diffusion thermique
 $$
 \rho c\frac{ \partial T }{ \partial t } =-\mathrm{div}\overrightarrow{j_{\text{th}}}+\mathscr{P}_{V}
 $$
@@ -226,9 +148,9 @@ $$
 \frac{ \partial T }{ \partial t } =D\frac{ \partial^{2} T }{ \partial x^{2} } 
 $$
 avec $D=\frac{\lambda}{\rho c}$ la diffusivité thermique en $m^{2}\cdot s^{-1}$.
-Rq:
-- C'est une équation de **diffusion** qui traduit un phénomène **irreversible**. C'est l'inverse de l'équation de d'Alembert (cf [[Phys - EM5 - Le champ électromagnétique]]).
-- Loi d'échelle:
+### Irréversibilité inhérente à l'équation de la chaleur
+C'est une équation de **diffusion** qui traduit un phénomène **irreversible**. C'est l'inverse de l'équation de d'Alembert (cf [[Phys - EM5 - Le champ électromagnétique]]).
+### Loi d'échelle
 On note $\tau$ le temps caractéristique de la diffusion, et $L$ la distance associée à ce temps.
 Voir schema...
 On peut estimer que $\frac{ \partial T }{ \partial t }\simeq\frac{T_{1}-T_{0}}{\tau}$.
@@ -247,87 +169,32 @@ $$
 On retrouvera ça dans la vitesse de phase.
 
 ## 3 - Régime stationnaire sans source: les résistances thermiques
+Repartons de l'équation de la chaleur
 $$
-\begin{align*}
-\frac{ \partial T }{ \partial t } &=D\dot{\Delta}T+\frac{\mathscr{P}_{V}}{\rho c}&&\cr
-\dot{\Delta}T&=0&&\cr
-\end{align*}
+\frac{ \partial T }{ \partial t } =D \dot{\Delta}T+\frac{\mathscr{P}_{V}}{\rho c}.
 $$
-C'est le régime sans accumulation de chaleur.
-Le flux thermique est constant.
-Toute l'énergie thermique entrante va ressortir.
 
-ANALOGIE:
-Avec l'ARQS électrique.
+On considère que la distribution de la chaleur ne varie plus, et qu'il n'y a pas de chaleur émise, ainsi
+- $\frac{ \partial T }{ \partial t }=0$
+- $\mathscr{P}_{V}=0$.
+
+L'équation de la chaleur devient
+<!-- basicblock-start -->
+Prop. équation de la chaleur en stationnaire sans source::
+$$
+\dot{\Delta}T=0
+$$
+<!-- basicblock-end -->
+### Analogie avec l'ARQS magnétique
 
 | Elec                                                           | Thermo                                                                     |
 | -------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | $\overrightarrow{j}=-\sigma \overrightarrow{ \mathrm{grad}}V$  | $\overrightarrow{j_{\text{th}}}=-\lambda \overrightarrow{ \mathrm{grad}}T$ |
 | $I=\iint \overrightarrow{j}\cdot \overrightarrow{\mathrm{d}S}$ | $\phi=\iint \overrightarrow{j_{th}}\cdot \overrightarrow{\mathrm{d}S}$     |
 | $V_{2}-V_{1}=RI$                                               | $T_{2}-T_{1}=R\phi$                                                        |
-En cartésien 1D
-$$
-\dot{\Delta}T=0
-$$
-Donc
-$$
-T=Ax+B
-$$
-Voir schema...
-$$
-\begin{align*}
-T(0)&=T_{1}=B&&\cr
-T(L)&=T_{2}=AL+B&&\cr
-\end{align*}
-$$
-Donc
-$$
-T=T_{1}+\frac{T_{2}-T_{1}}{L}x
-$$
-Et donc
-$$
-j_{\text{th}}=-\lambda \frac{ \partial T }{ \partial x } =-\lambda \frac{T_{2}-T_{1}}{L}
-$$
-Et
-$$
-\phi=Sj_{\text{th}}=-\lambda S\frac{T_{2}-T_{1}}{L}.
-$$
-Ainsi
-<!-- basicblock-start oid="ObsD9p0gf14zZpuzQgdRyhod" -->
-Prop. résistance thermique unidimensionnelle::
-$$
-R_{\text{th}}=\frac{L}{\lambda S}.
-$$
-<!-- basicblock-end -->
 
-
-**En cylindrique:**
-On a
-$$
-\phi=-\lambda \frac{\mathrm{d}T}{\mathrm{d}r}(2\pi rH)
-$$
-En stationnaire avec $\phi$ constant,
-$$
-\frac{\mathrm{d}T}{\mathrm{d}r}=-\frac{\phi}{2\pi r\lambda H}
-$$
-Et intégrant entre $T_{1}$ et $T_{2}$
-$$
-T_{2}-T_{1}=-\frac{\phi}{2\pi\lambda H}\ln\left( \frac{r_{2}}{r_{1}} \right)
-$$
-Et donc
-$$
-R_{\text{th}}=\frac{1}{2\pi\lambda H}|\ln\left( \frac{r_{2}}{r_{1}} \right)|
-$$
-
-**En sphérique:**
-$$
-\begin{align*}
-\phi&=-\frac{\lambda \mathrm{d}T}{\mathrm{d}r}4\pi r^{2}&&\cr
-\frac{\mathrm{d}T}{\mathrm{d}r}&=-\frac{\phi}{4\pi\lambda r^{2}}&&\cr
-T_{2}-T_{1}&=\frac{\phi}{4\pi\lambda}\left( \frac{1}{r_{2}}-\frac{1}{r_{1}} \right)&&\cr
-R&=\frac{1}{4\pi\lambda}|\frac{1}{r_{2}}-\frac{1}{r_{1}}|&&\cr
-\end{align*}
-$$
+> [!note]- Calculs des résistances thermiques usuelles
+> ![[Phys - Démo - Résistances thermiques usuelles]]
 
 ### Effet de peau thermique
 > [!note]- Effet de peau thermique

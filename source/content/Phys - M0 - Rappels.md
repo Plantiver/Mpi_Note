@@ -233,7 +233,7 @@ ainsi que son moment par rapport à un axe:
 <!-- basicblock-start oid="ObsEHZkRFJO3TfIaW6FcmaOP" -->
 Def. moment cinétique d'un point par rapport à un axe::
 $$
-\mathcal{L}_{\Delta}(M)=\overrightarrow{\mathcal{L}_{O}}(M)\cdot \overrightarrow{\Delta}.
+\phantom{`}\mathcal{L}_{\Delta}(M)=\overrightarrow{\mathcal{L}_{O}}(M)\cdot \overrightarrow{\Delta}.\phantom{`}
 $$
 <!-- basicblock-end -->
 

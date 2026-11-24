@@ -158,6 +158,19 @@ $$
 \bar{HM}=\frac{x}{\sin\alpha}
 $$
 
+---
+# Thermodynamique
+### 5
+1. 
+$R_{th}=\frac{L}{\lambda S}$, et $\varphi=\frac{\Delta T}{R_{\text{th}}}$.
+2. 
+De même...
+
+### 6
+1. 
+...
+2. 
+Par un pont diviseur
 
 
 
