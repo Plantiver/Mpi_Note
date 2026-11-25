@@ -58,6 +58,35 @@ $$
 j_{\text{th}}=h(T_{\text{solide}}-T_{\text{fluide}}).
 $$
 <!-- basicblock-end -->
+
+### Loi de Planck
+#hp 
+Pour des raisons quantiques, on a la densité spectrale d'énergie en longueur d'onde
+<!-- basicblock-start -->
+Form. Loi de Planck::
+$$
+w_{\lambda}=\frac{8\pi hc}{\lambda^{5}} \frac{1}{e^{hc/\lambda k_{B}T}-1}.
+$$
+<!-- basicblock-end -->
+en $J\cdot m^{-4}$.
+
+### Loi de Wien
+La couleur d'un corps est défini par le maximum d'émission.
+<!-- basicblock-start -->
+Form. loi de Wien::
+$$
+\lambda_{m}T\simeq3mm\cdot K.
+$$
+<!-- basicblock-end -->
+
+### Loi de Stefan
+<!-- basicblock-start -->
+Form. loi de Stefan::
+$$
+\varphi_{p}=\sigma T^{4}.
+$$
+<!-- basicblock-end -->
+
 # EM
 ### Equation de Maxwell-Gauss
 <!-- basicblock-start oid="ObsRdTxODgoTl4dT8oUNrCYA" -->

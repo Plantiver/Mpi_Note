@@ -368,4 +368,19 @@ On commencera par calculer la matrice de rotation $R$, et la matrice vitesse ang
 
 Un enfant joue sur un tourniquet, il y est assis au bords, et le tourniquet tourne à une vitesse uniforme $\omega$. L'enfant lance une balle à son chien, à l'extérieur du tourniquet, on suppose le lancer perpendiculaire à la rotation. Décrivez le mouvement de la balle.
 
-## 2 - ...
+## 2 - Pendule de Foucault
+
+On accroche une masse $m$ à un plafond de hauteur $L$, et l'on fait se balancer la masse.
+La pièce dans laquelle on réalise cette expérience est sur terre, à une longitude $\theta$.
+En déduire le mouvement du pendule du point de vue d'un observateur immobile dans la pièce.
+
+## 3 - Bruce plonge
+
+Bruce plonge dans une piscine d'une hauteur $h$, et fait des sauts périlleux avant. On considère qu'il est immédiatement en rotation, et ce jusqu'à ce qu'il touche l'eau, à une vitesse uniforme $\omega$.
+1. Décrire le mouvement de l'eau pour Bruce
+2. On note la performance de Bruce en fonction de l'angle que fait sa verticale avec la normale à la surface de l'eau. Indiquer quelle note sera obtenue par Bruce en fonction de $\omega$ et $h$.
+3. Bruce souhaite maintenant obtenir une note maximale tout en faisant le plus de sauts périlleux possible. Indiquer à quelle altitude $h'<h$ il doit arrêter son mouvement de rotation, et calculer combien de tours il aura fait, en fonction de $\omega$ et $h$.
+
+
+
+

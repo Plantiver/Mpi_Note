@@ -8,7 +8,9 @@ Quand on fait de la mécanique, on définit notre système, le référentiel dan
 # Notion de référentiel
 <!-- basicblock-start -->
 Def. référentiel::
-- un choix d'une base orthonormée de l'espace et d'une horloge.
+- Une base orthonormée de l'espace
+- Un point de référence
+- Une horloge
 <!-- basicblock-end -->
 
 <!-- basicblock-start oid="ObsGRzjlWSfza7Q9t9U8IHTx" -->

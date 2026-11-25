@@ -211,5 +211,162 @@ $$
 > [!note]- Exemple - La tige de refroidissement
 > ![[Phys - Exemple - La tige de refroidissement]]
 
+# IV - Le rayonnement thermique
+## 1 - Définition
+
+Tout corps à une certaine température $T$ émet un champ électromagnétique appelé "rayonnement thermique", qui se propage à la vitesse de la lumière;
+
+Il s'agit du flux du vecteur de Poynting (voir [[Phys - EM5 - Le champ électromagnétique]]).
+
+À une certaine longueur d'onde, on distingue deux type des de matériaux:
+- Ceux transparent, qui laissent passer le rayonnement. On calculera alors le rayonnement totale d'après le volume.
+- Ceux opaque, qui ne laissent pas passer le rayonnement. On calculera alors le rayonnement totale d'après la surface.
+
+**Propriété radiative:**
+- La réflexion
+Tout rayonnement provenant de source de extérieur est réfléchi.
+- L'absorption
+Le rayonnement est absorbé, et fait augmenter l'énergie interne du milieu.
+- L'émission
+Un rayonnement est émis par le milieu, ce qui diminue son énergie interne.
+
+En général, un milieu capable d'émettre une longueur d'onde peut aussi l'absorber.
+
+Certains solides sont *diffusant*, l'émission et la réflexion sont aléatoire dans leur direction.
+
+On définit le flux (puissance) surfacique:
+- $\varphi_{r}$ : le flux surfacique réfléchi
+- $\varphi_{a}$ : le flux surfacique absorbé
+- $\varphi_{e}$ : le flux surfacique émis
+Ici, $\varphi$ est en $W\cdot m^{-2}$, et par convention, on le prends toujours positif.
+
+On définit alors:
+- $\varphi_{i}=\varphi_{r}+\varphi_{a}$, le flux surfacique incident
+- $\varphi_{p}=\varphi_{r}+\varphi_{e}$, le flux surfacique partant
+- $\varphi_{R}=\varphi_{p}+\varphi_{i}=\varphi_{e}-\varphi_{a}$, le flux surfacique radiatif
+
+## 2 - Le rayonnement d'équilibre
+
+![[Phys - Formule#Loi de Planck]]
+
+Schéma... #todo_later 
+
+On comprends le spectre émis par un corps chaud à une certaine température.
+
+On admet
+$$
+\varphi_{e}=\int_{0}^{+\infty} \frac{c}{4}w_{\lambda}\mathrm{d}\lambda.
+$$
+
+![[Phys - Formule#Loi de Wien]]
+
+On pose $x=\frac{hc}{\lambda h_{0}T}$, donc $w_{\lambda}(x)=A\frac{x^{5}}{e^{x}-1}$.
+Par le calcul, on montre $\frac{\mathrm{d}w_{\lambda}}{\mathrm{d}\lambda}=0\iff \frac{\mathrm{d}w_{\lambda}}{\mathrm{d}x}$.
+Or
+$$
+\begin{align*}
+\frac{\mathrm{d}w_{\lambda}}{\mathrm{d}x}&=A \frac{5x^{4}}{e^{x}-1}+Ax^{5} \frac{-e^{x}}{(e^{x}-1)^{2}}&&\cr
+&=\frac{Ax^{4}}{(e^{x}-1)^{2}}(5(e^{x}-1)-xe^{x}).&&\cr
+\end{align*}
+$$
+S'annule ssi
+$$
+\begin{align*}
+5(e^{x}-1)&xe^{x}&&\cr
+e^{x}(5-x)&=5&&\cr
+e^{-x}&=1-\frac{x}{5}&&\cr
+\end{align*}
+$$
+On ne sait pas résoudre analytiquement, donc on procède numériquement.
+Méthode dichotomique:
+Posons
+$$
+f(x)=e^{-x}-1+\frac{x}{5}
+$$
+On trace $f$ et l'on cherche $x_{1},x_{2}$ telle que $x_{0}\in[x_{1};x_{2}]$.
+Attention, il faut qu'il y ait une unique solution entre $x_{1}$ et $x_{2}$, sinon on ne sait pas vers laquelle on va converger.
+
+```pseudo-code
+fn resolution_dichotomique(f,x1,x2,e) {
+    x_m = (x1+x2)/2
+    while |f(x_m)| > e {
+        Si f(x1)xf(x_m) > 0 { x1 <- x_m }
+        Sinon { x2 <- x_m }
+        x_m = (x1+x2)/2
+    }
+    => x_m
+}
+```
+
+On peut également utiliser $|x_{2}-x_{1}|<\varepsilon$ comme condition d'arrêt.
+
+ICI, on trouve
+$$
+x_{0}\simeq 4.965
+$$
+Or, par définition de $x_{0}$
+$$
+\lambda_{m}T=\frac{hc}{k_{B}x_{0}}.
+$$
+L'application numérique nous donne la loi de Wien vue plus haut.
+
+On admet que 98% de l'énergie est émise dans l'intervalle
+<!-- basicblock-start -->
+Prop. intervalle de concentration de l'énergie émise::
+$$
+\left[ \frac{\lambda_{m}}{2};8\lambda_{m} \right].
+$$
+<!-- basicblock-end -->
+
+À partir de notre formule à ne pas savoir, on pose $x$ de même que plus haut, et l'on fait un changement de variable. On utilise ensuite le cours [[Math - Lesson - 13]].
+$$
+\begin{align*}
+\varphi_{p}&\int_{0}^{+\infty} \frac{c}{4}w_{\lambda}\mathrm{d}\lambda &&\cr
+&=\int_{0}^{+\infty} \frac{2\pi hc^{2}}{\lambda^{5}} \frac{1}{e^{hc/\lambda k_{B}T}-1}\mathrm{d}\lambda &&\cr
+&=\frac{2\pi k_{B}^{4}T^{4}}{h^{3}c^{2}} \int_{0}^{+\infty} \frac{x^{3}}{e^{x}-1}\mathrm{d}x&&\cr
+&=\frac{2\pi k_{B}^{4}T^{4}}{h^{3}c^{2}}\cdot \frac{\pi^{4}}{15}&&\cr
+&=\frac{2\pi^{5}}{15}\cdot \frac{k_{B}^{4}}{h^{3}c^{2}}T^{4}.&&\cr
+\end{align*}
+$$
+
+![[Phys - Formule#Loi de Stefan]]
+
+> [!note]- Exemple du soleil
+> ![[Phys - Exemple - Le Soleil]]
+
+## 3 - Le modèle du corps noir
+
+<!-- basicblock-start -->
+Def. corps noir::
+- opaque
+- absorbeur totale d'énergie.
+<!-- basicblock-end -->
+
+Pour un corps noir
+$$
+\varphi_{a}=\varphi_{i}.
+$$
+
+...
+
+Dans ce cas, même si l'objet n'est pas à l'équilibre thermique avec son environnement, on a
+<!-- basicblock-start -->
+Prop. flux surfacique émis d'un corps noir::
+$$
+\varphi_{e}=\sigma T^{4}.
+$$
+<!-- basicblock-end -->
+
+En conséquence, la couleur d'un corps noir ne dépends que de sa température.
+
+> [!note]- Exemple - Objet dans un four
+> ![[Phys - Exemple - Objet dans un four]]
+
+> [!note]- Exemple - L'effet de serre
+> ![[Phys - Exemple - L'effet de Serre]]
+
+
+
+
 
 

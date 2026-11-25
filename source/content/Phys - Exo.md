@@ -118,7 +118,7 @@ A.N.
 - $t_{d}=6s$
 - $a_{e}=$
 
-
+---
 ### 16
 1. 
 Je me place dans le référentiel tournant autour de l'axe $O_{x}$.
@@ -166,11 +166,30 @@ $R_{th}=\frac{L}{\lambda S}$, et $\varphi=\frac{\Delta T}{R_{\text{th}}}$.
 2. 
 De même...
 
+---
 ### 6
 1. 
 ...
 2. 
 Par un pont diviseur
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

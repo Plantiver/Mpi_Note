@@ -23,52 +23,22 @@
             }
           },
           {
-            "id": "550c314267170e0a",
+            "id": "67f7c7a67d3fffa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phys - M1 - Compléments de mécanique.md",
+                "file": "Math - Exo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Phys - M1 - Compléments de mécanique"
-            }
-          },
-          {
-            "id": "0a3dc750ce0e3949",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIPE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "TIPE"
-            }
-          },
-          {
-            "id": "f5ce6e23614d7189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phys - M0 - Rappels.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Phys - M0 - Rappels"
+              "title": "Math - Exo"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,35 +123,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f5ce6e23614d7189",
+  "active": "67f7c7a67d3fffa9",
   "lastOpenFiles": [
+    "Général - TODO.md",
+    "Math - Exo.md",
+    "Phys - Exo.md",
     "Phys - M1 - Compléments de mécanique.md",
-    "TIPE.md",
-    "Math - Lesson - 12.md",
+    "Phys - T1 - Les transferts thermiques.md",
+    "Info - Exo.md",
+    "Phys - Exemple - L'effet de Serre.md",
+    "Phys - Exemple - Objet dans un four.md",
+    "Phys - Exemple - Le Soleil.md",
+    "Phys - Constante.md",
     "Phys - Formule.md",
+    "TIPE.md",
+    "Phys - M0 - Rappels.md",
+    "Math - Lesson - 12.md",
     "Math - Formule.md",
     "Math - notation.md",
     "Math - Démo - Inégalité de Cauchy-Schwartz.md",
-    "Math - Exo.md",
     "English - Traduction.md",
-    "Phys - T1 - Les transferts thermiques.md",
     "English.md",
-    "Général - TODO.md",
     "Math - Lesson - 10.md",
     "Math - Lesson - 9.md",
-    "Phys - Exo.md",
     "Phys - Démo - Équation de diffusion de la chaleur.md",
     "Phys - Démo - Calcul du flux thermique.md",
     "Phys - Démo - Résistances thermiques usuelles.md",
     "Excalidraw/Phys - Démo - Résistances thermiques usuelles 2026-11-23 13.58.20.excalidraw.md",
     "Excalidraw/Phys - Démo - Résistances thermiques usuelles 2026-11-23 13.58.20.excalidraw.svg",
     "Phys - Exemple - Direction du fil à plomb.md",
-    "Phys - M0 - Rappels.md",
-    "Info - Lesson - 6.md",
-    "Math - Lesson - 11.md",
-    "Info - Exo.md",
-    "Info - Démo - FNC SAT dans NP.md",
-    "Math - Lesson - 5.md",
     "Excalidraw/Info - Meth - Prouver l'indécidabilité 2026-11-18 08.28.26.excalidraw.svg",
     "Excalidraw/Phys - Exemple - Le slip-stick 2026-11-13 15.29.27.excalidraw.svg",
     "Excalidraw/Phys - E0 - Rappels 2026-11-12 16.38.14.excalidraw.svg",

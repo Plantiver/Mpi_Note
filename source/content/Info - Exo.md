@@ -130,6 +130,7 @@ On introduit $tr$ qui "oublie" les étiquettes d'un automates, et l'on regarde s
 
 On calcule le determinisé de nos deux automates, puis on regarde s'il sont équivalent.
 
+---
 ### 2
 Supposons l'existence de $He$ l'algorithme qui résout l'arrêt exhaustif.
 Alors:
@@ -147,7 +148,7 @@ Soit $T$ l'algorithme qui résout trivialité, alors:
 He(S):
     
 ```
-
+---
 ### 3
 Prenons $\mathcal{P}_{1}$ le problème de l'arrêt, et $\mathcal{P}_{2}$ le problème proposé, et montrons que $\mathcal{P}_{1}\leq \mathcal{P}_{2}$.
 
@@ -166,8 +167,34 @@ $$
 \end{align*}
 $$
 
-
+---
 ### 13
 
+On notera $V$ la couleur de V, $F$ la couleur de F, et $B$ la couleur de B.
+Q1
+obligatoire par coloration
+Q2
+Supposons que l'on ait une 3 coloration valide pour $\tilde{G}$.
+On l'étend suivant la disjonction suivante:
+- Si $e_{1}$ ou $e_{2}$ est de couleur $V$, alors on prends $x,y$ à $F,B$ (pas forcément respectivement), et $z$ à $V$. Alors on peut compléter selon la valeur de $e_{3}$.
+- Si $e_{1},e_{2}$ est de couleur $F$, on prends $x,y$ à $B,V$, puis $z$ à $F$, et $s$ à $B$, enfin, $t$ à $F$.
+Q3
+Supposons que l'on ait une coloration de $G$, montrons qu'au moins un des $e_{i}$ est à $V$.
+Si par l'absurde, les 3 sont à $F$, alors $z$ est à $F$, et donc $s$ et $t$ doivent être à $B$, ce qui est impossible.
+Q4
+Par les deux question précédente, on a les deux sens de l'implication
+Q5
+La taille de $G$ est polynomiale en la taille $\varphi$, ainsi
+On peut résoudre $FNC-SAT$ par une transformation en temps polynomiale et une résolution de $COL$.
+Donc $FNC-SAT$ se réduit polynomialement en $COL$, donc $COL$ est $\textbf{NP}$-dur.
+
+---
+
+## 14
+en prenant une coloration sur les arrêtes?
+
+Mon objectif est de résoudre $kCOL$ avec $(k+1)COL$, et de le réduire de manière polynomiale.
+
+Si je prends $G=(S,A)$ un graphe, 
 
 

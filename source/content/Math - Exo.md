@@ -632,6 +632,53 @@ $$
 Et donc, par passage à la limite, $(b_{n})$ CV.
 
 ---
+### 12
+a)
+Soit
+$$
+f_{n}:t\to e^{-t^{n}}\in \mathcal{C}^{0}([0;+\infty[).
+$$
+Soit $t \in[1;+\infty[$:
+$$
+\begin{align*}
+1&\leq n&&\cr
+t&\leq t^{n}&&\cr
+-t&\geq-t^{n}&&\cr
+e^{-t}&\geq e^{-t^{n}}&&\cr
+e^{-t}&\geq|f_{n}(t)|&&\cr
+\end{align*}
+$$
+Donc par $(t\to e^{-t})\in \mathcal{L}^{1}([1;+\infty[)$, $f_{n}\in \mathcal{L}^{1}([0;+\infty[)$.
+
+b)
+Par théorème de domination discret
+- $\forall t\in \mathbb{R}_{+},\;f_{n}(t)\underset{n}{\to}\begin{cases}1\text{ si }t<1 \\  e^{-1}\text{ si }t=1 \\  0\text{ si }t>1\end{cases}:=l(t)\in \mathcal{L}^{1}([0;+\infty[)$
+- $\forall n\in \mathbb{N}^{\star},\;f_{n}\in \mathcal{C}^{0}_{(m)}(\mathbb{R}_{+})$
+- Domination
+$$
+\varphi(t)=\begin{cases}
+1\text{ si }t\leq1 \\
+e^{-t}\text{ sinon}
+\end{cases}\in \mathcal{L}^{1}([0;+\infty[).
+$$
+Donc
+$$
+v_{n}\to \int_{0}^{+\infty}l(t)\mathrm{d}t=1.
+$$
+c)
+On pose le changement de variable $u=t^{n}$, $\mathrm{d}t=\frac{1}{nu^{1-1/n}}\mathrm{d}u$
+$$
+\begin{align*}
+u_{n}&=\int_{0}^{+\infty}e^{-t^{n}}\mathrm{d}t-1&&\cr
+&=\int_{0}^{+\infty}e^{-u} \frac{1}{nu^{1-1/n}}\mathrm{d}u-1&&\cr
+&=\frac{1}{n}\int_{0}^{+\infty}e^{-u}u^{1/n-1}\mathrm{d}u-\int_{0}^{+\infty}e^{-t}t^{0}\mathrm{d}t&&\cr
+&=\frac{1}{n}\Gamma\left( \frac{1}{n} \right)-\Gamma(1).&&\cr
+\end{align*}
+$$
+d)
+Comment ??
+
+---
 ### 17
 Soit
 $$
@@ -850,6 +897,36 @@ Donc $\sum u_{n}$ DV.
 b)
 Ainsi, $u_{n}^{2}\sim  \frac{1}{n^{2}}\geq0$ Donc $\sum u_{n}^{2}$ CV.
 
+---
+
+### 56
+
+Soit
+$$
+f:\begin{cases}
+E&\to \mathbb{N} \\
+(p,q)&\to p+q
+\end{cases}
+$$
+On note
+$$
+E_{n}=f^{-1}(\mathrm{Set}( n )).
+$$
+On a alors
+$$
+\begin{cases}
+\#E_{n}=n-1 \\
+a_{n}=\sum_{(p,q)\in E_{n}}a_{p,q}=\sum_{(p,q)\in E_{n}} \frac{1}{n^{2}-2pq}
+\end{cases}
+$$
+
+$$
+\forall(p,q)\in \mathbb{N}^{\star^{2}},\; p^{2}+q^{2}\geq2pq \;\implies\; \frac{1}{p^{2}+q^{2}}\leq \frac{1}{2pq}.
+$$
+Oui, mais ça, ça diverge directement.
+
+
+
 
 ---
 ### 58
@@ -910,4 +987,70 @@ $$
 $$
 
 
+### 63
+a)
+#todo 
+
+# [[Math - Lesson - 12|Chapitre 12]]
+
+### 9
+$$
+\begin{align*}
+\left( \sum_{k=1}^{n}a_{k}b_{k}c_{k} \right)^{2}&=\sum_{i=1}^{n}\sum_{j=1}^{n}a_{i}a_{j}b_{i}b_{j}c_{i}c_{j}&&\cr
+\end{align*}
+$$
+$$
+\begin{align*}
+\left( \sum_{k=1}^{n}a_{k}^{2}c_{k} \right)\left( \sum_{k=1}^{n}b_{k}^{2}c_{k} \right)&=\sum_{i=1}^{n}\sum_{j=1}^{n}a_{i}^{2}b_{j}^{2}c_{i}c_{j}&&\cr
+\end{align*}
+$$
+
+Comment je compare les deux ? Il y a une astuce avec des vecteurs j'imagine.
+
+
+---
+
+### 15
+a)
+Soit $(\lambda_{i})$ tq
+$$
+x=\sum_{i=1}^{n}\lambda_{i}e_{i}=0.
+$$
+Alors, $\|x\|=0$, d'où
+$$
+\forall i\in[1;n],\;<\sum_{j=1}^{n}\lambda_{j}e_{j};e_{i}>=0\;\implies\;\sum_{j=1}^{n}\lambda_{j}<e_{j};e_{i}> =0
+$$
+Sauf que l'on ne sait pas comment sont ces produits scalaires, on a pas assez d'information.
+
+b)
+Soit $x \in X^{\bot}$, alors
+$\forall i\in[1;p],\;<x;e_{i}> =0$
+Ainsi, par la propriété de l'hypothèse, $x=0$.
+Ainsi, $X=\mathrm{Set}( 0 )^{\bot}=E$.
+Donc $(e_{i})$ étant libre (par a) et génératrice, c'est une base.
+De plus, pour tout $e_{i}\not=e_{j}, <e_{i};e_{j}> =0$ par propriété de base.
+Ainsi, par hypothèse, $(e_{i})$ est une base orthonormée.
+
+---
+
+### 19
+a)
+$$
+\begin{align*}
+\left( \int_{0}^{1}f(t)\mathrm{d}t \right)^{2}&\leq\left( \int_{0}^{1}|f(t)|\mathrm{d}t \right)^{2}&&\cr
+&\leq&&\cr
+\end{align*}
+$$
+
+Pas d'idée.
+Je cherche une propriété du type $<f;g> \leq$
+Okay, je l'ai
+Par
+$$
+|<f;g>|^{2}\leq\|f\|^{2}\cdot\|g\|^{2}
+$$
+Ou quelque chose comme ça, il y en a trop des inégalités dans ce cours.
+J'écrirais tout ça bien demain, une fois reposée.
+
+---
 
