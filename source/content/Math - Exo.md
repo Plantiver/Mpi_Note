@@ -676,7 +676,7 @@ u_{n}&=\int_{0}^{+\infty}e^{-t^{n}}\mathrm{d}t-1&&\cr
 \end{align*}
 $$
 d)
-Comment ??
+Comment ?? Okay, apparemment Noah a trouvé quelque chose.
 
 ---
 ### 17
@@ -989,10 +989,90 @@ $$
 
 ### 63
 a)
-#todo 
+$$
+\begin{align*}
+\sum_{n=0}\frac{z^{2n+1}}{1-z^{2n+1}}&=\sum_{n=0}\sum_{p=1}(z^{2n+1})^{p}&&\cr
+&=\sum_{p=1}\sum_{n=0}(z^{p})^{2n+1}&&\cr
+&=\sum_{p=1}z^{p}\sum_{n=0}(z^{2p})^{n}&&\cr
+&=\sum_{p=1}z^{p}\cdot \frac{1}{1-z^{2p}}.&&\cr
+\end{align*}
+$$
 
 # [[Math - Lesson - 12|Chapitre 12]]
 
+### 3
+a)
+On a
+$$
+[H]_{i,j}=<x_{i}:o_{j}>.
+$$
+Ainsi
+$$
+\begin{align*}
+[H^{T}\times H]_{i,j}&=\sum_{k=1}^{n}[H^{T}]_{i,k}[H]_{k,j}&&\cr
+&=\sum_{k=1}^{n}<x_{k}:o_{i}>\cdot<x_{k}:o_{j}>&&\cr
+&=\sum_{k=1}^{n}&&\cr
+\end{align*}
+$$
+
+Comment montrez que ça vaut $<x_{i}: x_{j}>$ ?
+
+---
+### 6
+
+On a toujours symétrie et bilinéarité.
+Pour la définie positivité:
+- Positivité
+Soient $X$ et $A$, alors
+$$
+\begin{align*}
+<X:X>&=X^{T}A^{T}AX&&\cr
+&&&\cr
+\end{align*}
+$$
+- Définition
+Soient $X$ et $A$ tq
+$$
+\begin{align*}
+0&=<X:X>&&\cr
+&=X^{T}A^{T}AX&&\cr
+\end{align*}
+$$
+
+Je ne cois pas savoir comment faire...
+
+---
+
+### 7
+a)
+Il n'y a pas la définition pour $X=\begin{pmatrix}0 \\  0 \\  1\end{pmatrix}$.
+Donc ce n'est pas un produit scalaire
+b)
+Il le semble que tout est bon, vérifié assez facilement.
+c)
+De même, tout fonctionne.
+d)
+Par ### 6, ça fonctionne en dimension finie.
+Maintenant, quand j'aurais trouvé le 6), je ferais celui là.
+
+---
+### 8
+a)
+$$
+M^{2}=XX^{T}XX^{T}=X\cdot\|X\|^{2}\cdot X^{T}=\|X\|^{2}\cdot M.
+$$
+Ainsi
+$$
+P=X(X-\|X\|^{2})
+$$
+est un polynôme annulateur de $M$, et vu $M\not=0$, $P$ est son polynôme minimal.
+Donc $\mathrm{Sp}M=\mathrm{Set}( 0,\|X\|^{2} )$.
+
+b)
+Vu $P$ SARS, $M$ DZ.
+élément propre... Flemme
+
+---
 ### 9
 $$
 \begin{align*}
@@ -1006,9 +1086,77 @@ $$
 $$
 
 Comment je compare les deux ? Il y a une astuce avec des vecteurs j'imagine.
-
+Okay, apparemment, il y a un truc, mais je n'arrive juste pas à le trouver...
 
 ---
+### 10
+a)
+C'est la question 1. du cours
+b)
+C'est le Cauchy-Schwartz du pauvre! Hah, non
+$$
+\begin{align*}
+|a+b|&=\sqrt{ a^{2}+2ab+b^{2} }&&\cr
+&\leq\sqrt{ a^{2}+2|ab|+b^{2} }&&\cr
+&\leq \sqrt{ a^{2}+2\left( \frac{1}{2}(a^{2}+b^{2}) \right)+b^{2} }&&\cr
+&\leq \sqrt{ 2a^{2}+2b^{2} }&&\cr
+&\leq \sqrt{ 2 }\sqrt{ a^{2}+b^{2} }.&&\cr
+\end{align*}
+$$
+
+c)
+Pas d'idée sur comment faire...
+Par contre, une fois le résultat établie, en utilisant b) sur le membre de gauche, on obtient l'inégalité des normes voulues.
+
+d)
+Non, en prenant $f_{n}=\cos(n\cdot)$, le rapport explose.
+
+---
+### 11
+
+Soient $X=\begin{pmatrix}x_{1} \\  \vdots \\  x_{n}\end{pmatrix}$et $\bar{X}=\begin{pmatrix}\frac{1}{x_{1}} \\  \vdots \\  \frac{1}{x_{n}}\end{pmatrix}$.
+On veut montrer que $<X:\bar{X}>\geq n^{2}$.
+Par Cauchy-Schwartz
+$$
+\begin{align*}
+<X:\bar{X}>&\leq\|X\|\cdot\|\bar{X}\|&&\cr
+&\leq\left( \sum_{k=1}^{n}x_{k}^{2} \right)\left( \sum_{k=1}^{n} \frac{1}{x_{k}^{2}} \right)&&\cr
+&\leq \sum_{i=1}^{n}\sum_{j=1}^{n} \left( \frac{x_{i}}{x_{j}} \right)^{2}&&\cr
+&\leq \sum_{i=1}^{n}1^{2}+\sum_{1\leq i<j\leq n}\left( \left( \frac{x_{i}}{x_{j}} \right)^{2}+\left( \frac{x_{j}}{x_{i}} \right)^{2} \right)&&\cr
+&\leq n+\sum_{1\leq i<j\leq n}2&&\cr
+&\leq n+\frac{n(n-1)}{2}\cdot2&&\cr
+&\leq n^{2}&&\cr
+\end{align*}
+$$
+
+Okay, pourquoi je trouve l'inverse ??? Okay, il y a pas mal d'erreurs dans mon raisonnement (saurez vous les trouver?).
+
+---
+
+### 13
+a)
+$a$ et $b$ sont non colinéaire par hypothèse (liberté de la famille), donc on a pas l'égalité dans l'inégalité de Cauchy-Schwarz.
+b)
+On reconnait la distance entre $c$ et $\mathrm{Vect}(a,b)$. Calculons la projections orthogonale de $c$ sur $\mathrm{Vect}(a,b)$.
+On a
+$$
+p(c)=\lambda a+\mu b.
+$$
+Et
+$$
+\begin{cases}
+<c-p(c):a> =0 \\
+<c-p(c):b> =0
+\end{cases}
+$$
+On a donc
+$$
+\begin{cases}
+<c:a> =\lambda\|a\|+\mu<a:b> \\
+<c:b> =\lambda<a:b>+\mu\|b\|.
+\end{cases}
+$$
+
 
 ### 15
 a)
@@ -1020,7 +1168,7 @@ Alors, $\|x\|=0$, d'où
 $$
 \forall i\in[1;n],\;<\sum_{j=1}^{n}\lambda_{j}e_{j};e_{i}>=0\;\implies\;\sum_{j=1}^{n}\lambda_{j}<e_{j};e_{i}> =0
 $$
-Sauf que l'on ne sait pas comment sont ces produits scalaires, on a pas assez d'information.
+Sauf que l'on ne sait pas comment sont ces produits scalaires, on a pas assez d'information. Ou en tout cas, je n'ai pas assez pour faire.
 
 b)
 Soit $x \in X^{\bot}$, alors
@@ -1053,4 +1201,4 @@ Ou quelque chose comme ça, il y en a trop des inégalités dans ce cours.
 J'écrirais tout ça bien demain, une fois reposée.
 
 ---
-
+### Suite
