@@ -68,6 +68,7 @@ $$
 <!-- basicblock-end -->
 
 ### Gradient en cilyndrique
+#hp 
 <!-- basicblock-start oid="ObsuDNGXnvGGTKyyE1ex9eiD" -->
 Prop. Gradient en cylindrique::
 $$
@@ -76,6 +77,7 @@ $$
 <!-- basicblock-end -->
 
 ### Divergence en sphérique
+#hp 
 $$
 \mathrm{div}\overrightarrow{E}=\frac{1}{r^{2} }\frac{ \partial r^{2}E_{r} }{ \partial r } +\frac{1}{r\sin\varphi}\frac{ \partial E_{\theta} }{ \partial \theta } +\frac{1}{r\sin}\frac{ \partial \sin\theta E_{\varphi} }{ \partial \varphi } 
 $$
